@@ -54,8 +54,10 @@ class SupervisedContrastiveLoss(nn.Module):
             Scalar loss value
         """
         batch_size = anchor_embeddings.shape[0]
-        total_loss = 0.0
-        num_pairs = 0  # Track number of positive pairs for proper averaging
+        device = anchor_embeddings.device
+        
+        # Initialize loss as a tensor derived from model parameters (not a leaf)
+        losses = []
         
         # Normalize embeddings
         anchor_embeddings = F.normalize(anchor_embeddings, p=2, dim=1)
@@ -89,12 +91,15 @@ class SupervisedContrastiveLoss(nn.Module):
                 # Loss = -log(exp(s_pos) / sum(exp(all)))
                 #      = -s_pos + log_sum_exp(all)
                 loss_i = -pos_s + torch.logsumexp(logits, dim=0)
-                
-                total_loss += loss_i
-                num_pairs += 1
+                losses.append(loss_i)
         
-        # Average over all positive pairs (not just batch size!)
-        return total_loss / max(num_pairs, 1)
+        # Average over all positive pairs
+        if len(losses) > 0:
+            return torch.stack(losses).mean()
+        else:
+            # Return zero loss as a tensor (derived from inputs, not a leaf)
+            # This ensures gradient computation works even with empty batches
+            return (anchor_embeddings * 0.0).sum()
 
 
 class InfoNCELoss(nn.Module):

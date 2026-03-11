@@ -199,6 +199,11 @@ class TTGNNTrainer:
                 all_embeddings=node_embeddings
             )
             
+            # Skip batch if loss is invalid (e.g., no valid pairs after filtering)
+            if not isinstance(loss, torch.Tensor) or torch.isnan(loss) or torch.isinf(loss):
+                print(f"Warning: Invalid loss in batch, skipping...")
+                continue
+            
             # Backward pass
             loss.backward()
             
