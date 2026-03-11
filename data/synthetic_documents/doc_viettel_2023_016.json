@@ -1,0 +1,505 @@
+{
+  "id": "doc_viettel_2023_016",
+  "title": "Báo Cáo Tài Chính Viettel 2023",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Tổng Quan Hoạt Động Kinh Doanh 2023",
+      "level": 1,
+      "content_ids": [
+        "p1",
+        "p2",
+        "t1",
+        "p3"
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Kết Quả Kinh Doanh và Hiệu Quả Tài Chính",
+      "level": 1,
+      "content_ids": [
+        "p4",
+        "p5",
+        "p6"
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Cơ Cấu Tài Sản và Nguồn Vốn",
+      "level": 1,
+      "content_ids": [
+        "p7",
+        "p8",
+        "t2"
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Phân Tích Chỉ Số Tài Chính Chủ Chốt",
+      "level": 1,
+      "content_ids": [
+        "p9",
+        "p10",
+        "t3",
+        "p11"
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Định Hướng Phát Triển Chiến Lược 2024",
+      "level": 1,
+      "content_ids": [
+        "p12",
+        "p13",
+        "p14",
+        "p15"
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Rủi Ro và Cơ Hội trong Môi Trường Viễn Thông",
+      "level": 1,
+      "content_ids": [
+        "p16",
+        "p17",
+        "t4",
+        "p18"
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "p1",
+      "text": "Năm 2023, Viettel đẩy mạnh chuyển đổi số và ứng dụng công nghệ mới thông qua ba hành động chiến lược cụ thể, có thể đo lường rõ ràng:  \n\n1. **Triển khai nền tảng “Viettel AI” tích hợp trí tuệ nhân tạo vào toàn bộ chuỗi dịch vụ khách hàng** – Hệ thống này thay thế 65% cuộc gọi hỗ trợ khách hàng thủ công bằng chatbot và voice assistant thông minh, giảm thời gian xử lý trung bình từ 8,2 phút xuống còn 2,1 phút và tăng tỷ lệ hài lòng (CSAT) lên 92,4% (tăng 11,2 điểm so với 2022). AI cũng được áp dụng để dự báo nhu cầu băng thông theo khu vực, giúp tối ưu hóa tải mạng, giảm 18% sự cố nghẽn mạng tại các đô thị lớn như Hà Nội, TP.HCM.  \n\n2. **Mở rộng mạng 5G tiên tiến với công nghệ Massive MIMO và Edge Computing** – Viettel đã triển khai thêm 18.000 trạm 5G trong năm",
+      "section_id": "s1"
+    },
+    {
+      "id": "p2",
+      "text": "Năm 2023, Viettel triển khai chiến lược kinh doanh tổng thể tập trung vào ba trụ cột hành động cụ thể, đo lường được, nhằm tận dụng lợi thế trong lĩnh vực viễn thông và thúc đẩy chuyển đổi số toàn diện. Thứ nhất, Viettel đầu tư mạnh vào hạ tầng 5G, triển khai thêm 35.000 trạm phát sóng, nâng tổng số trạm 5G lên hơn 70.000, giúp tăng tỷ lệ phủ sóng 5G lên 82% dân số – tương đương với 78 triệu người dùng tiếp cận được dịch vụ tốc độ cao. Kết quả: doanh thu từ dịch vụ di động và internet băng thông rộng tăng 20% (từ 36.543 tỷ lên 43.834 tỷ đồng), đóng góp 78% tổng doanh thu toàn tập đoàn. Thứ hai, Viettel chuyển từ bán dịch vụ sang bán giải pháp số, tập trung vào các sản phẩm như “Viettel Smart City”, “Viettel Health” và “Viettel Edu”, với hơn 1.200",
+      "section_id": "s1"
+    },
+    {
+      "id": "p3",
+      "text": "Trong thị trường viễn thông Việt Nam 2023, Viettel duy trì vị thế dẫn đầu nhờ mạng lưới 5G rộng khắp và nền tảng chuyển đổi số tích hợp như MyViettel và ViettelPay, tạo rào cản lớn cho các đối thủ như Vinaphone hay MobiFone, vốn còn phụ thuộc vào các gói cước truyền thống. Các dịch vụ giá trị gia tăng như IoT doanh nghiệp và giải pháp Smart City của Viettel không chỉ nâng cao trải nghiệm người dùng mà còn thiết lập lợi thế cạnh tranh bền vững, khiến các đối thủ khó bắt kịp về tốc độ đổi mới và hệ sinh thái số.",
+      "section_id": "s1"
+    },
+    {
+      "id": "p4",
+      "text": "Viettel năm 2023 đẩy mạnh chiến lược kinh doanh tổng thể thông qua việc mở rộng dịch vụ viễn thông cao cấp như 5G, internet cáp quang và giải pháp chuyển đổi số cho doanh nghiệp, góp phần nâng doanh thu lên 43.834 tỷ đồng – tăng 20% so với năm trước – đồng thời cải thiện biên lợi nhuận lên 6,95% nhờ tối ưu chi phí và tăng trưởng sản phẩm có giá trị cao. Chiến lược này không chỉ củng cố vị thế dẫn đầu thị trường di động mà còn biến Viettel thành nền tảng số hóa toàn diện, gắn kết dịch vụ truyền thống với giải pháp công nghệ tiên tiến cho khách hàng doanh nghiệp và cá nhân.",
+      "section_id": "s2"
+    },
+    {
+      "id": "p5",
+      "text": "Viettel tiếp tục củng cố vị thế dẫn đầu thị trường viễn thông thông qua việc mở rộng dịch vụ 5G và giải pháp chuyển đổi số cho doanh nghiệp, thúc đẩy doanh thu từ các sản phẩm không phải cước gọi truyền thống. Sự tăng trưởng mạnh mẽ đến từ nhu cầu ngày càng cao về hạ tầng số, đặc biệt ở các khu công nghiệp và nông thôn, khi dịch vụ internet cáp quang và nền tảng quản lý doanh nghiệp tự động hóa được triển khai rộng khắp, tạo ra dòng doanh thu bền vững và mở rộng biên lợi nhuận.",
+      "section_id": "s2"
+    },
+    {
+      "id": "p6",
+      "text": "Năm 2023, Viettel không chỉ tiếp tục củng cố vị thế dẫn đầu trong dịch vụ viễn thông mà còn tạo bước đột phá với loạt sản phẩm/dịch vụ mới hướng đến chuyển đổi số toàn diện, đặc biệt là nền tảng “Viettel AI” – giải pháp trí tuệ nhân tạo tích hợp cho doanh nghiệp và chính quyền địa phương, cùng dịch vụ “5G Private Network” hỗ trợ sản xuất thông minh trong công nghiệp 4.0. Thành công này góp phần thúc đẩy doanh thu tăng 20% lên 43.834 tỷ đồng, trong khi biên lợi nhuận cải thiện nhẹ lên 6,95% – cho thấy hiệu quả kinh doanh đang được tối ưu hóa từ mô hình giá trị gia tăng thay vì chỉ phụ thuộc vào dung lượng truyền tải. Tuy nhiên, thách thức không nhỏ nằm ở chi phí đầu tư hạ tầng 5G và đào tạo nhân lực AI chuyên sâu, khi các đối thủ như VNPT và FPT cũng đang tăng tốc trong lĩnh vực này; đồng thời, rào cản về nhận thức của doanh nghiệp vừa và nhỏ đối với giải pháp số hóa",
+      "section_id": "s2"
+    },
+    {
+      "id": "p7",
+      "text": "Cơ cấu tài sản của Viettel năm 2023 tiếp tục dịch chuyển mạnh sang các tài sản sinh lời từ chuyển đổi số, với khoản đầu tư lớn vào hạ tầng 5G, cloud và nền tảng AI, chiếm hơn 45% tổng tài sản, tăng 7% so với năm trước; thanh khoản được duy trì ở mức an toàn nhờ dòng tiền thu về từ dịch vụ di động (đóng góp 68% doanh thu) và internet cá nhân, trong khi tỷ lệ nợ ngắn hạn trên tổng tài sản giảm xuống còn 22%, phản ánh khả năng đáp ứng nghĩa vụ tài chính linh hoạt dù doanh thu tăng 20% lên 43.834 tỷ đồng.",
+      "section_id": "s3"
+    },
+    {
+      "id": "p8",
+      "text": "Năm 2023, Viettel triển khai chiến lược quản lý nợ vay chủ động và khoa học, gắn liền với mục tiêu tăng trưởng bền vững trong bối cảnh đầu tư mạnh vào hạ tầng 5G, chuyển đổi số và mở rộng dịch vụ doanh nghiệp. Thay vì chỉ tập trung vào việc vay mới, Viettel áp dụng mô hình “quản lý dòng tiền theo dự án” – trong đó mỗi khoản vay đều được liên kết với luồng lợi nhuận kỳ vọng từ các dự án cụ thể như: trạm 5G, trung tâm dữ liệu AI, hoặc giải pháp IoT cho ngành y tế và giáo dục. \n\nCụ thể, Viettel tối ưu hóa cơ cấu nợ bằng cách giảm tỷ trọng nợ ngắn hạn từ 42% xuống còn 34% tổng nợ, đồng thời gia tăng phát hành trái phiếu xanh và trái phiếu dài hạn (kỳ hạn trung bình 5–7 năm) để cân bằng rủi ro lãi suất. Kết quả: tỷ lệ nợ/vốn chủ sở hữu (D/E) giảm từ 1.82 năm 2022 xuống còn 1.5",
+      "section_id": "s3"
+    },
+    {
+      "id": "p9",
+      "text": "Năm 2023, Viettel đã thực hiện một loạt hành động chiến lược có tính toán rõ ràng nhằm nâng cao hiệu quả sinh lời trên từng đồng tài sản (ROA), từng đồng vốn chủ sở hữu (ROE) và từng đồng doanh thu (ROS), thông qua tối ưu hóa chi phí vận hành, mở rộng dịch vụ giá trị cao và đẩy mạnh chuyển đổi số trong nội bộ.\n\nĐầu tiên, Viettel tập trung vào **tối ưu hóa cơ sở hạ tầng** – thay vì đầu tư rải rác, công ty triển khai mô hình “nâng cấp thông minh” trên 85% trạm phát sóng 4G/5G, kết hợp sử dụng AI để dự báo lưu lượng và điều chỉnh công suất tự động, giúp giảm 18% chi phí điện năng so với năm 2022. Kết quả: chi phí vận hành (OPEX) giảm 5,2% trong khi doanh thu tăng 20% – trực tiếp đẩy **ROS (Biên lợi nhuận)** từ 6,95% lên 7,23% (từ 2.54",
+      "section_id": "s4"
+    },
+    {
+      "id": "p10",
+      "text": "Trong năm 2023, Viettel ghi nhận doanh thu tăng 20,0% lên 43.834 tỷ đồng và biên lợi nhuận đạt 6,95%, đều vượt xa mức trung bình ngành viễn thông Việt Nam khoảng 8-10% và 5,2% tương ứng, nhờ sự bùng nổ từ dịch vụ di động 5G và giải pháp chuyển đổi số cho doanh nghiệp. Trong khi các đối thủ cạnh tranh chủ yếu tập trung vào mở rộng mạng lưới, Viettel đã tối ưu hóa doanh thu từ dịch vụ giá trị gia tăng như cloud, IoT và nền tảng số, giúp duy trì lợi nhuận cao hơn 30% so với mức trung bình ngành.",
+      "section_id": "s4"
+    },
+    {
+      "id": "p11",
+      "text": "Viettel nâng cao hiệu quả sử dụng tài sản năm 2023 thông qua tối ưu hóa hạ tầng viễn thông và mở rộng dịch vụ 5G, giúp doanh thu tăng 20% lên 43.834 tỷ đồng trong khi tổng tài sản chỉ tăng khiêm tốn, phản ánh năng suất đầu tư cao. Đặc biệt, biên lợi nhuận đạt 6,95% dù chi phí vận hành tăng, cho thấy việc tận dụng tài sản cố định như trạm phát sóng và hệ thống trung tâm dữ liệu đã sinh lời hiệu quả hơn, đặc biệt qua các giải pháp chuyển đổi số cho doanh nghiệp và người dùng.",
+      "section_id": "s4"
+    },
+    {
+      "id": "p12",
+      "text": "Năm 2023, Viettel tiếp tục hiện thực hóa chiến lược đầu tư và mở rộng với tầm nhìn dẫn đầu trong kỷ nguyên chuyển đổi số, khi tập trung hơn 15% doanh thu (tương đương gần 6.6 nghìn tỷ đồng) vào hạ tầng 5G, AI, điện toán đám mây và các giải pháp công nghệ cho doanh nghiệp – một bước đi táo bạo giữa bối cảnh chi phí đầu tư hạ tầng tăng vọt và áp lực cạnh tranh từ các nhà cung cấp công nghệ toàn cầu. Cơ hội lớn nhất nằm ở thị trường B2B, nơi nhu cầu về nền tảng số hóa doanh nghiệp, IoT công nghiệp và giải pháp an ninh mạng đang bùng nổ, đặc biệt trong các ngành như sản xuất, y tế và logistics – phân khúc mang lại biên lợi nhuận cao hơn 2-3 lần so với dịch vụ tiêu dùng. Tuy nhiên, thách thức không nhỏ khi Viettel phải đối mặt với áp lực về vốn, đặc biệt khi lãi suất toàn cầu tăng cao, cùng với nguy cơ quá tải hệ thống mạng do tốc độ tăng trưởng doanh thu",
+      "section_id": "s5"
+    },
+    {
+      "id": "p13",
+      "text": "Năm 2023, Viettel không chỉ tiếp tục đẩy mạnh nghiên cứu và phát triển (R&D) như một trụ cột chiến lược mà còn chuyển mình thành một “laboratory of national digital sovereignty”, nơi công nghệ được định hình bởi nhu cầu thực tiễn của một nền kinh tế số đang bùng nổ. Thách thức lớn nhất không nằm ở thiếu hụt ngân sách, mà ở sự khan hiếm nguồn nhân lực chất lượng cao trong các lĩnh vực then chốt như AI edge computing, quantum-safe cryptography và tự động hóa mạng 6G – những lĩnh vực mà các tập đoàn công nghệ toàn cầu đã thiết lập hàng rào sở hữu trí tuệ dày đặc. Đồng thời, áp lực từ các quy định an ninh mạng ngày càng siết chặt khiến các dự án R&D nội địa phải cân bằng giữa tính đổi mới và tuân thủ, đôi khi làm chậm tiến độ. Tuy nhiên, chính những rào cản này lại mở ra cơ hội chưa từng có: Viettel có thể trở thành “người kiến tạo tiêu chuẩn” cho Đông Nam Á bằng cách phát triển các giải pháp mở, phi phụ thuộc vào công nghệ phương Tây –",
+      "section_id": "s5"
+    },
+    {
+      "id": "p14",
+      "text": "Năm 2023, Viettel không chỉ mở rộng thị trường truyền thống mà chủ động khai phá **thị trường mục tiêu mới – người dùng nông thôn và cộng đồng dân cư chưa được số hóa đầy đủ** – bằng một chiến lược “đi sâu, bám sát, xây dựng hạ tầng từ gốc”. Thay vì chỉ triển khai dịch vụ internet tốc độ cao như ở thành thị, Viettel triển khai **“Mạng lưới viễn thông nông thôn 4.0”** – một hệ sinh thái tích hợp gồm:  \n- **Trạm phát sóng 4G/5G dạng nhỏ (Small Cell)** lắp đặt tại các bản làng, xã vùng cao, tối ưu phủ sóng với chi phí thấp nhưng hiệu quả cao, giảm 40% chi phí mỗi trạm so với phương pháp truyền thống;  \n- **Bộ thiết bị đầu cuối “Viettel Smart Box”** – thiết bị tích hợp Wi-Fi, truyền hình OTT, và dịch vụ ngân hàng số tích hợp sẵn, bán kèm SIM 4G giá 99.000đ/tháng, không cần thuê bao thông thường, giúp người dân không",
+      "section_id": "s5"
+    },
+    {
+      "id": "p15",
+      "text": "Năm 2023, Viettel đẩy mạnh chiến lược mở rộng hệ sinh thái chuyển đổi số thông qua các hành động M&A và đối tác chiến lược mang tính đột phá, tập trung vào việc thu thập năng lực cốt lõi ngoài viễn thông truyền thống. Một bước đi nổi bật là việc mua lại 100% cổ phần của Công ty Cổ phần Công nghệ và Giải pháp số Việt Nam (VNS) – doanh nghiệp dẫn đầu trong lĩnh vực giải pháp điện tử hóa chính quyền địa phương và nền tảng tích hợp dữ liệu công cộng. Giao dịch này không chỉ tăng cường năng lực triển khai giải pháp “Smart City” cho hơn 30 tỉnh thành, mà còn giúp Viettel gia tăng doanh thu từ dịch vụ chuyển đổi số lên 12,6 tỷ đồng trong quý IV/2023, đóng góp 28% vào mức tăng trưởng doanh thu 20% (từ 36.543 tỷ lên 43.834 tỷ đồng) so với năm trước. Đồng thời, Viettel ký kết hợp tác chiến lược với Tập đoàn FPT để cùng phát triển nền",
+      "section_id": "s5"
+    },
+    {
+      "id": "p16",
+      "text": "Năm 2023, Viettel đối mặt với áp lực cạnh tranh khốc liệt từ cả hai phía: các nhà mạng trong nước như MobiFone và Vinaphone đang gia tăng đầu tư vào hạ tầng 5G và dịch vụ số, lẫn các gã khổng lồ công nghệ như FPT, CMC, hay thậm chí là các nền tảng OTT toàn cầu đang thu hút ngày càng nhiều người dùng qua các dịch vụ streaming, thanh toán và AI. Rủi ro thị trường không chỉ nằm ở việc duy trì thị phần di động – dù doanh thu đạt 43.834 tỷ đồng, tăng 20% so với năm trước – mà còn ở khả năng chuyển hóa lợi nhuận từ tăng trưởng doanh thu thành giá trị bền vững, khi biên lợi nhuận chỉ ở mức 6,95%, thấp hơn mức trung bình ngành 8–9%. Thách thức lớn nhất là sự “bão hòa” dịch vụ truyền thống, buộc Viettel phải đầu tư mạnh vào chuyển đổi số – nơi chi phí R&D và phát triển nền tảng cloud, AI, và giải pháp chính phủ điện tử đang ăn mòn biên",
+      "section_id": "s6"
+    },
+    {
+      "id": "p17",
+      "text": "Trong năm 2023, Viettel triển khai chiến lược quản trị rủi ro toàn diện nhằm đối phó với các mối đe dọa trong lĩnh vực viễn thông và chuyển đổi số, với trọng tâm là **tăng cường khả năng chống chịu hệ thống (resilience)** và **giảm thiểu rủi ro tài chính từ các dự án chuyển đổi số**. Cụ thể, công ty đã áp dụng **hệ thống giám sát rủi ro dựa trên AI (AI-driven Risk Dashboard)** tích hợp dữ liệu từ 12 triệu thuê bao di động, 7,5 triệu hộ gia đình sử dụng internet và 380 dự án chuyển đổi số đang triển khai. Hệ thống này phân tích bất thường trong lưu lượng mạng, hành vi thanh toán, và độ tin cậy của đối tác công nghệ, tự động cảnh báo nguy cơ mất kết nối, gian lận tài chính hoặc trễ tiến độ dự án – giúp giảm 37% thời gian phản ứng với sự cố so với năm 2022.\n\nĐặc biệt, Viettel đã **tái cấu trúc mô hình tài chính cho",
+      "section_id": "s6"
+    },
+    {
+      "id": "p18",
+      "text": "Năm 2023, Viettel đối mặt với rủi ro chính sách và pháp lý ngày càng phức tạp khi chính phủ đẩy mạnh quy định về an ninh mạng, quản lý dữ liệu người dùng và cạnh tranh công bằng trong lĩnh vực viễn thông – những yếu tố có thể làm gia tăng chi phí tuân thủ và hạn chế linh hoạt trong phát triển sản phẩm số. Thách thức lớn nhất đến từ việc các quy định về lưu trữ dữ liệu tại chỗ, phân biệt đối xử giữa doanh nghiệp nhà nước và tư nhân, hay áp lực từ các hiệp định thương mại tự do yêu cầu mở cửa thị trường, đe dọa vị thế độc quyền trong một số dịch vụ cốt lõi. Tuy nhiên, chính những rào cản này cũng mở ra cơ hội chiến lược: Viettel, với tư cách là doanh nghiệp quân đội, có lợi thế vượt trội trong việc hợp tác chặt chẽ với cơ quan quản lý để định hình khung pháp lý, từ đó trở thành “đối tác tin cậy” trong các dự án chuyển đổi số quốc gia như Chính phủ điện tử hay thành phố thông minh. Ngoài ra,",
+      "section_id": "s6"
+    }
+  ],
+  "tables": [
+    {
+      "id": "t1",
+      "caption": "Bảng 1: Kết quả kinh doanh tổng hợp 2022-2023",
+      "col_headers": [
+        "Chỉ tiêu",
+        "Năm 2022",
+        "Năm 2023",
+        "Tăng trưởng (%)"
+      ],
+      "row_headers": [
+        "Tổng doanh thu",
+        "Lợi nhuận trước thuế",
+        "Lợi nhuận sau thuế"
+      ],
+      "cells": [
+        {
+          "row": 0,
+          "col": 1,
+          "value": "40,812 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "value": "45,583 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "value": "11.7%",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "value": "4,544 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "value": "5,500 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "value": "21.0%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "value": "3,524 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "value": "4,297 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "value": "21.9%",
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "caption": "Bảng 2: Bảng cân đối kế toán tóm tắt",
+      "col_headers": [
+        "Khoản mục",
+        "Cuối năm 2022",
+        "Cuối năm 2023",
+        "Biến động (%)"
+      ],
+      "row_headers": [
+        "Tổng tài sản",
+        "Tài sản ngắn hạn",
+        "Tài sản dài hạn",
+        "Vốn chủ sở hữu",
+        "Nợ phải trả"
+      ],
+      "cells": [
+        {
+          "row": 0,
+          "col": 1,
+          "value": "55,978 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "value": "63,273 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "value": "13.0%",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "value": "21,343 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "value": "20,349 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "value": "-4.7%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "value": "34,635 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "value": "42,924 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "value": "23.9%",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "value": "35,935 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "value": "40,898 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "value": "13.8%",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "value": "20,043 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "value": "22,375 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "value": "11.6%",
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "caption": "Bảng 3: Các chỉ số tài chính chủ yếu",
+      "col_headers": [
+        "Chỉ số",
+        "Năm 2022",
+        "Năm 2023",
+        "Thay đổi"
+      ],
+      "row_headers": [
+        "ROS (%)",
+        "ROA (%)",
+        "ROE (%)",
+        "Nợ/Vốn CSH"
+      ],
+      "cells": [
+        {
+          "row": 0,
+          "col": 1,
+          "value": "7.16%",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "value": "7.68%",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "value": "+0.52%",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "value": "6.63%",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "value": "7.22%",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "value": "+0.59%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "value": "10.91%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "value": "10.94%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "value": "+0.04%",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "value": "0.51",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "value": "0.59",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "value": "+0.08",
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "t4",
+      "caption": "Bảng 4: Kết quả kinh doanh tổng hợp 2022-2023",
+      "col_headers": [
+        "Chỉ tiêu",
+        "Năm 2022",
+        "Năm 2023",
+        "Tăng trưởng (%)"
+      ],
+      "row_headers": [
+        "Tổng doanh thu",
+        "Lợi nhuận trước thuế",
+        "Lợi nhuận sau thuế"
+      ],
+      "cells": [
+        {
+          "row": 0,
+          "col": 1,
+          "value": "41,796 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "value": "45,274 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "value": "8.3%",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "value": "4,215 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "value": "6,401 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "value": "51.9%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "value": "3,298 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "value": "5,275 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "value": "59.9%",
+          "is_header": false
+        }
+      ]
+    }
+  ]
+}

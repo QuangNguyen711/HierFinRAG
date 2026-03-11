@@ -1,0 +1,462 @@
+{
+  "id": "doc_fpt_2022_005",
+  "title": "Báo Cáo Tài Chính FPT 2022",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Tổng Quan Hoạt Động Kinh Doanh",
+      "level": 1,
+      "content_ids": [
+        "p1",
+        "p2",
+        "t1",
+        "p3"
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Kết Quả Kinh Doanh và Hiệu Quả Tài Chính",
+      "level": 1,
+      "content_ids": [
+        "p4",
+        "p5",
+        "t2"
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Tình Hình Tài Sản và Nguồn Vốn",
+      "level": 1,
+      "content_ids": [
+        "p6",
+        "p7",
+        "t3"
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Phân Tích Hiệu Suất và Rủi Ro",
+      "level": 1,
+      "content_ids": [
+        "p8",
+        "p9",
+        "t4",
+        "p10"
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Chiến Lược và Định Hướng Phát Triển 2023",
+      "level": 1,
+      "content_ids": [
+        "p11",
+        "p12"
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "p1",
+      "text": "Năm 2022, FPT triển khai chiến lược kinh doanh tổng thể tập trung vào tăng trưởng bền vững thông qua mở rộng dịch vụ công nghệ cao như AI, điện toán đám mây và giải pháp số cho doanh nghiệp, góp phần đẩy doanh thu lên 36.471 tỷ đồng (tăng 13,8% so với năm trước), trong khi duy trì biên lợi nhuận 7,1% nhờ tối ưu hóa chi phí và nâng cao giá trị sản phẩm như FPT.AI và FPT.Cloud, đồng thời gia tăng thị phần tại các thị trường chiến lược như Nhật Bản và Mỹ.",
+      "section_id": "s1"
+    },
+    {
+      "id": "p2",
+      "text": "FPT đã ra mắt FPT.AI – nền tảng trí tuệ nhân tạo tích hợp đa mô hình, cho phép doanh nghiệp triển khai nhanh các giải pháp xử lý ngôn ngữ tự nhiên, nhận diện hình ảnh và chatbot thông minh chỉ qua giao diện kéo-thả. Không chỉ là công cụ, FPT.AI còn là hệ sinh thái mở, kết nối liền mạch với các sản phẩm ERP, CRM và nền tảng đám mây của FPT, giúp khách hàng chuyển đổi số một cách liền mạch và có chủ đích.",
+      "section_id": "s1"
+    },
+    {
+      "id": "p3",
+      "text": "Năm 2022, FPT đẩy mạnh chiến lược “đánh vào điểm yếu của đối thủ” bằng ba hành động cụ thể, thay vì chỉ mở rộng quy mô. Thứ nhất, FPT chính thức “đánh chiếm” thị trường phần mềm tài chính – ngân hàng tại Đông Nam Á bằng sản phẩm FPT.FinCore, một nền tảng lõi ngân hàng hiện đại, được xây dựng từ scratch, không dựa trên công nghệ cũ của SAP hay Oracle – điều mà các đối thủ như TCS hay Infosys vẫn đang phụ thuộc. Kết quả: FPT giành hợp đồng trị giá 18 triệu USD với Ngân hàng TMCP Nam Á (NAB) – đối thủ trực tiếp của Vietcombank – sau khi chứng minh hệ thống xử lý giao dịch 24/7 với thời gian phản hồi dưới 150ms, vượt 40% so với giải pháp của TCS mà NAB từng dùng.  \n\nThứ hai, FPT chủ động “đánh lén” bằng chiến dịch chuyển đổi sang mô hình “AI-as-a-Service” thay vì bán phần mềm truyền thống. Trong khi đối thủ như C",
+      "section_id": "s1"
+    },
+    {
+      "id": "p4",
+      "text": "Năm 2022, FPT đẩy mạnh chuyển đổi số không chỉ như một chiến lược vận hành mà như một cuộc cách mạng văn hóa doanh nghiệp, khi công nghệ mới – từ AI, metaverse đến nền tảng điện toán biên – được tích hợp sâu vào từng sản phẩm và dịch vụ, biến khách hàng từ người dùng thành đồng sáng tạo. Thách thức lớn nhất không nằm ở thiếu hụt công nghệ, mà ở việc đồng bộ hóa năng lực nội bộ: hàng nghìn kỹ sư phải tái huấn luyện để thấu hiểu ngữ cảnh doanh nghiệp khách hàng, trong khi áp lực về thời gian triển khai khiến rủi ro “tích hợp sai” trở thành mối đe dọa ngầm đối với uy tín thương hiệu. Tuy nhiên, chính những rào cản này lại là nền tảng cho cơ hội vô song: FPT tận dụng dữ liệu khổng lồ từ hàng trăm dự án chuyển đổi số để huấn luyện các mô hình AI nội bộ, tạo ra “trí tuệ lặp lại” – một lợi thế cạnh tranh không thể sao chép. Đặc biệt, việc phát triển nền tảng FPT",
+      "section_id": "s2"
+    },
+    {
+      "id": "p5",
+      "text": "Năm 2022, FPT triển khai chiến lược kinh doanh tổng thể lấy “tăng trưởng có trọng tâm” làm trung tâm, tập trung vào ba trụ cột chiến lược: mở rộng thị phần dịch vụ công nghệ toàn cầu, chuyển đổi mô hình kinh doanh từ bán sản phẩm sang cung cấp giải pháp định giá theo giá trị, và đầu tư mạnh vào năng lực số hóa nội bộ. Cụ thể, FPT tăng gấp đôi nguồn lực cho các dự án AI và Cloud tại Mỹ, châu Âu và Nhật Bản, dẫn đến doanh thu từ thị trường nước ngoài tăng 22,4% so với năm trước, đóng góp 48% tổng doanh thu. Đồng thời, công ty đẩy mạnh triển khai mô hình “Outcome-Based Pricing” – tính phí theo kết quả kinh doanh của khách hàng – thay vì theo giờ công, giúp tăng doanh thu từ các hợp đồng dài hạn lên 31% và cải thiện tỷ lệ giữ chân khách hàng lên 92%. Về nội bộ, FPT tự động hóa 70% quy trình hỗ trợ khách hàng bằng RPA và AI, giảm",
+      "section_id": "s2"
+    },
+    {
+      "id": "p6",
+      "text": "Trong năm 2022, FPT đã thực hiện một chiến lược chủ động và có hệ thống để gia tăng **nguồn vốn chủ sở hữu** thông qua việc tái đầu tư lợi nhuận và tối ưu hóa cấu trúc vốn, thay vì phụ thuộc vào vay nợ hoặc phát hành cổ phiếu mới. Cụ thể, công ty đã giữ lại **92% lợi nhuận ròng** (tương đương 2,381 tỷ đồng từ 2,588 tỷ đồng lợi nhuận sau thuế) để tái đầu tư vào các sản phẩm công nghệ chiến lược như nền tảng AI FPT.AI, giải pháp chuyển đổi số cho doanh nghiệp, và mở rộng trung tâm R&D tại Mỹ và Nhật Bản. Điều này không chỉ nâng cao tính tự chủ tài chính mà còn tăng tỷ lệ vốn chủ sở hữu trên tổng tài sản lên **48,7%** (từ 46,2% năm 2021), củng cố vị thế tài chính bền vững. Đồng thời, FPT áp dụng chính sách cổ tức ổn định với mức chi trả **15% lợi nhuận**, giúp duy trì niềm tin của nhà đầu tư mà không",
+      "section_id": "s3"
+    },
+    {
+      "id": "p7",
+      "text": "Năm 2022, FPT tiếp tục khẳng định chiến lược đầu tư dài hạn thông qua việc tăng mạnh chi phí cho tài sản cố định, đặc biệt trong lĩnh vực cơ sở hạ tầng công nghệ như trung tâm dữ liệu, hệ thống AI và nền tảng điện toán đám mây, phản ánh qua mức vốn đầu tư vượt 20% so với năm trước — một động thái chiến lược nhằm củng cố lợi thế cạnh tranh bền vững. Dù doanh thu tăng 13,8% lên 36.471 tỷ đồng và lợi nhuận ròng đạt 2.588 tỷ đồng, nhưng áp lực về chi khấu hao tài sản cố định đã làm giảm biên lợi nhuận xuống còn 7,10%, cho thấy thách thức lớn từ việc cân bằng giữa tăng trưởng vốn và hiệu quả sử dụng tài sản. Thách thức không chỉ nằm ở chi phí vận hành cao và thời gian hoàn vốn kéo dài, mà còn ở rủi ro công nghệ lỗi thời nếu không cập nhật kịp xu hướng như AI generative hay edge computing. Tuy nhiên, cơ hội lớn đang mở ra khi các đối tác toàn cầu như Microsoft",
+      "section_id": "s3"
+    },
+    {
+      "id": "p8",
+      "text": "Trong năm 2022, FPT đã thực hiện một loạt hành động chiến lược nhằm tối ưu hóa khả năng thanh toán và thanh khoản, đặc biệt trong bối cảnh chi phí vận hành tăng và áp lực dòng tiền từ các dự án công nghệ lớn. Một trong những sáng kiến nổi bật là **triển khai hệ thống quản lý dòng tiền tự động (Cash Flow Automation Platform)** kết nối trực tiếp với tất cả các đơn vị kinh doanh, chi nhánh và đối tác thanh toán quốc tế. Hệ thống này giúp FPT dự báo dòng tiền theo ngày, tự động phân bổ nguồn lực tài chính cho các khoản phải thu – phải trả, giảm thời gian vòng quay công nợ từ 58 ngày xuống còn 43 ngày – tức rút ngắn 25,9% so với năm 2021.\n\nBên cạnh đó, FPT chủ động đàm phán lại điều khoản thanh toán với các nhà cung cấp phần mềm lõi (như Microsoft, Oracle, SAP) để chuyển từ hình thức trả trước 100% sang mô hình trả theo giai đoạn (milestone-based payment), giúp",
+      "section_id": "s4"
+    },
+    {
+      "id": "p9",
+      "text": "Trong bối cảnh ngành công nghệ thông tin tiếp tục bùng nổ, FPT ghi nhận tăng trưởng doanh thu 13,8% lên 36.471 tỷ đồng năm 2022, chủ yếu nhờ mở rộng dịch vụ phần mềm và giải pháp AI cho khách hàng toàn cầu, đặc biệt ở các thị trường như Nhật Bản và Mỹ. Biên lợi nhuận đạt 7,1% – tăng nhẹ từ 7,1% năm trước – cho thấy khả năng tối ưu chi phí trong bối cảnh đầu tư mạnh vào nhân lực công nghệ cao và chuyển đổi số, phản ánh xu hướng bền vững trong việc chuyển hóa doanh thu thành lợi nhuận dù cạnh tranh khốc liệt.",
+      "section_id": "s4"
+    },
+    {
+      "id": "p10",
+      "text": "Năm 2022, FPT ghi nhận hiệu quả sinh lời ấn tượng với ROS đạt 7,1% – phản ánh khả năng chuyển hóa doanh thu từ các giải pháp phần mềm và dịch vụ IT như FPT.AI, FPT Cloud và outsourcing công nghệ thành lợi nhuận ròng 2.588 tỷ đồng. ROE tăng trưởng mạnh nhờ tối ưu vốn chủ sở hữu, trong khi ROA duy trì ở mức cao nhờ quản lý hiệu quả tài sản như hệ thống trung tâm dữ liệu và đội ngũ kỹ sư công nghệ cao, cho thấy năng lực sinh lời bền vững trong bối cảnh cạnh tranh khốc liệt của ngành CNTT.",
+      "section_id": "s4"
+    },
+    {
+      "id": "p11",
+      "text": "Dựa trên doanh thu tăng 13,8% lên 36.471 tỷ đồng và biên lợi nhuận ổn định ở 7,1%, FPT đẩy mạnh đầu tư vào các giải pháp AI và chuyển đổi số cho doanh nghiệp, đặc biệt là mở rộng dịch vụ FPT.AI và nền tảng FPT.Cloud tại thị trường Nhật Bản và Mỹ – nơi chiếm hơn 40% doanh thu xuất khẩu. Đồng thời, công ty triển khai xây dựng trung tâm R&D tại Đà Nẵng và tăng cường tuyển dụng 2.500 kỹ sư AI, dữ liệu nhằm củng cố năng lực cung cấp giải pháp công nghệ tích hợp, hỗ trợ tăng trưởng bền vững trong năm 2023.",
+      "section_id": "s5"
+    },
+    {
+      "id": "p12",
+      "text": "Năm 2022, FPT đã chủ động mở rộng thị trường mục tiêu mới với trọng tâm vào các ngành công nghiệp truyền thống như tài chính – ngân hàng, y tế và sản xuất, nơi mà nhu cầu chuyển đổi số đang bùng nổ nhưng vẫn còn nhiều rào cản về hạ tầng và nhận thức. Dù doanh thu tăng 13,8% lên 36.471 tỷ đồng và biên lợi nhuận duy trì ở mức 7,1%, sự dịch chuyển này không phải là con đường bằng phẳng: thách thức lớn nhất nằm ở việc thuyết phục các doanh nghiệp Việt Nam – vốn ưa chuộng giải pháp ngắn hạn – đầu tư dài hạn vào các nền tảng AI, điện toán đám mây và tự động hóa quy trình (RPA), trong khi chi phí triển khai cao và thiếu hụt nguồn nhân lực chất lượng cao tại địa phương làm chậm tiến độ. Song, chính những rào cản này lại tạo ra cơ hội vàng cho FPT: với thế mạnh về công nghệ bản địa và khả năng tích hợp giải pháp “end-to-end”, công ty đã thành công trong việc triển khai các",
+      "section_id": "s5"
+    }
+  ],
+  "tables": [
+    {
+      "id": "t1",
+      "caption": "Bảng 1: Kết quả kinh doanh tổng hợp 2021-2022",
+      "col_headers": [
+        "Chỉ tiêu",
+        "Năm 2021",
+        "Năm 2022",
+        "Tăng trưởng (%)"
+      ],
+      "row_headers": [
+        "Tổng doanh thu",
+        "Lợi nhuận trước thuế",
+        "Lợi nhuận sau thuế"
+      ],
+      "cells": [
+        {
+          "row": 0,
+          "col": 1,
+          "value": "68,389 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "value": "74,282 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "value": "8.6%",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "value": "7,459 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "value": "10,827 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "value": "45.2%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "value": "5,844 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "value": "9,188 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "value": "57.2%",
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "caption": "Bảng 2: Kết quả kinh doanh tổng hợp 2021-2022",
+      "col_headers": [
+        "Chỉ tiêu",
+        "Năm 2021",
+        "Năm 2022",
+        "Tăng trưởng (%)"
+      ],
+      "row_headers": [
+        "Tổng doanh thu",
+        "Lợi nhuận trước thuế",
+        "Lợi nhuận sau thuế"
+      ],
+      "cells": [
+        {
+          "row": 0,
+          "col": 1,
+          "value": "30,452 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "value": "32,621 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "value": "7.1%",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "value": "3,744 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "value": "3,269 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "value": "-12.7%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "value": "3,060 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "value": "2,645 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "value": "-13.6%",
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "caption": "Bảng 3: Bảng cân đối kế toán tóm tắt",
+      "col_headers": [
+        "Khoản mục",
+        "Cuối năm 2021",
+        "Cuối năm 2022",
+        "Biến động (%)"
+      ],
+      "row_headers": [
+        "Tổng tài sản",
+        "Tài sản ngắn hạn",
+        "Tài sản dài hạn",
+        "Vốn chủ sở hữu",
+        "Nợ phải trả"
+      ],
+      "cells": [
+        {
+          "row": 0,
+          "col": 1,
+          "value": "80,835 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "value": "89,368 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "value": "10.6%",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "value": "32,073 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "value": "27,618 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "value": "-13.9%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "value": "48,762 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "value": "61,750 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "value": "26.6%",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "value": "47,253 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "value": "52,625 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "value": "11.4%",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "value": "33,582 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "value": "36,743 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "value": "9.4%",
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "t4",
+      "caption": "Bảng 4: Các chỉ số tài chính chủ yếu",
+      "col_headers": [
+        "Chỉ số",
+        "Năm 2021",
+        "Năm 2022",
+        "Thay đổi"
+      ],
+      "row_headers": [
+        "ROS (%)",
+        "ROA (%)",
+        "ROE (%)",
+        "Nợ/Vốn CSH"
+      ],
+      "cells": [
+        {
+          "row": 0,
+          "col": 1,
+          "value": "11.63%",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "value": "12.41%",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "value": "+0.78%",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "value": "5.08%",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "value": "4.87%",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "value": "-0.20%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "value": "6.88%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "value": "8.57%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "value": "+1.69%",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "value": "0.70",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "value": "0.73",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "value": "+0.02",
+          "is_header": false
+        }
+      ]
+    }
+  ]
+}

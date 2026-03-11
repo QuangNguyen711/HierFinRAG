@@ -1,0 +1,408 @@
+{
+  "id": "doc_mobifone_2024_003",
+  "title": "Báo Cáo Tài Chính MobiFone 2024",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Tổng Quan Hoạt Động Kinh Doanh 2024",
+      "level": 1,
+      "content_ids": [
+        "p1",
+        "p2",
+        "t1",
+        "p3",
+        "p4"
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Kết Quả Kinh Doanh và Hiệu Quả Tài Chính",
+      "level": 1,
+      "content_ids": [
+        "p5",
+        "p6"
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Cơ Cấu Tài Sản và Nguồn Vốn",
+      "level": 1,
+      "content_ids": [
+        "p7",
+        "p8",
+        "t2",
+        "p9"
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Phân Tích Chỉ Số Hiệu Suất Tài Chính",
+      "level": 1,
+      "content_ids": [
+        "p10",
+        "p11",
+        "t3",
+        "p12"
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Chiến Lược và Định Hướng Phát Triển 2025",
+      "level": 1,
+      "content_ids": [
+        "p13",
+        "p14",
+        "p15"
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "p1",
+      "text": "Năm 2024, MobiFone triển khai chiến lược “Đánh chiếm lại thị phần bằng dữ liệu” – một hành động cụ thể, không chỉ dừng ở quảng cáo mà xoáy sâu vào việc tái cấu trúc trải nghiệm khách hàng thông qua phân tích hành vi sử dụng dữ liệu di động. Thay vì chạy theo giá cước thấp như Viettel và Vinaphone, MobiFone áp dụng AI để phân tích thói quen truy cập của từng nhóm khách hàng (như sinh viên, doanh nghiệp nhỏ, người dùng cao tuổi), từ đó thiết kế các gói cước “cá nhân hóa theo thời gian thực” – ví dụ: gói 30GB dành riêng cho người xem YouTube buổi tối, hoặc gói 50GB “dành cho người làm việc từ xa” tích hợp miễn phí 100GB lưu trữ trên nền tảng MobiFone Cloud.  \n\nHành động này không chỉ nâng cao tỷ lệ giữ chân (chỉ số churn rate giảm 18% so với Q1/2023), mà còn khiến đối thủ khó bắt chước: Viettel vẫn đang tập tr",
+      "section_id": "s1"
+    },
+    {
+      "id": "p2",
+      "text": "Năm 2024, doanh thu của MobiFone ghi nhận sự phục hồi khả quan nhờ sự bùng nổ của các dịch vụ chuyển đổi số và nền tảng số hóa doanh nghiệp, song hành cùng tăng trưởng ấn tượng ở phân khúc khách hàng doanh nghiệp vừa và nhỏ – nơi mà MobiFone đang dần thay thế vai trò của các nhà cung cấp truyền thống bằng giải pháp tích hợp 5G, IoT và điện toán đám mây. Tuy nhiên, áp lực cạnh tranh từ Viettel và VNPT không chỉ đến từ giá cước mà còn từ khả năng “bao trùm” hệ sinh thái kỹ thuật số, khiến thị phần di động truyền thống của MobiFone tiếp tục bị thu hẹp, đặc biệt tại các khu vực nông thôn và vùng sâu. Cơ hội lớn nhất nằm ở việc khai thác dữ liệu người dùng để cá nhân hóa trải nghiệm dịch vụ và mở rộng sang các lĩnh vực như giáo dục số, y tế thông minh và thành phố thông minh – những ngành mà MobiFone đã có tiền lệ hợp tác với chính quyền địa phương. Thách thức then chốt là",
+      "section_id": "s1"
+    },
+    {
+      "id": "p3",
+      "text": "Năm 2024, MobiFone đẩy mạnh chiến lược kinh doanh tổng thể bằng cách tối ưu hóa danh mục dịch vụ viễn thông thông qua mở rộng mạng 5G, tích hợp giải pháp chuyển đổi số cho doanh nghiệp và gia tăng giá trị thuê bao thông qua gói cước tích hợp Internet, truyền hình và dịch vụ đám mây, góp phần nâng doanh thu lên 74,107 tỷ đồng (tăng 5,4% so với năm trước) và cải thiện biên lợi nhuận lên 11,33% nhờ hiệu quả chi phí và tăng trưởng dịch vụ giá trị cao.",
+      "section_id": "s1"
+    },
+    {
+      "id": "p4",
+      "text": "MobiFone tiếp tục mở rộng thị trường bằng cách tăng cường phủ sóng 5G và đẩy mạnh gói cước data cao tốc kết hợp dịch vụ chuyển đổi số như MobiFone Cloud và MobiFone Pay, thu hút thêm hơn 1,2 triệu khách hàng mới trong năm 2024. Nhờ chiến lược này, doanh thu đạt 74.107 tỷ đồng, tăng 5,4% so với năm trước, đồng thời nâng cao tỷ lệ khách hàng trung thành sử dụng đa dịch vụ lên 68%, củng cố vị thế dẫn đầu trong phân khúc viễn thông số.",
+      "section_id": "s1"
+    },
+    {
+      "id": "p5",
+      "text": "Năm 2024, MobiFone triển khai chiến lược mở rộng thị trường và khách hàng bằng những hành động cụ thể, tập trung vào ba trụ cột: **tối ưu hóa trải nghiệm người dùng ở vùng sâu vùng xa, khai thác dữ liệu để cá nhân hóa dịch vụ, và hợp tác chiến lược với hệ sinh thái số địa phương**.\n\nĐầu tiên, MobiFone không chỉ nâng cấp hạ tầng 4G/5G mà còn triển khai **“Chương trình 1000 trạm phát sóng nhỏ (Small Cell)” tại 63 tỉnh thành**, đặc biệt tập trung vào các xã khó khăn ở Tây Nguyên, miền núi phía Bắc và Đồng bằng sông Cửu Long. Những trạm này được thiết kế tiết kiệm năng lượng, tích hợp AI tự điều chỉnh băng thông theo nhu cầu thực tế, giúp tốc độ truy cập tăng 30% so với năm 2023 — không chỉ mở rộng phủ sóng, mà còn **biến vùng “chưa có dịch vụ” thành “vùng có trải nghiệm tốt”**.\n\nThứ hai, MobiFone sử dụng **hệ",
+      "section_id": "s2"
+    },
+    {
+      "id": "p6",
+      "text": "Năm 2024, MobiFone triển khai chiến dịch “Chuyển đổi số nền tảng – Tăng tốc giá trị khách hàng” với 3 hành động công nghệ cụ thể, đo lường được và định hướng rõ ràng:\n\n1. **Triển khai AI-driven Customer Experience Platform (CX Platform)**: MobiFone ra mắt hệ thống AI phân tích hành vi người dùng dựa trên 1,2 tỷ dữ liệu tương tác hàng tháng (gọi, data, ứng dụng), từ đó cá nhân hóa khuyến mãi, đề xuất gói cước và dự đoán rủi ro rời bỏ với độ chính xác 89,7% – cao hơn 22% so với năm 2023. Kết quả: Tỷ lệ giữ chân khách hàng (retention rate) tăng từ 84,1% lên 88,3%, tiết kiệm 1.100 tỷ đồng chi phí thu hút khách hàng mới.\n\n2. **Mở rộng mạng 5G + Edge Computing tại 63 tỉnh thành**: MobiFone đầu tư 2.300 trạm 5G mới, kết hợp hạ tầng Edge",
+      "section_id": "s2"
+    },
+    {
+      "id": "p7",
+      "text": "Trong năm 2024, MobiFone đã chủ động tối ưu hóa nguồn vốn chủ sở hữu thông qua chiến lược tái cấu trúc tài chính tập trung vào ba hành động cụ thể, mang lại hiệu quả đo lường rõ rệt. Thứ nhất, công ty tiến hành phát hành thành công trái phiếu chuyển đổi trị giá 1.500 tỷ đồng, với điều kiện chuyển đổi được kích hoạt dựa trên mức tăng trưởng doanh thu vượt 5% – một cơ chế gắn lợi ích cổ đông với hiệu suất kinh doanh, giúp gia tăng vốn chủ sở hữu mà không làm pha loãng quyền kiểm soát. Kết quả, vốn chủ sở hữu tăng 7,2% so với năm 2023, từ 42.100 tỷ đồng lên 45.120 tỷ đồng. Thứ hai, MobiFone cắt giảm 18% chi phí vận hành không cốt lõi (đặc biệt ở mảng quản lý văn phòng và bảo trì hạ tầng truyền thống) thông qua tự động hóa quy trình và chuyển dịch sang nền tảng đám mây, tiết kiệm 890 tỷ đồng – số tiền",
+      "section_id": "s3"
+    },
+    {
+      "id": "p8",
+      "text": "Trong năm 2024, MobiFone triển khai chiến lược quản lý nợ vay chủ động và dữ liệu-driven nhằm tối ưu cơ cấu tài chính và giảm rủi ro tín dụng trong bối cảnh chi tiêu đầu tư hạ tầng 5G và chuyển đổi số gia tăng. Thay vì áp dụng phương pháp truyền thống dựa trên đánh giá định tính, công ty triển khai hệ thống **“AI-Based Credit Scoring & Dynamic Debt Monitoring”** – một nền tảng tích hợp dữ liệu khách hàng (sử dụng dịch vụ, lịch sử thanh toán, hành vi tiêu dùng, độ tuổi, khu vực) để phân loại rủi ro nợ với độ chính xác lên tới 92%, tăng 27% so với năm 2023. Hệ thống này tự động điều chỉnh hạn mức tín dụng, gửi nhắc nhở cá nhân hóa qua SMS/ứng dụng, và đề xuất gói trả góp linh hoạt cho khách hàng có nguy cơ chậm trả, thay vì áp dụng biện pháp cắt dịch vụ ngay lập tức.\n\nĐồng thời, MobiFone tái cấu trúc khoản vay dài hạn bằng cách chuyển 42%",
+      "section_id": "s3"
+    },
+    {
+      "id": "p9",
+      "text": "Tỷ lệ nợ của MobiFone năm 2024 duy trì ở mức an toàn nhờ dòng tiền mạnh từ dịch vụ di động và internet băng thông rộng, với doanh thu tăng 5,4% lên 74.107 tỷ đồng, hỗ trợ khả năng thanh toán các nghĩa vụ ngắn hạn vượt mức trung bình ngành. Biên lợi nhuận đạt 11,33% và lợi nhuận ròng 8.399 tỷ đồng cho phép công ty duy trì tỷ lệ nợ trên vốn chủ sở hữu dưới 0,8 lần, đảm bảo linh hoạt đầu tư vào hạ tầng 5G và giải pháp chuyển đổi số mà không gia tăng áp lực tài chính.",
+      "section_id": "s3"
+    },
+    {
+      "id": "p10",
+      "text": "Năm 2024, MobiFone đẩy mạnh chiến lược “Tối ưu hóa doanh thu từ dịch vụ số hóa” thông qua ba hành động cụ thể, đo lường được, nhằm khai thác tối đa tiềm năng từ xu hướng tăng trưởng liên tục trong ngành viễn thông.  \n\n**Thứ nhất**, MobiFone tăng cường triển khai gói dịch vụ “MobiFone 5G+” kết hợp tích hợp AI cho người dùng cá nhân và doanh nghiệp, với 3,2 triệu thuê bao mới đăng ký 5G trong năm — tăng 42% so với 2023 — giúp doanh thu dịch vụ dữ liệu tăng 18,7% (đóng góp 32% tổng doanh thu).  \n\n**Thứ hai**, công ty tái cấu trúc mô hình bán hàng qua nền tảng số, giảm 35% chi phí kênh phân phối truyền thống và tăng tỷ lệ giao dịch tự phục vụ lên 78% (từ 61% năm 2023), nhờ ứng dụng chatbot thông minh và hệ sinh thái MobiFone App tích hợp thanh toán",
+      "section_id": "s4"
+    },
+    {
+      "id": "p11",
+      "text": "Năm 2024, MobiFone duy trì cấu trúc vốn cân bằng với tỷ lệ nợ trên vốn chủ sở hữu ở mức an toàn, cho phép tối ưu hóa chi phí vốn trong bối cảnh đầu tư mạnh vào hạ tầng 5G và dịch vụ chuyển đổi số như MobiFone Cloud và FPT Play Box. Dù lợi nhuận sau thuế tăng 5,4% lên 8.399 tỷ đồng, công ty hạn chế gia tăng đòn bẩy tài chính quá mức, ưu tiên tự tài trợ từ dòng tiền hoạt động mạnh nhờ doanh thu ổn định từ dịch vụ di động và internet băng rộng – giúp giảm rủi ro tài chính trong môi trường lãi suất toàn cầu biến động.",
+      "section_id": "s4"
+    },
+    {
+      "id": "p12",
+      "text": "Năm 2024, MobiFone triển khai chiến lược tối ưu hóa lợi nhuận thông qua ba hành động chiến lược cụ thể, trực tiếp tác động đến các chỉ số sinh lời ROA, ROE và ROS.  \n\n**Thứ nhất**, MobiFone tăng cường chuyển đổi số trong dịch vụ khách hàng bằng cách triển khai hệ thống AI tự động xử lý 92% yêu cầu chăm sóc (thay vì 68% năm 2023), giảm chi phí vận hành dịch vụ lên tới **1.200 tỷ đồng** – tương đương 5,6% tổng chi phí bán hàng và quản lý. Kết quả: **ROS (biên lợi nhuận) tăng từ 10,9% lên 11,33%**, cao nhất trong 5 năm qua, dù giá cước trung bình duy trì ổn định.  \n\n**Thứ hai**, công ty tái cấu trúc tài sản cố định: thanh lý 12 trạm phát sóng lỗi thời, chuyển đổi 85% hạ tầng 4G sang mô hình chia sẻ với Viettel và VNPT (theo mô hình “infrastructure sharing",
+      "section_id": "s4"
+    },
+    {
+      "id": "p13",
+      "text": "Năm 2024, MobiFone đẩy mạnh khai thác thị trường mục tiêu mới – nhóm khách hàng từ 55 tuổi trở lên và người dân nông thôn, khu vực chưa được số hóa đầy đủ – như một trục tăng trưởng chiến lược, thay vì chỉ phụ thuộc vào thị trường di động truyền thống đã bão hòa. Với doanh thu tăng 5,4% lên 74,107 tỷ đồng và biên lợi nhuận đạt 11,33%, MobiFone chứng minh tiềm năng lớn từ việc chuyển đổi dịch vụ từ “kết nối” sang “giải pháp sống thông minh” cho người cao tuổi: từ sim 4G dễ dùng, ứng dụng chăm sóc sức khỏe tích hợp, đến gói cước ưu đãi gọi miễn phí con cháu. Tuy nhiên, thách thức không nhỏ: tỷ lệ tiếp cận công nghệ ở vùng sâu còn dưới 40%, thiếu kỹ năng số, và tâm lý e ngại thay đổi là rào cản tâm lý lớn. Cơ hội nằm ở chính sự hỗ trợ từ Chính phủ trong Đề án Số hóa nông thôn và hạ tầng 5G đang mở rộng,",
+      "section_id": "s5"
+    },
+    {
+      "id": "p14",
+      "text": "Năm 2024, MobiFone đẩy mạnh nghiên cứu và phát triển (R&D) với các hành động cụ thể, tập trung vào ba trụ cột công nghệ then chốt: mạng 5G nâng cao, nền tảng AI cho dịch vụ cá nhân hóa, và giải pháp IoT cho doanh nghiệp. Thay vì chỉ triển khai công nghệ sẵn có, MobiFone thành lập Phòng thí nghiệm Công nghệ 5G+ tại Hà Nội, nơi đội ngũ kỹ sư thực hiện các bài test thực địa trên 12 thành phố lớn để tối ưu độ trễ và băng thông, đặc biệt trong môi trường mật độ cao như trung tâm thương mại và sân vận động — kết quả cho thấy giảm 42% latency so với phiên bản tiền nhiệm. Đồng thời, họ ra mắt “MobiAI Engine” — hệ thống AI nội sinh phân tích hành vi người dùng từ dữ liệu mạng (đã được anonymized) để dự báo nhu cầu băng thông theo thời gian thực, từ đó tự động phân bổ tài nguyên mà không cần can thiệp thủ công, giúp giảm 30% chi phí vận hành mạng. Về IoT,",
+      "section_id": "s5"
+    },
+    {
+      "id": "p15",
+      "text": "Năm 2024, MobiFone triển khai kế hoạch đầu tư và mở rộng đầy tham vọng nhằm củng cố vị thế dẫn đầu trong thị trường viễn thông và chuyển đổi số, với trọng tâm vào hạ tầng 5G, nền tảng số doanh nghiệp và dịch vụ IoT. Từ doanh thu 74,107 tỷ đồng và lợi nhuận 8,399 tỷ đồng năm 2023, tăng trưởng 5,4% và biên lợi nhuận ổn định ở mức 11,33%, MobiFone định hướng chi hơn 3.000 tỷ đồng cho mở rộng mạng 5G tại 63 tỉnh thành, đặc biệt nhấn mạnh vào khu vực nông thôn và vùng sâu – nơi còn tiềm năng lớn nhưng thách thức về chi phí triển khai và tỷ lệ phủ sóng thấp. Cơ hội lớn đến từ xu hướng chuyển đổi số của doanh nghiệp vừa và nhỏ, khi nhu cầu về giải pháp cloud, AI-driven analytics và kết nối thiết bị thông minh tăng mạnh – nhưng để khai thác, MobiFone phải đối mặt với áp lực cạnh tranh khốc liệt từ Viettel",
+      "section_id": "s5"
+    }
+  ],
+  "tables": [
+    {
+      "id": "t1",
+      "caption": "Bảng 1: Kết quả kinh doanh tổng hợp 2023-2024",
+      "col_headers": [
+        "Chỉ tiêu",
+        "Năm 2023",
+        "Năm 2024",
+        "Tăng trưởng (%)"
+      ],
+      "row_headers": [
+        "Tổng doanh thu",
+        "Lợi nhuận trước thuế",
+        "Lợi nhuận sau thuế"
+      ],
+      "cells": [
+        {
+          "row": 0,
+          "col": 1,
+          "value": "46,025 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "value": "52,130 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "value": "13.3%",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "value": "6,413 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "value": "7,270 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "value": "13.4%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "value": "5,126 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "value": "5,771 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "value": "12.6%",
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "caption": "Bảng 2: Bảng cân đối kế toán tóm tắt",
+      "col_headers": [
+        "Khoản mục",
+        "Cuối năm 2023",
+        "Cuối năm 2024",
+        "Biến động (%)"
+      ],
+      "row_headers": [
+        "Tổng tài sản",
+        "Tài sản ngắn hạn",
+        "Tài sản dài hạn",
+        "Vốn chủ sở hữu",
+        "Nợ phải trả"
+      ],
+      "cells": [
+        {
+          "row": 0,
+          "col": 1,
+          "value": "72,457 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "value": "82,709 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "value": "14.1%",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "value": "25,241 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "value": "25,752 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "value": "2.0%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "value": "47,216 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "value": "56,957 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "value": "20.6%",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "value": "43,245 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "value": "52,084 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "value": "20.4%",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "value": "29,212 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "value": "30,625 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "value": "4.8%",
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "caption": "Bảng 3: Các chỉ số tài chính chủ yếu",
+      "col_headers": [
+        "Chỉ số",
+        "Năm 2023",
+        "Năm 2024",
+        "Thay đổi"
+      ],
+      "row_headers": [
+        "ROS (%)",
+        "ROA (%)",
+        "ROE (%)",
+        "Nợ/Vốn CSH"
+      ],
+      "cells": [
+        {
+          "row": 0,
+          "col": 1,
+          "value": "9.32%",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "value": "9.79%",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "value": "+0.48%",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "value": "3.33%",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "value": "2.84%",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "value": "-0.49%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "value": "6.57%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "value": "8.41%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "value": "+1.84%",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "value": "0.53",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "value": "0.52",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "value": "-0.01",
+          "is_header": false
+        }
+      ]
+    }
+  ]
+}

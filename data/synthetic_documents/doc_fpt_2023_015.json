@@ -1,0 +1,305 @@
+{
+  "id": "doc_fpt_2023_015",
+  "title": "Báo Cáo Tài Chính FPT 2023",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Tổng Quan Hoạt Động Kinh Doanh",
+      "level": 1,
+      "content_ids": [
+        "p1",
+        "p2",
+        "p3"
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Kết Quả Kinh Doanh và Hiệu Quả Tài Chính",
+      "level": 1,
+      "content_ids": [
+        "p4",
+        "p5",
+        "t1",
+        "p6"
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Cơ Cấu Tài Sản và Nguồn Vốn",
+      "level": 1,
+      "content_ids": [
+        "p7",
+        "p8",
+        "t2",
+        "p9"
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Phân Tích Chỉ Số Hiệu Suất Tài Chính",
+      "level": 1,
+      "content_ids": [
+        "p10",
+        "p11"
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Chiến Lược và Định Hướng Phát Triển 2024",
+      "level": 1,
+      "content_ids": [
+        "p12",
+        "p13"
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "p1",
+      "text": "FPT đã ra mắt FPT.AI – nền tảng trí tuệ nhân tạo tích hợp đa mô hình, bao gồm chatbot, phân tích ngữ nghĩa và sinh nội dung tự động, hỗ trợ khách hàng trong chuyển đổi số doanh nghiệp; sản phẩm này góp phần thúc đẩy doanh thu dịch vụ công nghệ đạt 77.010 tỷ đồng năm 2023, tăng 19,2% so với năm trước, đồng thời nâng tỷ lệ lợi nhuận biên lên 6,34% nhờ tối ưu hóa chi phí triển khai và tăng giá trị gia tăng cho giải pháp AI.",
+      "section_id": "s1"
+    },
+    {
+      "id": "p2",
+      "text": "Năm 2023, FPT đã thể hiện rõ ràng chiến lược kinh doanh tổng thể hướng tới chuyển đổi số toàn diện và mở rộng chuỗi giá trị công nghệ toàn cầu, khi doanh thu đạt 77.010 tỷ đồng, tăng 19,2% so với năm trước – một bước nhảy vọt từ vị thế dẫn đầu trong nước sang định vị là trung tâm đổi mới công nghệ khu vực. Chiến lược này không chỉ tập trung vào tăng trưởng doanh thu từ các dịch vụ AI, điện toán đám mây và outsourcing công nghệ mà còn đẩy mạnh đầu tư vào các giải pháp tích hợp, đặc biệt ở thị trường Mỹ và Nhật Bản – nơi đóng góp hơn 60% doanh thu xuất khẩu. Tuy nhiên, thách thức lớn nhất không nằm ở cạnh tranh mà ở sự khan hiếm nguồn nhân lực chất lượng cao trong bối cảnh toàn cầu đang “đấu tranh” cho tài năng công nghệ, khiến chi phí nhân sự tăng 22% và áp lực lên biên lợi nhuận – dù vẫn duy trì ở mức 6,34%. Đồng thời, biến động tỷ giá và rủ",
+      "section_id": "s1"
+    },
+    {
+      "id": "p3",
+      "text": "Năm 2023, FPT đẩy mạnh chuyển đổi số và ứng dụng công nghệ mới thông qua những hành động cụ thể, mang tính đột phá hơn là những tuyên bố chung chung. Đầu tiên, công ty triển khai “FPT.AI Platform 4.0” – một hệ sinh thái AI tích hợp toàn diện, cho phép doanh nghiệp khách hàng tự động hóa quy trình kinh doanh chỉ trong 72 giờ thông qua các mô hình pre-trained như FPT.AI-OCR (xử lý tài liệu không cấu trúc với độ chính xác 98,7%), FPT.AI-Chat (hỗ trợ khách hàng đa ngôn ngữ, giảm 40% chi phí call center) và FPT.AI-Insight (dự báo nhu cầu thị trường dựa trên dữ liệu real-time từ 300+ hệ thống ERP khách hàng). Không dừng ở đó, FPT đã ra mắt “FPT Digital Twin Factory” tại khu công nghệ cao Hòa Lạc – mô hình nhà máy ảo hóa đầu tiên tại Việt Nam, mô phỏng toàn bộ dây chuyền sản xuất vật lý để tối ưu hiệu suất, giảm 22%",
+      "section_id": "s1"
+    },
+    {
+      "id": "p4",
+      "text": "FPT đẩy mạnh chuyển đổi số bằng cách tích hợp trí tuệ nhân tạo vào các nền tảng dịch vụ IT, như FPT.AI – giải pháp xử lý ngôn ngữ tự nhiên hỗ trợ khách hàng trong ngân hàng và viễn thông. Song song, công ty triển khai các giải pháp đám mây lai và tự động hóa quy trình (RPA) qua FPT.eSolutions, giúp doanh nghiệp tối ưu vận hành mà không cần thay đổi hạ tầng cốt lõi. Những sản phẩm này không chỉ nâng cao trải nghiệm người dùng mà còn định hình lại cách các tổ chức tiếp cận chuyển đổi số trong kỷ nguyên số.",
+      "section_id": "s2"
+    },
+    {
+      "id": "p5",
+      "text": "FPT định vị mình như một nhà cung cấp giải pháp công nghệ toàn diện năm 2023, khi doanh thu tăng 19,2% lên 77.010 tỷ đồng nhờ mở rộng dịch vụ AI, điện toán đám mây và chuyển đổi số cho doanh nghiệp, đặc biệt qua các sản phẩm như FPT.AI và nền tảng FPT Cloud. Chiến lược tập trung vào tăng trưởng bền vững thông qua tích hợp công nghệ cao cấp và mở rộng thị trường quốc tế đã giúp biên lợi nhuận duy trì ở mức 6,34%, dù chi phí đầu tư R&D tăng mạnh, phản ánh cam kết dài hạn trong việc dẫn đầu đổi mới công nghệ tại khu vực Đông Nam Á.",
+      "section_id": "s2"
+    },
+    {
+      "id": "p6",
+      "text": "Năm 2023, FPT đẩy mạnh chiến lược chuyển đổi từ cung cấp dịch vụ IT truyền thống sang nền tảng giải pháp tích hợp thông minh, với sản phẩm nổi bật là **FPT.AI Platform 4.0** – một hệ sinh thái AI doanh nghiệp được xây dựng từ đầu, không dựa trên nền tảng bên ngoài. Khác với các giải pháp “nhúng” AI phổ biến trên thị trường, FPT.AI Platform 4.0 tích hợp 12 mô hình ngôn ngữ lớn (LLM) tùy chỉnh theo ngữ cảnh doanh nghiệp Việt, bao gồm khả năng xử lý tiếng Việt thuần, nhận diện giọng nói miền Nam – Bắc – Trung với độ chính xác lên đến 94,7% (theo bài test độc lập của Viettel ICT), và đặc biệt là tính năng “Self-Learning Context” – cho phép hệ thống tự cập nhật kiến thức từ dữ liệu nội bộ khách hàng mà không cần retrain toàn bộ model.  \n\nSong song đó, FPT ra mắt **FPT SmartCare – Giải pháp chăm sóc khách hàng tự động dành riêng cho ngành tài chính – ngân hàng**, tích hợp công nghệ",
+      "section_id": "s2"
+    },
+    {
+      "id": "p7",
+      "text": "Cơ cấu tài sản của FPT năm 2023 tiếp tục dịch chuyển mạnh về phía tài sản ngắn hạn, với tiền và các khoản tương đương tiền chiếm hơn 35% tổng tài sản, phản ánh chiến lược duy trì thanh khoản cao để đầu tư vào các giải pháp AI, điện toán đám mây và dịch vụ chuyển đổi số – những sản phẩm cốt lõi đóng góp hơn 60% doanh thu. Dù tài sản cố định tăng nhẹ nhờ mở rộng trung tâm dữ liệu tại Hà Nội và TP.HCM, tỷ lệ thanh khoản hiện hành đạt 2,1 lần, vượt mức an toàn ngành, cho thấy khả năng đáp ứng các nghĩa vụ ngắn hạn từ dòng tiền từ doanh thu 77.010 tỷ đồng, tăng 19,2% so với năm trước.",
+      "section_id": "s3"
+    },
+    {
+      "id": "p8",
+      "text": "Trong năm 2023, FPT đã thực hiện chiến lược đầu tư dài hạn mạnh mẽ vào tài sản cố định công nghệ, tập trung vào ba trụ cột chính để củng cố năng lực cốt lõi trong lĩnh vực công nghệ thông tin. Thứ nhất, công ty đầu tư hơn 3.200 tỷ đồng vào hạ tầng dữ liệu và trung tâm xử lý tại Việt Nam và nước ngoài, trong đó có việc khai trương Trung tâm dữ liệu FPT IDC tại Hà Nội với công suất 12MW, tăng 40% năng lực lưu trữ so với năm 2022 – đáp ứng nhu cầu của các khách hàng doanh nghiệp lớn trong mảng điện toán đám mây và AI. Thứ hai, FPT chi hơn 850 tỷ đồng để mua sắm và nâng cấp thiết bị chuyên dụng cho các trung tâm phát triển phần mềm, bao gồm hệ thống máy chủ NVIDIA HGX H100, thiết bị test tự động hóa (RPA) và nền tảng phát triển AI mô phỏng, giúp rút ngắn chu kỳ phát triển sản phẩm từ 14 tuần xuống còn 9 tuần",
+      "section_id": "s3"
+    },
+    {
+      "id": "p9",
+      "text": "Nguồn vốn chủ sở hữu của FPT năm 2023 đạt mức 24.5 nghìn tỷ đồng, tăng 15,7% so với năm trước, phản ánh sự tích lũy mạnh mẽ từ lợi nhuận giữ lại và hiệu quả quản trị vốn – với biên lợi nhuận ròng ổn định ở 6,34% dù chi phí nhân sự và đầu tư công nghệ leo thang. Đây là nền tảng then chốt giúp FPT chủ động tài trợ cho các chiến lược chuyển đổi số, đặc biệt trong lĩnh vực AI, cloud và tự động hóa, mà không phụ thuộc vào nợ dài hạn. Tuy nhiên, thách thức lớn nhất nằm ở áp lực tái đầu tư: khi doanh thu tăng 19,2% nhưng lợi nhuận tăng chỉ 19,2%, sự chênh lệch giữa tốc độ tăng trưởng doanh thu và lợi nhuận cho thấy rủi ro từ việc chi tiêu quá mức cho R&D và mở rộng toàn cầu – đặc biệt tại các thị trường như Mỹ và Nhật Bản, nơi chi phí nhân lực cao và cạnh tranh khốc liệt. Song song đó, cơ hội lớn đến từ khả năng chuyển hóa",
+      "section_id": "s3"
+    },
+    {
+      "id": "p10",
+      "text": "Năm 2023, FPT đã triển khai chiến lược tối ưu hóa hiệu quả sinh lời thông qua ba hành động chiến lược cụ thể, trực tiếp tác động đến ROA, ROE và ROS – ba chỉ số then chốt phản ánh năng lực sinh lợi của doanh nghiệp.  \n\nĐầu tiên, **FPT tăng cường chuyển đổi mô hình kinh doanh từ dịch vụ gia công sang giải pháp giá trị cao**, đặc biệt là các sản phẩm SaaS và AI-driven solutions như FPT.AI, FPT Smart Cloud và nền tảng quản trị doanh nghiệp FPT.eHR. Nhờ đó, biên lợi nhuận gộp tăng từ 5.8% (2022) lên **6.34%** trong năm 2023 – tương đương với mức tăng 9.3% về lợi nhuận ròng dù doanh thu chỉ tăng 19.2%. Điều này cho thấy **ROS (Return on Sales)** đã được cải thiện đáng kể nhờ cấu trúc doanh thu chuyển dịch sang các dòng sản phẩm có tỷ suất lợi nhuận cao hơn.  \n\nThứ hai, **FPT chủ động tái cơ cấu tài sản",
+      "section_id": "s4"
+    },
+    {
+      "id": "p11",
+      "text": "Năm 2023, FPT ghi nhận tăng trưởng doanh thu 19,2% lên 77.010 tỷ đồng và lợi nhuận ròng đạt 4.879 tỷ đồng, phản ánh sức mạnh vận hành và khả năng tạo ra dòng tiền tích cực – nền tảng then chốt cho thanh khoản bền vững. Tuy nhiên, khả năng thanh toán ngắn hạn của FPT chịu áp lực từ việc gia tăng chi phí đầu tư công nghệ cao, đặc biệt trong lĩnh vực AI và điện toán đám mây, khiến tỷ lệ thanh toán hiện hành (current ratio) có xu hướng giảm nhẹ so với năm trước, dù vẫn duy trì ở mức an toàn (>1,5x). Thách thức lớn nhất nằm ở chu kỳ thu hồi công nợ kéo dài tại các dự án triển khai quốc tế, đặc biệt ở Mỹ và châu Âu, nơi khách hàng yêu cầu điều khoản thanh toán linh hoạt nhưng làm chậm luồng tiền mặt. Song song đó, cơ hội đến từ chiến lược tối ưu hóa quản lý vốn lưu động: FPT đã áp dụng thành công giải pháp thanh toán điện tử tự động và hợp tác",
+      "section_id": "s4"
+    },
+    {
+      "id": "p12",
+      "text": "Năm 2023, FPT đẩy mạnh đầu tư vào nghiên cứu và phát triển (R&D) như một trụ cột chiến lược để chuyển mình từ nhà cung cấp dịch vụ IT sang nền tảng sáng tạo công nghệ cấp cao, đặc biệt trong lĩnh vực AI, trí tuệ nhân tạo tạo sinh (Generative AI) và giải pháp số cho doanh nghiệp. Tuy nhiên, thách thức không nhỏ đến từ sự cạnh tranh khốc liệt của các gã khổng lồ toàn cầu như Google, Microsoft và các startup AI địa phương với tốc độ đổi mới nhanh chóng, khiến FPT phải đối mặt với áp lực duy trì tính khác biệt trong sản phẩm và thu hút nhân tài chuyên sâu – một nguồn lực còn khan hiếm tại thị trường Việt Nam. Song song đó, cơ hội lớn đang mở ra nhờ chính sách hỗ trợ chuyển đổi số của Chính phủ, nhu cầu gia tăng từ các ngành tài chính, y tế và sản xuất trong nước, cùng với việc FPT đã xây dựng được hệ sinh thái R&D đa quốc gia với trung tâm tại Nhật Bản, Mỹ và các trường đại học đối tác chiến lược. Giải pháp then chốt nằm",
+      "section_id": "s5"
+    },
+    {
+      "id": "p13",
+      "text": "Năm 2023, FPT tiếp tục đà tăng trưởng ấn tượng với doanh thu đạt 77.010 tỷ đồng (tăng 19,2% so với năm trước), mở ra tiền đề vững chắc cho kế hoạch đầu tư và mở rộng chiến lược, tập trung vào các lĩnh vực then chốt như AI, điện toán đám mây và chuyển đổi số doanh nghiệp. Song song với việc tăng cường đầu tư vào cơ sở hạ tầng công nghệ tại các trung tâm dữ liệu tại Mỹ, Nhật và châu Âu, FPT còn rót vốn lớn vào phát triển nhân lực chất lượng cao – với mục tiêu tuyển dụng thêm 15.000 chuyên gia công nghệ trong năm, đặc biệt là các chuyên gia AI và dữ liệu. Tuy nhiên, thách thức không nhỏ nằm ở áp lực cạnh tranh ngày càng khốc liệt từ các tập đoàn toàn cầu như Accenture hay Infosys, cùng với chi phí lao động tăng cao và biến động tỷ giá ảnh hưởng đến lợi nhuận biên – vốn đã ở mức 6,34%, thấp hơn mức trung bình ngành 7,5%. Bên cạnh đó,",
+      "section_id": "s5"
+    }
+  ],
+  "tables": [
+    {
+      "id": "t1",
+      "caption": "Bảng 1: Kết quả kinh doanh tổng hợp 2022-2023",
+      "col_headers": [
+        "Chỉ tiêu",
+        "Năm 2022",
+        "Năm 2023",
+        "Tăng trưởng (%)"
+      ],
+      "row_headers": [
+        "Tổng doanh thu",
+        "Lợi nhuận trước thuế",
+        "Lợi nhuận sau thuế"
+      ],
+      "cells": [
+        {
+          "row": 0,
+          "col": 1,
+          "value": "33,425 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "value": "36,296 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "value": "8.6%",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "value": "3,893 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "value": "4,350 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "value": "11.7%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "value": "3,008 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "value": "3,450 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "value": "14.7%",
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "caption": "Bảng 2: Bảng cân đối kế toán tóm tắt",
+      "col_headers": [
+        "Khoản mục",
+        "Cuối năm 2022",
+        "Cuối năm 2023",
+        "Biến động (%)"
+      ],
+      "row_headers": [
+        "Tổng tài sản",
+        "Tài sản ngắn hạn",
+        "Tài sản dài hạn",
+        "Vốn chủ sở hữu",
+        "Nợ phải trả"
+      ],
+      "cells": [
+        {
+          "row": 0,
+          "col": 1,
+          "value": "99,409 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "value": "113,461 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "value": "14.1%",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "value": "38,607 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "value": "44,745 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "value": "15.9%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "value": "60,802 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "value": "68,716 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "value": "13.0%",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "value": "61,632 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "value": "63,841 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "value": "3.6%",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "value": "37,777 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "value": "49,620 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "value": "31.3%",
+          "is_header": false
+        }
+      ]
+    }
+  ]
+}

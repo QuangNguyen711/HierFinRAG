@@ -1,0 +1,492 @@
+{
+  "id": "doc_vietcombank_2021_002",
+  "title": "Báo Cáo Tài Chính Vietcombank 2021",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Tổng Quan Hoạt Động Kinh Doanh",
+      "level": 1,
+      "content_ids": [
+        "p1",
+        "p2",
+        "t1",
+        "p3"
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Kết Quả Hoạt Động Tài Chính",
+      "level": 1,
+      "content_ids": [
+        "p4",
+        "p5",
+        "t2",
+        "p6"
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Tình Hình Tài Sản và Nguồn Vốn",
+      "level": 1,
+      "content_ids": [
+        "p7",
+        "p8",
+        "t3",
+        "p9",
+        "p10"
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Phân Tích Hiệu Quả Kinh Doanh",
+      "level": 1,
+      "content_ids": [
+        "p11",
+        "p12",
+        "t4",
+        "p13"
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Rủi Ro và Quản Trị Rủi Ro",
+      "level": 1,
+      "content_ids": [
+        "p14",
+        "p15",
+        "p16",
+        "p17"
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Chiến Lược và Định Hướng Phát Triển",
+      "level": 1,
+      "content_ids": [
+        "p18",
+        "p19"
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "p1",
+      "text": "Năm 2021, Vietcombank thực hiện một loạt hành động chiến lược nhằm củng cố vị thế dẫn đầu thị trường trong lĩnh vực cho vay, huy động vốn và dịch vụ tài chính, trực tiếp đối phó với áp lực từ các đối thủ nội địa như Techcombank, BIDV và ngân hàng nước ngoài như HSBC, Standard Chartered. Thay vì chỉ tăng trưởng quy mô, Vietcombank chọn con đường “tinh gọn hóa sản phẩm” và “tối ưu hóa kênh phân phối”. Cụ thể, ngân hàng này triển khai gói “Cho vay doanh nghiệp nhỏ và vừa (SME) theo mã QR” – một sáng kiến kết nối trực tiếp giữa hệ thống thanh toán không tiền mặt của Vietcombank và nền tảng quản trị tài chính của doanh nghiệp nhỏ thông qua API. Chỉ trong 6 tháng đầu năm, hơn 12.000 doanh nghiệp SME đã được giải ngân với thời gian xét duyệt trung bình chỉ 48 giờ – nhanh hơn 70% so với đối thủ cạnh tranh trực tiếp là Techcombank (72 giờ) và BIDV",
+      "section_id": "s1"
+    },
+    {
+      "id": "p2",
+      "text": "Năm 2021, Vietcombank đẩy mạnh chuyển đổi số không chỉ như một chiến lược công nghệ mà là sự tái định nghĩa toàn diện về trải nghiệm khách hàng và vận hành nội bộ, khi ứng dụng trí tuệ nhân tạo (AI) để dự báo rủi ro tín dụng với độ chính xác tăng 35% so với mô hình truyền thống, đồng thời triển khai nền tảng ngân hàng số VCB Digibank tích hợp sinh trắc học đa lớp, giảm 70% thời gian xác thực giao dịch. Tuy nhiên, thách thức không nhỏ nằm ở việc tích hợp hệ thống lõi legacy với các công nghệ cloud-native – một quá trình tốn kém, rủi ro cao và dễ gây gián đoạn dịch vụ cho 30 triệu khách hàng hiện hữu, đặc biệt khi năng lực nhân sự nội bộ còn thiếu hụt về chuyên gia dữ liệu và an ninh mạng cấp cao. Song song đó, cơ hội lớn đến từ việc khai thác dữ liệu khách hàng để cá nhân hóa sản phẩm tài chính, như gói vay ưu đãi tự động dựa trên hành vi chi tiêu, hoặc dịch vụ",
+      "section_id": "s1"
+    },
+    {
+      "id": "p3",
+      "text": "Năm 2021, Vietcombank thúc đẩy tăng trưởng doanh thu và mở rộng thị phần thông qua ba chiến lược hành động cụ thể, đo lường được. Thứ nhất, ngân hàng tăng cường phân bổ nguồn lực cho các sản phẩm cho vay doanh nghiệp vừa và nhỏ (SME) tại các khu công nghiệp trọng điểm như Bắc Ninh, Bình Dương và Đồng Nai, kết hợp với gói ưu đãi lãi suất linh hoạt 0,5–1,0% so với thị trường, giúp tăng trưởng dư nợ cho vay SME đạt 18,2% so với năm 2020 – đóng góp hơn 22% vào tổng tăng trưởng doanh thu. Thứ hai, Vietcombank triển khai thành công chiến dịch “Huy động tiền gửi trực tuyến – Tích điểm nhận quà” trên ứng dụng VCB Digibank, thu hút hơn 1,2 triệu khách hàng mới, tăng 31% lượng tiền gửi không kỳ hạn – góp phần giảm chi phí huy động xuống còn 2,18% (từ 2,45% năm 2020), hỗ trợ biên lợi nhuận tăng",
+      "section_id": "s1"
+    },
+    {
+      "id": "p4",
+      "text": "Vietcombank định hướng chiến lược kinh doanh tổng thể năm 2021 thông qua tối ưu hóa danh mục cho vay trung dài hạn cho doanh nghiệp lớn và thúc đẩy tăng trưởng dịch vụ tài chính số, góp phần nâng doanh thu lên 45.930 tỷ đồng (tăng 5,9% so với năm trước), trong khi lợi nhuận ròng đạt 4.458 tỷ đồng với biên lợi nhuận 9,71% nhờ kiểm soát chi phí hiệu quả và mở rộng kênh huy động vốn từ khách hàng doanh nghiệp. Chiến lược này không chỉ củng cố vị thế dẫn đầu thị trường mà còn nâng cao chất lượng tài sản thông qua các sản phẩm tín dụng có bảo đảm và dịch vụ thanh toán không tiền mặt.",
+      "section_id": "s2"
+    },
+    {
+      "id": "p5",
+      "text": "Năm 2021, Vietcombank triển khai chiến lược mở rộng thị trường và khách hàng thông qua các hành động cụ thể, có trọng tâm và đo lường được kết quả rõ rệt. Đầu tiên, ngân hàng đẩy mạnh triển khai gói sản phẩm “Vietcombank - Kích hoạt doanh nghiệp nhỏ và vừa” với điều kiện vay linh hoạt, không cần tài sản đảm bảo trong phạm vi 5 tỷ đồng, kết hợp với ưu đãi lãi suất tối ưu 0,5–1% so với thị trường. Kết quả, số lượng khách hàng DN nhỏ và vừa mới được giải ngân tăng 27,3% so với năm 2020, đóng góp 18% vào tổng dư nợ cho vay doanh nghiệp.  \n\nSong song đó, Vietcombank mở rộng kênh phân phối qua đối tác công nghệ – hợp tác với 12 nền tảng thanh toán số như MoMo, ZaloPay, và VNPAY để tích hợp dịch vụ huy động vốn qua ví điện tử. Nhờ đó, lượng khách hàng cá nhân mới huy động tiền gửi tiết kiệm qua kênh số tăng 31,5",
+      "section_id": "s2"
+    },
+    {
+      "id": "p6",
+      "text": "Năm 2021, Vietcombank triển khai sáng kiến **“Vietcombank – Vay nhanh, Giải ngân trong 24h”** – sản phẩm cho vay tiêu dùng số hóa đầu tiên tại Việt Nam tích hợp hoàn toàn AI và quy trình tự động hóa, cho phép khách hàng cá nhân đăng ký, xác minh danh tính bằng sinh trắc học, và nhận giải ngân chỉ trong vòng 24 giờ làm việc sau khi hoàn tất hồ sơ. Sản phẩm này được tích hợp trên ứng dụng VCB Digibank và kết nối trực tiếp với cơ sở dữ liệu thuế, bảo hiểm xã hội và hệ thống ngân hàng trung ương, giảm 70% thời gian xử lý so với phương thức truyền thống.  \n\nKết quả đo lường rõ rệt: Trong năm 2021, sản phẩm này đã chiếm **28% tổng doanh số cho vay tiêu dùng** của ngân hàng, với hơn **186.000 khoản vay** được giải ngân, tương đương **12.400 tỷ đồng** – tăng 67% so với năm 2020. Đồng",
+      "section_id": "s2"
+    },
+    {
+      "id": "p7",
+      "text": "Năm 2021, Vietcombank ghi nhận sự ổn định trong quản lý vốn lưu động khi doanh thu tăng 5,9% lên 45.930 tỷ đồng, trong khi lợi nhuận ròng đạt 4.458 tỷ đồng với biên lợi nhuận 9,71% – phản ánh hiệu quả trong việc tối ưu hóa dòng tiền ngắn hạn phục vụ hoạt động cho vay và huy động vốn. Tuy nhiên, chu kỳ kinh doanh của ngân hàng chịu áp lực lớn từ sự gia tăng đột biến trong nhu cầu thanh toán và rút tiền mặt của doanh nghiệp và cá nhân sau đại dịch, kéo dài thời gian vòng quay vốn lưu động, đặc biệt ở phân khúc tín dụng SME và dịch vụ ngân hàng số. Thách thức lớn nhất nằm ở việc cân bằng giữa thanh khoản và sinh lời: khi tỷ lệ cho vay ngắn hạn tăng, ngân hàng buộc phải duy trì nguồn huy động có kỳ hạn ngắn hơn, làm gia tăng chi phí vốn và rủi ro lãi suất. Song song đó, cơ hội bùng nổ từ chuyển đổi số – với sự phát triển mạnh mẽ của các",
+      "section_id": "s3"
+    },
+    {
+      "id": "p8",
+      "text": "Năm 2021, nguồn vốn chủ sở hữu của Vietcombank tiếp tục khẳng định vai trò then chốt trong việc củng cố đà tăng trưởng bền vững, khi đạt mức 158.600 tỷ đồng, tăng 8,2% so với năm trước, phản ánh hiệu quả tái đầu tư lợi nhuận sau thuế lên tới 4.458 tỷ đồng – tương đương tỷ lệ giữ lại 94,3% lợi nhuận. Tuy nhiên, áp lực từ yêu cầu vốn tối thiểu theo Basel II và sự gia tăng cạnh tranh từ các ngân hàng nội địa có vốn chủ sở hữu tăng trưởng nhanh hơn (như Techcombank hay VPBank) đang đặt ra thách thức lớn về khả năng duy trì tỷ lệ an toàn vốn (CAR) ở mức cao mà không làm giảm sức hấp dẫn của cổ tức cho nhà đầu tư. Bên cạnh đó, cơ hội đến từ xu hướng chuyển đổi số và mở rộng dịch vụ tài chính vi mô, nơi vốn chủ sở hữu có thể được tận dụng linh hoạt để đầu tư vào nền tảng công nghệ và mở rộng mạng lưới chi nhánh nông thôn – những lĩnh vực có",
+      "section_id": "s3"
+    },
+    {
+      "id": "p9",
+      "text": "Năm 2021, Vietcombank duy trì tỷ lệ nợ xấu dưới 1,5% nhờ áp dụng linh hoạt các giải pháp quản lý nợ như tái cơ cấu dư nợ, xử lý tài sản bảo đảm và giám sát chặt chẽ các khoản vay tiêu dùng, doanh nghiệp vừa và nhỏ – đặc biệt trong bối cảnh tác động của dịch bệnh. Dù tổng dư nợ cho vay tăng trưởng ổn định, song ngân hàng đã tối ưu hóa chất lượng tín dụng thông qua hệ thống đánh giá rủi ro tiên tiến, góp phần bảo vệ biên lợi nhuận 9,71% và duy trì vị thế dẫn đầu về an toàn tín dụng trong hệ thống ngân hàng.",
+      "section_id": "s3"
+    },
+    {
+      "id": "p10",
+      "text": "Năm 2021, Vietcombank thực hiện chiến lược tối ưu hóa cơ cấu tài sản và thanh khoản thông qua ba hành động cụ thể, có thể đo lường rõ ràng. Thứ nhất, ngân hàng **giảm tỷ trọng tín dụng ngắn hạn vào lĩnh vực rủi ro cao** như bất động sản và sản xuất công nghiệp nặng, đồng thời **tăng mạnh tín dụng trung – dài hạn cho doanh nghiệp xuất khẩu và nền kinh tế số** – kết quả là tỷ trọng tín dụng cho khối doanh nghiệp xuất khẩu tăng từ 18,7% lên 21,3% tổng dư nợ, đóng góp 24% vào tăng trưởng tín dụng cả năm. Thứ hai, để cân bằng thanh khoản, Vietcombank **tái cấu trúc nguồn vốn huy động** bằng cách đẩy mạnh huy động tiền gửi có kỳ hạn từ 12–36 tháng (tăng 15,2% so với năm trước), đồng thời **giảm tỷ trọng huy động không kỳ hạn dưới 3%** nhờ triển khai gói ưu đãi lãi suất có điều kiện cho khách hàng doanh nghiệp lớn.",
+      "section_id": "s3"
+    },
+    {
+      "id": "p11",
+      "text": "Trong bối cảnh cạnh tranh khốc liệt với các ngân hàng lớn như BIDV, VietinBank và Techcombank, Vietcombank duy trì vị thế dẫn đầu thị trường về huy động vốn và cho vay doanh nghiệp, với thị phần huy động tiền gửi đạt hơn 15% và doanh thu tăng 5,9% lên 45.930 tỷ đồng. Dù đối thủ tăng cường số hóa dịch vụ và mở rộng gói tín dụng ưu đãi, Vietcombank giữ vững lợi thế nhờ mạng lưới chi nhánh rộng khắp và chất lượng dịch vụ ngân hàng bán lẻ cao cấp, giúp biên lợi nhuận đạt 9,71% – cao nhất trong nhóm Big 4.",
+      "section_id": "s4"
+    },
+    {
+      "id": "p12",
+      "text": "Năm 2021, Vietcombank triển khai hàng loạt sáng kiến công nghệ mang tính đột phá trong lĩnh vực cho vay, huy động vốn và dịch vụ tài chính, không chỉ dừng ở mức số hóa quy trình mà tiến tới tái thiết kế toàn bộ trải nghiệm khách hàng bằng trí tuệ nhân tạo và dữ liệu lớn. Trong cho vay, ngân hàng triển khai hệ thống **AI Credit Scoring 3.0** – sử dụng hơn 1.200 biến số phi truyền thống (như hành vi thanh toán qua QR Pay, tần suất giao dịch trên ứng dụng, dữ liệu thương mại điện tử) để đánh giá tín dụng khách hàng cá nhân và doanh nghiệp nhỏ, giảm thời gian xét duyệt từ 3–5 ngày xuống còn dưới 24 giờ với độ chính xác vượt 22% so với mô hình truyền thống. Đồng thời, Vietcombank ra mắt **“VCB Smart Loan”** – nền tảng cho vay tự động tích hợp với hệ sinh thái thương mại điện tử Shopee và Sendo, cho phép doanh nghiệp nhỏ vay vốn chỉ trong 7 phút dựa trên",
+      "section_id": "s4"
+    },
+    {
+      "id": "p13",
+      "text": "Vietcombank triển khai chiến lược kinh doanh tổng thể năm 2021 với trọng tâm tối ưu hóa danh mục cho vay trung-dài hạn cho doanh nghiệp lớn và ngành then chốt, đồng thời mở rộng dịch vụ ngân hàng số thông qua ứng dụng VCB Mobile, góp phần tăng doanh thu lên 45.930 tỷ đồng (tăng 5,9% so với năm trước) và nâng biên lợi nhuận lên 9,71%. Song song, ngân hàng tích cực huy động vốn từ khách hàng cá nhân và doanh nghiệp thông qua các sản phẩm tiết kiệm linh hoạt và lãi suất cạnh tranh, tạo đà tăng lợi nhuận ròng đạt 4.458 tỷ đồng, khẳng định vị thế dẫn đầu trong hệ thống ngân hàng thương mại.",
+      "section_id": "s4"
+    },
+    {
+      "id": "p14",
+      "text": "Năm 2021, Vietcombank đối mặt với áp lực kép từ rủi ro thị trường và sự gia tăng khốc liệt của cạnh tranh, khi lãi suất huy động và cho vay liên tục biến động dưới tác động của chính sách tiền tệ nới lỏng và lạm phát toàn cầu, khiến biên lợi nhuận duy trì ở mức 9,71% – dù cao hơn năm trước – nhưng đang bị thu hẹp bởi các đối thủ công nghệ như Momo, ZaloPay và các ngân hàng số, vốn tận dụng chi phí vận hành thấp để cung cấp sản phẩm tài chính linh hoạt với chi phí gần như bằng không. Thách thức lớn nhất không nằm ở quy mô vốn (huy động hơn 1,5 triệu tỷ đồng) hay mạng lưới rộng khắp, mà ở khả năng thích ứng với thói quen tiêu dùng số hóa: trong khi Vietcombank ghi nhận doanh thu tăng 5,9% lên 45.930 tỷ đồng, tỷ lệ khách hàng sử dụng dịch vụ ngân hàng số vẫn chỉ chiếm khoảng 40%, thấp hơn đáng kể so với các đối thủ công nghệ. T",
+      "section_id": "s5"
+    },
+    {
+      "id": "p15",
+      "text": "Năm 2021, Vietcombank chủ động triển khai chiến lược quản trị rủi ro tỷ giá và rủi ro tài chính thông qua ba hành động cụ thể, có thể đo lường rõ ràng. Thứ nhất, ngân hàng mở rộng sử dụng công cụ phái sinh ngoại hối (FX derivatives) để phòng vệ rủi ro tỷ giá cho khách hàng doanh nghiệp và chính sách nội bộ, tăng tổng khối lượng giao dịch phái sinh lên **12,8 tỷ USD** (tăng 21% so với 2020), giúp giảm biến động tỷ giá trên báo cáo tài chính đến **18%** so với mức trung bình ngành. Thứ hai, Vietcombank tái cấu trúc cơ cấu huy động vốn bằng cách giảm tỷ trọng tiền gửi ngắn hạn ngoại tệ từ 32% xuống còn 26%, đồng thời tăng tỷ lệ huy động nội tệ và vốn trung-dài hạn, góp phần cắt giảm chi phí tài chính do chênh lệch tỷ giá lên đến **420 tỷ đồng** chỉ riêng trong quý IV. Thứ ba, ngân hàng triển khai hệ thống dự báo tỷ giá",
+      "section_id": "s5"
+    },
+    {
+      "id": "p16",
+      "text": "Năm 2021, Vietcombank tiếp tục duy trì chiến lược thận trọng trong quản lý rủi ro tín dụng thông qua việc gia tăng dự phòng rủi ro, với tổng dự phòng đạt hơn 22.500 tỷ đồng, tương đương tỷ lệ dự phòng chiếm 3,1% tổng dư nợ cho vay — mức cao nhất trong vòng 5 năm qua, phản ánh sự chủ động ứng phó với áp lực từ nợ xấu tiềm ẩn trong bối cảnh kinh tế hậu đại dịch. Trong khi đó, hoạt động bảo hiểm thông qua các sản phẩm liên kết với sản phẩm tín dụng như bảo hiểm vay mua nhà, bảo hiểm tài sản thế chấp đã tạo thêm nguồn thu phí ổn định, đóng góp khoảng 820 tỷ đồng vào doanh thu phi lãi suất, tăng 12,3% so với năm trước — một cơ hội chiến lược để đa dạng hóa thu nhập và giảm phụ thuộc vào chênh lệch lãi suất. Tuy nhiên, thách thức lớn nhất nằm ở việc cân bằng giữa việc tăng dự phòng để đáp ứng chuẩn mực Basel II và yêu cầu của Ngân hàng Nhà nước với mục tiêu",
+      "section_id": "s5"
+    },
+    {
+      "id": "p17",
+      "text": "Năm 2021, Vietcombank triển khai một loạt hành động chiến lược nhằm giảm thiểu rủi ro vận hành và công nghệ, đặc biệt trong bối cảnh tăng đột biến giao dịch số do đại dịch. Thay vì chỉ đầu tư vào phần mềm, ngân hàng này xây dựng “Hệ sinh thái kiểm soát rủi ro tích hợp” – một nền tảng kết hợp AI phân tích bất thường giao dịch, hệ thống giám sát thời gian thực (Real-time Monitoring) cho 100% kênh kỹ thuật số, và mô hình “Tự động hóa quy trình không người” (RPA) tại 127 chi nhánh. Cụ thể, Vietcombank đã triển khai mô hình học máy (machine learning) để phát hiện gian lận cho vay cá nhân với độ chính xác 94,3%, giảm 62% trường hợp giả mạo tài liệu so với năm 2020. Đồng thời, ngân hàng tiến hành “sát hạch công nghệ” định kỳ: mỗi quý, một đội ngũ độc lập – không thuộc bộ phận IT – thực hiện tấn công giả lập (red team",
+      "section_id": "s5"
+    },
+    {
+      "id": "p18",
+      "text": "Vietcombank đặt mục tiêu tăng trưởng doanh thu bền vững thông qua mở rộng danh mục cho vay doanh nghiệp và dịch vụ thanh toán quốc tế, đạt 45.930 tỷ đồng năm 2021, tăng 5,9% so với năm trước. Song song đó, lợi nhuận sau thuế vươn lên 4.458 tỷ đồng, với biên lợi nhuận đạt 9,71%, phản ánh hiệu quả quản trị rủi ro và tối ưu hóa chi phí huy động vốn, đặc biệt từ các sản phẩm tiết kiệm có kỳ hạn và trái phiếu chính phủ.",
+      "section_id": "s6"
+    },
+    {
+      "id": "p19",
+      "text": "Năm 2021, Vietcombank triển khai chiến lược đầu tư và mở rộng tập trung vào ba trụ cột chính: hiện đại hóa hạ tầng công nghệ, mở rộng mạng lưới cho vay trung-dài hạn và tối ưu hóa kênh huy động vốn thông qua sản phẩm số. Cụ thể, ngân hàng đã đầu tư hơn 1.200 tỷ đồng vào hệ thống Core Banking thế hệ mới, nâng cấp khả năng xử lý giao dịch lên 12.000 giao dịch/giây — giúp giảm 30% thời gian giải ngân cho khách hàng doanh nghiệp và tăng 22% tỷ lệ tự động hóa quy trình tín dụng. Song song, Vietcombank mở rộng mạng lưới cho vay trung-dài hạn sang 12 tỉnh thành mới, đặc biệt tập trung vào khu vực Nam Trung Bộ và Tây Nguyên, nơi tỷ lệ tiếp cận tín dụng còn thấp — kết quả là dư nợ cho vay trung-dài hạn tăng 18,7% so với năm 2020, đóng góp 41% vào tổng tăng trưởng dư nợ. Về huy động vốn,",
+      "section_id": "s6"
+    }
+  ],
+  "tables": [
+    {
+      "id": "t1",
+      "caption": "Bảng 1: Kết quả kinh doanh tổng hợp 2020-2021",
+      "col_headers": [
+        "Chỉ tiêu",
+        "Năm 2020",
+        "Năm 2021",
+        "Tăng trưởng (%)"
+      ],
+      "row_headers": [
+        "Tổng doanh thu",
+        "Lợi nhuận trước thuế",
+        "Lợi nhuận sau thuế"
+      ],
+      "cells": [
+        {
+          "row": 0,
+          "col": 1,
+          "value": "32,319 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "value": "37,671 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "value": "16.6%",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "value": "3,991 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "value": "4,450 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "value": "11.5%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "value": "3,065 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "value": "3,776 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "value": "23.2%",
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "caption": "Bảng 2: Kết quả kinh doanh tổng hợp 2020-2021",
+      "col_headers": [
+        "Chỉ tiêu",
+        "Năm 2020",
+        "Năm 2021",
+        "Tăng trưởng (%)"
+      ],
+      "row_headers": [
+        "Tổng doanh thu",
+        "Lợi nhuận trước thuế",
+        "Lợi nhuận sau thuế"
+      ],
+      "cells": [
+        {
+          "row": 0,
+          "col": 1,
+          "value": "56,164 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "value": "60,255 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "value": "7.3%",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "value": "8,135 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "value": "7,907 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "value": "-2.8%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "value": "6,404 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "value": "6,507 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "value": "1.6%",
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "caption": "Bảng 3: Bảng cân đối kế toán tóm tắt",
+      "col_headers": [
+        "Khoản mục",
+        "Cuối năm 2020",
+        "Cuối năm 2021",
+        "Biến động (%)"
+      ],
+      "row_headers": [
+        "Tổng tài sản",
+        "Tài sản ngắn hạn",
+        "Tài sản dài hạn",
+        "Vốn chủ sở hữu",
+        "Nợ phải trả"
+      ],
+      "cells": [
+        {
+          "row": 0,
+          "col": 1,
+          "value": "95,730 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "value": "103,947 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "value": "8.6%",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "value": "35,635 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "value": "38,921 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "value": "9.2%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "value": "60,095 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "value": "65,026 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "value": "8.2%",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "value": "53,076 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "value": "66,115 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "value": "24.6%",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "value": "42,654 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "value": "37,832 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "value": "-11.3%",
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "t4",
+      "caption": "Bảng 4: Kết quả kinh doanh tổng hợp 2020-2021",
+      "col_headers": [
+        "Chỉ tiêu",
+        "Năm 2020",
+        "Năm 2021",
+        "Tăng trưởng (%)"
+      ],
+      "row_headers": [
+        "Tổng doanh thu",
+        "Lợi nhuận trước thuế",
+        "Lợi nhuận sau thuế"
+      ],
+      "cells": [
+        {
+          "row": 0,
+          "col": 1,
+          "value": "33,889 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "value": "39,924 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "value": "17.8%",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "value": "3,574 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "value": "5,424 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "value": "51.8%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "value": "2,699 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "value": "4,250 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "value": "57.5%",
+          "is_header": false
+        }
+      ]
+    }
+  ]
+}

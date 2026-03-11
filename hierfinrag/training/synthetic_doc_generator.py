@@ -576,15 +576,15 @@ YÊU CẦU:
             "col_headers": ["Chỉ tiêu", f"Năm {prev_year}", f"Năm {year}", "Tăng trưởng (%)"],
             "row_headers": ["Tổng doanh thu", "Lợi nhuận trước thuế", "Lợi nhuận sau thuế"],
             "cells": [
-                {"row": 0, "col": 0, "value": "Tổng doanh thu", "is_header": True},
+                # Chỉ chứa dữ liệu thật (bỏ col 0 vì nó là row_headers)
                 {"row": 0, "col": 1, "value": f"{revenue_prev:,} tỷ", "is_header": False},
                 {"row": 0, "col": 2, "value": f"{revenue_curr:,} tỷ", "is_header": False},
                 {"row": 0, "col": 3, "value": f"{growth_revenue:.1f}%", "is_header": False},
-                {"row": 1, "col": 0, "value": "Lợi nhuận trước thuế", "is_header": True},
+                
                 {"row": 1, "col": 1, "value": f"{gross_profit_prev:,} tỷ", "is_header": False},
                 {"row": 1, "col": 2, "value": f"{gross_profit_curr:,} tỷ", "is_header": False},
                 {"row": 1, "col": 3, "value": f"{growth_gross:.1f}%", "is_header": False},
-                {"row": 2, "col": 0, "value": "Lợi nhuận sau thuế", "is_header": True},
+                
                 {"row": 2, "col": 1, "value": f"{net_profit_prev:,} tỷ", "is_header": False},
                 {"row": 2, "col": 2, "value": f"{net_profit_curr:,} tỷ", "is_header": False},
                 {"row": 2, "col": 3, "value": f"{growth_net:.1f}%", "is_header": False}
@@ -593,10 +593,8 @@ YÊU CẦU:
     
     def _generate_revenue_breakdown_table(self, table_id: str, year: int, company: Dict) -> Dict:
         """Generate revenue breakdown by service/product."""
-        # Generate 3-5 revenue streams
         num_streams = random.randint(3, 5)
         
-        # Common revenue streams by sector
         streams_by_sector = {
             "Viễn thông": ["Viễn thông di động", "Internet băng rộng", "Giải pháp CNTT", "Dịch vụ khác"],
             "Ngân hàng": ["Tín dụng", "Dịch vụ thanh toán", "Đầu tư chứng khoán", "Thu dịch vụ khác"],
@@ -607,31 +605,20 @@ YÊU CẦU:
         }
         
         sector = company['sector']
-        if sector in streams_by_sector:
-            available_streams = streams_by_sector[sector]
-        else:
-            available_streams = ["Sản phẩm chính", "Dịch vụ", "Kinh doanh khác", "Thu nhập khác"]
-        
+        available_streams = streams_by_sector.get(sector, ["Sản phẩm chính", "Dịch vụ", "Kinh doanh khác", "Thu nhập khác"])
         stream_names = random.sample(available_streams, min(num_streams, len(available_streams)))
         
-        # Generate revenue values that sum to ~100%
         weights = [random.uniform(0.5, 3.0) for _ in range(num_streams)]
         total_weight = sum(weights)
         percentages = [(w / total_weight) * 100 for w in weights]
         
-        # Generate absolute values
         total_revenue = random.randint(30000, 80000)
         revenues = [int(total_revenue * (p / 100)) for p in percentages]
         
-        cells = [
-            {"row": 0, "col": 0, "value": "Loại dịch vụ", "is_header": True},
-            {"row": 0, "col": 1, "value": "Doanh thu (tỷ đồng)", "is_header": True},
-            {"row": 0, "col": 2, "value": "Tỷ trọng (%)", "is_header": True}
-        ]
-        
-        for i, (name, revenue, pct) in enumerate(zip(stream_names, revenues, percentages), start=1):
+        cells = []
+        # Chạy row từ 0 để map chuẩn với row_headers
+        for i, (name, revenue, pct) in enumerate(zip(stream_names, revenues, percentages)):
             cells.extend([
-                {"row": i, "col": 0, "value": name, "is_header": False},
                 {"row": i, "col": 1, "value": f"{revenue:,}", "is_header": False},
                 {"row": i, "col": 2, "value": f"{pct:.1f}%", "is_header": False}
             ])
@@ -640,7 +627,7 @@ YÊU CẦU:
             "id": table_id,
             "caption": f"Bảng {table_id.replace('t', '')}: Cơ cấu doanh thu năm {year}",
             "col_headers": ["Loại dịch vụ", "Doanh thu (tỷ đồng)", "Tỷ trọng (%)"],
-            "row_headers": [],
+            "row_headers": stream_names, # Bổ sung row_headers thay vì để trống
             "cells": cells
         }
     
@@ -648,7 +635,6 @@ YÊU CẦU:
         """Generate balance sheet table."""
         prev_year = year - 1
         
-        # Generate realistic balance sheet numbers
         total_assets_curr = random.randint(60000, 150000)
         total_assets_prev = int(total_assets_curr / random.uniform(1.05, 1.15))
         
@@ -668,32 +654,27 @@ YÊU CẦU:
             "id": table_id,
             "caption": f"Bảng {table_id.replace('t', '')}: Bảng cân đối kế toán tóm tắt",
             "col_headers": ["Khoản mục", f"Cuối năm {prev_year}", f"Cuối năm {year}", "Biến động (%)"],
-            "row_headers": [],
+            "row_headers": ["Tổng tài sản", "Tài sản ngắn hạn", "Tài sản dài hạn", "Vốn chủ sở hữu", "Nợ phải trả"],
             "cells": [
-                {"row": 0, "col": 0, "value": "Khoản mục", "is_header": True},
-                {"row": 0, "col": 1, "value": f"Cuối năm {prev_year}", "is_header": True},
-                {"row": 0, "col": 2, "value": f"Cuối năm {year}", "is_header": True},
-                {"row": 0, "col": 3, "value": "Biến động (%)", "is_header": True},
-                {"row": 1, "col": 0, "value": "Tổng tài sản", "is_header": False},
-                {"row": 1, "col": 1, "value": f"{total_assets_prev:,} tỷ", "is_header": False},
-                {"row": 1, "col": 2, "value": f"{total_assets_curr:,} tỷ", "is_header": False},
-                {"row": 1, "col": 3, "value": f"{((total_assets_curr-total_assets_prev)/total_assets_prev*100):.1f}%", "is_header": False},
-                {"row": 2, "col": 0, "value": "Tài sản ngắn hạn", "is_header": False},
-                {"row": 2, "col": 1, "value": f"{current_assets_prev:,} tỷ", "is_header": False},
-                {"row": 2, "col": 2, "value": f"{current_assets_curr:,} tỷ", "is_header": False},
-                {"row": 2, "col": 3, "value": f"{((current_assets_curr-current_assets_prev)/current_assets_prev*100):.1f}%", "is_header": False},
-                {"row": 3, "col": 0, "value": "Tài sản dài hạn", "is_header": False},
-                {"row": 3, "col": 1, "value": f"{fixed_assets_prev:,} tỷ", "is_header": False},
-                {"row": 3, "col": 2, "value": f"{fixed_assets_curr:,} tỷ", "is_header": False},
-                {"row": 3, "col": 3, "value": f"{((fixed_assets_curr-fixed_assets_prev)/fixed_assets_prev*100):.1f}%", "is_header": False},
-                {"row": 4, "col": 0, "value": "Vốn chủ sở hữu", "is_header": False},
-                {"row": 4, "col": 1, "value": f"{equity_prev:,} tỷ", "is_header": False},
-                {"row": 4, "col": 2, "value": f"{equity_curr:,} tỷ", "is_header": False},
-                {"row": 4, "col": 3, "value": f"{((equity_curr-equity_prev)/equity_prev*100):.1f}%", "is_header": False},
-                {"row": 5, "col": 0, "value": "Nợ phải trả", "is_header": False},
-                {"row": 5, "col": 1, "value": f"{liabilities_prev:,} tỷ", "is_header": False},
-                {"row": 5, "col": 2, "value": f"{liabilities_curr:,} tỷ", "is_header": False},
-                {"row": 5, "col": 3, "value": f"{((liabilities_curr-liabilities_prev)/liabilities_prev*100):.1f}%", "is_header": False}
+                {"row": 0, "col": 1, "value": f"{total_assets_prev:,} tỷ", "is_header": False},
+                {"row": 0, "col": 2, "value": f"{total_assets_curr:,} tỷ", "is_header": False},
+                {"row": 0, "col": 3, "value": f"{((total_assets_curr-total_assets_prev)/total_assets_prev*100):.1f}%", "is_header": False},
+                
+                {"row": 1, "col": 1, "value": f"{current_assets_prev:,} tỷ", "is_header": False},
+                {"row": 1, "col": 2, "value": f"{current_assets_curr:,} tỷ", "is_header": False},
+                {"row": 1, "col": 3, "value": f"{((current_assets_curr-current_assets_prev)/current_assets_prev*100):.1f}%", "is_header": False},
+                
+                {"row": 2, "col": 1, "value": f"{fixed_assets_prev:,} tỷ", "is_header": False},
+                {"row": 2, "col": 2, "value": f"{fixed_assets_curr:,} tỷ", "is_header": False},
+                {"row": 2, "col": 3, "value": f"{((fixed_assets_curr-fixed_assets_prev)/fixed_assets_prev*100):.1f}%", "is_header": False},
+                
+                {"row": 3, "col": 1, "value": f"{equity_prev:,} tỷ", "is_header": False},
+                {"row": 3, "col": 2, "value": f"{equity_curr:,} tỷ", "is_header": False},
+                {"row": 3, "col": 3, "value": f"{((equity_curr-equity_prev)/equity_prev*100):.1f}%", "is_header": False},
+                
+                {"row": 4, "col": 1, "value": f"{liabilities_prev:,} tỷ", "is_header": False},
+                {"row": 4, "col": 2, "value": f"{liabilities_curr:,} tỷ", "is_header": False},
+                {"row": 4, "col": 3, "value": f"{((liabilities_curr-liabilities_prev)/liabilities_prev*100):.1f}%", "is_header": False}
             ]
         }
     
@@ -701,7 +682,6 @@ YÊU CẦU:
         """Generate financial ratios table."""
         prev_year = year - 1
         
-        # Generate realistic ratios
         ros_prev = random.uniform(7, 12)
         ros_curr = ros_prev + random.uniform(-1, 2)
         
@@ -718,28 +698,23 @@ YÊU CẦU:
             "id": table_id,
             "caption": f"Bảng {table_id.replace('t', '')}: Các chỉ số tài chính chủ yếu",
             "col_headers": ["Chỉ số", f"Năm {prev_year}", f"Năm {year}", "Thay đổi"],
-            "row_headers": [],
+            "row_headers": ["ROS (%)", "ROA (%)", "ROE (%)", "Nợ/Vốn CSH"],
             "cells": [
-                {"row": 0, "col": 0, "value": "Chỉ số", "is_header": True},
-                {"row": 0, "col": 1, "value": f"Năm {prev_year}", "is_header": True},
-                {"row": 0, "col": 2, "value": f"Năm {year}", "is_header": True},
-                {"row": 0, "col": 3, "value": "Thay đổi", "is_header": True},
-                {"row": 1, "col": 0, "value": "ROS (%)", "is_header": False},
-                {"row": 1, "col": 1, "value": f"{ros_prev:.2f}%", "is_header": False},
-                {"row": 1, "col": 2, "value": f"{ros_curr:.2f}%", "is_header": False},
-                {"row": 1, "col": 3, "value": f"{ros_curr-ros_prev:+.2f}%", "is_header": False},
-                {"row": 2, "col": 0, "value": "ROA (%)", "is_header": False},
-                {"row": 2, "col": 1, "value": f"{roa_prev:.2f}%", "is_header": False},
-                {"row": 2, "col": 2, "value": f"{roa_curr:.2f}%", "is_header": False},
-                {"row": 2, "col": 3, "value": f"{roa_curr-roa_prev:+.2f}%", "is_header": False},
-                {"row": 3, "col": 0, "value": "ROE (%)", "is_header": False},
-                {"row": 3, "col": 1, "value": f"{roe_prev:.2f}%", "is_header": False},
-                {"row": 3, "col": 2, "value": f"{roe_curr:.2f}%", "is_header": False},
-                {"row": 3, "col": 3, "value": f"{roe_curr-roe_prev:+.2f}%", "is_header": False},
-                {"row": 4, "col": 0, "value": "Nợ/Vốn CSH", "is_header": False},
-                {"row": 4, "col": 1, "value": f"{debt_equity_prev:.2f}", "is_header": False},
-                {"row": 4, "col": 2, "value": f"{debt_equity_curr:.2f}", "is_header": False},
-                {"row": 4, "col": 3, "value": f"{debt_equity_curr-debt_equity_prev:+.2f}", "is_header": False}
+                {"row": 0, "col": 1, "value": f"{ros_prev:.2f}%", "is_header": False},
+                {"row": 0, "col": 2, "value": f"{ros_curr:.2f}%", "is_header": False},
+                {"row": 0, "col": 3, "value": f"{ros_curr-ros_prev:+.2f}%", "is_header": False},
+                
+                {"row": 1, "col": 1, "value": f"{roa_prev:.2f}%", "is_header": False},
+                {"row": 1, "col": 2, "value": f"{roa_curr:.2f}%", "is_header": False},
+                {"row": 1, "col": 3, "value": f"{roa_curr-roa_prev:+.2f}%", "is_header": False},
+                
+                {"row": 2, "col": 1, "value": f"{roe_prev:.2f}%", "is_header": False},
+                {"row": 2, "col": 2, "value": f"{roe_curr:.2f}%", "is_header": False},
+                {"row": 2, "col": 3, "value": f"{roe_curr-roe_prev:+.2f}%", "is_header": False},
+                
+                {"row": 3, "col": 1, "value": f"{debt_equity_prev:.2f}", "is_header": False},
+                {"row": 3, "col": 2, "value": f"{debt_equity_curr:.2f}", "is_header": False},
+                {"row": 3, "col": 3, "value": f"{debt_equity_curr-debt_equity_prev:+.2f}", "is_header": False}
             ]
         }
     
