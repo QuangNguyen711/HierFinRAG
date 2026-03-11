@@ -1,0 +1,203 @@
+{
+  "id": "doc_vnpt_2023",
+  "title": "Báo Cáo Tài Chính VNPT 2023",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Tổng Quan Hoạt Động Kinh Doanh",
+      "level": 1,
+      "content_ids": ["p1", "p2", "t1"]
+    },
+    {
+      "id": "s2",
+      "title": "Kết Quả Hoạt Động Tài Chính",
+      "level": 1,
+      "content_ids": ["p3", "p4", "t2", "p5"]
+    },
+    {
+      "id": "s3",
+      "title": "Tình Hình Tài Sản và Nguồn Vốn",
+      "level": 1,
+      "content_ids": ["p6", "t3", "p7"]
+    },
+    {
+      "id": "s4",
+      "title": "Phân Tích Chỉ Số Tài Chính",
+      "level": 1,
+      "content_ids": ["p8", "p9", "t4"]
+    },
+    {
+      "id": "s5",
+      "title": "Định Hướng Phát Triển 2024",
+      "level": 1,
+      "content_ids": ["p10", "p11", "p12"]
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "p1",
+      "text": "Năm 2023, Tập đoàn Bưu chính Viễn thông Việt Nam (VNPT) đã đạt được những thành tựu quan trọng trong hoạt động kinh doanh. Tổng doanh thu đạt 42.500 tỷ đồng, tăng 12,5% so với năm 2022, cho thấy sự tăng trưởng mạnh mẽ trong bối cảnh thị trường cạnh tranh khốc liệt.",
+      "section_id": "s1"
+    },
+    {
+      "id": "p2",
+      "text": "Lợi nhuận sau thuế đạt 3.800 tỷ đồng, tăng 15,2% so với năm trước như được trình bày chi tiết trong Bảng 1. Sự tăng trưởng này chủ yếu đến từ việc mở rộng dịch vụ viễn thông và chuyển đổi số, cùng với việc tối ưu hóa chi phí hoạt động.",
+      "section_id": "s1"
+    },
+    {
+      "id": "p3",
+      "text": "Doanh thu từ dịch vụ viễn thông di động đạt 18.200 tỷ đồng trong năm 2023, chiếm 42,8% tổng doanh thu. Đây là mảng kinh doanh chính của VNPT với hơn 25 triệu thuê bao di động đang hoạt động.",
+      "section_id": "s2"
+    },
+    {
+      "id": "p4",
+      "text": "Dịch vụ Internet băng rộng cố định tiếp tục duy trì tốc độ tăng trưởng ổn định với doanh thu 12.800 tỷ đồng, tăng 8,5% so với năm 2022. Số lượng thuê bao Internet đạt 8,5 triệu, tăng trưởng 6,2% so với năm trước.",
+      "section_id": "s2"
+    },
+    {
+      "id": "p5",
+      "text": "Chi phí hoạt động trong năm 2023 được kiểm soát hiệu quả, giảm 5,3% so với kế hoạch ban đầu. Điều này thể hiện nỗ lực tối ưu hóa quy trình và nâng cao hiệu quả quản lý của Tập đoàn, như được phân tích trong Bảng 2.",
+      "section_id": "s2"
+    },
+    {
+      "id": "p6",
+      "text": "Tổng tài sản của VNPT đến cuối năm 2023 đạt 85.600 tỷ đồng, tăng 9,8% so với đầu năm. Trong đó, tài sản ngắn hạn chiếm 35% và tài sản dài hạn chiếm 65%, phản ánh chiến lược đầu tư dài hạn vào cơ sở hạ tầng viễn thông.",
+      "section_id": "s3"
+    },
+    {
+      "id": "p7",
+      "text": "Vốn chủ sở hữu tăng lên 52.300 tỷ đồng, tăng 11,2% so với năm trước, cho thấy sự vững mạnh về tài chính. Tỷ lệ nợ trên vốn chủ sở hữu duy trì ở mức an toàn 0,64 lần, thể hiện cấu trúc tài chính lành mạnh.",
+      "section_id": "s3"
+    },
+    {
+      "id": "p8",
+      "text": "Tỷ suất lợi nhuận trên doanh thu (ROS) đạt 8,94%, cải thiện 0,21 điểm phần trăm so với năm 2022. Điều này phản ánh khả năng sinh lời tốt hơn từ hoạt động kinh doanh chính.",
+      "section_id": "s4"
+    },
+    {
+      "id": "p9",
+      "text": "Tỷ suất sinh lời trên tổng tài sản (ROA) đạt 4,44% và tỷ suất sinh lời trên vốn chủ sở hữu (ROE) đạt 7,27%, cả hai chỉ số đều tăng so với năm trước như được trình bày trong Bảng 4.",
+      "section_id": "s4"
+    },
+    {
+      "id": "p10",
+      "text": "Năm 2024, VNPT đặt mục tiêu tổng doanh thu đạt 47.000 tỷ đồng, tăng trưởng 10,6% so với năm 2023. Trọng tâm sẽ là mở rộng dịch vụ chuyển đổi số, điện toán đám mây, và các giải pháp công nghệ thông tin cho doanh nghiệp.",
+      "section_id": "s5"
+    },
+    {
+      "id": "p11",
+      "text": "Tập đoàn sẽ đầu tư khoảng 12.000 tỷ đồng vào nâng cấp hạ tầng mạng lưới, triển khai công nghệ 5G và mở rộng vùng phủ sóng. Đồng thời, VNPT sẽ tăng cường đầu tư vào nghiên cứu và phát triển các sản phẩm công nghệ cao.",
+      "section_id": "s5"
+    },
+    {
+      "id": "p12",
+      "text": "Mục tiêu lợi nhuận sau thuế năm 2024 được đặt ra là 4.200 tỷ đồng, tăng 10,5% so với năm 2023. Để đạt được mục tiêu này, VNPT sẽ tập trung vào nâng cao chất lượng dịch vụ, phát triển sản phẩm mới và mở rộng thị phần.",
+      "section_id": "s5"
+    }
+  ],
+  "tables": [
+    {
+      "id": "t1",
+      "caption": "Bảng 1: Kết quả kinh doanh tổng hợp 2022-2023",
+      "col_headers": ["Chỉ tiêu", "Năm 2022", "Năm 2023", "Tăng trưởng (%)"],
+      "row_headers": ["Tổng doanh thu", "Lợi nhuận trước thuế", "Lợi nhuận sau thuế"],
+      "cells": [
+        {"row": 0, "col": 0, "value": "Tổng doanh thu", "is_header": true},
+        {"row": 0, "col": 1, "value": "37.800 tỷ", "is_header": false},
+        {"row": 0, "col": 2, "value": "42.500 tỷ", "is_header": false},
+        {"row": 0, "col": 3, "value": "12,5%", "is_header": false},
+        {"row": 1, "col": 0, "value": "Lợi nhuận trước thuế", "is_header": true},
+        {"row": 1, "col": 1, "value": "4.200 tỷ", "is_header": false},
+        {"row": 1, "col": 2, "value": "4.850 tỷ", "is_header": false},
+        {"row": 1, "col": 3, "value": "15,5%", "is_header": false},
+        {"row": 2, "col": 0, "value": "Lợi nhuận sau thuế", "is_header": true},
+        {"row": 2, "col": 1, "value": "3.300 tỷ", "is_header": false},
+        {"row": 2, "col": 2, "value": "3.800 tỷ", "is_header": false},
+        {"row": 2, "col": 3, "value": "15,2%", "is_header": false}
+      ]
+    },
+    {
+      "id": "t2",
+      "caption": "Bảng 2: Cơ cấu doanh thu theo dịch vụ năm 2023",
+      "col_headers": ["Loại dịch vụ", "Doanh thu (tỷ đồng)", "Tỷ trọng (%)"],
+      "row_headers": [],
+      "cells": [
+        {"row": 0, "col": 0, "value": "Loại dịch vụ", "is_header": true},
+        {"row": 0, "col": 1, "value": "Doanh thu (tỷ đồng)", "is_header": true},
+        {"row": 0, "col": 2, "value": "Tỷ trọng (%)", "is_header": true},
+        {"row": 1, "col": 0, "value": "Viễn thông di động", "is_header": false},
+        {"row": 1, "col": 1, "value": "18.200", "is_header": false},
+        {"row": 1, "col": 2, "value": "42,8%", "is_header": false},
+        {"row": 2, "col": 0, "value": "Internet băng rộng", "is_header": false},
+        {"row": 2, "col": 1, "value": "12.800", "is_header": false},
+        {"row": 2, "col": 2, "value": "30,1%", "is_header": false},
+        {"row": 3, "col": 0, "value": "Giải pháp CNTT", "is_header": false},
+        {"row": 3, "col": 1, "value": "8.500", "is_header": false},
+        {"row": 3, "col": 2, "value": "20,0%", "is_header": false},
+        {"row": 4, "col": 0, "value": "Dịch vụ khác", "is_header": false},
+        {"row": 4, "col": 1, "value": "3.000", "is_header": false},
+        {"row": 4, "col": 2, "value": "7,1%", "is_header": false}
+      ]
+    },
+    {
+      "id": "t3",
+      "caption": "Bảng 3: Bảng cân đối kế toán tóm tắt",
+      "col_headers": ["Kстатьей", "Cuối năm 2022", "Cuối năm 2023", "Biến động (%)"],
+      "row_headers": [],
+      "cells": [
+        {"row": 0, "col": 0, "value": "Khoản mục", "is_header": true},
+        {"row": 0, "col": 1, "value": "Cuối năm 2022", "is_header": true},
+        {"row": 0, "col": 2, "value": "Cuối năm 2023", "is_header": true},
+        {"row": 0, "col": 3, "value": "Biến động (%)", "is_header": true},
+        {"row": 1, "col": 0, "value": "Tổng tài sản", "is_header": false},
+        {"row": 1, "col": 1, "value": "77.950 tỷ", "is_header": false},
+        {"row": 1, "col": 2, "value": "85.600 tỷ", "is_header": false},
+        {"row": 1, "col": 3, "value": "9,8%", "is_header": false},
+        {"row": 2, "col": 0, "value": "Tài sản ngắn hạn", "is_header": false},
+        {"row": 2, "col": 1, "value": "26.500 tỷ", "is_header": false},
+        {"row": 2, "col": 2, "value": "29.960 tỷ", "is_header": false},
+        {"row": 2, "col": 3, "value": "13,1%", "is_header": false},
+        {"row": 3, "col": 0, "value": "Tài sản dài hạn", "is_header": false},
+        {"row": 3, "col": 1, "value": "51.450 tỷ", "is_header": false},
+        {"row": 3, "col": 2, "value": "55.640 tỷ", "is_header": false},
+        {"row": 3, "col": 3, "value": "8,1%", "is_header": false},
+        {"row": 4, "col": 0, "value": "Vốn chủ sở hữu", "is_header": false},
+        {"row": 4, "col": 1, "value": "47.000 tỷ", "is_header": false},
+        {"row": 4, "col": 2, "value": "52.300 tỷ", "is_header": false},
+        {"row": 4, "col": 3, "value": "11,2%", "is_header": false},
+        {"row": 5, "col": 0, "value": "Nợ phải trả", "is_header": false},
+        {"row": 5, "col": 1, "value": "30.950 tỷ", "is_header": false},
+        {"row": 5, "col": 2, "value": "33.300 tỷ", "is_header": false},
+        {"row": 5, "col": 3, "value": "7,6%", "is_header": false}
+      ]
+    },
+    {
+      "id": "t4",
+      "caption": "Bảng 4: Các chỉ số tài chính chủ yếu",
+      "col_headers": ["Chỉ số", "Năm 2022", "Năm 2023", "Thay đổi"],
+      "row_headers": [],
+      "cells": [
+        {"row": 0, "col": 0, "value": "Chỉ số", "is_header": true},
+        {"row": 0, "col": 1, "value": "Năm 2022", "is_header": true},
+        {"row": 0, "col": 2, "value": "Năm 2023", "is_header": true},
+        {"row": 0, "col": 3, "value": "Thay đổi", "is_header": true},
+        {"row": 1, "col": 0, "value": "ROS (%)", "is_header": false},
+        {"row": 1, "col": 1, "value": "8,73%", "is_header": false},
+        {"row": 1, "col": 2, "value": "8,94%", "is_header": false},
+        {"row": 1, "col": 3, "value": "+0,21%", "is_header": false},
+        {"row": 2, "col": 0, "value": "ROA (%)", "is_header": false},
+        {"row": 2, "col": 1, "value": "4,23%", "is_header": false},
+        {"row": 2, "col": 2, "value": "4,44%", "is_header": false},
+        {"row": 2, "col": 3, "value": "+0,21%", "is_header": false},
+        {"row": 3, "col": 0, "value": "ROE (%)", "is_header": false},
+        {"row": 3, "col": 1, "value": "7,02%", "is_header": false},
+        {"row": 3, "col": 2, "value": "7,27%", "is_header": false},
+        {"row": 3, "col": 3, "value": "+0,25%", "is_header": false},
+        {"row": 4, "col": 0, "value": "Nợ/Vốn CSH", "is_header": false},
+        {"row": 4, "col": 1, "value": "0,66", "is_header": false},
+        {"row": 4, "col": 2, "value": "0,64", "is_header": false},
+        {"row": 4, "col": 3, "value": "-0,02", "is_header": false}
+      ]
+    }
+  ]
+}

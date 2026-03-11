@@ -6,100 +6,181 @@ from hierfinrag.parsing.json_parser import JSONParser
 from hierfinrag.graph.builder import GraphBuilder
 from hierfinrag.graph.ttgnn import TTGNN
 from hierfinrag.reasoning.fusion import SymbolicNeuralFusion
+from hierfinrag.retrieval.hierarchical import HierarchicalRetriever
 
 def main():
-    print("Starting HierFinRAG Phase 1 Pipeline...")
+    print("Starting HierFinRAG Vietnamese Financial Document Pipeline...")
+    print("=" * 80)
     
-    # 1. Create Mock Data
-    sample_data = {
-        "id": "doc_demo",
-        "title": "Annual Report 2023",
-        "sections": [
-            {
-                "id": "s1", "title": "Financial Highlights", "level": 1, 
-                "content_ids": ["p1", "t1"]
-            }
-        ],
-        "paragraphs": [
-            {"id": "p1", "text": "Net income increased by 15% due to strong sales growth as shown in Table 1.", "section_id": "s1"}
-        ],
-        "tables": [
-            {
-                "id": "t1", 
-                "caption": "Consolidated Statement of Income",
-                "col_headers": ["2022", "2023"],
-                "row_headers": ["Revenue", "Net Income"],
-                "cells": [
-                    {"row": 0, "col": 0, "value": "100M", "is_header": False},
-                    {"row": 0, "col": 1, "value": "120M", "is_header": False},
-                    {"row": 1, "col": 0, "value": "10M", "is_header": False},
-                    {"row": 1, "col": 1, "value": "11.5M", "is_header": False} # 15% of 10M is 1.5M increase -> 11.5M
-                ]
-            }
-        ]
-    }
+    # Use the Vietnamese financial document
+    input_file = "data/mock_vietnamese_financial.json"
     
-    # Save mock data
-    os.makedirs("data", exist_ok=True)
-    mock_file = "data/mock_parsed.json"
-    with open(mock_file, 'w') as f:
-        json.dump(sample_data, f, indent=2)
-    print(f"Created mock data at {mock_file}")
+    if not os.path.exists(input_file):
+        print(f"Error: {input_file} not found!")
+        return
     
-    # 2. Parse Data
-    print("Parsing document...")
+    # 1. Parse Data
+    print("\n[1] Parsing Vietnamese financial document...")
     parser = JSONParser()
-    doc = parser.parse(mock_file)
-    print(f"Parsed Document: {doc.title}")
-    print(f" - {len(doc.sections)} Sections")
-    print(f" - {len(doc.paragraphs)} Paragraphs")
-    print(f" - {len(doc.tables)} Tables")
+    doc = parser.parse(input_file)
+    print(f"✓ Parsed Document: {doc.title}")
+    print(f"  - {len(doc.sections)} Sections")
+    print(f"  - {len(doc.paragraphs)} Paragraphs")
+    print(f"  - {len(doc.tables)} Tables")
+    total_cells = sum(len(table.cells) for table in doc.tables)
+    print(f"  - {total_cells} Total table cells")
     
-    # 3. Build Graph
-    print("Constructing Graph...")
-    builder = GraphBuilder(embedding_dim=128) # Smaller dim for demo
+    # 2. Build Graph with Vietnamese Embeddings
+    print(f"\n[2] Constructing Graph with Vietnamese Embeddings...")
+    builder = GraphBuilder(use_real_embeddings=True)
     graph = builder.build_graph(doc)
     
     print("\n--- Graph Statistics ---")
     print(f"Node Features: {graph.x.shape}")
     print(f"Edge Index:    {graph.edge_index.shape}")
     print(f"Edge Attr:     {graph.edge_attr.shape}")
-    print(f"Node Types:    {graph.node_types.unique(return_counts=True)}")
+    node_type_counts = graph.node_types.unique(return_counts=True)
+    print(f"Node Types:    {dict(zip(node_type_counts[0].tolist(), node_type_counts[1].tolist()))}")
+    print(f"               (0=Paragraph, 1=Section, 2=Table, 3=Cell)")
     
+    # 3. Create node metadata for retrieval
+    print("\n[3] Creating node metadata...")
+    node_metadata = []
     
-    # 4. Initialize & Run TTGNN
-    print("\nInitializing TTGNN...")
-    # dimensions: input 128 (matches builder), hidden 64
-    model = TTGNN(input_dim=128, hidden_dim=64, num_layers=2)
+    # Add sections
+    for sec in doc.sections:
+        node_metadata.append({
+            'id': sec.id,
+            'type': 'Section',
+            'text': sec.title,
+            'content_ids': sec.content_ids
+        })
+    
+    # Add paragraphs
+    for p in doc.paragraphs:
+        node_metadata.append({
+            'id': p.id,
+            'type': 'Paragraph',
+            'text': p.text[:100] + '...' if len(p.text) > 100 else p.text
+        })
+    
+    # Add tables
+    for table in doc.tables:
+        node_metadata.append({
+            'id': table.id,
+            'type': 'Table',
+            'text': table.caption
+        })
+        
+        # Add cells
+        for cell in table.cells:
+            cell_id = f"{table.id}_r{cell.row_idx}_c{cell.col_idx}"
+            node_metadata.append({
+                'id': cell_id,
+                'type': 'Cell',
+                'text': str(cell.value),
+                'table_id': table.id
+            })
+    
+    print(f"✓ Created metadata for {len(node_metadata)} nodes")
+    
+    # 4. Initialize TTGNN
+    print("\n[4] Running TTGNN...")
+
+    model = TTGNN(
+        input_dim=graph.x.shape[1],
+        hidden_dim=768,
+        num_layers=2,
+        num_heads=8
+    )
+
+    model_path = "models/ttgnn/best_model.pt"
+
+    checkpoint = torch.load(model_path, map_location="cpu")
+
+    # FIX HERE
+    model.load_state_dict(checkpoint["model_state_dict"])
+
     model.eval()
-    
+
     with torch.no_grad():
-        out_embeddings = model(
-            graph.x, 
-            graph.edge_index, 
-            graph.edge_attr, 
+        gnn_embeddings = model(
+            graph.x,
+            graph.edge_index,
+            graph.edge_attr,
             graph.node_types
         )
-    
-    print(f"TTGNN Output Shape: {out_embeddings.shape}")
-    
-    # 5. Run Symbolic-Neural Fusion
-    print("\nTesting Symbolic-Neural Fusion...")
-    fusion_engine = SymbolicNeuralFusion(llm_client=None) # Mock LLM
-    
-    # Test Query 1: Symbolic
-    q1 = "Calculate the percentage growth in net income from 2022 to 2023"
-    print(f"Query: {q1}")
-    ans1 = fusion_engine(q1, [{"type": "Table"}, {"type": "Cell"}]) # Mock retrieval context
-    print(f"Result: {ans1}")
-    
-    # Test Query 2: Neural
-    q2 = "Summarize the financial highlights"
-    print(f"Query: {q2}")
-    ans2 = fusion_engine(q2, [{"type": "Section"}, {"type": "Paragraph"}])
-    print(f"Result: {ans2}")
 
-    print("\nSUCCESS: Pipeline integration test passed.")
+    print(f"✓ TTGNN Output Shape: {gnn_embeddings.shape}")
+    
+    # 5. Initialize Hierarchical Retriever
+    print("\n[5] Initializing Hierarchical Retriever...")
+    hierarchical_retriever = HierarchicalRetriever(
+        encoder_model=builder.encoder_model,
+        gnn_model=model
+    )
+    print("✓ Hierarchical retriever ready")
+    
+    # 6. Test Two-Stage Hierarchical Retrieval
+    print("\n[6] Testing Two-Stage Hierarchical Retrieval (as per paper)...")
+    print("=" * 80)
+    
+    test_queries = [
+        "Lợi nhuận sau thuế năm 2023",
+        "Doanh thu từ dịch vụ viễn thông di động",
+        "Tỷ suất sinh lời ROE",
+        "Mục tiêu phát triển năm 2024"
+    ]
+    
+    for i, query in enumerate(test_queries, 1):
+        print(f"\n{'='*80}")
+        print(f"Query {i}: '{query}'")
+        print(f"{'='*80}")
+        
+        # Run hierarchical retrieval
+        results = hierarchical_retriever.retrieve(
+            query=query,
+            graph=graph,
+            node_metadata=node_metadata,
+            top_k_sections=2,
+            top_k_leafs=10  # Increased to show more results including paragraphs
+        )
+        
+        # Stage 1 Results: Retrieved Sections
+        print(f"\n  [Stage 1] Retrieved Sections (Top-2):")
+        for rank, (idx, score, meta) in enumerate(results['sections'], 1):
+            print(f"    {rank}. Score={score:.4f} | Section: {meta['text']}")
+        
+        print(f"\n  [Subgraph] Extracted {results['subgraph_size']} nodes from selected sections")
+        
+        # Stage 2 Results: Retrieved Leaf Nodes (after GNN)
+        print(f"\n  [Stage 2] Retrieved Leaf Nodes (Top-10 after GNN on subgraph):")
+        
+        # Show all results
+        for rank, (idx, score, meta) in enumerate(results['leafs'], 1):
+            node_type = meta['type']
+            text = meta['text'][:70] if len(meta['text']) > 70 else meta['text']
+            marker = "📄" if node_type == "Paragraph" else "🔢"
+            print(f"    {rank}. Score={score:.4f} | {marker} [{node_type}] {text}")
+    
+    # 7. Run Symbolic-Neural Fusion
+    print("\n\n[7] Testing Symbolic-Neural Fusion...")
+    fusion_engine = SymbolicNeuralFusion(llm_client=None)
+    
+    # Test with Vietnamese queries
+    fusion_queries = [
+        ("Tính tỷ lệ tăng trưởng lợi nhuận sau thuế từ 2022 sang 2023", [{"type": "Table"}, {"type": "Cell"}]),
+        ("Tóm tắt kết quả kinh doanh năm 2023", [{"type": "Section"}, {"type": "Paragraph"}])
+    ]
+    
+    for query, context_types in fusion_queries:
+        print(f"\nQuery: {query}")
+        result = fusion_engine(query, context_types)
+        print(f"Result: {result}")
+    
+    print("\n" + "=" * 80)
+    print("✓ SUCCESS: Vietnamese financial document pipeline completed!")
+    print("=" * 80)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,567 @@
+{
+  "id": "doc_vietinbank_2024_018",
+  "title": "Báo Cáo Tài Chính VietinBank 2024",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Tổng Quan Hoạt Động Kinh Doanh",
+      "level": 1,
+      "content_ids": [
+        "p1",
+        "p2",
+        "t1",
+        "p3"
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Kết Quả Hoạt Động Tài Chính",
+      "level": 1,
+      "content_ids": [
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Tình Hình Tài Sản và Nguồn Vốn",
+      "level": 1,
+      "content_ids": [
+        "p8",
+        "p9",
+        "p10"
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Phân Tích Chất Lượng Dư Nợ và Rủi Ro",
+      "level": 1,
+      "content_ids": [
+        "p11",
+        "p12",
+        "t2",
+        "p13",
+        "p14"
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Hiệu Quả Sử Dụng Vốn và Lợi Nhuận",
+      "level": 1,
+      "content_ids": [
+        "p15",
+        "p16"
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Chiến Lược Phát Triển và Định Hướng 2025",
+      "level": 1,
+      "content_ids": [
+        "p17",
+        "p18",
+        "p19"
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Đánh Giá Rủi Ro và Các Yếu Tố Tác Động",
+      "level": 1,
+      "content_ids": [
+        "p20",
+        "p21",
+        "t3"
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "p1",
+      "text": "VietinBank ghi nhận sự tăng trưởng mạnh mẽ trong doanh thu nhờ mở rộng các sản phẩm cho vay doanh nghiệp vừa và nhỏ, đặc biệt qua nền tảng số hóa tín dụng và giải pháp tài chính chuỗi cung ứng. Song song đó, sự gia tăng đáng kể trong huy động vốn từ khách hàng cá nhân và doanh nghiệp nhỏ thông qua các gói tiết kiệm linh hoạt và dịch vụ ngân hàng di động đã củng cố vị thế dẫn đầu trên thị trường, đồng thời mở rộng chân dung khách hàng ở vùng sâu vùng xa và các khu công nghiệp mới.",
+      "section_id": "s1"
+    },
+    {
+      "id": "p2",
+      "text": "Năm 2024, VietinBank triển khai chiến lược mở rộng thị trường và khách hàng thông qua ba hành động cụ thể, có đo lường rõ ràng và tập trung vào phân khúc có tiềm năng tăng trưởng cao.  \n\nĐầu tiên, ngân hàng tăng cường bao phủ khách hàng doanh nghiệp vừa và nhỏ (SME) tại 15 tỉnh thành chưa có mạng lưới mạnh bằng cách triển khai “Chương trình Hỗ trợ Tài chính 24/7” – một nền tảng số tích hợp cho vay nhanh (trong vòng 24 giờ) với hạn mức lên đến 5 tỷ đồng, không cần tài sản đảm bảo, chỉ cần chứng minh dòng tiền qua hệ thống ngân hàng. Kết quả: hơn 12.700 doanh nghiệp SME mới được giải ngân, tăng 41% so với năm 2023, đóng góp 18% vào tổng dư nợ cho vay doanh nghiệp.  \n\nThứ hai, VietinBank hợp tác với 8 nền tảng thương mại điện tử lớn (như Shopee, Lazada, Sendo) để cung cấp giải",
+      "section_id": "s1"
+    },
+    {
+      "id": "p3",
+      "text": "VietinBank chính thức ra mắt sản phẩm “VietinBank Smart Loan” – giải pháp cho vay tiêu dùng tự động hóa dựa trên AI, tích hợp phân tích tín dụng thời gian thực, giúp rút ngắn thời gian giải ngân xuống còn dưới 15 phút, đồng thời gia tăng tỷ lệ chấp thuận lên 22% so với phiên bản cũ. Sự kiện này góp phần thúc đẩy doanh thu tín dụng tăng 5,3% lên 67.848 tỷ đồng trong năm 2024, đồng thời nâng cao biên lợi nhuận lên 12,5%, phản ánh hiệu quả tối ưu hóa trải nghiệm khách hàng và quản lý rủi ro.",
+      "section_id": "s1"
+    },
+    {
+      "id": "p4",
+      "text": "Năm 2024, VietinBank tiếp tục duy trì vị thế một trong ba ngân hàng thương mại lớn nhất Việt Nam về quy mô tài sản và mạng lưới chi nhánh, song áp lực cạnh tranh từ cả “gã khổng lồ” công nghệ như Momo, ZaloPay lẫn các ngân hàng nội địa như BIDV, Vietcombank và ngân hàng nước ngoài như Techcombank ngày càng gia tăng, đặc biệt trong phân khúc cho vay doanh nghiệp nhỏ và trung bình (SME) và dịch vụ ngân hàng số. Trong khi Vietcombank và Techcombank tận dụng lợi thế công nghệ và chiến lược khách hàng cá nhân hóa để chiếm lĩnh thị phần tín dụng chất lượng cao, VietinBank lại đối mặt với thách thức trong việc chuyển đổi số nhanh chóng, khi hệ thống hạ tầng kỹ thuật còn phân mảnh và trải nghiệm người dùng chưa đồng bộ. Tuy nhiên, thế mạnh lâu đời của VietinBank — mạng lưới phủ sóng rộng nhất tại các tỉnh thành, mối quan hệ sâu rộng với các doanh nghiệp nhà nước và ngành công nghiệp trọng điểm — lại trở thành “bệ đỡ” chiến lược",
+      "section_id": "s2"
+    },
+    {
+      "id": "p5",
+      "text": "VietinBank đã tích hợp trí tuệ nhân tạo vào hệ thống đánh giá tín dụng tự động, giúp rút ngắn thời gian phê duyệt vay từ vài ngày xuống còn vài giờ, đặc biệt cho khách hàng doanh nghiệp nhỏ. Đồng thời, ứng dụng di động VietinBank iBank phiên bản mới với tính năng nhận diện khuôn mặt và giao dịch giọng nói đã nâng cao trải nghiệm khách hàng, biến các giao dịch truyền thống thành hành động liền tay, an toàn và cá nhân hóa.",
+      "section_id": "s2"
+    },
+    {
+      "id": "p6",
+      "text": "VietinBank năm 2024 tập trung vào chiến lược kinh doanh tổng thể dựa trên tăng trưởng bền vững thông qua tối ưu hóa danh mục cho vay doanh nghiệp vừa và nhỏ, đồng thời mở rộng dịch vụ tài chính số như ngân hàng di động và thanh toán không tiền mặt – góp phần thúc đẩy doanh thu đạt 67.848 tỷ đồng (+5,3% so với năm trước) và nâng biên lợi nhuận lên 12,5%. Song song, ngân hàng tăng cường huy động vốn từ các kênh tiết kiệm có kỳ hạn và sản phẩm tài chính cá nhân tích hợp AI, đảm bảo thanh khoản và hiệu quả sử dụng vốn trong bối cảnh cạnh tranh khốc liệt.",
+      "section_id": "s2"
+    },
+    {
+      "id": "p7",
+      "text": "Năm 2024, VietinBank tiếp tục đẩy mạnh chiến lược mở rộng thị trường và khách hàng với tầm nhìn chuyển hóa từ mô hình ngân hàng truyền thống sang hệ sinh thái tài chính đa chiều, đặc biệt hướng đến nhóm khách hàng trẻ, doanh nghiệp siêu nhỏ và khu vực nông thôn – những phân khúc từng bị bỏ ngỏ do rào cản công nghệ và nhận thức tài chính. Cơ hội lớn nhất nằm ở sự bùng nổ của chuyển đổi số và chính sách hỗ trợ tài chính toàn diện của Chính phủ, cho phép VietinBank tận dụng nền tảng Open Banking và liên kết với các nền tảng thanh toán số như Momo, ZaloPay để tiếp cận 20 triệu người dùng chưa có tài khoản ngân hàng. Tuy nhiên, thách thức không nhỏ khi các ngân hàng số như Timo, MBBank và các fintech nước ngoài đang giành giật thị phần bằng trải nghiệm cá nhân hóa và chi phí giao dịch gần như bằng không. Thêm vào đó, áp lực cạnh tranh về lãi suất huy động và rủi ro tín dụng ở vùng sâu vùng xa khiến chiến lược “đi sâu, không đi rộng",
+      "section_id": "s2"
+    },
+    {
+      "id": "p8",
+      "text": "Nguồn vốn chủ sở hữu của VietinBank năm 2024 tiếp tục thể hiện sự ổn định và tăng trưởng bền vững, đạt khoảng 192.000 tỷ đồng, tăng 6,8% so với năm trước, phản ánh hiệu quả tái đầu tư lợi nhuận sau thuế lên tới 8.480 tỷ đồng – mức cao nhất trong ba năm qua, với biên lợi nhuận ròng đạt 12,5%. Tuy nhiên, áp lực từ yêu cầu vốn tối thiểu theo Basel II và BCR (tỷ lệ an toàn vốn) ngày càng khắt khe khiến VietinBank phải cân nhắc kỹ lưỡng giữa việc giữ lại lợi nhuận để tăng vốn nội sinh và việc phát hành cổ phiếu để huy động vốn ngoài – một giải pháp có thể làm pha loãng quyền sở hữu. Thách thức lớn nhất nằm ở việc duy trì tỷ lệ ROE trên 15% trong bối cảnh lãi suất huy động tăng và nợ xấu tiềm ẩn trong lĩnh vực bất động sản và doanh nghiệp vừa và nhỏ. Song song đó, cơ hội lớn đến từ chiến lược số hóa toàn diện và mở rộng dịch vụ ngân hàng số",
+      "section_id": "s3"
+    },
+    {
+      "id": "p9",
+      "text": "VietinBank tiếp tục tăng cường đầu tư dài hạn vào tài sản cố định nhằm nâng cấp hạ tầng công nghệ và hệ thống chi nhánh, đặc biệt trong năm 2024 khi ngân hàng triển khai hàng loạt trung tâm giao dịch thông minh và hệ thống AI hỗ trợ cho vay tự động, góp phần tối ưu hóa chi phí vận hành và nâng cao trải nghiệm khách hàng – minh chứng rõ nét khi lợi nhuận ròng tăng 5,2% lên 8.480 tỷ đồng, trong khi doanh thu đạt 67.848 tỷ đồng, phản ánh hiệu quả của chiến lược đầu tư có trọng tâm vào tài sản sinh lời bền vững.",
+      "section_id": "s3"
+    },
+    {
+      "id": "p10",
+      "text": "Cơ cấu tài sản của VietinBank năm 2024 tiếp tục tối ưu hóa với tỷ trọng cho vay doanh nghiệp và tiêu dùng chiếm hơn 70%, trong khi dư nợ cho vay trung và dài hạn tăng 6,2% nhờ đà phục hồi tín dụng vào lĩnh vực sản xuất và bất động sản. Thanh khoản được duy trì ở mức an toàn nhờ nguồn huy động vốn ổn định từ tiền gửi của tổ chức và cá nhân, kết hợp với tỷ lệ dự phòng rủi ro đạt 2,8% – cao hơn mức trung bình ngành – giúp ngân hàng linh hoạt đáp ứng nhu cầu chi trả và mở rộng tín dụng mà không ảnh hưởng đến dòng tiền ngắn hạn, góp phần vào mức tăng trưởng doanh thu 5,3% và lợi nhuận ròng 8.480 tỷ đồng.",
+      "section_id": "s3"
+    },
+    {
+      "id": "p11",
+      "text": "VietinBank năm 2024 duy trì cấu trúc vốn tối ưu với tỷ lệ vốn chủ sở hữu trên tổng tài sản ở mức khoảng 9,2%, cho phép khai thác đòn bẩy tài chính hiệu quả trong hoạt động cho vay doanh nghiệp và cá nhân — nguồn thu chính chiếm hơn 70% doanh thu. Dù tăng trưởng lợi nhuận 5,3% lên 8.480 tỷ đồng nhờ mở rộng tín dụng, ngân hàng vẫn kiểm soát chặt rủi ro đòn bẩy thông qua tỷ lệ an toàn vốn CAR đạt 11,8%, cao hơn yêu cầu regulators, phản ánh sự cân bằng giữa tăng trưởng và ổn định tài chính.",
+      "section_id": "s4"
+    },
+    {
+      "id": "p12",
+      "text": "Khả năng thanh toán và thanh khoản của VietinBank năm 2024 được củng cố vững chắc nhờ tỷ lệ vốn khả dụng cao và dòng tiền ổn định từ huy động gửi tiết kiệm và tiền gửi không kỳ hạn, chiếm hơn 65% tổng nguồn vốn, hỗ trợ hiệu quả các khoản cho vay doanh nghiệp và tiêu dùng. Dù doanh thu tăng 5,3% lên 67.848 tỷ đồng và lợi nhuận tăng 5,2% lên 8.480 tỷ đồng, ngân hàng vẫn duy trì hệ số thanh toán ngắn hạn (LCR) trên 130% và tỷ lệ nợ xấu dưới 1,5%, thể hiện khả năng đáp ứng nghĩa vụ tài chính ngay cả trong điều kiện thị trường biến động.",
+      "section_id": "s4"
+    },
+    {
+      "id": "p13",
+      "text": "Trong năm 2024, VietinBank triển khai chiến lược tối ưu hóa hiệu quả sử dụng tài sản thông qua ba hành động cụ thể, đo lường được:  \n\n**Thứ nhất, tái cấu trúc danh mục cho vay theo tỷ suất sinh lời (ROA) thay vì quy mô.** Ngân hàng cắt giảm 12,3% dư nợ các sản phẩm cho vay truyền thống có ROA dưới 1,5% (chủ yếu ở lĩnh vực sản xuất nhẹ, dệt may) và chuyển hướng 18.500 tỷ đồng sang các khoản vay có bảo đảm bằng tài sản có độ thanh khoản cao, như tín dụng doanh nghiệp công nghệ cao, vay mua xe thương mại và tín dụng xanh – những sản phẩm có ROA trung bình 2,8%. Kết quả: tỷ lệ ROA toàn ngân hàng tăng từ 1,78% năm 2023 lên 1,95% năm 2024, dù tổng tài sản chỉ tăng 3,1%.  \n\n**Thứ hai, tự động hóa quản lý tài sản thế chấp thông qua nền",
+      "section_id": "s4"
+    },
+    {
+      "id": "p14",
+      "text": "Năm 2024, VietinBank ghi nhận sự cải thiện đáng ghi nhận trong hiệu quả sinh lời khi lợi nhuận ròng đạt 8.480 tỷ đồng, tăng 5,2% so với năm trước, kéo theo biên lợi nhuận ròng (ROS) duy trì ở mức 12,50% – một con số ấn tượng trong bối cảnh lãi suất điều hành tăng và áp lực cạnh tranh gia tăng từ các ngân hàng số. Tuy nhiên, tỷ suất sinh lời trên tài sản (ROA) chỉ ở mức khoảng 1,25%, thấp hơn mức trung bình ngành (1,4–1,6%), cho thấy sự chưa tối ưu trong việc sử dụng tài sản để tạo ra lợi nhuận, đặc biệt khi danh mục cho vay vẫn nặng về các lĩnh vực truyền thống có tỷ lệ nợ xấu tiềm ẩn cao. Trong khi đó, ROE đạt khoảng 14,8%, cao hơn mức trung bình ngành, phản ánh hiệu quả trong việc tận dụng đòn bẩy tài chính nhờ cơ cấu vốn lành mạnh và tỷ lệ vốn chủ sở hữu trên tổng tài sản ổn định –",
+      "section_id": "s4"
+    },
+    {
+      "id": "p15",
+      "text": "Trong năm 2024, VietinBank thực hiện chiến lược phân tích và tối ưu hóa doanh thu theo từng mảng kinh doanh một cách hệ thống, dựa trên dữ liệu chi tiết theo ngày và theo sản phẩm, nhằm tăng hiệu quả phân bổ nguồn lực. Cụ thể, ngân hàng đã triển khai **hệ thống phân tích doanh thu theo mảng (Revenue-by-Channel Analytics)** tích hợp với AI, cho phép tách biệt doanh thu từ ba dòng chính: cho vay, huy động vốn và dịch vụ tài chính – với độ phân giải đến cấp sản phẩm (ví dụ: cho vay doanh nghiệp SME, thẻ tín dụng, dịch vụ thanh toán qua QR Code, hoặc huy động qua kênh ngân hàng số).  \n\nKết quả đo lường rõ rệt: tổng doanh thu đạt **67.848 tỷ đồng**, tăng **5,3%** so với năm 2023 (64.460 tỷ đồng), trong đó **mảng dịch vụ tài chính** đóng góp lớn nhất vào tăng trưởng – tăng **12,7%**, nhờ vào việc mở",
+      "section_id": "s5"
+    },
+    {
+      "id": "p16",
+      "text": "VietinBank ghi nhận lợi nhuận ròng đạt 8.480 tỷ đồng năm 2024, tăng 5,2% so với 8.056 tỷ đồng năm trước, phản ánh hiệu quả trong quản lý rủi ro tín dụng và tối ưu hóa danh mục cho vay doanh nghiệp, đặc biệt tại các ngành then chốt như công nghiệp và hạ tầng. Biên lợi nhuận duy trì ở mức 12,50% – cao hơn mức trung bình ngành – cho thấy khả năng sinh lời bền vững từ cả nguồn thu lãi vay và phí dịch vụ tài chính, dù áp lực giảm lãi suất huy động và chi phí vốn có phần gia tăng.",
+      "section_id": "s5"
+    },
+    {
+      "id": "p17",
+      "text": "Trong năm 2024, VietinBank đã đẩy mạnh đầu tư vào Nghiên cứu và Phát triển (R&D) như một trụ cột chiến lược để tái cấu trúc mô hình kinh doanh theo hướng công nghệ, với chi phí R&D tăng 18,7% so với năm trước – phản ánh cam kết chuyển đổi số sâu rộng. Đáng chú ý, ngân hàng đã triển khai thành công hệ thống AI phân tích rủi ro tín dụng dựa trên dữ liệu phi truyền thống (như hành vi giao dịch qua ví điện tử và mạng xã hội), giúp giảm tỷ lệ nợ xấu trong phân khúc SME xuống còn 2,1% từ 2,8% năm 2023 – minh chứng rõ nét cho hiệu quả của các giải pháp công nghệ tiên tiến. Tuy nhiên, thách thức lớn nhất nằm ở việc tích hợp các nền tảng R&D rời rạc từ các công ty con, thiếu chuẩn dữ liệu đồng bộ, và áp lực cạnh tranh từ các fintech nội địa có tốc độ đổi mới nhanh gấp 3 lần. Song song đó, cơ hội lớn đến từ việc khai thác",
+      "section_id": "s6"
+    },
+    {
+      "id": "p18",
+      "text": "Năm 2024, VietinBank chủ động thúc đẩy chiến lược tăng trưởng thông qua các hành động chiến lược cụ thể trong lĩnh vực đối tác chiến lược và M&A, nhằm củng cố vị thế dẫn đầu trong hệ sinh thái tài chính - ngân hàng. Một trong những bước đi nổi bật là việc ký kết thỏa thuận hợp tác chiến lược với Tập đoàn FPT – doanh nghiệp công nghệ hàng đầu Việt Nam – nhằm tích hợp giải pháp thanh toán số, ngân hàng mở (Open Banking) và quản trị rủi ro AI vào hệ thống dịch vụ ngân hàng. Hợp tác này đã giúp VietinBank tăng 18% lượng giao dịch số qua nền tảng liên kết trong quý I/2024, đồng thời giảm 22% chi phí vận hành xử lý giao dịch nhờ tự động hóa.\n\nVề M&A, VietinBank chính thức hoàn tất việc mua lại 100% cổ phần của Công ty Tài chính TNHH MTV CMC (CMC Finance) với giá trị giao dịch 2.100 tỷ đồng – thương vụ lớn nhất trong ngành tài chính tiêu dùng năm 2024. Sau",
+      "section_id": "s6"
+    },
+    {
+      "id": "p19",
+      "text": "Năm 2024, VietinBank đẩy mạnh kế hoạch đầu tư và mở rộng với trọng tâm là hiện đại hóa hạ tầng công nghệ, mở rộng mạng lưới tại các vùng kinh tế trọng điểm và phát triển sản phẩm tài chính xanh – một chiến lược táo bạo nhằm khai thác tiềm năng lớn từ chuyển dịch kinh tế bền vững. Với doanh thu đạt 67,848 tỷ đồng (tăng 5,3% so với năm trước) và lợi nhuận ròng 8,480 tỷ đồng (biên lợi nhuận 12,5%), ngân hàng có nền tảng tài chính vững chắc để rót vốn vào hệ thống AI-driven risk management và mở thêm 50 chi nhánh tại các tỉnh có tốc độ đô thị hóa nhanh như Bình Dương, Đồng Nai và Nghệ An. Tuy nhiên, thách thức không nhỏ đến từ áp lực cạnh tranh khốc liệt từ các ngân hàng số như MBBank hay Techcombank, cùng với chi phí đầu tư công nghệ cao có thể làm chậm lại biên lợi nhuận trong ngắn hạn. Song song đó, cơ hội lớn nằm ở việc tận dụng chính sách",
+      "section_id": "s6"
+    },
+    {
+      "id": "p20",
+      "text": "Việc điều chỉnh tỷ lệ dự phòng rủi ro tín dụng theo Thông tư mới của Ngân hàng Nhà nước có thể tác động trực tiếp đến biên lợi nhuận của các sản phẩm cho vay doanh nghiệp vừa và nhỏ – lĩnh vực trọng tâm của VietinBank. Đồng thời, những thay đổi trong quy định về quản lý nợ xấu, đặc biệt với các khoản vay tái cơ cấu, đòi hỏi ngân hàng phải nâng cao độ chính xác trong phân loại và xử lý, làm gia tăng áp lực tuân thủ pháp lý và chi phí vận hành.",
+      "section_id": "s7"
+    },
+    {
+      "id": "p21",
+      "text": "Trong bối cảnh tăng trưởng tín dụng ổn định, VietinBank duy trì chính sách dự phòng rủi ro thận trọng, với tỷ lệ dự phòng nợ xấu đạt 2,8% trên tổng dư nợ cho vay, đảm bảo khả năng chống chịu trước biến động thị trường; đồng thời, ngân hàng tích cực phối hợp với các công ty bảo hiểm như Bảo Việt và PVI để cung cấp gói bảo hiểm tín dụng cho khách hàng vay thế chấp bất động sản, giảm thiểu rủi ro tín dụng và hỗ trợ duy trì lợi nhuận ròng 8.480 tỷ đồng trong năm 2024.",
+      "section_id": "s7"
+    }
+  ],
+  "tables": [
+    {
+      "id": "t1",
+      "caption": "Bảng 1: Kết quả kinh doanh tổng hợp 2023-2024",
+      "col_headers": [
+        "Chỉ tiêu",
+        "Năm 2023",
+        "Năm 2024",
+        "Tăng trưởng (%)"
+      ],
+      "row_headers": [
+        "Tổng doanh thu",
+        "Lợi nhuận trước thuế",
+        "Lợi nhuận sau thuế"
+      ],
+      "cells": [
+        {
+          "row": 0,
+          "col": 0,
+          "value": "Tổng doanh thu",
+          "is_header": true
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "value": "54,293 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "value": "61,368 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "value": "13.0%",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "value": "Lợi nhuận trước thuế",
+          "is_header": true
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "value": "6,810 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "value": "6,310 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "value": "-7.3%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "value": "Lợi nhuận sau thuế",
+          "is_header": true
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "value": "5,376 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "value": "5,030 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "value": "-6.4%",
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "caption": "Bảng 2: Các chỉ số tài chính chủ yếu",
+      "col_headers": [
+        "Chỉ số",
+        "Năm 2023",
+        "Năm 2024",
+        "Thay đổi"
+      ],
+      "row_headers": [],
+      "cells": [
+        {
+          "row": 0,
+          "col": 0,
+          "value": "Chỉ số",
+          "is_header": true
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "value": "Năm 2023",
+          "is_header": true
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "value": "Năm 2024",
+          "is_header": true
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "value": "Thay đổi",
+          "is_header": true
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "value": "ROS (%)",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "value": "11.43%",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "value": "12.43%",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "value": "+1.00%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "value": "ROA (%)",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "value": "5.68%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "value": "5.51%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "value": "-0.17%",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "value": "ROE (%)",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "value": "9.05%",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "value": "10.31%",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "value": "+1.26%",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "value": "Nợ/Vốn CSH",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "value": "0.66",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "value": "0.70",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "value": "+0.03",
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "caption": "Bảng 3: Bảng cân đối kế toán tóm tắt",
+      "col_headers": [
+        "Khoản mục",
+        "Cuối năm 2023",
+        "Cuối năm 2024",
+        "Biến động (%)"
+      ],
+      "row_headers": [],
+      "cells": [
+        {
+          "row": 0,
+          "col": 0,
+          "value": "Khoản mục",
+          "is_header": true
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "value": "Cuối năm 2023",
+          "is_header": true
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "value": "Cuối năm 2024",
+          "is_header": true
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "value": "Biến động (%)",
+          "is_header": true
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "value": "Tổng tài sản",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "value": "119,944 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "value": "127,434 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "value": "6.2%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "value": "Tài sản ngắn hạn",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "value": "38,134 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "value": "50,243 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "value": "31.8%",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "value": "Tài sản dài hạn",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "value": "81,810 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "value": "77,191 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "value": "-5.6%",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "value": "Vốn chủ sở hữu",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "value": "67,892 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "value": "74,242 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "value": "9.4%",
+          "is_header": false
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "value": "Nợ phải trả",
+          "is_header": false
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "value": "52,052 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "value": "53,192 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "value": "2.2%",
+          "is_header": false
+        }
+      ]
+    }
+  ]
+}

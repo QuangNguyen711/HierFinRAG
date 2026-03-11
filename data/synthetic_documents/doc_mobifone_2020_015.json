@@ -1,0 +1,512 @@
+{
+  "id": "doc_mobifone_2020_015",
+  "title": "Báo Cáo Tài Chính MobiFone 2020",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Tổng Quan Hoạt Động Kinh Doanh",
+      "level": 1,
+      "content_ids": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Kết Quả Kinh Doanh Năm 2020",
+      "level": 1,
+      "content_ids": [
+        "p3",
+        "p4",
+        "t1",
+        "p5",
+        "p6"
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Tình Hình Tài Sản và Nguồn Vốn",
+      "level": 1,
+      "content_ids": [
+        "p7",
+        "p8",
+        "t2"
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Phân Tích Biến Động Doanh Thu và Lợi Nhuận",
+      "level": 1,
+      "content_ids": [
+        "p9",
+        "p10",
+        "t3",
+        "p11",
+        "p12"
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Hiệu Quả Sử Dụng Vốn và Tỷ Lệ Nợ",
+      "level": 1,
+      "content_ids": [
+        "p13",
+        "p14",
+        "p15"
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Đánh Giá Rủi Ro và Cơ Hội Trong Ngành Viễn Thông",
+      "level": 1,
+      "content_ids": [
+        "p16",
+        "p17",
+        "p18"
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Chiến Lược và Định Hướng Phát Triển 2021",
+      "level": 1,
+      "content_ids": [
+        "p19",
+        "p20"
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "p1",
+      "text": "Năm 2020, MobiFone đã triển khai chiến lược kinh doanh tổng thể mang tính đột phá, chuyển từ mô hình cung cấp dịch vụ viễn thông truyền thống sang nền tảng chuyển đổi số toàn diện, nhằm khai thác tối đa giá trị từ hành vi người dùng trong kỷ nguyên 4.0. Với doanh thu đạt 48.128 tỷ đồng, tăng trưởng 19,1% so với năm trước, và lợi nhuận ròng tăng lên 3.399 tỷ đồng, chiến lược này không chỉ thể hiện hiệu quả trong việc mở rộng thị phần mà còn chứng minh sự thành công trong việc tái cấu trúc nguồn thu – đặc biệt qua các dịch vụ giá trị gia tăng như MobiFone Play, MobiFone Cloud và giải pháp IoT cho doanh nghiệp. Tuy nhiên, thách thức không nhỏ đến từ sự cạnh tranh khốc liệt của Viettel và VinaPhone, cùng áp lực giảm giá cước và nhu cầu đầu tư lớn vào hạ tầng 5G, trong khi biên lợi nhuận chỉ ở mức 7,06%, cho thấy áp lực chi phí đang gia tăng",
+      "section_id": "s1"
+    },
+    {
+      "id": "p2",
+      "text": "Năm 2020, MobiFone bước vào giai đoạn chuyển đổi số mang tính đột phá khi không còn chỉ là nhà cung cấp dịch vụ viễn thông mà vươn mình thành nền tảng số tích hợp, khai thác dữ liệu lớn, trí tuệ nhân tạo và điện toán đám mây để tái định nghĩa trải nghiệm khách hàng. Cơ hội lớn nhất nằm ở việc biến 60 triệu thuê bao thành nguồn dữ liệu sống động, từ đó cá nhân hóa dịch vụ, phát triển sản phẩm tài chính số như MobiFone Pay hay nền tảng giáo dục trực tuyến, đồng thời tối ưu chi phí vận hành qua tự động hóa quy trình hậu cần và chăm sóc khách hàng bằng chatbot AI. Tuy nhiên, thách thức không nhỏ: hạ tầng công nghệ lạc hậu ở một số vùng sâu vùng xa, sự e dè của người dùng lớn tuổi trước các giao diện kỹ thuật số, và áp lực cạnh tranh khốc liệt từ các “gã khổng lồ” công nghệ như Viettel, Vinaphone, hay thậm chí là các fintech mới nổi. Đặc biệt, việc tích hợp hệ thống cũ với các giải",
+      "section_id": "s1"
+    },
+    {
+      "id": "p3",
+      "text": "Năm 2020, MobiFone triển khai chiến lược kinh doanh tổng thể lấy “chuyển đổi số làm trung tâm” và tập trung vào ba hành động cụ thể, đo lường được: (1) **Mở rộng dịch vụ viễn thông tích hợp** – đẩy mạnh gói cước “MobiFone 4G/5G kèm dịch vụ số” như MobiFone Play, MobiFone Cloud và MobiFone Pay, giúp tăng tỷ lệ khách hàng sử dụng từ 2 dịch vụ trở lên lên 37% so với 25% năm 2019, đóng góp 42% doanh thu tổng; (2) **Tối ưu hóa hạ tầng và nâng cao trải nghiệm người dùng** – đầu tư 1.200 tỷ đồng nâng cấp trạm phát sóng, phủ 5G tại 25 thành phố lớn và 63 tỉnh thành, đồng thời giảm thời gian gián đoạn kết nối xuống còn dưới 0,8% (từ 1,5% năm 2019), dẫn đến tỷ lệ giữ chân khách hàng tăng từ",
+      "section_id": "s2"
+    },
+    {
+      "id": "p4",
+      "text": "Năm 2020, MobiFone đẩy mạnh chiến lược mở rộng thị trường và khách hàng không chỉ bằng cách tăng cường phủ sóng mà còn thông qua tái định vị bản thân như một nhà cung cấp giải pháp chuyển đổi số toàn diện – một bước đi táo bạo trong bối cảnh thị trường di động bão hòa và người dùng ngày càng đòi hỏi giá trị vượt ngoài gói cước. Thách thức lớn nhất nằm ở sự cạnh tranh khốc liệt từ Viettel và Vinaphone, vốn có lợi thế về hạ tầng và chiến dịch marketing bao phủ mọi phân khúc, đặc biệt ở vùng nông thôn và khu vực biên giới, nơi MobiFone vẫn còn khoảng trống về phủ sóng và độ tin cậy. Tuy nhiên, chính sự chuyển dịch hành vi tiêu dùng do đại dịch COVID-19 – khi người dân tăng cường sử dụng dịch vụ số, học trực tuyến và thanh toán không tiền mặt – lại mở ra cơ hội vàng để MobiFone khai thác phân khúc khách hàng trung niên và cao tuổi, vốn trước đây bị bỏ qua, thông qua các gói kết hợp dịch vụ viễn thông với nền tảng giáo dục",
+      "section_id": "s2"
+    },
+    {
+      "id": "p5",
+      "text": "Năm 2020, trong bối cảnh dịch bệnh làm gián đoạn hoạt động kinh doanh truyền thống, MobiFone triển khai một loạt hành động chiến lược nhằm duy trì và thúc đẩy doanh thu, tập trung vào ba trụ cột: tối ưu hóa gói cước số, mở rộng hệ sinh thái dịch vụ không dây, và tận dụng dữ liệu để cá nhân hóa trải nghiệm khách hàng.\n\nĐầu tiên, MobiFone loại bỏ hoàn toàn các gói cước “cũ” dựa trên phút gọi và SMS, thay bằng 7 gói “4G/5G Unlimited” được thiết kế theo nhu cầu thực tế của người dùng trẻ và doanh nghiệp nhỏ – như “MobiFone 5G Pro” với 100GB data tốc độ cao, không giới hạn call nội mạng và tích hợp sẵn 5GB data dành riêng cho TikTok, Zalo, YouTube. Kết quả: 68% khách hàng chuyển đổi sang gói mới trong quý II, đóng góp 42% tổng doanh thu di động – tăng 19% so với cùng kỳ 2019.\n\nThứ hai,",
+      "section_id": "s2"
+    },
+    {
+      "id": "p6",
+      "text": "Năm 2020, MobiFone khẳng định vị thế tiên phong trong chuyển đổi số khi doanh thu tăng 19,1% lên 48.128 tỷ đồng và lợi nhuận đạt 3.399 tỷ đồng, với biên lợi nhuận cải thiện lên 7,06% – minh chứng rõ ràng cho hiệu quả của chiến lược ứng dụng công nghệ mới như AI, Big Data và nền tảng đám mây trong tối ưu vận hành và cá nhân hóa trải nghiệm khách hàng. Tuy nhiên, hành trình này không thiếu thách thức: áp lực cạnh tranh khốc liệt từ các đối thủ tích hợp dịch vụ tài chính số, chi phí đầu tư hạ tầng 5G và thiếu hụt nguồn nhân lực chất lượng cao về dữ liệu đã khiến tốc độ chuyển đổi bị hạn chế ở một số phân khúc doanh nghiệp nhỏ. Song song đó, cơ hội bùng nổ đến từ việc MobiFone khai thác dữ liệu khách hàng để phát triển các giải pháp IoT cho thành phố thông minh và hợp tác với các startup công nghệ tạo hệ sinh thái số tích hợp – từ thanh toán di động đến dịch",
+      "section_id": "s2"
+    },
+    {
+      "id": "p7",
+      "text": "Năm 2020, MobiFone thực hiện chiến lược đầu tư dài hạn tập trung vào cơ sở hạ tầng kỹ thuật cốt lõi để hỗ trợ chuyển đổi số và mở rộng dịch vụ viễn thông chất lượng cao. Thay vì chỉ nâng cấp rải rác, công ty triển khai gói đầu tư lớn, cụ thể: **đầu tư 2.100 tỷ đồng vào hệ thống mạng 4G/5G, trạm gốc (BTS), và trung tâm dữ liệu**, trong đó hơn 60% nguồn lực được phân bổ cho khu vực nông thôn và vùng sâu vùng xa – nơi có mật độ phủ sóng thấp nhất. Kết quả, đến cuối năm 2020, MobiFone đã **bổ sung 11.500 trạm BTS mới**, tăng 23% so với năm 2019, giúp phủ sóng 4G đến 98,7% dân số – cao nhất trong nhóm nhà mạng lớn. Đồng thời, công ty triển khai hệ thống **trung tâm xử lý dữ liệu tập trung (DC) tại Hà Nội và TP.HCM",
+      "section_id": "s3"
+    },
+    {
+      "id": "p8",
+      "text": "Năm 2020, MobiFone thực hiện chiến lược tối ưu hóa vốn lưu động thông qua việc thu hẹp chu kỳ kinh doanh, tập trung vào ba hành động cụ thể có thể đo lường rõ ràng. Thứ nhất, công ty tái cấu trúc quy trình thanh toán với nhà cung cấp thiết bị và dịch vụ viễn thông, chuyển từ kỳ hạn 60–90 ngày xuống còn 30–45 ngày thông qua đàm phán hợp đồng có điều kiện và sử dụng nền tảng thanh toán điện tử tích hợp với hệ thống ERP. Kết quả: giảm trung bình 22 ngày trong chu kỳ thanh toán phải trả, giải phóng thêm 840 tỷ đồng vốn lưu động trong năm. Thứ hai, MobiFone triển khai mô hình “kho hàng linh hoạt” cho thiết bị đầu cuối (smartphone, SIM, thiết bị IoT), giảm tồn kho từ 120 ngày xuống còn 75 ngày nhờ tích hợp dữ liệu bán hàng thực tế với hệ thống dự báo AI, tiết kiệm chi phí lưu kho 190 tỷ đồng và tăng tỷ lệ chuyển đổi hàng tồn",
+      "section_id": "s3"
+    },
+    {
+      "id": "p9",
+      "text": "Năm 2020, MobiFone triển khai chiến lược “Tăng trưởng dựa trên giá trị dịch vụ số” như một yếu tố then chốt tác động trực tiếp đến kết quả kinh doanh. Thay vì chỉ tập trung vào tăng thuê bao, công ty chuyển trọng tâm sang đẩy mạnh doanh thu từ các dịch vụ số – đặc biệt là dịch vụ OTT, điện toán đám mây, và giải pháp IoT cho doanh nghiệp. Cụ thể, MobiFone ra mắt gói “MobiFone Cloud” cho doanh nghiệp vừa và nhỏ, tích hợp lưu trữ, backup và quản lý tài nguyên trực tuyến, thu hút hơn 120.000 khách hàng doanh nghiệp chỉ trong 8 tháng đầu năm, đóng góp 1.870 tỷ đồng vào doanh thu, tăng 215% so với năm 2019. Đồng thời, công ty tối ưu hóa chi phí vận hành thông qua tự động hóa quy trình chăm sóc khách hàng (CSKH) bằng chatbot AI và hệ thống phân tích hành vi người dùng, giúp giảm 32% chi phí hỗ trợ, đồng thời",
+      "section_id": "s4"
+    },
+    {
+      "id": "p10",
+      "text": "Năm 2020, MobiFone ghi nhận lợi nhuận ròng tăng 19,1% lên 3.399 tỷ đồng, phản ánh hiệu quả khai thác dịch vụ di động và chuyển đổi số như 4G, Internet FPT và gói dữ liệu giá rẻ. Biên lợi nhuận đạt 7,06% – cao hơn mức trung bình ngành viễn thông – cho thấy khả năng kiểm soát chi phí vận hành và tối ưu hóa doanh thu từ dịch vụ số, dù chịu áp lực giảm giá cước từ cạnh tranh khốc liệt.",
+      "section_id": "s4"
+    },
+    {
+      "id": "p11",
+      "text": "Năm 2020, MobiFone ghi nhận doanh thu tăng 19,1% lên 48.128 tỷ đồng và lợi nhuận tăng 19,1% lên 3.399 tỷ đồng so với năm trước, nhờ mở rộng dịch vụ 4G, gói cước data cao tốc và giải pháp chuyển đổi số cho doanh nghiệp; tốc độ tăng trưởng này vượt kế hoạch ban đầu 15%, cho thấy hiệu quả trong việc tối ưu hóa cơ sở hạ tầng và thúc đẩy doanh thu từ các sản phẩm số như MobiFone TV và nền tảng quản lý doanh nghiệp.",
+      "section_id": "s4"
+    },
+    {
+      "id": "p12",
+      "text": "Năm 2020, MobiFone tối ưu hóa chi phí hoạt động thông qua tự động hóa quy trình chăm sóc khách hàng trên nền tảng số và giảm phụ thuộc vào mạng lưới đại lý truyền thống, đồng thời nâng cao hiệu quả khai thác dịch vụ 4G/5G và gói internet gia đình – giúp chi phí bán hàng và quản lý giảm 8,2% trong khi doanh thu tăng 19,1% lên 48,128 tỷ đồng. Nhờ đó, biên lợi nhuận đạt 7,06%, cao nhất trong 5 năm qua, phản ánh thành công trong cân bằng giữa đầu tư công nghệ và kiểm soát chi phí vận hành.",
+      "section_id": "s4"
+    },
+    {
+      "id": "p13",
+      "text": "Năm 2020, MobiFone duy trì cấu trúc vốn ổn định với tỷ lệ nợ trên vốn chủ sở hữu ở mức vừa phải, phản ánh chiến lược cân bằng giữa tăng trưởng và an toàn tài chính – dù doanh thu tăng 19,1% lên 48.128 tỷ đồng và lợi nhuận ròng đạt 3.399 tỷ đồng (tăng 19,1%), nhưng đòn bẩy tài chính vẫn không được khai thác tối đa, cho thấy sự thận trọng trước rủi ro lãi suất và áp lực thanh toán trong bối cảnh dịch bệnh. Sự thận trọng này là đôi khi: mặt tích cực, nó bảo vệ doanh nghiệp khỏi cú sốc thanh khoản, nhưng mặt tiêu cực, lại hạn chế khả năng đầu tư mạnh vào hạ tầng 5G và chuyển đổi số – những lĩnh vực đòi hỏi nguồn vốn lớn và đòn bẩy hợp lý để tạo đột phá. Trong khi các đối thủ như Viettel và VNPT đã tăng vay dài hạn để triển khai hạ tầng công nghệ, MobiFone lại phụ thuộc chủ yếu vào nguồn vốn nội bộ và tái",
+      "section_id": "s5"
+    },
+    {
+      "id": "p14",
+      "text": "Năm 2020, MobiFone ghi nhận hiệu quả sử dụng tài sản tăng đáng kể khi doanh thu đạt 48,128 tỷ đồng, tăng 19,1% so với năm trước, trong khi lợi nhuận ròng cũng vươn lên 3,399 tỷ đồng — tương đương biên lợi nhuận 7,06%, cho thấy khả năng chuyển hóa tài sản thành giá trị thuần ngày càng tối ưu. Tuy nhiên, sự gia tăng này không phải đến từ việc mở rộng cơ sở hạ tầng một cách ồ ạt, mà chủ yếu nhờ tái cấu trúc tài sản: tối ưu hóa mạng lưới 4G, giảm chi phí vận hành qua tự động hóa và đẩy mạnh chuyển đổi số trong dịch vụ khách hàng — những yếu tố giúp tăng vòng quay tài sản mà không cần tăng đáng kể vốn đầu tư. Thách thức lớn nhất nằm ở áp lực cạnh tranh từ Viettel và VinaPhone, khi các đối thủ đang đầu tư mạnh vào 5G và nền tảng số, đe dọa làm giảm tỷ suất sinh lời trên tài sản (ROA) trong ngắn hạn. Song song đó,",
+      "section_id": "s5"
+    },
+    {
+      "id": "p15",
+      "text": "Năm 2020, MobiFone ghi nhận sự cải thiện đáng kể về hiệu quả sinh lời khi tỷ suất lợi nhuận trên doanh thu (ROS) tăng lên 7,06% từ mức 7,06% năm trước, phản ánh khả năng kiểm soát chi phí và tối ưu hóa cấu trúc doanh thu trong bối cảnh dịch bệnh gây áp lực lớn lên ngành viễn thông. Tuy nhiên, tỷ suất sinh lời trên tài sản (ROA) ở mức khoảng 4,3% — dù tăng nhẹ so với năm 2019 — vẫn còn khiêm tốn, cho thấy hiệu quả sử dụng tài sản chưa tương xứng với quy mô đầu tư hạ tầng 5G và chuyển đổi số; trong khi đó, ROE đạt xấp xỉ 16,8%, cao hơn mức trung bình ngành, cho thấy năng lực tạo giá trị cho cổ đông nhờ cơ cấu vốn hợp lý và lợi nhuận giữ lại dồi dào. Thách thức lớn nhất nằm ở sự chênh lệch giữa ROA và ROE: mức độ đòn bẩy tài chính cao có thể làm tăng rủi",
+      "section_id": "s5"
+    },
+    {
+      "id": "p16",
+      "text": "Năm 2020, MobiFone triển khai chiến lược quản trị rủi ro toàn diện nhằm đối phó với những bất ổn từ đại dịch COVID-19 và áp lực chuyển đổi số, với các hành động cụ thể và kết quả đo lường rõ ràng. Đầu tiên, công ty xây dựng hệ thống giám sát rủi ro tài chính theo thời gian thực thông qua nền tảng AI phân tích dữ liệu giao dịch và hành vi khách hàng, giúp phát hiện sớm các dấu hiệu sụt giảm doanh thu ở khu vực có phong tỏa — từ đó chủ động điều chỉnh chiến lược khuyến mãi, chuyển hướng từ khuyến mãi thiết bị sang gói cước dữ liệu miễn phí, giúp duy trì tỷ lệ giữ chân khách hàng ở mức 97,3% trong quý II/2020, cao hơn 2,1 điểm phần trăm so với quý I. Thứ hai, MobiFone giảm 30% chi phí vận hành thông qua tự động hóa quy trình chăm sóc khách hàng (CSKH) bằng chatbot AI và hệ thống xử lý yêu cầu tự động, cắt giảm 1.200 ca làm việc",
+      "section_id": "s6"
+    },
+    {
+      "id": "p17",
+      "text": "Năm 2020, MobiFone đối mặt với rủi ro chính sách và pháp lý gia tăng khi Chính phủ đẩy mạnh cải cách hành chính trong lĩnh vực viễn thông, đặc biệt qua việc ban hành Nghị định 13/2020/NĐ-CP về quản lý dịch vụ viễn thông và công nghệ thông tin, buộc doanh nghiệp phải tái cấu trúc cơ chế định giá cước, minh bạch hóa dữ liệu người dùng và tuân thủ nghiêm ngặt quy định về bảo vệ thông tin cá nhân – một thách thức lớn đối với mô hình kinh doanh từng dựa vào lợi thế biên độ cao từ dịch vụ truyền thống. Song song đó, áp lực từ các chính sách ưu đãi thuế và hỗ trợ doanh nghiệp công nghệ số trong bối cảnh chuyển đổi số quốc gia lại mở ra cơ hội chiến lược: MobiFone có thể tận dụng ưu đãi đầu tư vào hạ tầng 5G và nền tảng số để chuyển từ nhà cung cấp dịch vụ viễn thông sang “đối tác chuyển đổi số” cho doanh nghiệp và chính quyền địa phương – nhờ đó không chỉ giảm rủi ro",
+      "section_id": "s6"
+    },
+    {
+      "id": "p18",
+      "text": "Trong năm 2020, MobiFone đã tăng cường quản lý rủi ro tài chính thông qua việc trích lập dự phòng cho các khoản phải thu khó đòi từ dịch vụ viễn thông, đặc biệt liên quan đến gói cước trả sau và thiết bị trả góp – chiếm khoảng 12% tổng doanh thu – đồng thời duy trì chính sách bảo hiểm cho nhân viên và tài sản công nghệ, đảm bảo liên tục hoạt động trong bối cảnh đại dịch. Mức trích lập dự phòng tăng 15% so với năm trước, phản ánh sự thận trọng trong quản trị rủi ro khi doanh thu đạt 48,128 tỷ đồng và lợi nhuận tăng 19,1%.",
+      "section_id": "s6"
+    },
+    {
+      "id": "p19",
+      "text": "Năm 2020, MobiFone triển khai một chiến lược doanh thu và lợi nhuận tập trung vào ba trụ cột hành động cụ thể, đo lường được và có tác động trực tiếp đến kết quả tài chính. Thứ nhất, công ty đẩy mạnh khai thác nguồn thu từ dịch vụ dữ liệu (data) và giải pháp chuyển đổi số cho doanh nghiệp, đặc biệt thông qua gói cước “MobiFone 5G – Tốc độ vượt trội” và các gói giải pháp IoT, cloud cho ngành giáo dục, y tế và logistics. Kết quả: doanh thu từ dịch vụ dữ liệu tăng 32% so với năm 2019, đóng góp 41% tổng doanh thu – cao nhất từ trước đến nay. Thứ hai, MobiFone tối ưu chi phí vận hành bằng cách tự động hóa quy trình chăm sóc khách hàng qua AI Chatbot và hệ thống CRM tích hợp, giảm 18% chi phí dịch vụ khách hàng trong khi vẫn duy trì mức độ hài lòng trên 90%. Thứ ba, công ty mở rộng mô hình hợp tác doanh nghiệp (B2B2C",
+      "section_id": "s7"
+    },
+    {
+      "id": "p20",
+      "text": "Năm 2020, MobiFone đẩy mạnh nghiên cứu và phát triển (R&D) với trọng tâm là tối ưu hóa hạ tầng mạng 4G và tiền nền tảng cho 5G, thông qua ba sáng kiến cụ thể. Thứ nhất, họ triển khai dự án “Smart Network Optimization” – sử dụng AI để phân tích dữ liệu lưu lượng người dùng theo thời gian thực, từ đó điều chỉnh phân bổ băng thông động tại 12.000 trạm gốc, giảm 23% tình trạng nghẽn mạng vào giờ cao điểm ở các khu đô thị lớn như Hà Nội và TP.HCM. Thứ hai, MobiFone hợp tác với Viện Công nghệ Viễn thông (VIIT) và Đại học Bách khoa Hà Nội để phát triển mô hình “Edge Computing nhẹ” cho dịch vụ IoT – cho phép xử lý dữ liệu tại biên, giảm độ trễ xuống dưới 50ms, phục vụ các ứng dụng như giám sát thông minh tại bệnh viện và trường học. Thứ ba, họ xây dựng phòng thí nghiệm nội bộ “5G Lab” với 3 trạm 5G thử nghiệm thực tế tại",
+      "section_id": "s7"
+    }
+  ],
+  "tables": [
+    {
+      "id": "t1",
+      "caption": "Bảng 1: Kết quả kinh doanh tổng hợp 2019-2020",
+      "col_headers": [
+        "Chỉ tiêu",
+        "Năm 2019",
+        "Năm 2020",
+        "Tăng trưởng (%)"
+      ],
+      "row_headers": [
+        "Tổng doanh thu",
+        "Lợi nhuận trước thuế",
+        "Lợi nhuận sau thuế"
+      ],
+      "cells": [
+        {
+          "row": 0,
+          "col": 0,
+          "value": "Tổng doanh thu",
+          "is_header": true
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "value": "38,521 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "value": "41,361 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "value": "7.4%",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "value": "Lợi nhuận trước thuế",
+          "is_header": true
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "value": "5,241 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "value": "5,710 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "value": "8.9%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "value": "Lợi nhuận sau thuế",
+          "is_header": true
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "value": "4,206 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "value": "4,728 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "value": "12.4%",
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "caption": "Bảng 2: Bảng cân đối kế toán tóm tắt",
+      "col_headers": [
+        "Khoản mục",
+        "Cuối năm 2019",
+        "Cuối năm 2020",
+        "Biến động (%)"
+      ],
+      "row_headers": [],
+      "cells": [
+        {
+          "row": 0,
+          "col": 0,
+          "value": "Khoản mục",
+          "is_header": true
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "value": "Cuối năm 2019",
+          "is_header": true
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "value": "Cuối năm 2020",
+          "is_header": true
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "value": "Biến động (%)",
+          "is_header": true
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "value": "Tổng tài sản",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "value": "89,581 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "value": "98,587 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "value": "10.1%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "value": "Tài sản ngắn hạn",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "value": "31,111 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "value": "35,956 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "value": "15.6%",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "value": "Tài sản dài hạn",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "value": "58,470 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "value": "62,631 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "value": "7.1%",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "value": "Vốn chủ sở hữu",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "value": "54,628 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "value": "63,128 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "value": "15.6%",
+          "is_header": false
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "value": "Nợ phải trả",
+          "is_header": false
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "value": "34,953 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "value": "35,459 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "value": "1.4%",
+          "is_header": false
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "caption": "Bảng 3: Cơ cấu doanh thu năm 2020",
+      "col_headers": [
+        "Loại dịch vụ",
+        "Doanh thu (tỷ đồng)",
+        "Tỷ trọng (%)"
+      ],
+      "row_headers": [],
+      "cells": [
+        {
+          "row": 0,
+          "col": 0,
+          "value": "Loại dịch vụ",
+          "is_header": true
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "value": "Doanh thu (tỷ đồng)",
+          "is_header": true
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "value": "Tỷ trọng (%)",
+          "is_header": true
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "value": "Internet băng rộng",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "value": "13,782",
+          "is_header": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "value": "37.7%",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "value": "Dịch vụ khác",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "value": "16,232",
+          "is_header": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "value": "44.4%",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "value": "Giải pháp CNTT",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "value": "6,524",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "value": "17.9%",
+          "is_header": false
+        }
+      ]
+    }
+  ]
+}

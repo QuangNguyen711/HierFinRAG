@@ -20,15 +20,32 @@ class GraphBuilder:
     2: Cross-Reference (ref) - explicit mentions
     """
     
-    def __init__(self, embedding_dim=1024):
+    def __init__(self, embedding_dim=1024, use_real_embeddings=False):
         self.embedding_dim = embedding_dim
-        # Placeholder for a real encoder
-        self.mock_encoder = True 
+        self.use_real_embeddings = use_real_embeddings
+        self.encoder_model = None
+        
+        if self.use_real_embeddings:
+            try:
+                from sentence_transformers import SentenceTransformer
+                print("Loading Vietnamese embedding model: dangvantuan/vietnamese-embedding...")
+                self.encoder_model = SentenceTransformer('dangvantuan/vietnamese-embedding')
+                # Update embedding_dim to match model output
+                self.embedding_dim = self.encoder_model.get_sentence_embedding_dimension()
+                print(f"Model loaded successfully. Embedding dimension: {self.embedding_dim}")
+            except Exception as e:
+                print(f"Warning: Could not load embedding model: {e}")
+                print("Falling back to random embeddings")
+                self.use_real_embeddings = False
 
     def _encode(self, text: str) -> torch.Tensor:
-        # Replace this with real embedding model
-        # Returning random vector for Phase 1 demo
-        return torch.randn(self.embedding_dim)
+        if self.use_real_embeddings and self.encoder_model is not None:
+            # Use real Vietnamese embedding model
+            embedding = self.encoder_model.encode(text, convert_to_tensor=True)
+            return embedding
+        else:
+            # Fallback: random vector for demo
+            return torch.randn(self.embedding_dim)
 
     def build_graph(self, doc: Document) -> Data:
         node_features = []
