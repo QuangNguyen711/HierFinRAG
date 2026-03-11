@@ -25,58 +25,63 @@ from .contrastive_loss import SupervisedContrastiveLoss
 
 
 class TTGNNTrainingDataset(Dataset):
-    """Dataset for TTGNN training."""
+    """Dataset for TTGNN training with per-document graphs."""
     
     def __init__(
         self, 
         training_samples: List[Dict[str, Any]],
-        graph_data: Any,
-        node_metadata: List[Dict[str, Any]],
-        query_encoder: Any,
-        doc_id_to_node_range: Dict[str, Tuple[int, int]] = None
+        document_graphs: Dict[str, Any],
+        document_metadata: Dict[str, List[Dict[str, Any]]],
+        query_encoder: Any
     ):
         """
         Args:
             training_samples: List of training samples from data generator
-            graph_data: PyG graph Data object
-            node_metadata: Metadata for all nodes
+            document_graphs: Dict mapping document_id -> PyG graph Data object
+            document_metadata: Dict mapping document_id -> node metadata list
             query_encoder: Embedding model for encoding queries
-            doc_id_to_node_range: Mapping of document_id -> (start_idx, end_idx) in combined graph
         """
-        self.graph = graph_data
-        self.node_metadata = node_metadata
+        self.document_graphs = document_graphs
+        self.document_metadata = document_metadata
         self.query_encoder = query_encoder
-        self.doc_id_to_node_range = doc_id_to_node_range or {}
         
-        # Create node_id to index mapping
-        self.node_id_to_idx = {meta['id']: i for i, meta in enumerate(node_metadata)}
+        # Create per-document node_id to index mappings
+        self.doc_node_id_to_idx = {}
+        for doc_id, metadata in document_metadata.items():
+            self.doc_node_id_to_idx[doc_id] = {
+                meta['id']: i for i, meta in enumerate(metadata)
+            }
         
-        # Filter out invalid samples (nodes not in graph or not in document range)
+        # Filter out invalid samples (documents or nodes not in graphs)
         print(f"Validating {len(training_samples)} training samples...")
         valid_samples = []
         invalid_count = 0
+        missing_docs = set()
         
         for sample in training_samples:
+            doc_id = sample.document_id
+            
+            # Check if document exists
+            if doc_id not in self.document_graphs:
+                missing_docs.add(doc_id)
+                invalid_count += 1
+                continue
+            
+            # Get node mapping for this document
+            node_id_to_idx = self.doc_node_id_to_idx[doc_id]
+            
             # Map node IDs to indices
             positive_indices = [
-                self.node_id_to_idx[nid] 
-                for nid in sample.positive_nodes 
-                if nid in self.node_id_to_idx
+                node_id_to_idx[nid]
+                for nid in sample.positive_nodes
+                if nid in node_id_to_idx
             ]
             
             negative_indices = [
-                self.node_id_to_idx[nid] 
-                for nid in sample.negative_nodes 
-                if nid in self.node_id_to_idx
+                node_id_to_idx[nid]
+                for nid in sample.negative_nodes
+                if nid in node_id_to_idx
             ]
-            
-            # If document filtering is enabled, verify nodes are in document range
-            if self.doc_id_to_node_range and sample.document_id in self.doc_id_to_node_range:
-                start_idx, end_idx = self.doc_id_to_node_range[sample.document_id]
-                
-                # Filter to document range
-                positive_indices = [idx for idx in positive_indices if start_idx <= idx < end_idx]
-                negative_indices = [idx for idx in negative_indices if start_idx <= idx < end_idx]
             
             # Only keep samples with valid positive and negative nodes
             if len(positive_indices) > 0 and len(negative_indices) > 0:
@@ -86,8 +91,10 @@ class TTGNNTrainingDataset(Dataset):
         
         self.samples = valid_samples
         
+        if missing_docs:
+            print(f"  ⚠ Missing documents: {sorted(missing_docs)}")
         if invalid_count > 0:
-            print(f"  ⚠ Removed {invalid_count} invalid samples (missing nodes or out of document range)")
+            print(f"  ⚠ Removed {invalid_count} invalid samples (missing document or nodes)")
         print(f"  ✓ {len(self.samples)} valid samples ready for training")
     
     def __len__(self):
@@ -95,38 +102,36 @@ class TTGNNTrainingDataset(Dataset):
     
     def __getitem__(self, idx):
         sample = self.samples[idx]
+        doc_id = sample.document_id
         
-        # Encode query (access dataclass attributes, not dict keys)
+        # Encode query
         query_embedding = self.query_encoder.encode(
             sample.query, 
             convert_to_tensor=True
         )
         
-        # Map node IDs to indices (pre-validated during __init__)
+        # Get node mapping for this document
+        node_id_to_idx = self.doc_node_id_to_idx[doc_id]
+        
+        # Map node IDs to indices (no prefixing needed - each graph is isolated)
         positive_indices = [
-            self.node_id_to_idx[nid] 
-            for nid in sample.positive_nodes 
-            if nid in self.node_id_to_idx
+            node_id_to_idx[nid]
+            for nid in sample.positive_nodes
+            if nid in node_id_to_idx
         ]
         
         negative_indices = [
-            self.node_id_to_idx[nid] 
-            for nid in sample.negative_nodes 
-            if nid in self.node_id_to_idx
+            node_id_to_idx[nid]
+            for nid in sample.negative_nodes
+            if nid in node_id_to_idx
         ]
-        
-        # Apply document filtering if needed (already validated to have valid nodes)
-        if self.doc_id_to_node_range and sample.document_id in self.doc_id_to_node_range:
-            start_idx, end_idx = self.doc_id_to_node_range[sample.document_id]
-            positive_indices = [idx for idx in positive_indices if start_idx <= idx < end_idx]
-            negative_indices = [idx for idx in negative_indices if start_idx <= idx < end_idx]
         
         return {
             'query_embedding': query_embedding,
             'positive_indices': positive_indices,
             'negative_indices': negative_indices,
             'sample_id': sample.id,
-            'document_id': sample.document_id
+            'document_id': doc_id
         }
 
 
@@ -136,45 +141,48 @@ def collate_fn(batch):
         'query_embeddings': torch.stack([item['query_embedding'] for item in batch]),
         'positive_indices': [item['positive_indices'] for item in batch],
         'negative_indices': [item['negative_indices'] for item in batch],
-        'sample_ids': [item['sample_id'] for item in batch]
+        'sample_ids': [item['sample_id'] for item in batch],
+        'document_ids': [item['document_id'] for item in batch]
     }
 
 
 class TTGNNTrainer:
-    """Trainer for TTGNN model."""
+    """Trainer for TTGNN model with per-document graphs."""
     
     def __init__(
         self,
         model: TTGNN,
-        graph: Any,
-        node_metadata: List[Dict[str, Any]],
+        document_graphs: Dict[str, Any],
+        document_metadata: Dict[str, List[Dict[str, Any]]],
         query_encoder: Any,
-        device: str = 'cuda' if torch.cuda.is_available() else 'cpu',
-        doc_id_to_node_range: Dict[str, Tuple[int, int]] = None
+        device: str = 'cuda' if torch.cuda.is_available() else 'cpu'
     ):
         """
         Args:
             model: TTGNN model
-            graph: Document graph
-            node_metadata: Node metadata
+            document_graphs: Dict mapping document_id -> graph
+            document_metadata: Dict mapping document_id -> node metadata
             query_encoder: Query embedding model
             device: Training device
-            doc_id_to_node_range: Mapping of document_id -> (start_idx, end_idx) in combined graph
         """
         self.model = model.to(device)
-        self.graph = graph
-        self.node_metadata = node_metadata
+        self.document_graphs = document_graphs
+        self.document_metadata = document_metadata
         self.query_encoder = query_encoder
         self.device = device
-        self.doc_id_to_node_range = doc_id_to_node_range or {}
         
-        # Move graph to device
-        self.graph.x = self.graph.x.to(device)
-        self.graph.edge_index = self.graph.edge_index.to(device)
-        self.graph.edge_attr = self.graph.edge_attr.to(device)
-        self.graph.node_types = self.graph.node_types.to(device)
+        # Move all graphs to device
+        for doc_id, graph in self.document_graphs.items():
+            graph.x = graph.x.to(device)
+            graph.edge_index = graph.edge_index.to(device)
+            graph.edge_attr = graph.edge_attr.to(device)
+            graph.node_types = graph.node_types.to(device)
+        
+        # Cache to store GNN outputs per document (for efficiency within an epoch)
+        self._node_embeddings_cache = {}
         
         print(f"✓ Trainer initialized on device: {device}")
+        print(f"✓ Managing {len(document_graphs)} separate document graphs")
     
     def train_epoch(
         self,
@@ -183,10 +191,13 @@ class TTGNNTrainer:
         loss_fn: nn.Module,
         epoch: int
     ) -> Dict[str, float]:
-        """Train for one epoch."""
+        """Train for one epoch with per-document graph processing."""
         self.model.train()
         total_loss = 0.0
         num_batches = 0
+        
+        # Clear cache at start of epoch
+        self._node_embeddings_cache = {}
         
         pbar = tqdm(dataloader, desc=f"Epoch {epoch}")
         
@@ -194,25 +205,50 @@ class TTGNNTrainer:
             query_embeddings = batch['query_embeddings'].to(self.device)
             positive_indices = batch['positive_indices']
             negative_indices = batch['negative_indices']
+            document_ids = batch['document_ids']
             
             # Zero gradients
             optimizer.zero_grad()
             
-            # Compute node embeddings (forward pass through GNN)
-            node_embeddings = self.model(
-                self.graph.x,
-                self.graph.edge_index,
-                self.graph.edge_attr,
-                self.graph.node_types
-            )
+            # Process each unique document in the batch
+            # For each document, run GNN once and collect node embeddings
+            unique_docs = set(document_ids)
+            doc_node_embeddings = {}
             
-            # Compute loss (all samples pre-validated to have valid nodes)
-            loss = loss_fn(
-                anchor_embeddings=query_embeddings,
-                positive_indices=positive_indices,
-                negative_indices=negative_indices,
-                all_embeddings=node_embeddings
-            )
+            for doc_id in unique_docs:
+                graph = self.document_graphs[doc_id]
+                
+                # Run GNN forward pass for this document
+                node_embeddings = self.model(
+                    graph.x,
+                    graph.edge_index,
+                    graph.edge_attr,
+                    graph.node_types
+                )
+                doc_node_embeddings[doc_id] = node_embeddings
+            
+            # Now compute loss for each sample in batch
+            # Each sample uses only its document's node embeddings
+            batch_losses = []
+            
+            for i in range(len(document_ids)):
+                doc_id = document_ids[i]
+                query_emb = query_embeddings[i:i+1]  # [1, 768]
+                pos_idx = positive_indices[i]
+                neg_idx = negative_indices[i]
+                node_embs = doc_node_embeddings[doc_id]
+                
+                # Compute loss for this sample
+                sample_loss = loss_fn(
+                    anchor_embeddings=query_emb,
+                    positive_indices=[pos_idx],
+                    negative_indices=[neg_idx],
+                    all_embeddings=node_embs
+                )
+                batch_losses.append(sample_loss)
+            
+            # Average loss over batch
+            loss = torch.stack(batch_losses).mean()
             
             # Backward pass
             loss.backward()

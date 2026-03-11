@@ -253,44 +253,25 @@ def train_ttgnn(
         documents = [doc]
         print(f"✓ Loaded: {doc.title}")
     
-    # Build combined graph from all documents
-    print(f"\nBuilding combined graph with Vietnamese embeddings from {len(documents)} document(s)...")
+    # Build separate graphs for each document (more efficient than combined graph)
+    print(f"\nBuilding graphs with Vietnamese embeddings from {len(documents)} document(s)...")
     builder = GraphBuilder(use_real_embeddings=True)
     
-    # Build individual graphs and combine them
-    all_node_features = []
-    all_edge_indices = []
-    all_edge_attrs = []
-    all_node_types = []
-    node_metadata = []
-    doc_id_to_node_range = {}  # Maps document_id -> (start_idx, end_idx)
-    current_node_offset = 0
+    document_graphs = {}  # Maps document_id -> graph
+    document_metadata = {}  # Maps document_id -> node_metadata
     
     for doc_idx, doc in enumerate(documents):
         print(f"\n  Processing document {doc_idx+1}/{len(documents)}: {doc.title}")
         
         # Build graph for this document
         graph = builder.build_graph(doc)
-        num_nodes = graph.x.shape[0]
-        print(f"    → {num_nodes} nodes, {graph.edge_index.shape[1]} edges")
+        print(f"    → {graph.x.shape[0]} nodes, {graph.edge_index.shape[1]} edges")
         
-        # Track which nodes belong to this document
-        doc_id_to_node_range[doc.id] = (current_node_offset, current_node_offset + num_nodes)
+        # Store graph
+        document_graphs[doc.id] = graph
         
-        # Append node features
-        all_node_features.append(graph.x)
-        
-        # Adjust edge indices by offset and append
-        adjusted_edges = graph.edge_index + current_node_offset
-        all_edge_indices.append(adjusted_edges)
-        
-        # Append edge attributes
-        all_edge_attrs.append(graph.edge_attr)
-        
-        # Append node types
-        all_node_types.append(graph.node_types)
-        
-        # Create metadata for nodes with proper prefixing
+        # Create metadata for nodes (no prefixing needed - each graph is isolated)
+        node_metadata = []
         for sec in doc.sections:
             node_metadata.append({'id': sec.id, 'type': 'Section', 'text': sec.title})
         for p in doc.paragraphs:
@@ -301,38 +282,24 @@ def train_ttgnn(
                 cell_id = f"{table.id}_r{cell.row_idx}_c{cell.col_idx}"
                 node_metadata.append({'id': cell_id, 'type': 'Cell', 'text': str(cell.value)})
         
-        current_node_offset += graph.x.shape[0]
+        document_metadata[doc.id] = node_metadata
     
-    # Combine all graphs into one
-    import torch
-    from torch_geometric.data import Data
+    total_nodes = sum(g.x.shape[0] for g in document_graphs.values())
+    total_edges = sum(g.edge_index.shape[1] for g in document_graphs.values())
+    print(f"\n✓ Built {len(document_graphs)} separate graphs")
+    print(f"✓ Total: {total_nodes} nodes, {total_edges} edges across all documents")
     
-    combined_x = torch.cat(all_node_features, dim=0)
-    combined_edge_index = torch.cat(all_edge_indices, dim=1)
-    combined_edge_attr = torch.cat(all_edge_attrs, dim=0)
-    combined_node_types = torch.cat(all_node_types, dim=0)
-    
-    combined_graph = Data(
-        x=combined_x,
-        edge_index=combined_edge_index,
-        edge_attr=combined_edge_attr,
-        node_types=combined_node_types
-    )
-    
-    print(f"\n✓ Combined graph built: {combined_graph.x.shape[0]} total nodes, {combined_graph.edge_index.shape[1]} total edges")
-    print(f"✓ Created metadata for {len(node_metadata)} nodes")
-    print(f"✓ Document-to-node mapping: {len(doc_id_to_node_range)} documents")
-    
-    # Initialize TTGNN model
+    # Initialize TTGNN model (use first graph to get dimensions)
     print(f"\nInitializing TTGNN...")
+    first_graph = next(iter(document_graphs.values()))
     model = TTGNN(
-        input_dim=combined_graph.x.shape[1],
+        input_dim=first_graph.x.shape[1],
         hidden_dim=hidden_dim,
         num_layers=num_layers,
         num_heads=num_heads
     )
     print(f"✓ Model initialized:")
-    print(f"  - Input dim: {combined_graph.x.shape[1]}")
+    print(f"  - Input dim: {first_graph.x.shape[1]}")
     print(f"  - Hidden dim: {hidden_dim}")
     print(f"  - Layers: {num_layers}")
     print(f"  - Attention heads: {num_heads}")
@@ -341,10 +308,9 @@ def train_ttgnn(
     print("\nPreparing training dataset...")
     train_dataset = TTGNNTrainingDataset(
         training_samples=training_samples,
-        graph_data=combined_graph,
-        node_metadata=node_metadata,
-        query_encoder=builder.encoder_model,
-        doc_id_to_node_range=doc_id_to_node_range
+        document_graphs=document_graphs,
+        document_metadata=document_metadata,
+        query_encoder=builder.encoder_model
     )
     print(f"✓ Training dataset ready: {len(train_dataset)} samples")
     
@@ -352,11 +318,10 @@ def train_ttgnn(
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     trainer = TTGNNTrainer(
         model=model,
-        graph=combined_graph,
-        node_metadata=node_metadata,
+        document_graphs=document_graphs,
+        document_metadata=document_metadata,
         query_encoder=builder.encoder_model,
-        device=device,
-        doc_id_to_node_range=doc_id_to_node_range
+        device=device
     )
     
     # Train model
