@@ -54,9 +54,8 @@ class SupervisedContrastiveLoss(nn.Module):
             Scalar loss value
         """
         batch_size = anchor_embeddings.shape[0]
-        device = anchor_embeddings.device
         
-        # Initialize loss as a tensor derived from model parameters (not a leaf)
+        # Collect losses from all positive pairs
         losses = []
         
         # Normalize embeddings
@@ -68,6 +67,7 @@ class SupervisedContrastiveLoss(nn.Module):
             pos_idx = positive_indices[i]
             neg_idx = negative_indices[i]
             
+            # Skip if empty (shouldn't happen after pre-validation, but be safe)
             if len(pos_idx) == 0 or len(neg_idx) == 0:
                 continue
             
@@ -94,12 +94,8 @@ class SupervisedContrastiveLoss(nn.Module):
                 losses.append(loss_i)
         
         # Average over all positive pairs
-        if len(losses) > 0:
-            return torch.stack(losses).mean()
-        else:
-            # Return zero loss as a tensor (derived from inputs, not a leaf)
-            # This ensures gradient computation works even with empty batches
-            return (anchor_embeddings * 0.0).sum()
+        # After pre-validation, we should always have valid samples
+        return torch.stack(losses).mean()
 
 
 class InfoNCELoss(nn.Module):

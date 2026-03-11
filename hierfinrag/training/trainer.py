@@ -43,7 +43,6 @@ class TTGNNTrainingDataset(Dataset):
             query_encoder: Embedding model for encoding queries
             doc_id_to_node_range: Mapping of document_id -> (start_idx, end_idx) in combined graph
         """
-        self.samples = training_samples
         self.graph = graph_data
         self.node_metadata = node_metadata
         self.query_encoder = query_encoder
@@ -51,6 +50,45 @@ class TTGNNTrainingDataset(Dataset):
         
         # Create node_id to index mapping
         self.node_id_to_idx = {meta['id']: i for i, meta in enumerate(node_metadata)}
+        
+        # Filter out invalid samples (nodes not in graph or not in document range)
+        print(f"Validating {len(training_samples)} training samples...")
+        valid_samples = []
+        invalid_count = 0
+        
+        for sample in training_samples:
+            # Map node IDs to indices
+            positive_indices = [
+                self.node_id_to_idx[nid] 
+                for nid in sample.positive_nodes 
+                if nid in self.node_id_to_idx
+            ]
+            
+            negative_indices = [
+                self.node_id_to_idx[nid] 
+                for nid in sample.negative_nodes 
+                if nid in self.node_id_to_idx
+            ]
+            
+            # If document filtering is enabled, verify nodes are in document range
+            if self.doc_id_to_node_range and sample.document_id in self.doc_id_to_node_range:
+                start_idx, end_idx = self.doc_id_to_node_range[sample.document_id]
+                
+                # Filter to document range
+                positive_indices = [idx for idx in positive_indices if start_idx <= idx < end_idx]
+                negative_indices = [idx for idx in negative_indices if start_idx <= idx < end_idx]
+            
+            # Only keep samples with valid positive and negative nodes
+            if len(positive_indices) > 0 and len(negative_indices) > 0:
+                valid_samples.append(sample)
+            else:
+                invalid_count += 1
+        
+        self.samples = valid_samples
+        
+        if invalid_count > 0:
+            print(f"  ⚠ Removed {invalid_count} invalid samples (missing nodes or out of document range)")
+        print(f"  ✓ {len(self.samples)} valid samples ready for training")
     
     def __len__(self):
         return len(self.samples)
@@ -64,7 +102,7 @@ class TTGNNTrainingDataset(Dataset):
             convert_to_tensor=True
         )
         
-        # Map node IDs to indices
+        # Map node IDs to indices (pre-validated during __init__)
         positive_indices = [
             self.node_id_to_idx[nid] 
             for nid in sample.positive_nodes 
@@ -76,6 +114,12 @@ class TTGNNTrainingDataset(Dataset):
             for nid in sample.negative_nodes 
             if nid in self.node_id_to_idx
         ]
+        
+        # Apply document filtering if needed (already validated to have valid nodes)
+        if self.doc_id_to_node_range and sample.document_id in self.doc_id_to_node_range:
+            start_idx, end_idx = self.doc_id_to_node_range[sample.document_id]
+            positive_indices = [idx for idx in positive_indices if start_idx <= idx < end_idx]
+            negative_indices = [idx for idx in negative_indices if start_idx <= idx < end_idx]
         
         return {
             'query_embedding': query_embedding,
@@ -92,8 +136,7 @@ def collate_fn(batch):
         'query_embeddings': torch.stack([item['query_embedding'] for item in batch]),
         'positive_indices': [item['positive_indices'] for item in batch],
         'negative_indices': [item['negative_indices'] for item in batch],
-        'sample_ids': [item['sample_id'] for item in batch],
-        'document_ids': [item['document_id'] for item in batch]
+        'sample_ids': [item['sample_id'] for item in batch]
     }
 
 
@@ -151,7 +194,6 @@ class TTGNNTrainer:
             query_embeddings = batch['query_embeddings'].to(self.device)
             positive_indices = batch['positive_indices']
             negative_indices = batch['negative_indices']
-            document_ids = batch['document_ids']
             
             # Zero gradients
             optimizer.zero_grad()
@@ -164,45 +206,13 @@ class TTGNNTrainer:
                 self.graph.node_types
             )
             
-            # Filter indices to only include nodes from the respective documents
-            # This ensures each sample only sees nodes from its own document
-            if self.doc_id_to_node_range:
-                filtered_positive_indices = []
-                filtered_negative_indices = []
-                
-                for i, doc_id in enumerate(document_ids):
-                    if doc_id in self.doc_id_to_node_range:
-                        start_idx, end_idx = self.doc_id_to_node_range[doc_id]
-                        
-                        # Filter positive indices to be within document range
-                        valid_pos = [idx for idx in positive_indices[i] 
-                                   if start_idx <= idx < end_idx]
-                        filtered_positive_indices.append(valid_pos)
-                        
-                        # Filter negative indices to be within document range
-                        valid_neg = [idx for idx in negative_indices[i] 
-                                   if start_idx <= idx < end_idx]
-                        filtered_negative_indices.append(valid_neg)
-                    else:
-                        # No filtering if document not in mapping (fallback)
-                        filtered_positive_indices.append(positive_indices[i])
-                        filtered_negative_indices.append(negative_indices[i])
-                
-                positive_indices = filtered_positive_indices
-                negative_indices = filtered_negative_indices
-            
-            # Compute loss (queries and nodes are both 768-dim now)
+            # Compute loss (all samples pre-validated to have valid nodes)
             loss = loss_fn(
                 anchor_embeddings=query_embeddings,
                 positive_indices=positive_indices,
                 negative_indices=negative_indices,
                 all_embeddings=node_embeddings
             )
-            
-            # Skip batch if loss is invalid (e.g., no valid pairs after filtering)
-            if not isinstance(loss, torch.Tensor) or torch.isnan(loss) or torch.isinf(loss):
-                print(f"Warning: Invalid loss in batch, skipping...")
-                continue
             
             # Backward pass
             loss.backward()
