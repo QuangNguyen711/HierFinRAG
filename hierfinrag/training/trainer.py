@@ -274,6 +274,7 @@ class TTGNNTrainer:
     def train(
         self,
         train_dataset: TTGNNTrainingDataset,
+        val_dataset: TTGNNTrainingDataset = None, # Thêm tham số này
         num_epochs: int = 50,
         batch_size: int = 32,
         learning_rate: float = 0.001,
@@ -314,6 +315,10 @@ class TTGNNTrainer:
             shuffle=True,
             collate_fn=collate_fn
         )
+
+        val_dataloader = None
+        if val_dataset:
+            val_dataloader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False, collate_fn=collate_fn)
         
         # Initialize optimizer and loss
         optimizer = optim.AdamW(
@@ -331,35 +336,47 @@ class TTGNNTrainer:
         )
         
         # Training history
-        history = {
-            'train_loss': []
-        }
-        
-        best_loss = float('inf')
+        history = {'train_loss': [], 'val_loss': []} 
+        best_mrr = 0.0 # MRR càng cao càng tốt (Max là 1.0)
         save_path = Path(save_dir)
         save_path.mkdir(parents=True, exist_ok=True)
         
         # Training loop
         for epoch in range(1, num_epochs + 1):
-            metrics = self.train_epoch(dataloader, optimizer, loss_fn, epoch)
+            # 1. Train 1 epoch
+            train_metrics = self.train_epoch(dataloader, optimizer, loss_fn, epoch)
+            history['train_loss'].append(train_metrics['loss'])
             
-            history['train_loss'].append(metrics['loss'])
+            # 2. Đánh giá trên tập Validation (nếu có)
+            val_loss_val = train_metrics['loss'] # Mặc định dùng train loss nếu ko có val
+            if val_dataloader:
+                val_metrics = self.evaluate(val_dataloader, loss_fn)
+                val_loss_val = val_metrics['val_loss']
+                history['val_loss'].append(val_loss_val)
+                
+                print(f"Epoch {epoch:03d}/{num_epochs} | "
+                      f"Train Loss: {train_metrics['loss']:.4f} | "
+                      f"Val Loss: {val_loss_val:.4f} | "
+                      f"MRR: {val_metrics['mrr']:.4f} | "
+                      f"Recall@5: {val_metrics['recall@5']:.4f} | "
+                      f"Recall@10: {val_metrics['recall@10']:.4f}")
+            else:
+                print(f"Epoch {epoch}/{num_epochs} - Train Loss: {train_metrics['loss']:.4f} - LR: {scheduler.get_last_lr()[0]:.6f}")
             
-            print(f"Epoch {epoch}/{num_epochs} - Loss: {metrics['loss']:.4f} - LR: {scheduler.get_last_lr()[0]:.6f}")
+            # 3. Save best model dựa trên Val Loss
+            current_mrr = val_metrics['mrr'] if val_dataloader else 0.0
             
-            # Save best model
-            if metrics['loss'] < best_loss:
-                best_loss = metrics['loss']
-                torch.save(
-                    {
-                        'epoch': epoch,
-                        'model_state_dict': self.model.state_dict(),
-                        'optimizer_state_dict': optimizer.state_dict(),
-                        'loss': best_loss,
-                    },
-                    save_path / 'best_model.pt'
-                )
-                print(f"  → Saved best model (loss: {best_loss:.4f})")
+            if val_dataloader and current_mrr > best_mrr:
+                best_mrr = current_mrr
+                torch.save({
+                    'epoch': epoch,
+                    'model_state_dict': self.model.state_dict(),
+                    'optimizer_state_dict': optimizer.state_dict(),
+                    'val_loss': val_loss_val,
+                    'mrr': best_mrr, # Lưu thêm mrr để sau này tiện xem
+                    'train_loss': train_metrics['loss']
+                }, save_path / 'best_model.pt')
+                print(f"  → Saved best model (MRR: {best_mrr:.4f})")
             
             # Save checkpoint every 10 epochs
             if epoch % 10 == 0:
@@ -368,7 +385,7 @@ class TTGNNTrainer:
                         'epoch': epoch,
                         'model_state_dict': self.model.state_dict(),
                         'optimizer_state_dict': optimizer.state_dict(),
-                        'loss': metrics['loss'],
+                        'loss': val_loss_val,
                     },
                     save_path / f'checkpoint_epoch_{epoch}.pt'
                 )
@@ -377,11 +394,106 @@ class TTGNNTrainer:
         
         print(f"\n{'='*80}")
         print(f"✓ Training completed!")
-        print(f"Best loss: {best_loss:.4f}")
+        print(f"Best validation MRR: {best_mrr:.4f}")
         print(f"Model saved to: {save_path}")
         print(f"{'='*80}\n")
         
         return history
+
+    @torch.no_grad()
+    def evaluate(
+        self,
+        dataloader: DataLoader,
+        loss_fn: nn.Module
+    ) -> Dict[str, float]:
+        """Evaluate the model on validation set using IR metrics."""
+        self.model.eval()
+        total_loss = 0.0
+        
+        # Tracking IR Metrics
+        total_mrr = 0.0
+        total_recall_at_5 = 0.0
+        total_recall_at_10 = 0.0
+        num_samples = 0
+        
+        for batch in dataloader:
+            query_embeddings = batch['query_embeddings'].to(self.device)
+            positive_indices = batch['positive_indices']
+            negative_indices = batch['negative_indices']
+            document_ids = batch['document_ids']
+            
+            unique_docs = set(document_ids)
+            doc_node_embeddings = {}
+            
+            # Forward pass lấy Graph Embeddings
+            for doc_id in unique_docs:
+                graph = self.document_graphs[doc_id]
+                node_embeddings = self.model(
+                    graph.x, graph.edge_index, graph.edge_attr, graph.node_types
+                )
+                doc_node_embeddings[doc_id] = node_embeddings
+            
+            batch_losses = []
+            
+            for i in range(len(document_ids)):
+                doc_id = document_ids[i]
+                query_emb = query_embeddings[i:i+1] # [1, 768]
+                pos_idx = positive_indices[i]
+                neg_idx = negative_indices[i]
+                node_embs = doc_node_embeddings[doc_id]
+                
+                # 1. Tính Loss
+                sample_loss = loss_fn(
+                    anchor_embeddings=query_emb,
+                    positive_indices=[pos_idx],
+                    negative_indices=[neg_idx],
+                    all_embeddings=node_embs
+                )
+                batch_losses.append(sample_loss)
+                
+                # 2. Tính IR Metrics (MRR & Recall@K)
+                # Normalize để tính Cosine Similarity
+                q_norm = torch.nn.functional.normalize(query_emb, p=2, dim=1)
+                n_norm = torch.nn.functional.normalize(node_embs, p=2, dim=1)
+                
+                # Tính điểm similarity từ query tới TẤT CẢ các nodes trong document
+                sims = torch.matmul(q_norm, n_norm.T).squeeze(0) # [num_nodes]
+                
+                # Xếp hạng các nodes (từ cao xuống thấp)
+                sorted_indices = torch.argsort(sims, descending=True).cpu().tolist()
+                
+                # Tính MRR (Tìm rank của positive node đầu tiên)
+                first_hit_rank = 0
+                for rank, node_idx in enumerate(sorted_indices, 1):
+                    if node_idx in pos_idx:
+                        first_hit_rank = rank
+                        break
+                
+                if first_hit_rank > 0:
+                    total_mrr += 1.0 / first_hit_rank
+                
+                # Tính Recall@K (Tìm được bao nhiêu positive nodes trong Top K)
+                top_5 = set(sorted_indices[:5])
+                top_10 = set(sorted_indices[:10])
+                pos_set = set(pos_idx)
+                
+                hits_in_5 = len(pos_set.intersection(top_5))
+                hits_in_10 = len(pos_set.intersection(top_10))
+                
+                total_recall_at_5 += hits_in_5 / len(pos_set)
+                total_recall_at_10 += hits_in_10 / len(pos_set)
+                
+                num_samples += 1
+            
+            loss = torch.stack(batch_losses).mean()
+            total_loss += loss.item() * len(document_ids) # Đưa về sum để chia trung bình chuẩn xác hơn
+            
+        return {
+            'val_loss': total_loss / num_samples if num_samples > 0 else 0.0,
+            'mrr': total_mrr / num_samples if num_samples > 0 else 0.0,
+            'recall@5': total_recall_at_5 / num_samples if num_samples > 0 else 0.0,
+            'recall@10': total_recall_at_10 / num_samples if num_samples > 0 else 0.0
+        }
 
 
 def load_model(

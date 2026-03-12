@@ -203,7 +203,8 @@ def train_ttgnn(
     hidden_dim: int = 256,
     num_layers: int = 2,
     num_heads: int = 8,
-    save_dir: str = "models/ttgnn"
+    save_dir: str = "models/ttgnn",
+    val_split: float = 0.15  # Mặc định chia 15% cho tập Test/Val
 ):
     """
     Train TTGNN model on generated data.
@@ -298,11 +299,11 @@ def train_ttgnn(
         num_layers=num_layers,
         num_heads=num_heads
     )
-    model_path = "models/ttgnn/best_model.pt"
+    # model_path = "models/ttgnn/best_model.pt"
 
-    checkpoint = torch.load(model_path, map_location="cpu")
+    # checkpoint = torch.load(model_path, map_location="cpu")
 
-    model.load_state_dict(checkpoint["model_state_dict"])
+    # model.load_state_dict(checkpoint["model_state_dict"])
 
     print(f"✓ Model initialized:")
     print(f"  - Input dim: {first_graph.x.shape[1]}")
@@ -312,13 +313,34 @@ def train_ttgnn(
     
     # Create training dataset
     print("\nPreparing training dataset...")
+    import random
+    
+    # Trộn ngẫu nhiên dữ liệu trước khi chia
+    random.seed(42) # Set seed để kết quả chia data luôn cố định qua các lần chạy
+    shuffled_samples = list(training_samples)
+    random.shuffle(shuffled_samples)
+    
+    split_idx = int(len(shuffled_samples) * (1 - val_split))
+    train_samples = shuffled_samples[:split_idx]
+    val_samples = shuffled_samples[split_idx:]
+    
+    print(f"\nPreparing dataset split (Train: {len(train_samples)}, Val: {len(val_samples)})...")
+    
     train_dataset = TTGNNTrainingDataset(
-        training_samples=training_samples,
+        training_samples=train_samples,
+        document_graphs=document_graphs,
+        document_metadata=document_metadata,
+        query_encoder=builder.encoder_model
+    )
+    
+    val_dataset = TTGNNTrainingDataset(
+        training_samples=val_samples,
         document_graphs=document_graphs,
         document_metadata=document_metadata,
         query_encoder=builder.encoder_model
     )
     print(f"✓ Training dataset ready: {len(train_dataset)} samples")
+    print(f"✓ Validation dataset ready: {len(val_dataset)} samples")
     
     # Initialize trainer
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -330,9 +352,10 @@ def train_ttgnn(
         device=device
     )
     
-    # Train model
+    # Train model (Truyền thêm val_dataset)
     history = trainer.train(
         train_dataset=train_dataset,
+        val_dataset=val_dataset,
         num_epochs=num_epochs,
         batch_size=batch_size,
         learning_rate=learning_rate,
@@ -459,6 +482,8 @@ def main():
         default='models/ttgnn',
         help='Directory to save model'
     )
+
+    parser.add_argument('--val_split', type=float, default=0.15, help='Validation split ratio (default: 0.15)')
     
     args = parser.parse_args()
     

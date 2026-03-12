@@ -30,6 +30,8 @@ class GraphBuilder:
                 from sentence_transformers import SentenceTransformer
                 print("Loading Vietnamese embedding model: dangvantuan/vietnamese-embedding...")
                 self.encoder_model = SentenceTransformer('dangvantuan/vietnamese-embedding')
+                self.encoder_model.max_seq_length = 256
+                
                 # Update embedding_dim to match model output
                 self.embedding_dim = self.encoder_model.get_sentence_embedding_dimension()
                 print(f"Model loaded successfully. Embedding dimension: {self.embedding_dim}")

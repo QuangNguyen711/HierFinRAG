@@ -1,188 +1,349 @@
 {
-  "id": "doc_vnpt_2023",
-  "title": "Báo Cáo Tài Chính VNPT 2023",
+  "id": "doc_vingroup_2020_007_rich",
+  "title": "Báo Cáo Tài Chính & Phân Tích Vingroup 2020 — Phiên Bản Mở Rộng",
   "sections": [
     {
       "id": "s1",
-      "title": "Tổng Quan Hoạt Động Kinh Doanh",
+      "title": "Tổng Quan Hoạt Động Kinh Doanh và Chiến lược",
       "level": 1,
-      "content_ids": ["p1", "p2", "t1"]
+      "content_ids": [
+        "p1",
+        "p2",
+        "p20"
+      ]
     },
     {
       "id": "s2",
-      "title": "Kết Quả Hoạt Động Tài Chính",
+      "title": "Kết Quả Kinh Doanh Năm 2020 — Chi tiết theo mảng",
       "level": 1,
-      "content_ids": ["p3", "p4", "t2", "p5"]
+      "content_ids": [
+        "p3",
+        "p4",
+        "t1",
+        "p5",
+        "p6"
+      ]
     },
     {
       "id": "s3",
-      "title": "Tình Hình Tài Sản và Nguồn Vốn",
+      "title": "Tình Hình Tài Sản, Nợ và Cấu Trúc Vốn",
       "level": 1,
-      "content_ids": ["p6", "t3", "p7"]
+      "content_ids": [
+        "p7",
+        "p8",
+        "t2"
+      ]
     },
     {
       "id": "s4",
-      "title": "Phân Tích Chỉ Số Tài Chính",
+      "title": "Phân Tích Hiệu Quả Tài Chính và Các Chỉ Số",
       "level": 1,
-      "content_ids": ["p8", "p9", "t4"]
+      "content_ids": [
+        "p9",
+        "p10",
+        "t3",
+        "p11"
+      ]
     },
     {
       "id": "s5",
-      "title": "Định Hướng Phát Triển 2024",
+      "title": "Dòng Tiền, Khả Năng Thanh Toán và Quản Lý Thanh Khoản",
       "level": 1,
-      "content_ids": ["p10", "p11", "p12"]
+      "content_ids": [
+        "p12",
+        "p13",
+        "t4",
+        "p14"
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Đầu Tư, R&D và Chuyển Đổi Số",
+      "level": 1,
+      "content_ids": [
+        "p15",
+        "p16",
+        "p17",
+        "t5"
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Rủi Ro, Kiểm Soát và Hành Động Giảm Thiểu",
+      "level": 1,
+      "content_ids": [
+        "p18",
+        "p19"
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Định Hướng Chiến Lược 2021 và Kết Luận",
+      "level": 1,
+      "content_ids": [
+        "p21",
+        "p22"
+      ]
     }
   ],
   "paragraphs": [
     {
       "id": "p1",
-      "text": "Năm 2023, Tập đoàn Bưu chính Viễn thông Việt Nam (VNPT) đã đạt được những thành tựu quan trọng trong hoạt động kinh doanh. Tổng doanh thu đạt 42.500 tỷ đồng, tăng 12,5% so với năm 2022, cho thấy sự tăng trưởng mạnh mẽ trong bối cảnh thị trường cạnh tranh khốc liệt.",
+      "text": "Năm 2020 là năm Vingroup vận hành trong môi trường bất định cao do đại dịch COVID-19. Tập đoàn triển khai chiến lược 'hệ sinh thái tích hợp' bằng cách kết nối chặt chẽ giữa bất động sản (Vinhomes), bán lẻ (VinMart/VinMart+), ô tô điện (VinFast), y tế (Vinmec) và giáo dục (VinUni). Mục tiêu chiến lược là tối đa hóa giá trị vòng đời khách hàng (CLV) thông qua dữ liệu VinID, đồng thời phân bổ vốn theo vòng đời dự án: ưu tiên các mảng có khả năng sinh dòng tiền ngắn hạn và giảm tỷ trọng tài sản dở dang.",
       "section_id": "s1"
     },
     {
       "id": "p2",
-      "text": "Lợi nhuận sau thuế đạt 3.800 tỷ đồng, tăng 15,2% so với năm trước như được trình bày chi tiết trong Bảng 1. Sự tăng trưởng này chủ yếu đến từ việc mở rộng dịch vụ viễn thông và chuyển đổi số, cùng với việc tối ưu hóa chi phí hoạt động.",
+      "text": "Vingroup đẩy mạnh chuyển đổi số bằng các sáng kiến về CRM, logistics tự động và hệ thống quản lý tài sản (Asset Management Platform). Các sáng kiến này nhằm giảm chi phí hoạt động (OPEX) ước tính 8–12% trong trung hạn, đồng thời tạo nền tảng để mở rộng dịch vụ trả phí (subscription) trong mảng tiện ích đô thị và dịch vụ hậu mãi ô tô điện.",
+      "section_id": "s1"
+    },
+    {
+      "id": "p20",
+      "text": "Tầm nhìn dài hạn của Vingroup đặt trọng tâm vào phát triển VinFast như đầu tàu công nghệ — sản xuất xe điện, phát triển hệ sinh thái năng lượng (pin, hạ tầng sạc) và mở rộng thị trường xuất khẩu. Để hiện thực hóa, Vingroup đề xuất mô hình hợp tác chiến lược (JV) và huy động vốn quốc tế nhằm giảm áp lực tài trợ ngắn hạn.",
       "section_id": "s1"
     },
     {
       "id": "p3",
-      "text": "Doanh thu từ dịch vụ viễn thông di động đạt 18.200 tỷ đồng trong năm 2023, chiếm 42,8% tổng doanh thu. Đây là mảng kinh doanh chính của VNPT với hơn 25 triệu thuê bao di động đang hoạt động.",
+      "text": "Tổng doanh thu hợp nhất năm 2020 đạt 136.049 tỷ đồng (+9.6% so với 2019). Cơ cấu doanh thu: bất động sản chiếm ~48%, bán lẻ & tiêu dùng ~22%, sản xuất & công nghiệp (VinFast, VinSmart) ~18%, dịch vụ y tế - giáo dục ~7%, còn lại từ mảng khác và doanh thu tài chính. Việc tăng tỉ lệ đóng góp của bán lẻ phản ánh chuyển dịch tiêu dùng sang kênh bán lẻ nội địa.",
       "section_id": "s2"
     },
     {
       "id": "p4",
-      "text": "Dịch vụ Internet băng rộng cố định tiếp tục duy trì tốc độ tăng trưởng ổn định với doanh thu 12.800 tỷ đồng, tăng 8,5% so với năm 2022. Số lượng thuê bao Internet đạt 8,5 triệu, tăng trưởng 6,2% so với năm trước.",
+      "text": "Mảng bất động sản ghi nhận doanh thu ổn định từ bàn giao căn hộ tại các dự án lớn; tuy nhiên lợi nhuận gộp có xu hướng chịu áp lực do chi phí hoàn thiện và khuyến mãi nhằm đẩy nhanh ghi nhận doanh thu. VinMart+ tăng điểm bán và nâng cao tỷ lệ quay vòng hàng tồn, đóng góp doanh thu bán lẻ tăng đột biến trong quý 3 và 4/2020.",
       "section_id": "s2"
     },
     {
       "id": "p5",
-      "text": "Chi phí hoạt động trong năm 2023 được kiểm soát hiệu quả, giảm 5,3% so với kế hoạch ban đầu. Điều này thể hiện nỗ lực tối ưu hóa quy trình và nâng cao hiệu quả quản lý của Tập đoàn, như được phân tích trong Bảng 2.",
+      "text": "VinFast trong năm 2020 chịu áp lực chi phí R&D và triển khai nhà máy lắp ráp xe điện mới. Mảng này làm tăng CAPEX nhưng được kỳ vọng tạo đột phá doanh thu xuất khẩu 2021–2022. VinFast đã đẩy mạnh đơn hàng nội địa và ký hợp đồng mua sỉ một số khách hàng tổ chức, giảm bớt áp lực tiêu thụ lẻ.",
       "section_id": "s2"
     },
     {
       "id": "p6",
-      "text": "Tổng tài sản của VNPT đến cuối năm 2023 đạt 85.600 tỷ đồng, tăng 9,8% so với đầu năm. Trong đó, tài sản ngắn hạn chiếm 35% và tài sản dài hạn chiếm 65%, phản ánh chiến lược đầu tư dài hạn vào cơ sở hạ tầng viễn thông.",
-      "section_id": "s3"
+      "text": "Phân tích theo mảng cho thấy biên lợi nhuận gộp mảng bán lẻ thấp hơn bất động sản, nhưng có lợi thế về dòng tiền; do đó chiến lược tối ưu là 'cân bằng' giữa lợi nhuận biên (bất động sản) và dòng tiền liên tục (bán lẻ).",
+      "section_id": "s2"
     },
     {
       "id": "p7",
-      "text": "Vốn chủ sở hữu tăng lên 52.300 tỷ đồng, tăng 11,2% so với năm trước, cho thấy sự vững mạnh về tài chính. Tỷ lệ nợ trên vốn chủ sở hữu duy trì ở mức an toàn 0,64 lần, thể hiện cấu trúc tài chính lành mạnh.",
+      "text": "Tổng tài sản hợp nhất tăng do đầu tư vào tài sản cố định (nhà máy, thiết bị cho VinFast) và dự án hạ tầng đô thị. Thanh khoản ngắn hạn được duy trì bởi dòng tiền bán lẻ và một phần phát hành trái phiếu. Công ty đã tái cấu trúc nợ, kéo dài kỳ hạn và thay thế nợ ngắn hạn bằng trái phiếu trung-dài hạn lãi suất thấp hơn.",
       "section_id": "s3"
     },
     {
       "id": "p8",
-      "text": "Tỷ suất lợi nhuận trên doanh thu (ROS) đạt 8,94%, cải thiện 0,21 điểm phần trăm so với năm 2022. Điều này phản ánh khả năng sinh lời tốt hơn từ hoạt động kinh doanh chính.",
-      "section_id": "s4"
+      "text": "Tỷ lệ Nợ/Vốn Chủ Sở Hữu (D/E) có xu hướng giảm nhẹ so với 2019 do tăng vốn chủ sở hữu từ lợi nhuận giữ lại và một số đợt phát hành riêng lẻ. Tuy nhiên, hệ số vẫn ở mức cao so với trung bình ngành công nghiệp do đặc thù đầu tư vốn lớn của VinFast và các dự án công nghiệp.",
+      "section_id": "s3"
     },
     {
       "id": "p9",
-      "text": "Tỷ suất sinh lời trên tổng tài sản (ROA) đạt 4,44% và tỷ suất sinh lời trên vốn chủ sở hữu (ROE) đạt 7,27%, cả hai chỉ số đều tăng so với năm trước như được trình bày trong Bảng 4.",
+      "text": "Chỉ số hiệu quả: ROS duy trì ở mức khiêm tốn do cơ cấu doanh thu đa ngành; ROA bị loãng bởi tài sản cố định lớn và dự án dở dang; ROE được hỗ trợ bởi tăng vốn chủ sở hữu nhưng vẫn chịu sức ép chi phí lãi vay. Phân tích biên lợi nhuận theo mảng cho thấy: bất động sản có biên cao nhất, tiếp đến dịch vụ, bán lẻ có biên thấp nhưng ổn định.",
       "section_id": "s4"
     },
     {
       "id": "p10",
-      "text": "Năm 2024, VNPT đặt mục tiêu tổng doanh thu đạt 47.000 tỷ đồng, tăng trưởng 10,6% so với năm 2023. Trọng tâm sẽ là mở rộng dịch vụ chuyển đổi số, điện toán đám mây, và các giải pháp công nghệ thông tin cho doanh nghiệp.",
-      "section_id": "s5"
+      "text": "Công ty đã thực hiện các biện pháp tối ưu chi phí gồm: tái cấu trúc nhà cung cấp, số hóa quy trình mua hàng, đàm phán lại điều khoản với nhà cung cấp chính và ứng dụng phân tích dữ liệu để giảm tồn kho chết. Ước tính các biện pháp này giúp cải thiện EBITDA margin tịnh tiến 1.2–1.8 điểm phần trăm trong 12–18 tháng.",
+      "section_id": "s4"
     },
     {
       "id": "p11",
-      "text": "Tập đoàn sẽ đầu tư khoảng 12.000 tỷ đồng vào nâng cấp hạ tầng mạng lưới, triển khai công nghệ 5G và mở rộng vùng phủ sóng. Đồng thời, VNPT sẽ tăng cường đầu tư vào nghiên cứu và phát triển các sản phẩm công nghệ cao.",
-      "section_id": "s5"
+      "text": "Ngoài các chỉ số truyền thống, Vingroup bắt đầu đo lường KPI phi tài chính: mức độ hài lòng cư dân, thời gian xử lý sự cố, tỷ lệ tái mua dịch vụ — những chỉ số này dùng để đánh giá hiệu quả chiến lược hệ sinh thái và tác động tới ARPU (Average Revenue Per User).",
+      "section_id": "s4"
     },
     {
       "id": "p12",
-      "text": "Mục tiêu lợi nhuận sau thuế năm 2024 được đặt ra là 4.200 tỷ đồng, tăng 10,5% so với năm 2023. Để đạt được mục tiêu này, VNPT sẽ tập trung vào nâng cao chất lượng dịch vụ, phát triển sản phẩm mới và mở rộng thị phần.",
+      "text": "Dòng tiền từ hoạt động kinh doanh (CFO) được củng cố chủ yếu bởi mảng bán lẻ và bàn giao bất động sản. Tuy nhiên, dòng tiền đầu tư (CFI) âm mạnh do CAPEX cho VinFast và các dự án hạ tầng. Dòng tiền tài chính (CFF) dương do phát hành trái phiếu và vay dài hạn.",
       "section_id": "s5"
+    },
+    {
+      "id": "p13",
+      "text": "Khả năng thanh toán ngắn hạn ổn định nhưng bị áp lực khi có các khoản đáo hạn lớn trong 12–24 tháng tới. Công ty đã chuẩn bị kế hoạch thanh khoản bao gồm: tái cấp vốn, phát hành trái phiếu quốc tế, và đàm phán kéo dài hạn nợ với ngân hàng đối tác.",
+      "section_id": "s5"
+    },
+    {
+      "id": "p14",
+      "text": "Quản lý vốn lưu động được cải thiện nhờ tối ưu tồn kho, gia tăng tỷ lệ thanh toán trước từ khách hàng đại lý và áp dụng chính sách thanh toán linh hoạt với nhà cung cấp. Điều này giúp giảm vòng quay vốn lưu động trung bình từ 72 ngày xuống còn ~60 ngày ở mảng bán lẻ.",
+      "section_id": "s5"
+    },
+    {
+      "id": "p15",
+      "text": "Đầu tư R&D được đẩy mạnh, đặc biệt trong VinFast (pin, hệ thống quản lý pin, phần mềm điều khiển xe). Vingroup chi khoảng 10–12% CAPEX tổng cho R&D liên quan ô tô và 5% cho chuyển đổi số trong bán lẻ và quản lý tài sản.",
+      "section_id": "s6"
+    },
+    {
+      "id": "p16",
+      "text": "Sáng kiến chuyển đổi số bao gồm: triển khai ERP tập trung, hệ thống CRM nâng cao, mô-đun phân tích dữ liệu khách hàng (Customer 360) và proof-of-concept cho logistics tự động tại 3 trung tâm phân phối lớn. Các pilot này giúp giảm thời gian giao hàng trung bình 18% tại các thành phố triển khai.",
+      "section_id": "s6"
+    },
+    {
+      "id": "p17",
+      "text": "Chiến lược tài trợ: kết hợp vốn chủ sở hữu, phát hành trái phiếu và tìm kiếm đối tác công nghiệp chiến lược nước ngoài để chia sẻ rủi ro đầu tư khoản mục lớn như nhà máy pin và dây chuyền sản xuất ô tô điện.",
+      "section_id": "s6"
+    },
+    {
+      "id": "p18",
+      "text": "Rủi ro chính: (1) rủi ro thị trường (suy giảm nhu cầu bất động sản), (2) rủi ro thanh khoản (đáo hạn nợ), (3) rủi ro công nghệ (R&D VinFast không đạt mục tiêu), (4) rủi ro pháp lý & chính sách. Mỗi rủi ro có kế hoạch kiểm soát: dự phòng tài chính, bảo hiểm dự án, hợp tác công nghệ, và tuân thủ pháp luật chặt chẽ.",
+      "section_id": "s7"
+    },
+    {
+      "id": "p19",
+      "text": "Cơ hội: đẩy mạnh xuất khẩu VinFast, tận dụng xu hướng xanh (xe điện), tăng cường bán chéo dịch vụ trong hệ sinh thái, và khai thác dữ liệu VinID để mở các dịch vụ trả phí. Mô hình tích hợp giúp Vingroup tạo rào cản gia nhập cho đối thủ và mở các nguồn doanh thu mới ít chịu biến động chu kỳ hơn.",
+      "section_id": "s7"
+    },
+    {
+      "id": "p21",
+      "text": "Định hướng 2021: tập trung ổn định dòng tiền, hoàn thiện chuỗi giá trị VinFast (từ R&D đến bán hàng), mở rộng hạ tầng sạc và pin, đồng thời tiếp tục số hóa VinMart để chuyển đổi mô hình bán lẻ truyền thống sang omnichannel.",
+      "section_id": "s8"
+    },
+    {
+      "id": "p22",
+      "text": "Kết luận: 2020 là năm Vingroup chịu áp lực đầu tư lớn nhưng cũng thiết lập nền tảng cho tăng trưởng dài hạn. Các chỉ số tài chính ngắn hạn có thể không phản ánh toàn bộ giá trị chiến lược khi đầu tư cho VinFast bắt đầu cho kết quả sau 2021. Khuyến nghị: theo dõi sát dòng tiền, tiến hành stress test thanh khoản và cân nhắc huy động vốn mục tiêu cho các giai đoạn phát triển cụ thể.",
+      "section_id": "s8"
     }
   ],
   "tables": [
     {
       "id": "t1",
-      "caption": "Bảng 1: Kết quả kinh doanh tổng hợp 2022-2023",
-      "col_headers": ["Chỉ tiêu", "Năm 2022", "Năm 2023", "Tăng trưởng (%)"],
-      "row_headers": ["Tổng doanh thu", "Lợi nhuận trước thuế", "Lợi nhuận sau thuế"],
+      "caption": "Bảng 1: Doanh thu theo mảng 2019-2020 (tỷ đồng)",
+      "col_headers": [
+        "Mảng",
+        "Năm 2019",
+        "Năm 2020",
+        "Tăng trưởng (%)"
+      ],
+      "row_headers": [
+        "Bất động sản",
+        "Bán lẻ & Tiêu dùng",
+        "Sản xuất & Công nghiệp (VinFast)",
+        "Y tế & Giáo dục",
+        "Tổng cộng"
+      ],
       "cells": [
-        {"row": 0, "col": 1, "value": "37.800 tỷ", "is_header": false},
-        {"row": 0, "col": 2, "value": "42.500 tỷ", "is_header": false},
-        {"row": 0, "col": 3, "value": "12,5%", "is_header": false},
-        {"row": 1, "col": 1, "value": "4.200 tỷ", "is_header": false},
-        {"row": 1, "col": 2, "value": "4.850 tỷ", "is_header": false},
-        {"row": 1, "col": 3, "value": "15,5%", "is_header": false},
-        {"row": 2, "col": 1, "value": "3.300 tỷ", "is_header": false},
-        {"row": 2, "col": 2, "value": "3.800 tỷ", "is_header": false},
-        {"row": 2, "col": 3, "value": "15,2%", "is_header": false}
+        { "row": 0, "col": 1, "value": "62,000", "is_header": false },
+        { "row": 0, "col": 2, "value": "65,300", "is_header": false },
+        { "row": 0, "col": 3, "value": "5.3%", "is_header": false },
+
+        { "row": 1, "col": 1, "value": "26,000", "is_header": false },
+        { "row": 1, "col": 2, "value": "30,000", "is_header": false },
+        { "row": 1, "col": 3, "value": "15.4%", "is_header": false },
+
+        { "row": 2, "col": 1, "value": "18,500", "is_header": false },
+        { "row": 2, "col": 2, "value": "24,500", "is_header": false },
+        { "row": 2, "col": 3, "value": "32.4%", "is_header": false },
+
+        { "row": 3, "col": 1, "value": "5,622", "is_header": false },
+        { "row": 3, "col": 2, "value": "6,000", "is_header": false },
+        { "row": 3, "col": 3, "value": "6.7%", "is_header": false },
+
+        { "row": 4, "col": 1, "value": "112,122", "is_header": false },
+        { "row": 4, "col": 2, "value": "136,049", "is_header": false },
+        { "row": 4, "col": 3, "value": "21.3%", "is_header": false }
       ]
     },
     {
       "id": "t2",
-      "caption": "Bảng 2: Cơ cấu doanh thu theo dịch vụ năm 2023",
-      "col_headers": ["Loại dịch vụ", "Doanh thu (tỷ đồng)", "Tỷ trọng (%)"],
-      "row_headers": [],
+      "caption": "Bảng 2: Cấu trúc nguồn vốn và nợ",
+      "col_headers": [
+        "Chỉ tiêu",
+        "Năm 2019",
+        "Năm 2020",
+        "Ghi chú"
+      ],
+      "row_headers": [
+        "Tổng tài sản (tỷ)",
+        "Vốn chủ sở hữu (tỷ)",
+        "Nợ phải trả (tỷ)",
+        "D/E (lần)"
+      ],
       "cells": [
-        {"row": 1, "col": 0, "value": "Viễn thông di động", "is_header": false},
-        {"row": 1, "col": 1, "value": "18.200", "is_header": false},
-        {"row": 1, "col": 2, "value": "42,8%", "is_header": false},
-        {"row": 2, "col": 0, "value": "Internet băng rộng", "is_header": false},
-        {"row": 2, "col": 1, "value": "12.800", "is_header": false},
-        {"row": 2, "col": 2, "value": "30,1%", "is_header": false},
-        {"row": 3, "col": 0, "value": "Giải pháp CNTT", "is_header": false},
-        {"row": 3, "col": 1, "value": "8.500", "is_header": false},
-        {"row": 3, "col": 2, "value": "20,0%", "is_header": false},
-        {"row": 4, "col": 0, "value": "Dịch vụ khác", "is_header": false},
-        {"row": 4, "col": 1, "value": "3.000", "is_header": false},
-        {"row": 4, "col": 2, "value": "7,1%", "is_header": false}
+        { "row": 0, "col": 1, "value": "190,000", "is_header": false },
+        { "row": 0, "col": 2, "value": "208,000", "is_header": false },
+        { "row": 0, "col": 3, "value": "Tăng do CAPEX VinFast", "is_header": false },
+
+        { "row": 1, "col": 1, "value": "67,000", "is_header": false },
+        { "row": 1, "col": 2, "value": "78,500", "is_header": false },
+        { "row": 1, "col": 3, "value": "Tăng từ lợi nhuận giữ lại & phát hành", "is_header": false },
+
+        { "row": 2, "col": 1, "value": "123,000", "is_header": false },
+        { "row": 2, "col": 2, "value": "129,500", "is_header": false },
+        { "row": 2, "col": 3, "value": "Chưa bao gồm trái phiếu quốc tế", "is_header": false },
+
+        { "row": 3, "col": 1, "value": "1.84", "is_header": false },
+        { "row": 3, "col": 2, "value": "1.65", "is_header": false },
+        { "row": 3, "col": 3, "value": "Cải thiện nhờ tăng vốn", "is_header": false }
       ]
     },
     {
       "id": "t3",
-      "caption": "Bảng 3: Bảng cân đối kế toán tóm tắt",
-      "col_headers": ["Kстатьей", "Cuối năm 2022", "Cuối năm 2023", "Biến động (%)"],
-      "row_headers": [],
+      "caption": "Bảng 3: Các chỉ số tài chính chính",
+      "col_headers": [
+        "Chỉ số",
+        "Năm 2019",
+        "Năm 2020",
+        "Thay đổi"
+      ],
+      "row_headers": [
+        "ROS (%)",
+        "ROA (%)",
+        "ROE (%)",
+        "EBITDA margin (%)"
+      ],
       "cells": [
-        {"row": 1, "col": 0, "value": "Tổng tài sản", "is_header": false},
-        {"row": 1, "col": 1, "value": "77.950 tỷ", "is_header": false},
-        {"row": 1, "col": 2, "value": "85.600 tỷ", "is_header": false},
-        {"row": 1, "col": 3, "value": "9,8%", "is_header": false},
-        {"row": 2, "col": 0, "value": "Tài sản ngắn hạn", "is_header": false},
-        {"row": 2, "col": 1, "value": "26.500 tỷ", "is_header": false},
-        {"row": 2, "col": 2, "value": "29.960 tỷ", "is_header": false},
-        {"row": 2, "col": 3, "value": "13,1%", "is_header": false},
-        {"row": 3, "col": 0, "value": "Tài sản dài hạn", "is_header": false},
-        {"row": 3, "col": 1, "value": "51.450 tỷ", "is_header": false},
-        {"row": 3, "col": 2, "value": "55.640 tỷ", "is_header": false},
-        {"row": 3, "col": 3, "value": "8,1%", "is_header": false},
-        {"row": 4, "col": 0, "value": "Vốn chủ sở hữu", "is_header": false},
-        {"row": 4, "col": 1, "value": "47.000 tỷ", "is_header": false},
-        {"row": 4, "col": 2, "value": "52.300 tỷ", "is_header": false},
-        {"row": 4, "col": 3, "value": "11,2%", "is_header": false},
-        {"row": 5, "col": 0, "value": "Nợ phải trả", "is_header": false},
-        {"row": 5, "col": 1, "value": "30.950 tỷ", "is_header": false},
-        {"row": 5, "col": 2, "value": "33.300 tỷ", "is_header": false},
-        {"row": 5, "col": 3, "value": "7,6%", "is_header": false}
+        { "row": 0, "col": 1, "value": "5.2%", "is_header": false },
+        { "row": 0, "col": 2, "value": "5.4%", "is_header": false },
+        { "row": 0, "col": 3, "value": "+0.2 pp", "is_header": false },
+
+        { "row": 1, "col": 1, "value": "1.9%", "is_header": false },
+        { "row": 1, "col": 2, "value": "1.8%", "is_header": false },
+        { "row": 1, "col": 3, "value": "-0.1 pp", "is_header": false },
+
+        { "row": 2, "col": 1, "value": "6.6%", "is_header": false },
+        { "row": 2, "col": 2, "value": "7.2%", "is_header": false },
+        { "row": 2, "col": 3, "value": "+0.6 pp", "is_header": false },
+
+        { "row": 3, "col": 1, "value": "12.5%", "is_header": false },
+        { "row": 3, "col": 2, "value": "13.3%", "is_header": false },
+        { "row": 3, "col": 3, "value": "+0.8 pp", "is_header": false }
       ]
     },
     {
       "id": "t4",
-      "caption": "Bảng 4: Các chỉ số tài chính chủ yếu",
-      "col_headers": ["Chỉ số", "Năm 2022", "Năm 2023", "Thay đổi"],
-      "row_headers": [],
+      "caption": "Bảng 4: Dòng tiền chính (tỷ đồng)",
+      "col_headers": [
+        "Kỳ",
+        "CFO",
+        "CFI",
+        "CFF"
+      ],
+      "row_headers": [
+        "Năm 2019",
+        "Năm 2020"
+      ],
       "cells": [
-        {"row": 1, "col": 0, "value": "ROS (%)", "is_header": false},
-        {"row": 1, "col": 1, "value": "8,73%", "is_header": false},
-        {"row": 1, "col": 2, "value": "8,94%", "is_header": false},
-        {"row": 1, "col": 3, "value": "+0,21%", "is_header": false},
-        {"row": 2, "col": 0, "value": "ROA (%)", "is_header": false},
-        {"row": 2, "col": 1, "value": "4,23%", "is_header": false},
-        {"row": 2, "col": 2, "value": "4,44%", "is_header": false},
-        {"row": 2, "col": 3, "value": "+0,21%", "is_header": false},
-        {"row": 3, "col": 0, "value": "ROE (%)", "is_header": false},
-        {"row": 3, "col": 1, "value": "7,02%", "is_header": false},
-        {"row": 3, "col": 2, "value": "7,27%", "is_header": false},
-        {"row": 3, "col": 3, "value": "+0,25%", "is_header": false},
-        {"row": 4, "col": 0, "value": "Nợ/Vốn CSH", "is_header": false},
-        {"row": 4, "col": 1, "value": "0,66", "is_header": false},
-        {"row": 4, "col": 2, "value": "0,64", "is_header": false},
-        {"row": 4, "col": 3, "value": "-0,02", "is_header": false}
+        { "row": 0, "col": 1, "value": "18,200", "is_header": false },
+        { "row": 0, "col": 2, "value": "-14,500", "is_header": false },
+        { "row": 0, "col": 3, "value": "3,600", "is_header": false },
+
+        { "row": 1, "col": 1, "value": "20,100", "is_header": false },
+        { "row": 1, "col": 2, "value": "-28,900", "is_header": false },
+        { "row": 1, "col": 3, "value": "37,200", "is_header": false }
+      ]
+    },
+    {
+      "id": "t5",
+      "caption": "Bảng 5: Phân bổ CAPEX 2020 (ước tính, tỷ đồng)",
+      "col_headers": [
+        "Hạng mục",
+        "CAPEX 2020 (tỷ)"
+      ],
+      "row_headers": [
+        "VinFast — Nhà máy & R&D",
+        "Hạ tầng bán lẻ & Logistics",
+        "Hệ sinh thái số (VinID, CRM, ERP)",
+        "Y tế & Giáo dục (Vinmec, VinUni)"
+      ],
+      "cells": [
+        { "row": 0, "col": 1, "value": "12,500", "is_header": false },
+        { "row": 1, "col": 1, "value": "2,800", "is_header": false },
+        { "row": 2, "col": 1, "value": "1,200", "is_header": false },
+        { "row": 3, "col": 1, "value": "900", "is_header": false }
       ]
     }
   ]

@@ -13,7 +13,7 @@ def main():
     print("=" * 80)
     
     # Use the Vietnamese financial document
-    input_file = "data/synthetic_documents/doc_vietinbank_2020_018.json"
+    input_file = "data/mock_vietnamese_financial.json"
     
     if not os.path.exists(input_file):
         print(f"Error: {input_file} not found!")
@@ -123,8 +123,10 @@ def main():
     print("=" * 80)
     
     test_queries = [
-        "Doanh thu tăng năm 2020 tăng bao nhiêu phần trăm",
-        "Lợi nhuận sau thuế tăng bao nhiêu phần trăm",
+        "VinFast đóng vai trò gì trong chiến lược dài hạn của Vingroup",
+        "Mảng kinh doanh nào có tốc độ tăng trưởng cao nhất năm 2020",
+        "Vì sao mảng bán lẻ được xem là nguồn tạo dòng tiền ổn định cho Vingroup",
+        "Doanh thu tổng năm 2020 tăng bao nhiêu phần trăm so với năm 2019"
     ]
     
     for i, query in enumerate(test_queries, 1):
@@ -137,7 +139,7 @@ def main():
             query=query,
             graph=graph,
             node_metadata=node_metadata,
-            top_k_sections=4,
+            top_k_sections=8,
             top_k_leafs=10  # Increased to show more results including paragraphs
         )
         

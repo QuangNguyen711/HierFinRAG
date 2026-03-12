@@ -1,10 +1,10 @@
 {
   "id": "doc_vinamilk_2024_011",
-  "title": "Báo Cáo Tài Chính Vinamilk 2024",
+  "title": "Báo Cáo Nông Nghiệp Sinh Thái & Chuỗi Cung Ứng Vinamilk 2024",
   "sections": [
     {
       "id": "s1",
-      "title": "Tổng Quan Hoạt Động Kinh Doanh",
+      "title": "Tổng Quan Nông Nghiệp Sinh Thái",
       "level": 1,
       "content_ids": [
         "p1",
@@ -15,7 +15,7 @@
     },
     {
       "id": "s2",
-      "title": "Kết Quả Kinh Doanh Năm 2024",
+      "title": "Kết Quả Phát Triển Vùng Nguyên Liệu 2024",
       "level": 1,
       "content_ids": [
         "p4",
@@ -27,7 +27,7 @@
     },
     {
       "id": "s3",
-      "title": "Tình Hình Tài Sản và Nguồn Vốn",
+      "title": "Tình Hình Quản Trị Đàn Bò và Trang Trại",
       "level": 1,
       "content_ids": [
         "p8",
@@ -36,7 +36,7 @@
     },
     {
       "id": "s4",
-      "title": "Phân Tích Biến Động Doanh Thu và Lợi Nhuận",
+      "title": "Phân Tích Biến Động Năng Suất và Chi Phí Chăn Nuôi",
       "level": 1,
       "content_ids": [
         "p10",
@@ -47,7 +47,7 @@
     },
     {
       "id": "s5",
-      "title": "Hiệu Quả Sử Dụng Vốn và Chi Phí",
+      "title": "Hiệu Quả Sử Dụng Tài Nguyên và Thức Ăn",
       "level": 1,
       "content_ids": [
         "p13",
@@ -57,7 +57,7 @@
     },
     {
       "id": "s6",
-      "title": "Rủi Ro và Cơ Hội Trong Ngành Thực Phẩm",
+      "title": "Rủi Ro Sinh Học và Cơ Hội Trong Chăn Nuôi",
       "level": 1,
       "content_ids": [
         "p16",
@@ -67,7 +67,7 @@
     },
     {
       "id": "s7",
-      "title": "Chiến Lược và Định Hướng Phát Triển 2025",
+      "title": "Chiến Lược Mở Rộng Hệ Sinh Thái Nông Nghiệp 2025",
       "level": 1,
       "content_ids": [
         "p19",
@@ -80,119 +80,119 @@
   "paragraphs": [
     {
       "id": "p1",
-      "text": "Năm 2024, Vinamilk ra mắt dòng sữa chua ăn **“Probi+ Mật ong rừng và Yến sào”** – sản phẩm đầu tiên trên thị trường Việt Nam tích hợp hai thành phần quý hiếm: mật ong từ vùng cao nguyên Lâm Đồng (được chứng nhận hữu cơ theo tiêu chuẩn EU) và yến sào tinh chế ở dạng bột siêu mịn, không gây lắng cặn. Không chỉ dừng ở “thêm hương vị”, Vinamilk đã tái cấu trúc công nghệ lên men: sử dụng chủng probiotic **L. Reuteri DSM 17938** độc quyền, được nghiên cứu lâm sàng tại Đại học Harvard về khả năng hỗ trợ hệ vi sinh đường ruột và tăng cường miễn dịch ở người trưởng thành – một bước đi khác biệt so với các sản phẩm thông thường chỉ dùng L. Acidophilus. Hàm lượng yến sào đạt 120mg/100g, tương đương 1/3 ly chưng yến truyền thống, nhưng ở dạng dễ hấp thu nhờ công nghệ nano hóa nhiệt độ thấp. Bao bì được thiết",
+      "text": "Khởi động chu kỳ mới, Vinamilk tiên phong giới thiệu mô hình trang trại sinh thái khép kín tại Mộc Châu và Tây Ninh – dự án đầu tiên tích hợp công nghệ canh tác tuần hoàn: sử dụng phân bón hữu cơ vi sinh từ chính chất thải của đàn bò để cải tạo đồng cỏ, đồng thời ứng dụng hệ thống tưới tiêu nhỏ giọt tự động. Không chỉ dừng ở “trồng trọt sạch”, công ty đã tái cấu trúc quy trình thu hoạch thức ăn thô xanh: sử dụng giống ngô sinh khối độc quyền, được nghiên cứu tại Viện Nông nghiệp Quốc gia về khả năng chịu hạn và hàm lượng dinh dưỡng cao cho bò vắt sữa. Ở giai đoạn thu hoạch, hệ thống vắt sữa khép kín đảm bảo vô trùng tuyệt đối, trước khi chuyển sữa tươi đến nhà máy đóng gói, nơi mà các mẫu Bao bì được thiết",
       "section_id": "s1"
     },
     {
       "id": "p2",
-      "text": "Trong năm 2024, Vinamilk đẩy mạnh chuyển đổi số và ứng dụng công nghệ mới thông qua ba sáng kiến cụ thể, có thể đo lường rõ ràng. Thứ nhất, công ty triển khai hệ thống **“Smart Factory 4.0”** tại 7 nhà máy chính, tích hợp AI và cảm biến IoT để giám sát quy trình sản xuất theo thời gian thực – giúp giảm 18% lỗi sản xuất, tăng năng suất dây chuyền lên 12% và tiết kiệm 4,2 triệu kWh điện/năm so với năm 2023. Thứ hai, Vinamilk ra mắt **nền tảng tích hợp dữ liệu chuỗi cung ứng “Vinamilk Supply Chain OS”**, kết nối 1.200 trang trại bò sữa và 8.000 điểm phân phối thông qua blockchain, giảm thời gian truy xuất nguồn gốc sản phẩm từ 48 giờ xuống còn 15 phút, đồng thời cắt giảm 22% chi phí logistics nhờ tối ưu tuyến đường giao hàng bằng thuật toán học máy. Thứ ba, công ty triển khai **chatbot AI “",
+      "text": "Đồng hành cùng xu hướng số hóa nông nghiệp, tập đoàn đẩy mạnh ứng dụng công nghệ trực tiếp vào chuỗi cung ứng thông qua ba sáng kiến đo lường cụ thể. Thứ nhất, công ty triển khai hệ thống **“Smart Farm 4.0”** tại 7 cụm trang trại lớn, tích hợp AI và thẻ RFID để theo dõi sức khỏe và khẩu phần ăn của từng cá thể bò theo thời gian thực – giúp giảm 18% tỷ lệ mắc bệnh, tăng năng suất cho sữa lên 12% và tiết kiệm 4,2 triệu m3 nước/năm. Thứ hai, Vinamilk ra mắt **nền tảng kết nối hộ chăn nuôi “Vinamilk Farmer OS”**, đồng bộ hóa dữ liệu từ 1.200 trang trại vệ tinh thông qua blockchain, giảm thời gian kiểm định chất lượng nguyên liệu từ 48 giờ xuống còn 15 phút. Thứ ba, công ty hỗ trợ giải đáp kỹ thuật chăn nuôi cho các hộ nông dân liên kết qua ứng dụng di động, tích hợp trực tiếp chatbot AI “",
       "section_id": "s1"
     },
     {
       "id": "p3",
-      "text": "Vinamilk định hướng chiến lược kinh doanh tổng thể năm 2024 thông qua mở rộng danh mục sản phẩm cao cấp như sữa hạt, sữa chua hữu cơ và sữa bột dinh dưỡng chuyên biệt, góp phần tăng doanh thu lên 29,823 tỷ đồng (tăng 13,2% so với năm trước) và duy trì biên lợi nhuận 5,98% nhờ tối ưu chuỗi cung ứng và đầu tư công nghệ chế biến hiện đại. Song song, công ty tăng cường phân phối tại thị trường nông thôn và xuất khẩu sang 50 quốc gia, biến lợi thế thương hiệu thành động lực tăng trưởng bền vững trong ngành thực phẩm tiêu dùng.",
+      "text": "Nhìn chung, ban lãnh đạo định hướng chiến lược chuỗi cung ứng bền vững thông qua việc mở rộng vùng nguyên liệu chuẩn GlobalG.A.P, phát triển các đàn bò hữu cơ A2 và hệ thống kho lạnh tiết kiệm năng lượng, góp phần đảm bảo tỷ lệ thu mua nội địa ổn định và duy trì biên chất lượng 99,98% sữa đạt chuẩn loại 1. Song song, công ty tăng cường chuyển giao công nghệ vắt sữa hiện đại cho các nông hộ tại vùng nông thôn, biến lợi thế nguồn cung ổn định thành động lực phát triển mạnh mẽ trong ngành thực phẩm tiêu dùng.",
       "section_id": "s1"
     },
     {
       "id": "p4",
-      "text": "Trong thị trường thực phẩm tiêu dùng 2024, Vinamilk duy trì vị thế dẫn đầu nhờ chuỗi sản phẩm đa dạng từ sữa tươi tiệt trùng đến sữa hạt và sữa chua hữu cơ, khiến các đối thủ như TH True Milk hay Dutch Lady khó bắt kịp về phạm vi phân phối và nhận diện thương hiệu. Dù đối mặt với áp lực từ các nhãn hiệu ngoại nhập cao cấp và các startup sữa thực vật, Vinamilk tận dụng lợi thế chuỗi cung ứng dọc và mạng lưới bán lẻ rộng khắp để củng cố lòng trung thành của người tiêu dùng, đặc biệt ở phân khúc gia đình và trẻ em.",
+      "text": "Trên bản đồ quy hoạch vùng nguyên liệu, Vinamilk duy trì vị thế dẫn đầu tuyệt đối nhờ hệ thống trang trại quy mô lớn trải dài từ Bắc vào Nam, khiến các đối thủ như TH True Milk hay Dutch Lady gặp nhiều thách thức để bắt kịp diện tích đồng cỏ và quy mô đàn bò sữa. Dù đối mặt với áp lực khan hiếm quỹ đất nông nghiệp sạch, Vinamilk tận dụng mô hình liên kết chặt chẽ với hàng ngàn nông hộ và quy trình kiểm soát chất lượng dọc để củng cố nguồn cung sữa tươi nguyên chất, đặc biệt ở phân khúc gia đình và trẻ em.",
       "section_id": "s2"
     },
     {
       "id": "p5",
-      "text": "Vinamilk tiếp tục mở rộng thị trường quốc tế mạnh mẽ trong năm 2024, với doanh thu tăng 13,2% lên 29.823 tỷ đồng, nhờ đẩy mạnh xuất khẩu các sản phẩm cao cấp như sữa tươi tiệt trùng, sữa bột dinh dưỡng và sữa chua uống đến hơn 50 quốc gia, đặc biệt tại Đông Nam Á, Trung Đông và Bắc Mỹ. Song song, công ty tăng cường tiếp cận nhóm khách hàng trẻ và người tiêu dùng cao tuổi thông qua dòng sản phẩm chức năng như “Sữa Aptamil” và “Sữa Vinamilk Diecerna”, giúp nâng cao thị phần và lợi nhuận ròng lên 1.781 tỷ đồng, tương đương biên lợi nhuận 5,98%.",
+      "text": "Mở rộng quy mô phát triển sinh thái, công ty đã hoàn tất nhập khẩu thêm 3.500 bò sữa HF thuần chủng từ Mỹ và Úc về các trang trại công nghệ cao, đẩy tổng đàn bò quản lý lên mức kỷ lục. Song song, mạng lưới logistics lạnh (cold chain) được nâng cấp đồng bộ từ khâu vắt sữa đến điểm bán lẻ, đảm bảo nhiệt độ ổn định dưới 4 độ C. Nhờ kiểm soát tốt tỷ lệ hao hụt nguyên liệu trong quá trình vận chuyển, chi phí chuỗi cung ứng được tối ưu hóa, đóng góp tích cực vào việc cải thiện dòng tiền và tương đương biên lợi nhuận 5,98%.",
       "section_id": "s2"
     },
     {
       "id": "p6",
-      "text": "Năm 2024, Vinamilk đẩy mạnh chuyển đổi số bằng những hành động cụ thể, không dừng ở “số hóa” mà hướng đến tự động hóa thông minh trong toàn chuỗi giá trị. Tại nhà máy Đà Nẵng, công ty triển khai hệ thống AI giám sát chất lượng sữa tươi trực tuyến qua camera thị giác máy tính – công nghệ này phân tích độ trong, màu sắc, bọt khí và dấu hiệu ô nhiễm vi sinh trong từng lô sản phẩm với độ chính xác 99,2%, thay thế hoàn toàn kiểm tra thủ công. Ở khâu phân phối, Vinamilk triển khai “Smart Logistics Platform” tích hợp dữ liệu thời gian thực từ 12.000 xe tải, 45.000 điểm bán lẻ và 1,2 triệu đại lý, giúp tối ưu lộ trình giao hàng, giảm 18% thời gian chờ và 12% chi phí vận chuyển chỉ trong 6 tháng đầu năm. Không chỉ dừng ở sản xuất, Vinamilk còn ra mắt “Vinamilk AI Assistant” – chatbot dựa trên mô hình ngôn ngữ riêng (LLM",
+      "text": "Bước vào thực tiễn vận hành, công tác quản trị trang trại được số hóa toàn diện, không chỉ dừng ở nhập liệu mà hướng đến ra quyết định bằng thuật toán. Tại cụm trang trại Green Farm, công ty triển khai hệ thống camera AI giám sát hành vi của bò – công nghệ này phân tích thời gian nhai lại, chu kỳ động dục và dấu hiệu viêm vú sớm với độ chính xác 99,2%, thay thế hoàn toàn sự quan sát thủ công của bác sĩ thú y. Ở khâu thức ăn, Vinamilk triển khai “Smart Feed Platform” tính toán tỷ lệ trộn TMR (Total Mixed Ration) dựa trên cảm biến phân tích thành phần cỏ khô và bắp ủ chua, giúp tối ưu dưỡng chất, giảm 18% thức ăn thừa. Không chỉ vậy, trung tâm điều hành trung tâm còn tích hợp công cụ phân tích dự báo sản lượng và khuyến nghị thú y dựa trên mô hình ngôn ngữ riêng (LLM",
       "section_id": "s2"
     },
     {
       "id": "p7",
-      "text": "Vinamilk thúc đẩy chiến lược kinh doanh tổng thể năm 2024 bằng cách mở rộng thị phần qua sản phẩm cao cấp như sữa hạt dinh dưỡng và sữa chua probiotic, đồng thời tối ưu chuỗi cung ứng để duy trì biên lợi nhuận 5,98% dù chi phí đầu vào tăng, góp phần đạt doanh thu 29.823 tỷ đồng – tăng 13,2% so với năm trước – nhờ tăng trưởng mạnh ở phân khúc sữa bột trẻ em và sản phẩm chức năng cho người lớn tuổi.",
+      "text": "Cụ thể hóa chiến lược canh tác, Vinamilk thúc đẩy năng lực tự chủ nguyên liệu bằng cách mở rộng các dự án trồng cỏ yến mạch hữu cơ và bắp sinh khối, đồng thời tối ưu hệ thống thu mua sữa tươi từ nông hộ để duy trì nguồn cung ổn định dù điều kiện khí hậu biến đổi, góp phần đưa sản lượng sữa thu mua đạt hàng ngàn tấn mỗi ngày – tăng 13,2% so với năm trước – tạo bệ phóng vững chắc để sản xuất các dòng sản phẩm chức năng cho người lớn tuổi.",
       "section_id": "s2"
     },
     {
       "id": "p8",
-      "text": "Cơ cấu tài sản của Vinamilk năm 2024 tiếp tục tối ưu hóa với tỷ trọng tài sản lưu động chiếm hơn 60% tổng tài sản, chủ yếu từ hàng tồn kho (sữa tươi, sữa bột, sữa chua) và công nợ phải thu từ hệ thống phân phối rộng khắp, phản ánh năng lực lưu thông hàng hóa nhanh trong ngành thực phẩm tiêu dùng. Thanh khoản được duy trì vững chắc nhờ dòng tiền thu từ doanh thu 29.823 tỷ đồng (tăng 13,2%), cùng tỷ lệ hiện hành đạt 2,1 – cao hơn mức trung bình ngành – cho thấy khả năng đáp ứng nghĩa vụ ngắn hạn dù chi phí đầu tư vào dây chuyền sản xuất và bao bì thân thiện môi trường tăng mạnh.",
+      "text": "Về cơ cấu tài sản hạ tầng nông nghiệp, Vinamilk tiếp tục tối ưu hóa dòng vốn với tỷ trọng đầu tư lớn vào tài sản sinh học (đàn bò sữa sinh sản) và hệ thống chuồng trại tự động hóa, phản ánh năng lực sản xuất quy mô công nghiệp trong ngành chăn nuôi. Khả năng vận hành liên tục được duy trì vững chắc nhờ hệ thống kho bãi bảo quản nguyên liệu cám, cỏ khô có sức chứa hàng triệu tấn, cùng tỷ lệ đáp ứng thiết bị vắt sữa dự phòng luôn ở mức cao – đảm bảo đàn bò được khai thác đúng chu kỳ dù chi phí đầu tư vào dây chuyền sản xuất và bao bì thân thiện môi trường tăng mạnh.",
       "section_id": "s3"
     },
     {
       "id": "p9",
-      "text": "Dù doanh thu tăng 13,2% lên 29.823 tỷ đồng và lợi nhuận ròng đạt 1.781 tỷ đồng, Vinamilk duy trì cấu trúc tài chính thận trọng với tỷ lệ nợ trên vốn chủ sở hữu ở mức thấp, phản ánh khả năng thanh toán ngắn hạn vượt trội nhờ dòng tiền mạnh từ sản phẩm chủ lực như sữa tươi tiệt trùng và sữa bột dinh dưỡng. Tỷ lệ hiện hành và tỷ lệ nhanh đều cao hơn ngưỡng an toàn ngành thực phẩm, cho thấy công ty không chỉ an toàn về mặt nợ mà còn có dư địa tài chính để đầu tư mở rộng sản xuất và phân phối mà không cần tăng đòn bẩy.",
+      "text": "Bất chấp những biến động về giá thức ăn chăn nuôi nhập khẩu, Vinamilk duy trì cấu trúc chi phí chăn nuôi thận trọng với tỷ lệ tự chủ thức ăn thô xanh ở mức cao, phản ánh khả năng chống chịu trước các cú sốc đứt gãy chuỗi cung ứng toàn cầu. Tỷ lệ luân chuyển hàng tồn kho nông nghiệp (cám, cỏ) được giữ ở ngưỡng tối ưu, cho thấy công ty không chỉ an toàn về mặt nguồn nguyên liệu mà còn có dư địa năng lực để mở rộng thêm hệ thống trang trại liên kết ở miền Trung và miền Tây mà không cần tăng đòn bẩy.",
       "section_id": "s3"
     },
     {
       "id": "p10",
-      "text": "Năm 2024, Vinamilk tiếp tục thể hiện năng lực tối ưu hóa chi phí hoạt động một cách tinh vi khi tăng trưởng doanh thu 13,2% lên 29.823 tỷ đồng, trong khi biên lợi nhuận duy trì ở mức 5,98% — một thành tích ấn tượng giữa bối cảnh chi phí đầu vào nguyên liệu, năng lượng và logistics vẫn chịu áp lực từ biến động toàn cầu. Công ty đã triển khai chiến lược “tối ưu hóa chuỗi cung ứng thông minh” thông qua đầu tư vào hệ thống tự động hóa tại 15 nhà máy, giảm chi phí sản xuất trên đơn vị sản phẩm 4,7% so với năm trước, đồng thời tăng hiệu suất sử dụng nguyên liệu sữa tươi lên 92,3%. Tuy nhiên, thách thức lớn nhất đến từ việc giá bao bì nhựa và bao bì carton tăng 18% do chính sách môi trường khắt khe hơn tại các thị trường xuất khẩu, cùng áp lực lạm phát tại Đông Nam Á khiến chi phí phân phối tăng 9,1%. Trước nguy cơ này,",
+      "text": "Đi sâu vào bài toán quản trị chi phí, hệ thống trang trại đã thể hiện năng lực tối ưu hóa chuỗi thức ăn một cách tinh vi khi giá trị khẩu phần TMR duy trì ổn định, trong khi sản lượng sữa bình quân trên đầu con tăng lên mức 29-30 lít/ngày — một thành tích ấn tượng giữa bối cảnh giá khô đậu nành, bắp hạt và cước tàu biển nhập khẩu vật tư nông nghiệp vẫn chịu áp lực. Đội ngũ nông học đã triển khai chiến lược “địa phương hóa nguyên liệu” thông qua hợp đồng bao tiêu bắp sinh khối với hàng ngàn nông dân quanh trang trại, giảm chi phí thức ăn trên mỗi lít sữa 4,7% so với năm trước. Tuy nhiên, thách thức lớn nhất đến từ việc giá nguyên liệu thức ăn nhập khẩu tăng 18% do điều kiện thời tiết El Nino tại Nam Mỹ, cùng áp lực chi phí điện nước tại hệ thống chuồng lạnh khép kín làm chi phí vận hành trang trại tăng vọt. Trước nguy cơ này,",
       "section_id": "s4"
     },
     {
       "id": "p11",
-      "text": "Trong năm 2024, Vinamilk đẩy mạnh triển khai chiến lược “tăng trưởng dựa trên tối ưu hóa kênh phân phối và mở rộng sản phẩm cao cấp” để khai thác tiềm năng ngắn hạn. Cụ thể, công ty đã triển khai chương trình “Vinamilk 360” – tích hợp hệ thống bán hàng trực tiếp (D2C) qua ứng dụng di động và đối tác công nghệ như Shopee, Tiki, và Sendo, giúp tăng doanh thu kênh online lên 38% so với cùng kỳ 2023, đóng góp 12,4% tổng doanh thu (tương đương 3,7 tỷ đồng tăng thêm). Đồng thời, Vinamilk tập trung phát triển dòng sản phẩm cao cấp như sữa hữu cơ “Organic Milk”, sữa chua không đường “Probiotics+”, và sữa dinh dưỡng cho người cao tuổi “Sữa Bé Yêu Plus” – những sản phẩm này chiếm 22% doanh thu toàn công ty, tăng 15,3% so với năm trước, với biên lợi nhuận đạt 28,5%",
+      "text": "Tiếp nối đà tăng trưởng, công tác thu mua sữa nguyên liệu từ hộ nông dân được chuyên nghiệp hóa thông qua các trạm trung chuyển ứng dụng công nghệ làm lạnh tức thì. Cụ thể, công ty đã triển khai chương trình “Vinamilk Agri-Connect” – cấp phát thiết bị đo nhiệt độ thông minh cho các hộ chăn nuôi đối tác, giúp cảnh báo sớm sự cố bảo quản sữa tươi vắt ra, giảm tỷ lệ sữa bị từ chối nhập kho xuống mức thấp kỷ lục. Đồng thời, Vinamilk tập trung quy hoạch lại các mô hình trang trại liên kết sinh thái, hỗ trợ kỹ thuật và kiểm soát thú y nghiêm ngặt từ đầu nguồn – những trang trại đạt chuẩn chất lượng cao này mang lại hiệu quả vượt trội cho toàn chuỗi, giúp biên lợi nhuận đạt 28,5%",
       "section_id": "s4"
     },
     {
       "id": "p12",
-      "text": "Năm 2024, Vinamilk thực hiện chiến lược tối ưu hóa biên lợi nhuận thông qua ba hành động cụ thể, có thể đo lường rõ rệt. Thứ nhất, công ty tái cấu trúc chuỗi cung ứng bằng cách chuyển 40% nguyên liệu sữa tươi từ vùng phụ cận sang các trang trại tự chủ (đạt 75% tổng lượng sữa đầu vào), giảm chi phí thu mua trung bình 8,5% so với năm 2023, góp phần tăng biên lợi nhuận gộp lên 48,2% từ 45,1% năm trước. Thứ hai, Vinamilk triển khai chương trình “Sản phẩm cao cấp – Chi phí tối ưu” – thay vì tăng giá bán, công ty tập trung nâng cao giá trị sản phẩm qua bao bì thông minh, công nghệ tiệt trùng không khí và đóng gói tái chế, giúp giảm chi phí đóng gói 6,3% trong khi giá bán trung bình sản phẩm cao cấp tăng 5,8%, kéo theo biên lợi nhuận ròng tăng từ 5,97% (20",
+      "text": "Nhằm tối ưu hóa chuỗi giá trị, ban lãnh đạo thực hiện ba hành động kiểm soát chi phí nông nghiệp cực kỳ đo lường. Thứ nhất, tái cơ cấu diện tích trồng cỏ tự túc, tăng cường sử dụng phân hữu cơ vi sinh nội bộ để cải tạo đất, giảm sự phụ thuộc vào phân bón hóa học nhập khẩu, góp phần cắt giảm chi phí canh tác 8,5% so với năm 2023. Thứ hai, ứng dụng công nghệ làm mát phun sương và quạt trần công nghiệp biến tần tại các chuồng nuôi, giúp bò giảm stress nhiệt trong mùa hè, duy trì sản lượng sữa ổn định và nâng cao tỷ lệ thụ thai. Nhờ các biện pháp kỹ thuật đồng bộ, hệ thống trang trại đã tối ưu giá thành sản xuất nguyên liệu, kéo theo biên lợi nhuận ròng tăng từ 5,97% (20",
       "section_id": "s4"
     },
     {
       "id": "p13",
-      "text": "Trong năm 2024, Vinamilk đã thực hiện một loạt hành động chiến lược có tính đo lường cao nhằm cải thiện hiệu quả sinh lời trên ba chỉ số then chốt: ROA (Return on Assets), ROE (Return on Equity) và ROS (Return on Sales).  \n\nĐầu tiên, để nâng **ROS (biên lợi nhuận)** từ 5,98% lên mức 6,2% (tăng 0,22 điểm phần trăm so với 5,76% năm 2023), Vinamilk tối ưu hóa chi phí đầu vào thông qua hợp đồng dài hạn với 120 trang trại bò sữa đạt chuẩn GlobalG.A.P., giảm chi phí sữa nguyên liệu 4,1% so với năm trước, đồng thời chuyển đổi 35% sản phẩm đóng gói từ bao bì nhựa thông thường sang vật liệu tái chế cao cấp – vừa giảm chi phí xử lý rác thải 18% (theo báo cáo ESG), vừa tăng giá bán trung bình sản phẩm 2,3% nhờ định vị thương hiệu xanh.  \n\nVề **ROA**,",
+      "text": "Trong công tác quản trị nguồn lực, hệ thống trang trại đã thiết lập các chỉ số KPI khắt khe nhằm cải thiện hiệu quả sinh học trên ba yếu tố then chốt: Tỷ lệ chuyển đổi thức ăn (FCR), Tuổi thọ vắt sữa và Khoảng cách lứa đẻ.  \n\nĐầu tiên, để nâng cao sản lượng sữa tinh khiết, các chuyên gia dinh dưỡng đã phân tích và thiết lập công thức cá nhân hóa cho từng nhóm bò mang thai, bò tơ và bò cho sữa đỉnh, giảm hao hụt thức ăn thừa 4,1% so với năm trước. Đồng thời, việc chuyển đổi mô hình đệm lót sinh học bằng rơm rạ cày xới tự động giúp giảm nguy cơ viêm móng chân ở bò cái – vừa cắt giảm chi phí xử lý y tế 18% (theo báo cáo thú y nội bộ), vừa kéo dài thời gian khai thác sữa hiệu quả, khẳng định lợi thế quy mô sinh thái. Về **ROA**,",
       "section_id": "s5"
     },
     {
       "id": "p14",
-      "text": "Trong năm 2024, Vinamilk đã triển khai một loạt hành động chiến lược nhằm tối ưu hóa **khả năng thanh toán và thanh khoản**, tập trung vào kiểm soát dòng tiền và gia tăng hiệu quả sử dụng vốn lưu động. Một trong những sáng kiến nổi bật là **thực hiện chuyển đổi số trong quản lý công nợ khách hàng và nhà cung cấp**, thông qua hệ thống ERP tích hợp AI dự đoán chu kỳ thu - chi. Nhờ đó, thời gian trung bình thu hồi công nợ khách hàng giảm từ 48 ngày (2023) xuống còn **39 ngày** trong năm 2024 – tương đương **18,75% cải thiện tốc độ luân chuyển vốn**. Đồng thời, Vinamilk áp dụng mô hình **“thanh toán điện tử theo điều kiện giao hàng”** với hơn 95% đối tác cung cấp nguyên liệu, giúp giảm thời gian thanh toán cho nhà cung cấp từ 60 xuống 45 ngày, nhưng vẫn duy trì được chiết khấu thanh toán sớm (trung bình 1,2% trên tổng giá",
+      "text": "Ở khía cạnh vận hành dòng tiền chuỗi cung ứng, khối thu mua đã triển khai hàng loạt cải tiến nhằm tối ưu hóa vòng quay vật tư nông nghiệp và hỗ trợ tài chính cho các hộ nông dân liên kết. Một trong những sáng kiến nổi bật là việc ra mắt ứng dụng **chấm điểm chất lượng sữa và tự động thanh toán bù trừ**, giúp hộ chăn nuôi theo dõi được hàm lượng chất béo, tế bào soma trong sữa giao hàng ngày để điều chỉnh kỹ thuật nuôi kịp thời. Nhờ quy trình minh bạch này, thời gian đối soát công nợ nguyên liệu giảm từ 15 ngày xuống còn **3 ngày** – giải quyết bài toán dòng tiền cho nông dân mua cám, cỏ. Khối thu mua cũng áp dụng cơ chế thưởng chất lượng lũy tiến, khuyến khích người nông dân duy trì chất lượng sữa ổn định thông qua chính sách thưởng (trung bình 1,2% trên tổng giá",
       "section_id": "s5"
     },
     {
       "id": "p15",
-      "text": "Trong năm 2024, Vinamilk đã triển khai chiến lược tối ưu hóa chuỗi cung ứng và mở rộng thị phần thông qua ba hành động cụ thể, trực tiếp tác động đến xu hướng tăng trưởng chỉ số tài chính. Thứ nhất, công ty đẩy mạnh tự động hóa tại 7 nhà máy chế biến sữa, giảm chi phí sản xuất 8,2% so với năm 2023, góp phần nâng biên lợi nhuận từ 5,4% lên 5,98% — một bước nhảy đáng kể trong bối cảnh giá nguyên liệu đầu vào tăng 12%. Thứ hai, Vinamilk tăng cường phân phối sản phẩm cao cấp (như sữa hữu cơ, sữa bột dinh dưỡng chuyên biệt) tại các kênh online và cửa hàng tiện lợi, chiếm 28% doanh thu tổng — tăng 11 điểm phần trăm so với năm 2022 — giúp doanh thu đạt 29.823 tỷ đồng, tăng 13,2% so với 26.339 tỷ đồng năm trước. Thứ ba, công ty mở rộng xuất khẩu sang 15 thị trường mới",
+      "text": "Đúc kết chuỗi hành động thực tiễn, việc hiện đại hóa quy trình thu gom và bảo quản nguyên liệu tại nguồn đã đóng góp trực tiếp vào sức mạnh cạnh tranh. Thứ nhất, công ty lắp đặt hệ thống làm lạnh nhanh (chiller) tại 100% trạm thu mua trung tâm, giảm tỷ lệ vi khuẩn phát sinh trong sữa nguyên liệu xuống mức tối thiểu, góp phần nâng cao tuổi thọ của sản phẩm đóng hộp thành phẩm. Thứ hai, công tác đào tạo kỹ năng vắt sữa vô trùng và vệ sinh chuồng trại được phổ cập định kỳ cho hàng ngàn đối tác chăn nuôi, giúp đồng bộ hóa chất lượng sữa tươi nguyên liệu tương đương với các trang trại công nghệ cao của chính tập đoàn. Nâng tầm nguyên liệu nội địa, công ty mở rộng xuất khẩu sang 15 thị trường mới",
       "section_id": "s5"
     },
     {
       "id": "p16",
-      "text": "Vinamilk ứng dụng hệ thống kiểm soát chất lượng khép kín từ trang trại đến sản phẩm cuối cùng, đặc biệt trong các dòng sữa tiệt trùng và sữa bột trẻ em, nhằm giảm thiểu rủi ro về an toàn thực phẩm do biến động nguyên liệu hoặc vi sinh vật. Công ty còn đa dạng hóa nguồn cung nguyên liệu sữa tươi từ các vùng miền khác nhau và ký kết hợp đồng dài hạn với nông hộ, giúp ổn định chất lượng và hạn chế gián đoạn do thời tiết hoặc dịch bệnh. Đồng thời, việc tích hợp công nghệ truy xuất nguồn gốc trên bao bì giúp tăng tính minh bạch và nhanh chóng xử lý khi có sự cố phát sinh.",
+      "text": "Chủ động ứng phó với rủi ro sinh học, hệ thống trang trại áp dụng quy trình an toàn sinh học 3 lớp nghiêm ngặt, từ việc khử trùng xe chở thức ăn đến cách ly hoàn toàn bò nhập khẩu, nhằm giảm thiểu rủi ro bùng phát dịch bệnh lở mồm long móng hoặc viêm da nổi cục. Đội ngũ bác sĩ thú y liên tục giám sát lịch tiêm phòng và kiểm tra kháng thể định kỳ, giúp bảo vệ tài sản sinh học cốt lõi. Đồng thời, phần mềm quản lý đàn tích hợp tính năng truy vết nguồn gốc tinh bò, hồ sơ tiêm chủng và phác đồ điều trị, giúp tăng tính minh bạch và nhanh chóng xử lý khi có sự cố phát sinh.",
       "section_id": "s6"
     },
     {
       "id": "p17",
-      "text": "Trong bối cảnh tăng trưởng doanh thu 13,2% lên 29.823 tỷ đồng năm 2024, Vinamilk đã chủ động điều chỉnh dự phòng rủi ro liên quan đến hàng tồn kho dễ hư hỏng (như sữa tiệt trùng và sữa chua) và các khoản bồi thường bảo hiểm cho sản phẩm, với tỷ lệ dự phòng tăng nhẹ nhằm đáp ứng tiêu chuẩn kiểm toán mới về an toàn thực phẩm. Công ty cũng gia tăng bảo hiểm cho toàn bộ chuỗi cung ứng lạnh – từ nhà máy đến hệ thống phân phối – nhằm giảm thiểu rủi ro tài chính do sự cố nhiệt độ hoặc hư hỏng hàng hóa, góp phần bảo vệ lợi nhuận ròng 1.781 tỷ đồng trước biến động thị trường.",
+      "text": "Đối diện với những biến động khó lường về thời tiết cực đoan và thiên tai, ban quản lý đã chủ động thiết lập các kho dự trữ thức ăn thô xanh ủ chua (Silage) với sức chứa đủ cung ứng trong nhiều tháng liền, đảm bảo nguồn dinh dưỡng không bị gián đoạn. Công ty cũng gia tăng các biện pháp phòng chống ngập úng tại các cụm trang trại miền Trung và lắp đặt hệ thống chống sét hiện đại cho các trạm biến áp, nhằm giảm thiểu rủi ro tài chính do hư hỏng cơ sở vật chất, bảo vệ sự ổn định của đàn bò cái vắt sữa trước biến động thị trường.",
       "section_id": "s6"
     },
     {
       "id": "p18",
-      "text": "Năm 2024, Vinamilk đối mặt với áp lực kép từ rủi ro tài chính và biến động tỷ giá, khi lãi suất toàn cầu vẫn ở mức cao và đồng USD tiếp tục mạnh lên, khiến chi phí vay vốn ngoại tệ và chi phí nhập khẩu nguyên liệu như bột sữa, bao bì cao cấp tăng đột biến — thách thức lớn đối với biên lợi nhuận vốn đã chịu sức ép từ cạnh tranh nội địa và xu hướng tiêu dùng tiết kiệm. Tuy nhiên, chính sự đa dạng hóa nguồn cung và chiến lược phòng ngừa rủi ro tỷ giá linh hoạt thông qua công cụ phái sinh, hợp đồng kỳ hạn và tối ưu hóa cơ cấu nợ (giảm tỷ lệ vay USD xuống còn dưới 15% tổng nợ) đã biến rủi ro thành cơ hội chiến lược: Vinamilk không chỉ bảo vệ được dòng tiền mà còn tận dụng đà tăng giá của sản phẩm cao cấp để chuyển đổi mô hình kinh doanh từ “định lượng” sang “định giá”, tăng cường lợi thế cạnh tranh qua thương hiệu. Đồng thời, việc mở rộng xuất khẩu sang",
+      "text": "Thị trường toàn cầu mang lại áp lực tỷ giá khi nhập khẩu giống bò sữa thuần chủng HF và các trang thiết bị vắt sữa tiên tiến từ châu Âu, Mỹ, khiến chi phí đầu tư hạ tầng nông nghiệp chịu sức ép lớn. Tuy nhiên, chính sự chủ động nhân giống bò sữa năng suất cao tại Việt Nam (thông qua công nghệ cấy truyền phôi) và tối ưu hóa việc sử dụng các dòng máy móc nội địa hóa một phần đã biến thách thức thành động lực tự chủ: Vinamilk đã chủ động nguồn thức ăn nội địa, giảm dần sự phụ thuộc vào cỏ khô Alfalfa nhập khẩu đắt đỏ bằng các giống cỏ Mombasa canh tác trong nước, tăng cường năng lực cốt lõi. Từ nền tảng nguyên liệu bền vững đó, tập đoàn tự tin hướng tới đa dạng hóa thị trường và mở rộng xuất khẩu sang",
       "section_id": "s6"
     },
     {
       "id": "p19",
-      "text": "Năm 2024, Vinamilk đẩy mạnh khai thác thị trường mục tiêu mới – nhóm người tiêu dùng trẻ tuổi tại các đô thị vệ tinh và vùng nông thôn đang dần chuyển mình về lối sống, nơi mà nhu cầu về dinh dưỡng cao cấp, tiện lợi và có yếu tố “sức khỏe bền vững” chưa được khai thác đầy đủ. Đây không chỉ là mở rộng địa lý, mà là một cuộc tái định nghĩa về giá trị tiêu dùng: thay vì chỉ bán sữa, Vinamilk đang bán cả triết lý sống lành mạnh thông qua sản phẩm hữu cơ, probiotic và bao bì thông minh tích hợp QR code truy xuất nguồn gốc. Cơ hội lớn nằm ở sự gia tăng thu nhập của tầng lớp trung lưu nông thôn – nhóm khách hàng từng bị bỏ qua bởi các thương hiệu lớn – cùng với làn sóng “trở về giá trị bản địa” khi người tiêu dùng ngày càng tin tưởng vào thương hiệu nội địa có công nghệ tiên tiến. Tuy nhiên, thách thức không nhỏ: hạ tầng phân phối chưa đồng bộ, tâm lý e dè với giá cao hơn so với sản phẩm truyền thống, và",
+      "text": "Khám phá tiềm năng tiêu dùng xanh, công ty định vị chiến lược xây dựng hình ảnh trang trại thân thiện với môi trường, đáp ứng xu hướng của nhóm khách hàng coi trọng nguồn gốc thực phẩm và phúc lợi động vật (Animal Welfare). Đây là một sự chuyển mình về triết lý sản xuất: đàn bò được nghe nhạc, massage, ngủ trên nệm cao su và tự do đi lại trong môi trường chuồng trại mở. Cơ hội lớn mở ra khi thị trường đánh giá cao các dòng sữa đạt tiêu chuẩn sinh thái, canh tác không hóa chất – tạo nên một hệ sinh thái nông nghiệp tái tạo. Tuy nhiên, rào cản từ việc chi phí duy trì trang trại sinh thái khá cao khiến giá thành sữa nguyên liệu đầu ra nhỉnh hơn đôi chút, khiến khách hàng vẫn còn cân nhắc nhiều khi so sánh với sản phẩm truyền thống, và",
       "section_id": "s7"
     },
     {
       "id": "p20",
-      "text": "Năm 2024, Vinamilk đẩy mạnh nghiên cứu và phát triển (R&D) bằng một chiến lược tập trung vào ba trụ cột công nghệ sinh học, tối ưu dinh dưỡng cá nhân hóa và chuỗi cung ứng bền vững — không chỉ nâng cao chất lượng sản phẩm mà còn định nghĩa lại tiêu chuẩn ngành sữa tại Việt Nam.  \n\nĐầu tiên, công ty ra mắt dòng sữa dinh dưỡng đặc trị “Probiotic+” sử dụng chủng vi sinh vật *Lactobacillus plantarum* PS128 do chính đội ngũ R&D của Vinamilk tại Trung tâm Nghiên cứu & Phát triển sữa (Dabao, Bình Dương) tách chiết và nuôi cấy trong điều kiện vô trùng khép kín, có khả năng sống sót 98% trong môi trường acid dạ dày — vượt xa ngưỡng 70% của thị trường. Chủng vi sinh này đã được thử nghiệm lâm sàng trên 1.200 người Việt qua đối chiếu ngẫu nhiên, double-blind, cho thấy giảm 41% triệu chứng rối loạn tiêu hóa sau 4 tuần sử dụng.",
+      "text": "Đầu tư mạnh tay cho hệ thống R&D nông nghiệp, các viện nghiên cứu nội bộ đã kết hợp với chuyên gia quốc tế để lai tạo thành công các phôi bò chịu nhiệt, thích nghi tốt với khí hậu nhiệt đới gió mùa của Việt Nam.  \n\nĐột phá lớn nhất nằm ở việc ứng dụng công nghệ vi sinh để ủ phân bón hữu cơ trực tiếp từ chất thải bò sữa, kết hợp với chế phẩm khử mùi sinh học giúp loại bỏ hoàn toàn khí amoniac gây ô nhiễm môi trường xung quanh trang trại. Hàng ngàn tấn phân hữu cơ vi sinh chất lượng cao đã được hoàn trả lại cho đất đai canh tác cỏ, cải thiện độ mùn và hệ vi sinh vật đất, tạo nên một chu trình khép kín giúp tiết kiệm chi phí phân bón hóa học và bảo vệ nguồn nước ngầm.",
       "section_id": "s7"
     },
     {
       "id": "p21",
-      "text": "Năm 2024, Vinamilk triển khai chiến lược sản phẩm tập trung vào “tinh gọn – tối ưu – cá nhân hóa” thông qua ba hành động cụ thể: (1) **Loại bỏ 12 dòng sản phẩm không hiệu quả** khỏi danh mục, tập trung nguồn lực vào 5 nhóm lõi có biên lợi nhuận cao nhất (sữa tươi thanh trùng, sữa hạt, sữa bột dinh dưỡng chuyên biệt, sữa chua uống và sữa tăng cường probiotic), trong đó sản phẩm *Sữa tươi Vinamilk 100% Pure Milk* được nâng cấp công nghệ pasteurization ở nhiệt độ thấp (68°C thay vì 85°C) để giữ nguyên 92% protein tự nhiên và vi chất, tăng độ mượt và vị thanh – kết quả kiểm nghiệm từ Viện Dinh dưỡng Quốc gia cho thấy hàm lượng canxi sinh khả dụng tăng 18% so với phiên bản cũ; (2) **Ra mắt 3 dòng sản phẩm “dành riêng cho từng giai đoạn sinh học”** – gồm *Sữa bột ProGrow Kids 3+* (",
+      "text": "Thực thi chiến lược phát triển đàn bò tinh gọn và năng suất, ban quản lý tiến hành ba hành động cụ thể: (1) **Loại bỏ những cá thể bò sinh sản kém và sản lượng sữa thấp** khỏi hệ thống, tập trung khẩu phần ăn chất lượng cao cho đàn bò tinh hoa đang trong chu kỳ cho sữa đỉnh, giúp tiết kiệm 15% tổng lượng thức ăn tiêu thụ nhưng vẫn đảm bảo tổng sản lượng sữa nguyên liệu thu hoạch tăng 5%; (2) **Quy hoạch vùng chăn nuôi chuyên biệt theo định hướng sản phẩm** – tách biệt các khu vực trang trại bò sữa A2 và trang trại hữu cơ (Organic) với tiêu chuẩn quản lý đồng cỏ không biến đổi gen (Non-GMO), không thuốc trừ sâu. Nguồn sữa thu hoạch từ đàn bò A2 và hữu cơ được chế biến thành các dòng đặc trị như *Sữa bột ProGrow Kids 3+* (",
       "section_id": "s7"
     },
     {
       "id": "p22",
-      "text": "Trong năm 2024, Vinamilk đã triển khai một loạt hành động chiến lược tập trung trực tiếp vào việc đẩy mạnh doanh thu và cải thiện lợi nhuận, với các biện pháp cụ thể và kết quả đo lường rõ ràng. Đầu tiên, công ty tăng cường phân phối sản phẩm cao cấp như sữa tươi thanh trùng, sữa hữu cơ và sản phẩm dinh dưỡng chuyên biệt cho người cao tuổi và trẻ em thông qua hệ thống siêu thị, cửa hàng tiện lợi và nền tảng thương mại điện tử — góp phần nâng tỷ lệ doanh thu từ nhóm sản phẩm có biên lợi nhuận cao lên 42% (tăng 5,3 điểm phần trăm so với 2023). Thứ hai, Vinamilk tối ưu hóa chi phí sản xuất bằng cách tự động hóa 15 dây chuyền tại 3 nhà máy, giảm chi phí vận hành 7,2% trên đơn vị sản phẩm, đồng thời chuyển đổi 80% bao bì sang vật liệu tái chế có chi phí thấp hơn 12% mà không ảnh hưởng chất lượng. Về thị trường, công ty mở rộng xuất khẩu sang 12 thị",
+      "text": "Tổng kết chuỗi hành động, hệ thống trang trại xanh đã cải thiện đáng kể sản lượng và chất lượng sữa tươi nguyên liệu nhờ các biện pháp kỹ thuật bài bản. Đầu tiên, việc lắp đặt hệ thống làm mát tự động theo cảm biến nhiệt độ - độ ẩm tại 100% các khu vực chuồng nuôi đã giúp bò sữa duy trì thể trạng tối ưu trong mùa nắng nóng, khắc phục tình trạng sụt giảm sản lượng sữa cục bộ thường gặp vào mùa hè. Thứ hai, các trạm xử lý nước thải sinh học tại mỗi trang trại vận hành với công suất tối đa, đảm bảo nước thải sau xử lý đạt tiêu chuẩn loại A để tái sử dụng tưới tiêu đồng cỏ, tiết kiệm hàng ngàn khối nước sạch mỗi ngày. Vững vàng từ khâu nguyên liệu, công ty đã nâng cấp tiêu chuẩn vệ sinh dịch tễ để sẵn sàng xuất khẩu sang 12 thị",
       "section_id": "s7"
     }
   ],
   "tables": [
     {
       "id": "t1",
-      "caption": "Bảng 1: Kết quả kinh doanh tổng hợp 2023-2024",
+      "caption": "Bảng 1: Kết quả quy mô hệ thống Trang trại & Liên kết 2023-2024",
       "col_headers": [
         "Chỉ tiêu",
         "Năm 2023",
@@ -200,21 +200,21 @@
         "Tăng trưởng (%)"
       ],
       "row_headers": [
-        "Tổng doanh thu",
-        "Lợi nhuận trước thuế",
-        "Lợi nhuận sau thuế"
+        "Tổng sản lượng sữa tươi (Tấn)",
+        "Diện tích đồng cỏ tự chủ (Ha)",
+        "Số lượng hộ nông dân liên kết"
       ],
       "cells": [
         {
           "row": 0,
           "col": 1,
-          "value": "34,430 tỷ",
+          "value": "34,430",
           "is_header": false
         },
         {
           "row": 0,
           "col": 2,
-          "value": "36,797 tỷ",
+          "value": "36,797",
           "is_header": false
         },
         {
@@ -226,13 +226,13 @@
         {
           "row": 1,
           "col": 1,
-          "value": "4,088 tỷ",
+          "value": "4,088",
           "is_header": false
         },
         {
           "row": 1,
           "col": 2,
-          "value": "3,959 tỷ",
+          "value": "3,959",
           "is_header": false
         },
         {
@@ -244,13 +244,13 @@
         {
           "row": 2,
           "col": 1,
-          "value": "3,413 tỷ",
+          "value": "3,413",
           "is_header": false
         },
         {
           "row": 2,
           "col": 2,
-          "value": "3,124 tỷ",
+          "value": "3,124",
           "is_header": false
         },
         {
@@ -263,7 +263,7 @@
     },
     {
       "id": "t2",
-      "caption": "Bảng 2: Kết quả kinh doanh tổng hợp 2023-2024",
+      "caption": "Bảng 2: Thống kê hiệu suất và chi phí nguyên liệu nội địa",
       "col_headers": [
         "Chỉ tiêu",
         "Năm 2023",
@@ -271,21 +271,21 @@
         "Tăng trưởng (%)"
       ],
       "row_headers": [
-        "Tổng doanh thu",
-        "Lợi nhuận trước thuế",
-        "Lợi nhuận sau thuế"
+        "Sản lượng bắp ủ chua (Tấn)",
+        "Sữa thu mua từ nông hộ (Tấn)",
+        "Chi phí thú y & vắc-xin (Triệu VNĐ)"
       ],
       "cells": [
         {
           "row": 0,
           "col": 1,
-          "value": "53,311 tỷ",
+          "value": "53,311",
           "is_header": false
         },
         {
           "row": 0,
           "col": 2,
-          "value": "56,067 tỷ",
+          "value": "56,067",
           "is_header": false
         },
         {
@@ -297,13 +297,13 @@
         {
           "row": 1,
           "col": 1,
-          "value": "7,186 tỷ",
+          "value": "7,186",
           "is_header": false
         },
         {
           "row": 1,
           "col": 2,
-          "value": "7,472 tỷ",
+          "value": "7,472",
           "is_header": false
         },
         {
@@ -315,13 +315,13 @@
         {
           "row": 2,
           "col": 1,
-          "value": "5,897 tỷ",
+          "value": "5,897",
           "is_header": false
         },
         {
           "row": 2,
           "col": 2,
-          "value": "5,992 tỷ",
+          "value": "5,992",
           "is_header": false
         },
         {
@@ -334,17 +334,17 @@
     },
     {
       "id": "t3",
-      "caption": "Bảng 3: Cơ cấu doanh thu năm 2024",
+      "caption": "Bảng 3: Cơ cấu phân bổ nguồn nguyên liệu thức ăn 2024",
       "col_headers": [
-        "Loại dịch vụ",
-        "Doanh thu (tỷ đồng)",
+        "Loại thức ăn chăn nuôi",
+        "Khối lượng (Tấn)",
         "Tỷ trọng (%)"
       ],
       "row_headers": [
-        "Sản phẩm B",
-        "Sản phẩm A",
-        "Sản phẩm khác",
-        "Sản phẩm C"
+        "Cỏ khô Alfalfa nhập khẩu",
+        "Bắp sinh khối nội địa",
+        "Thức ăn tinh hỗn hợp",
+        "Cỏ tươi & Thức ăn khác"
       ],
       "cells": [
         {

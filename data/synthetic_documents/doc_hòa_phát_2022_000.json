@@ -1,10 +1,10 @@
 {
   "id": "doc_hòa_phát_2022_000",
-  "title": "Báo Cáo Tài Chính Hòa Phát 2022",
+  "title": "Báo Cáo Chiến Lược Năng Lượng Tái Tạo Hòa Phát 2022",
   "sections": [
     {
       "id": "s1",
-      "title": "Tổng Quan Hoạt Động Kinh Doanh 2022",
+      "title": "Tổng Quan Dự Án Năng Lượng Tái Tạo",
       "level": 1,
       "content_ids": [
         "p1",
@@ -15,7 +15,7 @@
     },
     {
       "id": "s2",
-      "title": "Kết Quả Kinh Doanh và Hiệu Quả Tài Chính",
+      "title": "Kết Quả Hoạt Động 2022",
       "level": 1,
       "content_ids": [
         "p4",
@@ -25,7 +25,7 @@
     },
     {
       "id": "s3",
-      "title": "Cơ Cấu Tài Sản và Nguồn Vốn",
+      "title": "Cơ Cấu Tài Sản Năng Lượng và Nguồn Vốn",
       "level": 1,
       "content_ids": [
         "p7",
@@ -37,7 +37,7 @@
     },
     {
       "id": "s4",
-      "title": "Phân Tích Biến Động và Rủi Ro",
+      "title": "Phân Tích Biến Động Hoạt Động và Rủi Ro",
       "level": 1,
       "content_ids": [
         "p11",
@@ -47,7 +47,7 @@
     },
     {
       "id": "s5",
-      "title": "Chiến Lược Phát Triển và Định Hướng 2023",
+      "title": "Chiến Lược Triển Khai và Mục Tiêu 2023",
       "level": 1,
       "content_ids": [
         "p13",
@@ -61,269 +61,269 @@
   "paragraphs": [
     {
       "id": "p1",
-      "text": "Năm 2022, Hòa Phát không chỉ mở rộng sản lượng mà còn đột phá với việc ra mắt dòng sản phẩm thép xây dựng cao cấp có hàm lượng carbon thấp, tích hợp công nghệ cán nóng tiên tiến nhằm đáp ứng xu hướng xanh toàn cầu và nhu cầu từ các dự án hạ tầng bền vững. Sản phẩm mới này không chỉ giúp tăng giá trị trung bình mỗi tấn thép (AVP) lên 8,3% so với năm trước, mà còn góp phần kéo dài chu kỳ lợi nhuận nhờ giảm chi phí nguyên liệu đầu vào thông qua tái chế phế liệu hiệu quả hơn — góp phần vào biên lợi nhuận 10,41% dù giá năng lượng leo thang. Tuy nhiên, thách thức không nhỏ là áp lực cạnh tranh từ các đối thủ Trung Quốc bán giá thấp và rào cản kỹ thuật trong việc đạt chuẩn EU CBAM, buộc Hòa Phát phải đầu tư thêm 1.200 tỷ đồng vào hệ thống giám sát phát thải và chứng nhận xanh. Nhưng chính những rào cản này lại mở ra cơ hội lớn: khi chính phủ Việt Nam thúc đẩy tiêu chuẩn xanh cho dự án công",
+      "text": "Bắt đầu từ 2021, Hòa Phát đã mở rộng phạm vi hoạt động sang lĩnh vực năng lượng tái tạo với mục tiêu giảm phát thải và chủ động nguồn điện cho các khu liên hợp sản xuất. Trong 2022, chương trình thí điểm năng lượng mặt trời trên mái (rooftop PV) và trang trại gió ven biển được triển khai đồng thời tại Dung Quất và khu vực ven biển miền Trung. Mục tiêu chiến lược là đạt công suất lắp đặt giai đoạn 1 là 300 MW trước cuối năm 2022, đồng thời tích hợp hệ thống quản trị năng lượng (EMS) để tối ưu hoá tiêu thụ điện trong nhà máy.",
       "section_id": "s1"
     },
     {
       "id": "p2",
-      "text": "Hòa Phát ghi nhận sự bứt phá mạnh mẽ trong doanh thu nhờ tăng cường sản xuất các sản phẩm thép xây dựng cao cấp như thép cuộn cán nóng và thép thanh vằn, đáp ứng nhu cầu khẩn trương từ các dự án hạ tầng và nhà ở xã hội. Với chiến lược mở rộng phân phối tại vùng sâu vùng xa và tận dụng lợi thế chuỗi cung ứng dọc, công ty không chỉ củng cố vị thế dẫn đầu trên thị trường trong nước mà còn mở rộng ảnh hưởng đến các tỉnh miền Trung và Tây Nguyên, nơi trước đây còn hạn chế về nguồn cung thép chất lượng ổn định.",
+      "text": "Chiến lược năng lượng tái tạo của công ty được thiết kế theo ba trụ cột: (1) phát triển nguồn cung nội bộ (rooftop & utility-scale), (2) tối ưu hoá tiêu thụ thông qua EMS và lưu trữ năng lượng (battery storage), và (3) hợp tác chiến lược với nhà phát triển năng lượng để chia sẻ rủi ro đầu tư. Cách tiếp cận này giúp Hòa Phát giảm chi phí điện tiêu thụ, tăng tính chủ động trong quản lý rủi ro giá điện và tạo ra dòng doanh thu phụ trợ từ bán điện dư cho lưới.",
       "section_id": "s1"
     },
     {
       "id": "p3",
-      "text": "Năm 2022, Hòa Phát đẩy mạnh mở rộng thị trường bằng cách tăng cường xuất khẩu sản phẩm thép xây dựng sang các thị trường tiềm năng như Đông Nam Á, Trung Đông và châu Phi, góp phần tăng doanh thu lên 122.739 tỷ đồng (tăng 14,2% so với năm trước). Song song đó, công ty mở rộng mạng lưới phân phối trong nước, tập trung vào các dự án hạ tầng lớn và khu công nghiệp, giúp khách hàng doanh nghiệp và nhà thầu xây dựng tiếp cận dễ dàng hơn với các sản phẩm thép cuộn, thép hình và ống thép chất lượng cao.",
+      "text": "Bảng tổng quan dưới đây trình bày năng lực lắp đặt, sản lượng điện sinh ra và tỷ lệ tối ưu hoá vận hành giữa hai mảng chính: năng lượng mặt trời và năng lượng gió, so sánh giữa năm 2021 (giai đoạn thử nghiệm) và 2022 (giai đoạn mở rộng).",
       "section_id": "s1"
     },
     {
       "id": "p4",
-      "text": "Năm 2022, Hòa Phát ghi nhận doanh thu đạt hơn 88.000 tỷ đồng, tăng trưởng 12% so với năm trước, nhờ vào sự mở rộng mạnh mẽ ở phân khúc thép xây dựng và sản phẩm giá trị gia tăng như tôn mạ màu, ống thép, tuy nhiên, đà tăng trưởng này không hề dễ dàng – khi thị trường trong nước chững lại do bất động sản suy giảm, lãi suất vay tăng cao và chi phí nguyên vật liệu đầu vào biến động khôn lường. Đáng chú ý, doanh thu từ xuất khẩu lại bùng nổ với mức tăng 40%, đặc biệt tại các thị trường Đông Nam Á, Trung Đông và châu Phi, cho thấy chiến lược đa dạng hóa thị trường đã bắt đầu đơm hoa kết trái. Thách thức lớn nhất không nằm ở sản lượng mà ở khả năng duy trì biên lợi nhuận khi giá sắt thép thế giới giảm mạnh cuối năm và áp lực cạnh tranh từ các nhà sản xuất Trung Quốc với giá bán thấp hơn 15–20%. Song song đó, cơ hội đang mở ra từ xu hướng “thay",
+      "text": "Trong 2022, Hòa Phát đạt công suất lắp đặt 320 MW (vượt mục tiêu giai đoạn 1), với sản lượng điện sơ bộ là 480 GWh trong năm. Trong đó, nguồn rooftop PV đóng góp khoảng 120 GWh, còn utility-scale (trang trại mặt trời và gió) đóng góp 360 GWh. Việc đi vào vận hành đúng tiến độ giúp giảm tiêu thụ điện mua từ lưới của các khu liên hợp, ước tính tiết kiệm chi phí điện tương đương 420 tỷ đồng trong năm.",
       "section_id": "s2"
     },
     {
       "id": "p5",
-      "text": "Năm 2022, Hòa Phát đẩy mạnh chiến lược mở rộng thị trường và khách hàng thông qua ba hành động cụ thể, mang tính đột phá và định hướng thực tế. Thứ nhất, công ty chủ động thiết lập hệ thống phân phối độc quyền tại 12 tỉnh thành mới, đặc biệt tập trung vào các khu vực Đông Nam Bộ và Tây Nguyên – nơi nhu cầu xây dựng cơ sở hạ tầng tăng đột biến sau đại dịch – bằng cách triển khai 47 điểm bán hàng trực tiếp và 15 kho hàng bán lẻ quy mô nhỏ, giúp giảm thời gian giao hàng từ 5 ngày xuống còn dưới 2 ngày. Thứ hai, Hòa Phát không chỉ bán sản phẩm mà còn bán giải pháp: họ triển khai gói “Thép xây dựng thông minh” – kết hợp sản phẩm thép cuộn, thép thanh và dịch vụ tư vấn thiết kế kết cấu cho các chủ thầu nhỏ – qua nền tảng số hóa riêng, thu hút hơn 3.200 khách hàng mới trong năm, trong đó 68% là các doanh nghiệp xây dựng có vốn dưới 50 tỷ đồng, trước đây chưa từng",
+      "text": "Song hành với việc tăng công suất, Hòa Phát đã triển khai hệ thống lưu trữ năng lượng quy mô trung bình (BESS) tổng công suất 50 MWh để cân bằng tải và giảm công suất đỉnh. Hệ thống BESS đã giúp giảm nhu cầu mua điện đỉnh vào giờ cao điểm, tiết giảm chi phí kwh cao giá, đồng thời cải thiện hệ số tự tiêu thụ nội bộ (self-consumption ratio) từ 62% lên 77%. Đây là bước quan trọng trước khi mở rộng lưu trữ quy mô lớn trong các năm tiếp theo.",
       "section_id": "s2"
     },
     {
       "id": "p6",
-      "text": "Năm 2022, Hòa Phát đã củng cố vị thế dẫn đầu thị trường thép xây dựng Việt Nam thông qua một loạt hành động chiến lược mang tính đột phá, không chỉ dựa trên quy mô mà còn trên sự tinh chỉnh sắc bén trong cạnh tranh. Thay vì chỉ tăng sản lượng, công ty tập trung vào **tối ưu hóa chi phí sản xuất qua tự động hóa dây chuyền cán nóng tại khu vực Dung Quất**, giảm 12% chi phí trên mỗi tấn thép thành phẩm so với năm 2021 – một bước nhảy giúp giá bán lẻ của Hòa Phát thấp hơn 5–8% so với các đối thủ như Tôn Đông Á hay Formosa, trong khi vẫn duy trì độ đồng đều về kích thước và độ bền kéo. Đồng thời, Hòa Phát **chuyển đổi chiến lược phân phối từ bán buôn truyền thống sang mô hình “trực tiếp đến công trình”**, hợp tác với 1.200 đại lý khu vực và triển khai hệ thống app đặt hàng tích hợp GPS tracking – giúp khách hàng nhỏ lẻ tại các tỉnh lẻ như Đồng Nai, Bình Dương, hay",
+      "text": "Kết quả môi trường cũng rất đáng chú ý: tổng lượng phát thải CO2 ước tính giảm 210.000 tCO2e so với kịch bản chưa triển khai năng lượng tái tạo, tương đương đóng góp thực tế vào cam kết giảm phát thải của tập đoàn. Thành tựu này giúp Hòa Phát tiếp cận các nguồn tài trợ xanh với chi phí vốn thấp hơn và mở ra cơ hội bán chứng chỉ năng lượng tái tạo (REC) tại thị trường khu vực.",
       "section_id": "s2"
     },
     {
       "id": "p7",
-      "text": "Năm 2022, cơ cấu tài sản của Hòa Phát tiếp tục thể hiện sự tập trung mạnh vào tài sản cố định – chiếm hơn 70% tổng tài sản – chủ yếu từ các dự án mở rộng công suất tại Dung Quất và Hà Tĩnh, phản ánh chiến lược “đầu tư lớn để chiếm lĩnh thị phần” trong ngành thép. Tuy nhiên, điều này kéo theo áp lực thanh khoản đáng kể khi tỷ lệ nợ ngắn hạn trên tổng tài sản tăng lên 42%, trong khi dòng tiền thuần từ hoạt động động sản chỉ đạt 15,8% doanh thu, thấp hơn mức trung bình ngành 18,5%. Thách thức lớn nhất nằm ở việc tái cấu trúc nợ: lãi vay chiếm gần 18% lợi nhuận trước thuế, đe dọa biên lợi nhuận trong bối cảnh giá nguyên liệu đầu vào biến động và nhu cầu xây dựng trong nước chững lại. Song song đó, cơ hội đến từ khả năng tối ưu hóa vòng quay hàng tồn kho – vốn đã giảm 12% so với 2021 nhờ cải tiến quản lý chuỗi cung ứng –",
+      "text": "Về cơ cấu tài sản, các khoản đầu tư vào tài sản cố định thuộc mảng năng lượng tăng mạnh: thiết bị PV, tua-bin gió, biến tần, pin lưu trữ và hệ thống EMS chiếm tỷ trọng lớn trong danh mục đầu tư năng lượng. Công ty chủ trương cân đối vốn giữa vốn tự có và vốn vay ưu đãi xanh để tối ưu chi phí vốn và kéo dài kỳ hạn nợ phù hợp với vòng đời tài sản năng lượng (20–25 năm).",
       "section_id": "s3"
     },
     {
       "id": "p8",
-      "text": "Trong năm 2022, Hòa Phát tối ưu hóa chu kỳ kinh doanh thông qua việc rút ngắn thời gian vòng quay hàng tồn kho – từ nguyên liệu thô đến sản phẩm thép thanh, thép cuộn – nhờ nâng cao hiệu quả sản xuất và phân phối trực tiếp đến các đại lý và công trình, giúp vốn lưu động luân chuyển nhanh hơn dù doanh thu tăng 14,2% lên 122.739 tỷ đồng. Áp lực về vốn lưu động được kiểm soát tốt nhờ giảm thời gian thu hồi công nợ và duy trì tỷ lệ hàng tồn kho thấp, hỗ trợ biên lợi nhuận ổn định ở mức 10,41% trong bối cảnh chi phí đầu vào biến động.",
+      "text": "Nguồn vốn cho dự án đến từ ba kênh chính: vốn tự có, vay dài hạn từ ngân hàng xanh và hợp đồng mua bán điện (PPA) kỳ hạn dài với đối tác thương mại. Việc ký các PPA khấu trừ rủi ro giá bán điện giúp nâng cao khả năng thu hút tài trợ từ các quỹ ESG và ngân hàng đa phương, qua đó giảm chi phí vốn trung bình cho dự án xuống mức 6,2%/năm trong năm 2022.",
       "section_id": "s3"
     },
     {
       "id": "p9",
-      "text": "Năm 2022, Hòa Phát đẩy mạnh chiến lược đầu tư dài hạn thông qua việc triển khai hàng loạt dự án nâng cấp và mở rộng năng lực sản xuất tài sản cố định, tập trung vào tối ưu hóa chuỗi giá trị thép xây dựng. Cụ thể, công ty hoàn thành và đưa vào vận hành dây chuyền cán thép cuộn nóng (HRC) công suất 1,5 triệu tấn/năm tại Khu liên hợp sản xuất thép Dung Quất – đây là dự án chiến lược có tổng vốn đầu tư hơn 15.000 tỷ đồng, giúp Hòa Phát chủ động nguồn nguyên liệu đầu vào, giảm phụ thuộc vào thép cuộn nhập khẩu và cắt giảm chi phí sản xuất khoảng 12% so với năm 2021. Đồng thời, công ty nâng cấp 3 lò cao tại khu vực Hải Dương với công nghệ lò cao hiện đại, tiết kiệm năng lượng, giảm phát thải CO₂ 18% trong khi tăng năng suất lên 14% so với hệ thống cũ. Kết quả đo lường rõ rệt: tổng giá trị tài sản cố định tăng 21,",
+      "text": "Bảng cân đối tóm tắt dưới đây trình bày giá trị tài sản đầu tư năng lượng, nguồn vốn sử dụng và biến động chính giữa cuối năm 2021 và cuối năm 2022, phản ánh giai đoạn mở rộng và huy động vốn chiến lược.",
       "section_id": "s3"
     },
     {
       "id": "p10",
-      "text": "Trong năm 2022, Hòa Phát chủ động điều chỉnh cơ cấu tài chính để tối ưu hóa tỷ lệ nợ và tăng cường khả năng thanh toán, thay vì mở rộng quy mô sản xuất bằng nợ ngắn hạn như các năm trước. Cụ thể, công ty giảm tỷ lệ nợ phải trả trên tổng tài sản từ 58,3% (2021) xuống còn 51,6% (2022), tương đương giảm 6,7 điểm phần trăm – một bước đi chiến lược nhằm giảm rủi ro tài chính trong bối cảnh lãi suất tăng và thanh khoản toàn cầu thắt chặt. Đồng thời, Hòa Phát tăng cường sử dụng nguồn vốn tự có từ lợi nhuận giữ lại – với lợi nhuận ròng đạt 12.771 tỷ đồng, cao hơn 14,2% so với năm trước – để tài trợ cho 72% tổng chi đầu tư (tăng từ 58% năm 2021), giảm sự phụ thuộc vào vay ngân hàng. Kết quả, tỷ lệ nợ trên vốn chủ sở hữu (D/E) giảm từ 1,4 lần xuống còn 1,",
+      "text": "Tính toán nội bộ cho thấy vòng hoàn vốn trung bình (payback period) của các dự án rooftop PV là khoảng 6–7 năm, trong khi đối với utility-scale (kết hợp lưu trữ) vòng hoàn vốn là 8–10 năm tùy vào kịch bản giá bán điện. Các chỉ số này phù hợp với mục tiêu dài hạn: vừa tạo tiết giảm chi phí hoạt động, vừa sinh lời hợp lý cho cổ đông trong trung hạn.",
       "section_id": "s3"
     },
     {
       "id": "p11",
-      "text": "Trong năm 2022, Hòa Phát đã triển khai chiến lược tối ưu hóa dòng tiền và quản lý thanh khoản một cách hệ thống thông qua ba hành động cụ thể, trực tiếp nâng cao khả năng thanh toán ngắn hạn và duy trì độ linh hoạt tài chính. Thứ nhất, công ty tăng cường thu hồi công nợ bằng cách áp dụng chính sách tín dụng linh hoạt nhưng nghiêm ngặt đối với đại lý phân phối: tỷ lệ công nợ phải thu trên doanh thu thuần giảm từ 18,7% (2021) xuống còn 15,3% (2022), tương đương việc thu hồi thêm hơn 2.500 tỷ đồng tiền mặt chỉ riêng trong quý IV. Thứ hai, Hòa Phát chủ động tái cấu trúc cơ cấu nợ ngắn hạn – giảm tỷ trọng nợ vay ngắn hạn từ 42% xuống còn 31% tổng nợ, đồng thời kéo dài kỳ hạn trung bình của nợ dài hạn lên 3,2 năm (từ 2,5 năm năm 2021), giúp giảm áp lực trả nợ trong năm và duy trì tỷ lệ nợ trên vốn chủ sở hữu ở",
+      "text": "Rủi ro chính bao gồm: (1) biến động giá nguyên vật liệu và chi phí logistics làm đội chi phí đầu tư ban đầu; (2) rủi ro pháp lý liên quan đến cơ chế hỗ trợ năng lượng tái tạo và khung REC chưa hoàn thiện tại khu vực; (3) rủi ro kỹ thuật về hiệu suất hệ thống (degradation) và quản trị vận hành. Hòa Phát đã ứng phó bằng chiến lược hợp đồng mua sắm dài hạn, bảo hiểm hiệu suất (PI) và chương trình bảo trì dự phòng.",
       "section_id": "s4"
     },
     {
       "id": "p12",
-      "text": "Trong năm 2022, Hòa Phát ghi nhận bước tiến đáng chú ý khi doanh thu đạt 122.739 tỷ đồng, tăng 14,2% so với 107.437 tỷ đồng năm 2021, phản ánh sức tăng trưởng bền vững trong bối cảnh kinh tế vĩ mô nhiều biến động — một thành tựu không chỉ đến từ quy mô sản xuất mà còn từ chiến lược đa dạng hóa sản phẩm và mở rộng thị phần trong nước. Tuy nhiên, lợi nhuận ròng ở mức 12.771 tỷ đồng, tăng 14,2% nhưng biên lợi nhuận chỉ ở 10,41%, thấp hơn mức trung bình ngành thép xây dựng (khoảng 12–14%), cho thấy áp lực ngày càng lớn từ chi phí đầu vào nguyên liệu thô, đặc biệt là quặng sắt và than cốc, cùng với việc giá điện tăng mạnh do chính sách điều chỉnh năng lượng. Thách thức lớn nhất không nằm ở doanh thu mà ở khả năng duy trì biên lợi nhuận trong môi trường lạm phát và chuỗi cung ứng toàn",
+      "text": "Bước phân tích stress-test cho thấy: trong kịch bản giá điện trên thị trường giảm 20% và chi phí vốn tăng 150 điểm cơ bản, dự án utility-scale vẫn duy trì NPV dương nhờ tiết kiệm chi phí nhiên liệu dài hạn và doanh thu bổ sung từ bán REC. Tuy nhiên, để giữ độ bền vững tài chính, Hòa Phát dự kiến tăng cường hedging giá đầu vào và tối ưu hoá kế hoạch xây dựng để giảm rủi ro trượt tiến độ.",
       "section_id": "s4"
     },
     {
       "id": "p13",
-      "text": "Hòa Phát năm 2022 đẩy mạnh nghiên cứu và phát triển các dòng thép xây dựng có độ bền cao và khả năng chống ăn mòn vượt trội, đặc biệt là thép thanh vằn không phủ kẽm nhưng vẫn đảm bảo độ bền cơ học theo tiêu chuẩn quốc tế. Công ty tập trung tối ưu hóa thành phần hợp kim và quy trình cán nóng để tạo ra sản phẩm thép có cấu trúc tinh thể đồng đều, giảm thiểu biến dạng khi thi công – một bước tiến quan trọng trong việc thay thế hàng nhập khẩu cao cấp. Đội ngũ R&D cũng phối hợp chặt chẽ với các nhà máy để chuyển giao nhanh các công nghệ mới từ phòng thí nghiệm vào dây chuyền sản xuất thực tế.",
+      "text": "Chiến lược 2023 đặt mục tiêu mở rộng công suất lắp đặt thêm 480 MW (gồm rooftop và utility-scale) và tăng dung lượng lưu trữ lên 200 MWh, hướng tới tổng công suất 800 MW vào cuối năm 2023. Song song, công ty sẽ triển khai chương trình tối ưu hoá vận hành qua AI-driven EMS để tăng self-consumption ratio lên >85% và giảm O&M costs trên mỗi MWh.",
       "section_id": "s5"
     },
     {
       "id": "p14",
-      "text": "Năm 2022, Hòa Phát chủ động mở rộng thị trường mục tiêu mới bằng cách tăng cường xuất khẩu thép xây dựng sang các quốc gia đang phát triển tại Đông Nam Á và Trung Đông — những khu vực có nhu cầu cơ sở hạ tầng bùng nổ sau đại dịch. Thay vì chỉ tập trung vào thị trường trong nước, công ty đã thiết lập mạng lưới đối tác phân phối tại Việt Nam, Campuchia, Lào, Myanmar và UAE, đồng thời tối ưu hóa chi phí logistics thông qua hợp tác với các cảng biển chiến lược tại Hải Phòng và Đà Nẵng, giảm thời gian giao hàng trung bình 15%. Đặc biệt, Hòa Phát triển khai chương trình “Thép Xanh cho Dự án Tương lai” — cung cấp sản phẩm thép xây dựng đạt chuẩn quốc tế (ISO 9001, ASTM A615) kèm chứng nhận bền vững, thu hút các nhà thầu lớn tại Campuchia và Lào đang ưu tiên vật liệu thân thiện môi trường. Kết quả: doanh thu xuất khẩu thép xây dựng tăng 38% so với năm 2021, đóng góp",
+      "text": "Để hiện thực hoá mục tiêu này, Hòa Phát sẽ ký thêm các PPA thương mại với các đối tác lớn, huy động một phần vốn qua trái phiếu xanh trong nước và tiếp tục mở rộng quan hệ với nhà phát triển quốc tế nhằm chuyển giao công nghệ quản trị và vận hành dự án. Kế hoạch cũng bao gồm chương trình đào tạo đội ngũ vận hành và thành lập trung tâm điều khiển năng lượng (Energy Control Center) để giám sát thời gian thực.",
       "section_id": "s5"
     },
     {
       "id": "p15",
-      "text": "Năm 2022, Hòa Phát đẩy mạnh kế hoạch đầu tư và mở rộng với mục tiêu củng cố vị thế dẫn đầu trong ngành thép xây dựng, khi tập trung tăng công suất tại khu vực Dung Quất và nâng cấp hệ thống luyện kim liên hợp, đồng thời mở rộng mạng lưới phân phối đến các tỉnh phía Nam – nơi nhu cầu xây dựng đang bùng nổ sau đại dịch. Với doanh thu đạt 122,739 tỷ đồng (tăng 14.2% so với năm trước) và lợi nhuận ròng 12,771 tỷ đồng, công ty đã tạo đà vững chắc để tái đầu tư, nhưng không tránh khỏi những thách thức khốc liệt: chi phí nguyên vật liệu đầu vào (đặc biệt là quặng sắt và than cốc) tăng mạnh do bất ổn địa chính trị toàn cầu, cùng áp lực cạnh tranh từ các nhà sản xuất Trung Quốc nhập khẩu giá rẻ. Song song đó, cơ hội lớn đến từ chính sách thúc đẩy hạ tầng giao thông và nhà ở xã hội của Chính phủ, cùng xu hướng chuyển dịch chuỗi cung ứng toàn cầu, giúp Hòa Phát tận",
+      "text": "Bảng tổng hợp mục tiêu và chỉ tiêu vận hành cho 2023 liệt kê công suất mục tiêu, sản lượng kỳ vọng, giảm phát thải dự kiến và nguồn huy động vốn cho từng hạng mục đầu tư.",
       "section_id": "s5"
     },
     {
       "id": "p16",
-      "text": "Năm 2022, Hòa Phát đã tinh chỉnh chiến lược sản phẩm/dịch vụ theo hướng “chuyên sâu – tối ưu hóa giá trị” khi tập trung mạnh vào dòng sản phẩm thép xây dựng cao cấp, đặc biệt là thép cuộn cán nóng và thép thanh vằn có độ bền vượt trội, đáp ứng nhu cầu tái cấu trúc hạ tầng sau đại dịch – góp phần kéo dài biên lợi nhuận lên 10,41% dù giá nguyên liệu đầu vào biến động dữ dội. Chiến lược này không chỉ giúp doanh nghiệp tăng trưởng doanh thu 14,2% lên 122.739 tỷ đồng mà còn giảm sự phụ thuộc vào thị trường giá thấp thông qua việc nâng cao tỷ trọng sản phẩm có giá trị gia tăng cao – một bước chuyển từ “số lượng” sang “chất lượng”. Tuy nhiên, thách thức lớn nhất nằm ở áp lực cạnh tranh từ các nhà sản xuất Trung Quốc với giá bán thấp hơn 10–15% và sự chậm trễ trong chuỗi cung ứng vật liệu thô do chính sách địa chính trị toàn cầu. Song",
+      "text": "Tổng kết: chương trình năng lượng tái tạo của Hòa Phát trong 2022 đã chứng minh tính khả thi về kỹ thuật và kinh tế — giảm chi phí vận hành, cải thiện hiệu suất năng lượng và đóng góp đáng kể vào mục tiêu bền vững. Năm 2023 được định vị là giai đoạn mở rộng quy mô và thương mại hoá các giải pháp lưu trữ, với kỳ vọng tăng thêm giá trị lâu dài cho tập đoàn và cộng đồng.",
       "section_id": "s5"
     }
   ],
   "tables": [
     {
       "id": "t1",
-      "caption": "Bảng 1: Kết quả kinh doanh tổng hợp 2021-2022",
+      "caption": "Bảng 1: Công suất lắp đặt & sản lượng điện (2021–2022)",
       "col_headers": [
         "Chỉ tiêu",
         "Năm 2021",
         "Năm 2022",
-        "Tăng trưởng (%)"
+        "Tăng/ Giảm (%)"
       ],
       "row_headers": [
-        "Tổng doanh thu",
-        "Lợi nhuận trước thuế",
-        "Lợi nhuận sau thuế"
+        "Công suất lắp đặt (MW)",
+        "Sản lượng điện (GWh)",
+        "Tỷ lệ tự sử dụng (%)"
       ],
       "cells": [
         {
           "row": 0,
           "col": 1,
-          "value": "39,798 tỷ",
+          "value": "120",
           "is_header": false
         },
         {
           "row": 0,
           "col": 2,
-          "value": "43,609 tỷ",
+          "value": "320",
           "is_header": false
         },
         {
           "row": 0,
           "col": 3,
-          "value": "9.6%",
+          "value": "166.7%",
           "is_header": false
         },
         {
           "row": 1,
           "col": 1,
-          "value": "4,023 tỷ",
+          "value": "180",
           "is_header": false
         },
         {
           "row": 1,
           "col": 2,
-          "value": "6,235 tỷ",
+          "value": "480",
           "is_header": false
         },
         {
           "row": 1,
           "col": 3,
-          "value": "55.0%",
+          "value": "166.7%",
           "is_header": false
         },
         {
           "row": 2,
           "col": 1,
-          "value": "3,148 tỷ",
+          "value": "62%",
           "is_header": false
         },
         {
           "row": 2,
           "col": 2,
-          "value": "5,147 tỷ",
+          "value": "77%",
           "is_header": false
         },
         {
           "row": 2,
           "col": 3,
-          "value": "63.5%",
+          "value": "+15pp",
           "is_header": false
         }
       ]
     },
     {
       "id": "t2",
-      "caption": "Bảng 2: Bảng cân đối kế toán tóm tắt",
+      "caption": "Bảng 2: Tài sản năng lượng & nguồn vốn (tóm tắt)",
       "col_headers": [
         "Khoản mục",
-        "Cuối năm 2021",
-        "Cuối năm 2022",
+        "Cuối năm 2021 (tỷ)",
+        "Cuối năm 2022 (tỷ)",
         "Biến động (%)"
       ],
       "row_headers": [
-        "Tổng tài sản",
-        "Tài sản ngắn hạn",
-        "Tài sản dài hạn",
-        "Vốn chủ sở hữu",
-        "Nợ phải trả"
+        "Tổng đầu tư năng lượng",
+        "Vốn tự có",
+        "Vay dài hạn (ngân hàng xanh)",
+        "Trái phiếu xanh phát hành",
+        "Giá trị tài sản cố định năng lượng"
       ],
       "cells": [
         {
           "row": 0,
           "col": 1,
-          "value": "123,860 tỷ",
+          "value": "6,200",
           "is_header": false
         },
         {
           "row": 0,
           "col": 2,
-          "value": "139,407 tỷ",
+          "value": "14,800",
           "is_header": false
         },
         {
           "row": 0,
           "col": 3,
-          "value": "12.6%",
+          "value": "138.7%",
           "is_header": false
         },
         {
           "row": 1,
           "col": 1,
-          "value": "38,093 tỷ",
+          "value": "2,800",
           "is_header": false
         },
         {
           "row": 1,
           "col": 2,
-          "value": "45,025 tỷ",
+          "value": "7,200",
           "is_header": false
         },
         {
           "row": 1,
           "col": 3,
-          "value": "18.2%",
+          "value": "157.1%",
           "is_header": false
         },
         {
           "row": 2,
           "col": 1,
-          "value": "85,767 tỷ",
+          "value": "1,900",
           "is_header": false
         },
         {
           "row": 2,
           "col": 2,
-          "value": "94,382 tỷ",
+          "value": "4,800",
           "is_header": false
         },
         {
           "row": 2,
           "col": 3,
-          "value": "10.0%",
+          "value": "152.6%",
           "is_header": false
         },
         {
           "row": 3,
           "col": 1,
-          "value": "75,531 tỷ",
+          "value": "0",
           "is_header": false
         },
         {
           "row": 3,
           "col": 2,
-          "value": "89,183 tỷ",
+          "value": "1,200",
           "is_header": false
         },
         {
           "row": 3,
           "col": 3,
-          "value": "18.1%",
+          "value": "—",
           "is_header": false
         },
         {
           "row": 4,
           "col": 1,
-          "value": "48,329 tỷ",
+          "value": "5,400",
           "is_header": false
         },
         {
           "row": 4,
           "col": 2,
-          "value": "50,224 tỷ",
+          "value": "12,900",
           "is_header": false
         },
         {
           "row": 4,
           "col": 3,
-          "value": "3.9%",
+          "value": "138.9%",
           "is_header": false
         }
       ]
     },
     {
       "id": "t3",
-      "caption": "Bảng 3: Các chỉ số tài chính chủ yếu",
+      "caption": "Bảng 3: Các chỉ số hoạt động năng lượng",
       "col_headers": [
         "Chỉ số",
         "Năm 2021",
@@ -331,153 +331,191 @@
         "Thay đổi"
       ],
       "row_headers": [
-        "ROS (%)",
-        "ROA (%)",
-        "ROE (%)",
-        "Nợ/Vốn CSH"
+        "Tiết kiệm chi phí điện ước tính (tỷ)",
+        "Giảm phát thải CO2 (tCO2e)",
+        "Self-consumption ratio (%)",
+        "Dung lượng lưu trữ (MWh)"
       ],
       "cells": [
         {
           "row": 0,
           "col": 1,
-          "value": "11.36%",
+          "value": "180",
           "is_header": false
         },
         {
           "row": 0,
           "col": 2,
-          "value": "12.94%",
+          "value": "420",
           "is_header": false
         },
         {
           "row": 0,
           "col": 3,
-          "value": "+1.58%",
+          "value": "+240",
           "is_header": false
         },
         {
           "row": 1,
           "col": 1,
-          "value": "6.16%",
+          "value": "80,000",
           "is_header": false
         },
         {
           "row": 1,
           "col": 2,
-          "value": "7.01%",
+          "value": "290,000",
           "is_header": false
         },
         {
           "row": 1,
           "col": 3,
-          "value": "+0.85%",
+          "value": "+210,000",
           "is_header": false
         },
         {
           "row": 2,
           "col": 1,
-          "value": "10.00%",
+          "value": "62%",
           "is_header": false
         },
         {
           "row": 2,
           "col": 2,
-          "value": "11.63%",
+          "value": "77%",
           "is_header": false
         },
         {
           "row": 2,
           "col": 3,
-          "value": "+1.63%",
+          "value": "+15pp",
           "is_header": false
         },
         {
           "row": 3,
           "col": 1,
-          "value": "0.58",
+          "value": "0",
           "is_header": false
         },
         {
           "row": 3,
           "col": 2,
-          "value": "0.65",
+          "value": "50",
           "is_header": false
         },
         {
           "row": 3,
           "col": 3,
-          "value": "+0.07",
+          "value": "+50",
           "is_header": false
         }
       ]
     },
     {
       "id": "t4",
-      "caption": "Bảng 4: Kết quả kinh doanh tổng hợp 2021-2022",
+      "caption": "Bảng 4: Mục tiêu vận hành & nguồn vốn 2023 (tóm tắt)",
       "col_headers": [
         "Chỉ tiêu",
-        "Năm 2021",
-        "Năm 2022",
-        "Tăng trưởng (%)"
+        "Mục tiêu 2023",
+        "Đơn vị",
+        "Ghi chú"
       ],
       "row_headers": [
-        "Tổng doanh thu",
-        "Lợi nhuận trước thuế",
-        "Lợi nhuận sau thuế"
+        "Công suất lắp đặt bổ sung",
+        "Sản lượng kỳ vọng",
+        "Dung lượng lưu trữ bổ sung",
+        "Nguồn vốn dự kiến",
+        "Mục tiêu giảm phát thải"
       ],
       "cells": [
         {
           "row": 0,
           "col": 1,
-          "value": "49,867 tỷ",
+          "value": "480",
           "is_header": false
         },
         {
           "row": 0,
           "col": 2,
-          "value": "57,483 tỷ",
+          "value": "MW",
           "is_header": false
         },
         {
           "row": 0,
           "col": 3,
-          "value": "15.3%",
+          "value": "Ưu tiên utility-scale & rooftop",
           "is_header": false
         },
         {
           "row": 1,
           "col": 1,
-          "value": "5,192 tỷ",
+          "value": "1,100",
           "is_header": false
         },
         {
           "row": 1,
           "col": 2,
-          "value": "7,903 tỷ",
+          "value": "GWh",
           "is_header": false
         },
         {
           "row": 1,
           "col": 3,
-          "value": "52.2%",
+          "value": "Dựa trên công suất lũy kế",
           "is_header": false
         },
         {
           "row": 2,
           "col": 1,
-          "value": "4,231 tỷ",
+          "value": "200",
           "is_header": false
         },
         {
           "row": 2,
           "col": 2,
-          "value": "6,342 tỷ",
+          "value": "MWh",
           "is_header": false
         },
         {
           "row": 2,
           "col": 3,
-          "value": "49.9%",
+          "value": "Tăng khả năng cân bằng tải",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "value": "Vốn tự có + Trái phiếu xanh + PPA",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "value": "tỷ",
+          "is_header": false
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "value": "Ước tính huy động 28,000 tỷ",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "value": "≥ 500,000",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "value": "tCO2e",
+          "is_header": false
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "value": "So với baseline không triển khai",
           "is_header": false
         }
       ]

@@ -1,10 +1,10 @@
 {
   "id": "doc_viettel_2020_006",
-  "title": "Báo Cáo Tài Chính Viettel 2020",
+  "title": "Báo Cáo Năng Lực Công Nghệ & Đổi Mới Sáng Tạo Viettel 2020",
   "sections": [
     {
       "id": "s1",
-      "title": "Tổng Quan Hoạt Động Kinh Doanh",
+      "title": "Tổng Quan Hạ Tầng Số",
       "level": 1,
       "content_ids": [
         "p1",
@@ -15,7 +15,7 @@
     },
     {
       "id": "s2",
-      "title": "Kết Quả Kinh Doanh và Lợi Nhuận",
+      "title": "Kết Quả Triển Khai Giải Pháp Công Nghệ",
       "level": 1,
       "content_ids": [
         "p4",
@@ -26,7 +26,7 @@
     },
     {
       "id": "s3",
-      "title": "Tình Hình Tài Sản và Nợ Phải Trả",
+      "title": "Năng Lực Điện Toán Đám Mây và Dữ Liệu Lớn",
       "level": 1,
       "content_ids": [
         "p7",
@@ -37,7 +37,7 @@
     },
     {
       "id": "s4",
-      "title": "Định Hướng Phát Triển Năm 2021",
+      "title": "Định Hướng Nghiên Cứu & Phát Triển Năm 2021",
       "level": 1,
       "content_ids": [
         "p11",
@@ -50,74 +50,74 @@
   "paragraphs": [
     {
       "id": "p1",
-      "text": "Năm 2020, Viettel triển khai chiến lược kinh doanh tổng thể tập trung vào ba trụ cột then chốt: mở rộng hạ tầng số, tối ưu hóa trải nghiệm khách hàng và đẩy mạnh chuyển đổi số cho doanh nghiệp, với các hành động cụ thể và kết quả đo lường rõ rệt.  \n\nĐầu tiên, Viettel đầu tư mạnh vào hạ tầng 4G/5G, hoàn thành phủ sóng 5G tại 63 tỉnh thành và nâng cấp 100% trạm BTS lên chuẩn 4.5G, giúp tốc độ trung bình internet di động tăng 38% so với 2019 – trực tiếp góp phần tăng 16,2% doanh thu lên 30.818 tỷ đồng, vượt mục tiêu 12% đề ra. Đồng thời, công ty cắt giảm 15% chi phí vận hành thông qua tự động hóa quy trình chăm sóc khách hàng bằng AI (chatbot, hệ thống phân tích cảm xúc giọng nói), giúp giảm 22% tỷ lệ khiếu nại và tăng tỷ lệ giữ chân khách hàng (churn rate) từ",
+      "text": "Khởi đầu một thập kỷ mới, Viettel đã vạch ra chiến lược công nghệ tổng thể tập trung vào ba trụ cột then chốt: mở rộng năng lực tính toán, tối ưu hóa hạ tầng viễn thông lõi và đẩy mạnh an toàn thông tin doanh nghiệp.  \n\nThực thi chiến lược này, tập đoàn đầu tư quyết liệt vào hạ tầng trung tâm dữ liệu, hoàn thành chuẩn hóa Tier III tại 63 tỉnh thành và nâng cấp 100% trạm BTS lên công nghệ truyền dẫn quang, giúp băng thông trung bình internet di động tăng 38% so với 2019. Cú hích này trực tiếp góp phần tăng 16,2% lưu lượng mạng cốt lõi lên 30.818 TB, vượt xa công suất thiết kế ban đầu. Đồng thời, khối kỹ thuật cắt giảm 15% tài nguyên máy chủ nhàn rỗi thông qua tự động hóa quy trình phân bổ bằng AI (ứng dụng cân bằng tải, hệ thống giám sát cảnh báo sớm), giúp giảm 22% tỷ lệ downtime và tăng tỷ lệ giữ chân khách hàng (churn rate) từ",
       "section_id": "s1"
     },
     {
       "id": "p2",
-      "text": "Năm 2020, Viettel chủ động tái cấu trúc vị thế thị trường viễn thông thông qua ba hành động chiến lược có tính đo lường cao, trực tiếp đối đầu với các đối thủ như MobiFone và VinaPhone. Thứ nhất, Viettel tăng cường đầu tư hạ tầng 4G/5G, triển khai thêm 21.000 trạm phát sóng mới — cao nhất trong ngành — giúp phủ sóng 99,8% dân số, trong khi đối thủ chỉ đạt 97–98%, từ đó kéo tỷ lệ giữ chân khách hàng (churn rate) xuống còn 1,2% so với mức trung bình ngành 1,8%. Thứ hai, công ty tung ra gói “5G Free” cho 5 triệu thuê bao đầu tiên, kết hợp với dịch vụ đám mây và giải pháp IoT do chính Viettel phát triển, tạo ra sự khác biệt về trải nghiệm mà đối thủ không thể sao chép trong ngắn hạn — kết quả là doanh thu từ dịch vụ chuyển đổi số tăng 42% so với năm 2019, đóng góp 28%",
+      "text": "Xuyên suốt giai đoạn này, tập đoàn chủ động tái cấu trúc kiến trúc hệ thống mạng thông qua ba hành động kỹ thuật có tính thực tiễn cao, trực tiếp nới rộng khoảng cách công nghệ với các đối thủ như MobiFone và VinaPhone. Bước đi đầu tiên là tăng cường sức mạnh xử lý biên (Edge Computing), triển khai thêm 21.000 node mạng mới — dẫn đầu toàn ngành — giúp tối ưu độ trễ cho 99,8% người dùng cuối, trong khi đối thủ vẫn loay hoay ở mức 97–98%, từ đó kéo tỷ lệ rớt gói tin xuống còn 1,2% so với mức trung bình ngành 1,8%. Kế tiếp, đội ngũ kỹ sư tung ra chuẩn mã hóa bảo mật mới cho 5 triệu kết nối IoT đầu tiên, kết hợp với dịch vụ điện toán đám mây phân tán do chính Viettel R&D, tạo ra một hàng rào kỹ thuật kiên cố mà đối thủ không thể sao chép trong ngắn hạn — kết quả là năng lực xử lý dữ liệu từ dịch vụ Cloud tăng 42% so với năm 2019, đóng góp 28%",
       "section_id": "s1"
     },
     {
       "id": "p3",
-      "text": "Năm 2020, Viettel không chỉ đơn thuần mở rộng thị trường mà còn tái định nghĩa ranh giới khách hàng thông qua chiến lược “từ người dùng sang đối tác số”, đặc biệt khi đại dịch bùng phát khiến nhu cầu số hóa bùng nổ ở vùng sâu vùng xa và các doanh nghiệp nhỏ. Cơ hội lớn nhất đến từ việc khai thác 30 triệu người chưa có kết nối internet tại nông thôn và hàng triệu doanh nghiệp vừa và nhỏ chưa tiếp cận giải pháp chuyển đổi số – nhưng thách thức không nhỏ nằm ở hạ tầng, nhận thức và khả năng chi trả. Viettel đã vượt qua rào cản này bằng mô hình “kết nối cộng đồng” – triển khai trạm phát sóng mặt trời, gói cước 1.000 đồng/ngày, và nền tảng Viettel Money tích hợp dịch vụ tài chính vi mô, biến mỗi điểm bán lẻ thành trung tâm số hóa. Tuy nhiên, áp lực cạnh tranh từ các nhà cung cấp địa phương và rào cản pháp lý tại các thị trường mới như Lào, Campuchia khiến việc mở rộng quốc tế trở thành “",
+      "text": "Vượt ra ngoài ranh giới của một nhà cung cấp hạ tầng đơn thuần, Viettel đã tái định nghĩa khái niệm kết nối thông qua triết lý “từ sóng viễn thông sang tri thức số”, đặc biệt khi đại dịch bùng phát khiến nhu cầu làm việc từ xa tăng phi mã. Cơ hội khổng lồ mở ra khi hệ thống cần gánh tải cho 30 triệu người dùng mới tại nông thôn và hàng triệu doanh nghiệp vừa và nhỏ chuyển đổi số cục bộ – nhưng thách thức không nhỏ nằm ở giới hạn vật lý của cáp quang, độ trễ và khả năng cấp nguồn điện. Kỹ sư Viettel đã giải bài toán này bằng mô hình “trạm phát sóng tự trị” – sử dụng năng lượng mặt trời, tích hợp thiết bị thu phát siêu nhỏ và nền tảng điều khiển ảo hóa SDN, biến mỗi cột sóng thành một trung tâm mini-data. Tuy nhiên, rào cản về tương thích thiết bị và chuẩn giao thức tại các thị trường mới như Lào, Campuchia khiến việc mở rộng quốc tế trở thành “",
       "section_id": "s1"
     },
     {
       "id": "p4",
-      "text": "Viettel đẩy mạnh mở rộng thị trường bằng cách triển khai các gói cước internet và di động linh hoạt, nhắm tới nhóm khách hàng nông thôn và vùng sâu vùng xa thông qua hạ tầng 4G/5G phủ sóng rộng. Đồng thời, doanh nghiệp tích hợp dịch vụ chuyển đổi số như Viettel Money và giải pháp Smart Home vào gói cước, biến khách hàng truyền thống thành người dùng đa dịch vụ, tăng độ bám sát và trung thành trong bối cảnh cạnh tranh khốc liệt.",
+      "text": "Để hiện thực hóa mục tiêu số hóa, khối R&D đẩy mạnh mở rộng hệ sinh thái ứng dụng bằng cách đóng gói các API viễn thông linh hoạt, nhắm tới nhóm lập trình viên và doanh nghiệp công nghệ thông qua cổng kết nối mở. Đồng thời, hệ thống tích hợp sâu các giao thức mã hóa dữ liệu đầu cuối vào gói dịch vụ kết nối, biến một đường truyền truyền thống thành một mạng lưới bảo mật đa lớp, tăng độ bám sát và trung thành trong bối cảnh cạnh tranh khốc liệt.",
       "section_id": "s2"
     },
     {
       "id": "p5",
-      "text": "Năm 2020, Viettel ghi nhận sự tăng trưởng doanh thu ấn tượng dù đối mặt với cú sốc kép từ đại dịch và cạnh tranh khốc liệt trên thị trường viễn thông, với doanh thu đạt hơn 165.000 tỷ đồng, tăng 6,7% so với năm trước – một thành tích hiếm có trong bối cảnh toàn cầu suy thoái. Sự tăng trưởng này không chỉ đến từ việc duy trì thị phần di động (chiếm gần 50% thị trường) mà còn nhờ đột phá mạnh mẽ trong chuyển đổi số: dịch vụ cloud, IoT và giải pháp số cho doanh nghiệp tăng trưởng hơn 40%, trở thành động lực chính thay thế cho doanh thu truyền thống đang bão hòa. Tuy nhiên, thách thức không nhỏ là áp lực giảm giá cước từ các đối thủ như MobiFone và Vinaphone, cùng với chi phí đầu tư hạ tầng 5G đang hút vốn lớn, đe dọa biên lợi nhuận. Song song đó, cơ hội bùng nổ đến từ nhu cầu số hóa hậu COVID-19 – đặc biệt ở",
+      "text": "Bất chấp những cú sốc từ đứt gãy chuỗi cung ứng linh kiện phần cứng do đại dịch, hệ thống mạng của Viettel vẫn ghi nhận sức chống chịu tuyệt vời, đảm bảo lưu lượng truyền tải đạt mức kỷ lục với hơn 165.000 Terabytes, tăng 6,7% so với năm trước. Sự ổn định này không chỉ xuất phát từ việc bảo trì tốt hạ tầng 4G (gánh gần 50% traffic quốc gia) mà còn nhờ kiến trúc định tuyến thông minh: các thuật toán AI tự động phân luồng dữ liệu, IoT và giám sát mạng tăng hiệu suất hơn 40%, trở thành trụ cột kỹ thuật thay thế cho các giao thức cũ đã bão hòa. Tuy nhiên, bài toán khó là áp lực quá tải băng thông quốc tế do nhu cầu video-call tăng vọt, cùng với việc mua sắm thiết bị 5G đang ngốn nhiều ngân sách R&D, đe dọa khả năng tối ưu chi phí. Song song đó, cơ hội bứt phá công nghệ đến từ nhu cầu bảo mật hậu COVID-19 – đặc biệt ở",
       "section_id": "s2"
     },
     {
       "id": "p6",
-      "text": "Năm 2020, Viettel không chỉ tiếp tục củng cố vị thế nhà cung cấp dịch vụ viễn thông hàng đầu mà còn đột phá với hàng loạt sản phẩm/dịch vụ mới trong lĩnh vực chuyển đổi số, tiêu biểu như nền tảng ViettelAI, giải pháp Smart City, và gói dịch vụ “My Viettel” tích hợp AI cá nhân hóa trải nghiệm người dùng — những bước đi chiến lược nhằm biến khách hàng từ người tiêu dùng thành đối tác số. Với doanh thu tăng 16,2% lên 30.818 tỷ đồng và biên lợi nhuận đạt 11,43%, thành công này không chỉ đến từ hạ tầng mà từ khả năng biến dữ liệu thành giá trị thực tế. Tuy nhiên, thách thức không nhỏ là áp lực cạnh tranh khốc liệt từ các ông lớn công nghệ như FPT, VNPT và các startup fintech, cùng với kỳ vọng ngày càng cao của khách hàng về tính cá nhân hóa và bảo mật dữ liệu. Song song đó, cơ hội lớn nhất nằm ở việc khai thác 50 triệu thuê bao di động và hàng chục triệu người dùng internet để nhân",
+      "text": "Không chỉ dừng lại ở vị thế bá chủ hạ tầng, đội ngũ chuyên gia Viettel còn tạo ra tiếng vang lớn với hàng loạt giải pháp phần mềm lõi trong lĩnh vực trí tuệ nhân tạo, tiêu biểu như module nhận diện giọng nói ViettelAI, nền tảng điều hành Smart City, và hệ thống phân tích dữ liệu lớn — những vũ khí chiến lược nhằm biến hạ tầng vô tri thành một mạng lưới có tư duy. Nhờ sự vượt trội này, khối lượng API được gọi thành công tăng 16,2% lên 30.818 triệu request và tỷ lệ uptime đạt 99,99%, minh chứng cho khả năng biến sức mạnh tính toán thành chất lượng dịch vụ thực tế. Dù vậy, sức ép không hề nhỏ khi các ông lớn công nghệ nội địa như FPT, VNPT không ngừng nâng cấp nền tảng Cloud, cùng với đòi hỏi khắt khe của hệ thống tài chính về chuẩn bảo mật mã hóa. Bù lại, cơ hội khổng lồ đang chờ đón khi hệ thống bắt đầu khai thác 50 triệu thiết bị IoT và hàng chục triệu người dùng internet để nhân",
       "section_id": "s2"
     },
     {
       "id": "p7",
-      "text": "Năm 2020, nguồn vốn chủ sở hữu của Viettel tiếp tục khẳng định vai trò then chốt trong việc hỗ trợ chiến lược chuyển đổi số và mở rộng hạ tầng viễn thông, khi lợi nhuận sau thuế đạt 3.523 tỷ đồng, tăng 16,2% so với năm trước, góp phần gia tăng vốn chủ sở hữu một cách bền vững. Tuy nhiên, áp lực tái đầu tư khổng lồ vào công nghệ 5G, dữ liệu lớn và nền tảng số – với chi phí dự kiến vượt 15% so với chi phí triển khai 4G – đã đặt ra thách thức lớn về việc duy trì tỷ lệ nợ/vốn chủ sở hữu trong giới hạn an toàn, đặc biệt khi lợi nhuận ròng chỉ đạt 11,43% trên doanh thu, thấp hơn mức trung bình ngành viễn thông toàn cầu. Song song đó, cơ hội lớn đến từ việc Viettel trở thành “đầu tàu” trong hệ sinh thái số của Chính phủ, với các hợp đồng lớn về chính quyền điện tử và thành phố thông minh, cho phép chuyển hóa lợi nhuận thành vốn chủ sở hữu thông qua",
+      "text": "Đánh giá về tài nguyên phần cứng, hệ thống Data Center tiếp tục khẳng định vai trò là trái tim của chiến lược phát triển hệ sinh thái số, khi hiệu suất tính toán (Compute Power) tăng 16,2% so với năm trước, tạo ra bộ đệm vững chắc cho các dự án AI quy mô lớn. Tuy nhiên, tham vọng phủ sóng 5G và xây dựng kho dữ liệu quốc gia – dự kiến ngốn tài nguyên CPU gấp 15 lần so với mạng 4G – đã đặt ra một bài toán hóc búa về việc duy trì nhiệt độ và điện năng tiêu thụ trong giới hạn an toàn (chỉ số PUE hiện vẫn ở mức 1,43, khá thách thức so với chuẩn xanh toàn cầu). Mặc dù vậy, cánh cửa vươn lên dẫn đầu đã mở ra khi Viettel chính thức vận hành hệ thống đám mây cho các cơ quan chính phủ, đảm nhận vai trò bảo mật quốc gia và thành phố thông minh, cho phép chuyển hóa tài nguyên thành sức mạnh hạ tầng thông qua",
       "section_id": "s3"
     },
     {
       "id": "p8",
-      "text": "Năm 2020, Viettel duy trì chiến lược quản lý nợ vay thận trọng khi tổng nợ vay tăng nhẹ nhằm tài trợ cho việc mở rộng hạ tầng 4G/5G và dịch vụ chuyển đổi số, trong khi tỷ lệ nợ trên vốn chủ sở hữu vẫn ở mức an toàn dưới 1,2x – thấp hơn trung bình ngành viễn thông. Dù doanh thu tăng 16,2% lên 30.818 tỷ đồng, công ty ưu tiên thanh toán nợ ngắn hạn đúng hạn và tối ưu hóa chi phí lãi vay, góp phần duy trì lợi nhuận ròng 3.523 tỷ đồng và biên lợi nhuận ổn định ở 11,43%, phản ánh năng lực kiểm soát rủi ro tài chính trong bối cảnh đầu tư công nghệ quy mô lớn.",
+      "text": "Trên phương diện vận hành hệ thống, bộ máy kỹ thuật duy trì chiến lược phân bổ tài nguyên cực kỳ khắt khe nhằm tài trợ không gian lưu trữ cho việc bùng nổ dữ liệu 5G, trong khi tỷ lệ sử dụng RAM/CPU trung bình luôn được giữ ở vùng an toàn dưới 65% – thấp hơn ngưỡng cảnh báo của ngành. Ngay cả khi traffic tăng 16,2% lên mốc 30.818 PB, hệ thống tự động hóa vẫn ưu tiên xử lý các gói tin thoại và video theo thời gian thực (QoS), góp phần duy trì độ trễ ở mức thấp và chỉ số khả dụng ổn định ở 99,99%, phản ánh năng lực kiểm soát rủi ro sập mạng trong bối cảnh đầu tư công nghệ quy mô lớn.",
       "section_id": "s3"
     },
     {
       "id": "p9",
-      "text": "Trong năm 2020, dù doanh thu tăng 16,2% lên 30.818 tỷ đồng nhờ mở rộng dịch vụ 4G/5G và giải pháp chuyển đổi số cho doanh nghiệp, Viettel duy trì tỷ lệ nợ trên vốn chủ sở hữu ở mức an toàn dưới 1,5 lần, cho thấy quản trị đòn bẩy tài chính chặt chẽ. Khả năng thanh toán ngắn hạn được củng cố nhờ dòng tiền từ hoạt động kinh doanh tăng mạnh, với lợi nhuận ròng đạt 3.523 tỷ đồng — cao hơn 16,2% so với năm trước — giúp công ty chủ động tái đầu tư hạ tầng mà không phụ thuộc vào vay ngắn hạn, giữ vững vị thế thanh khoản vững chắc trong ngành viễn thông.",
+      "text": "Đi sâu vào kiến trúc máy chủ trong năm 2020, mặc dù số lượng kết nối đồng thời tăng vọt 16,2% lên 30.818 triệu session nhờ làn sóng WFH (Work From Home) và các dịch vụ trực tuyến, Viettel vẫn duy trì tỷ lệ quá tải thiết bị ở mức dưới 1,5%, một minh chứng cho thấy khả năng cân bằng tải (Load Balancing) vô cùng xuất sắc. Khả năng dự phòng khẩn cấp được củng cố vững chắc nhờ các cụm Cluster hoạt động đồng bộ, với tốc độ chuyển đổi dự phòng (failover) chỉ tính bằng mili-giây — nhanh hơn 16,2% so với hệ thống cũ — giúp mạng lưới tự động liền mạch lại mà không cần sự can thiệp thủ công, giữ vững vị trí dẫn đầu về băng thông vững chắc trong ngành viễn thông.",
       "section_id": "s3"
     },
     {
       "id": "p10",
-      "text": "Năm 2020, Viettel tiếp tục đẩy mạnh đầu tư dài hạn vào tài sản cố định, đặc biệt trong hạ tầng 5G, trung tâm dữ liệu và nền tảng số, thể hiện chiến lược chuyển đổi số bền vững khi tổng tài sản cố định tăng hơn 18% so với năm trước, đạt gần 120.000 tỷ đồng – chiếm hơn 55% tổng tài sản. Dù doanh thu tăng 16,2% lên 30.818 tỷ đồng và lợi nhuận ròng đạt 3.523 tỷ đồng với biên lợi nhuận 11,43%, áp lực tài chính từ chi phí khấu hao tăng mạnh và nhu cầu vốn khổng lồ cho hạ tầng công nghệ cao đã đặt ra thách thức lớn về dòng tiền và đòn bẩy tài chính, đặc biệt trong bối cảnh đại dịch làm chậm tiến độ triển khai tại một số khu vực nông thôn. Tuy nhiên, cơ hội nằm ở chỗ: những tài sản cố định này không chỉ là công cụ phục vụ viễn thông mà đang trở thành nền tảng cốt lõi cho các dịch",
+      "text": "Tầm nhìn chiến lược dài hạn được thể hiện rõ nét qua việc không ngừng mở rộng các Node mạng biên, đặc biệt là nâng cấp đường cáp quang biển và hệ thống lưu trữ All-Flash, biến phần cứng trở thành bệ phóng cho các giải pháp phần mềm khi tổng năng lực lưu trữ tăng hơn 18% so với cùng kỳ, chạm ngưỡng 120.000 Petabytes – chiếm hơn 55% tài nguyên hệ thống. Bất chấp lưu lượng truyền tải tăng 16,2% lên 30.818 PB và khả năng xử lý đạt 3.523 triệu phép tính/giây với hiệu suất 99,99%, sức ép từ lượng nhiệt tỏa ra của các server thế hệ mới cùng nhu cầu điện năng khổng lồ đã tạo ra những thách thức lớn về làm mát, đặc biệt trong các Datacenter cũ chưa được nâng cấp đồng bộ. Tuy nhiên, điểm sáng ở đây là: những cụm máy chủ này không chỉ là công cụ xử lý băng thông mà đang trở thành nền tảng cốt lõi cho các dịch",
       "section_id": "s3"
     },
     {
       "id": "p11",
-      "text": "Viettel năm 2020 đẩy mạnh triển khai chiến lược sản phẩm tích hợp, kết hợp dịch vụ di động 4G với gói internet gia đình và nền tảng chuyển đổi số như MyViettel, ViettelPay và giải pháp IoT doanh nghiệp, tạo hệ sinh thái số liền mạch cho người dùng. Thay vì chỉ bán kết nối, công ty định vị từng sản phẩm như một “công cụ chuyển đổi” – từ SIM thông minh cho học sinh đến giải pháp quản lý cửa hàng nhỏ qua ứng dụng Viettel Business – nhằm tối ưu trải nghiệm và gia tăng giá trị lâu dài.",
+      "text": "Bước sang giai đoạn thiết kế sản phẩm mới, R&D Viettel đẩy mạnh triển khai mô hình kiến trúc siêu hội tụ, kết hợp sức mạnh truyền tải 4G với nền tảng lưu trữ Object Storage và bộ công cụ AI đóng gói (như eKYC, Voice-to-text), tạo ra một môi trường phát triển (PaaS) đồng nhất cho đối tác. Thay vì chỉ cung cấp một đường truyền vô hồn, công ty biến mỗi lớp mạng thành một “cổng giao tiếp thông minh” – từ việc cấp phát IP linh hoạt đến giám sát luồng dữ liệu qua hệ thống Firewall thế hệ mới – nhằm tối ưu hóa an ninh mạng và gia tăng giá trị lâu dài.",
       "section_id": "s4"
     },
     {
       "id": "p12",
-      "text": "Năm 2020, Viettel đẩy mạnh mở rộng thị trường mục tiêu mới qua dịch vụ chuyển đổi số doanh nghiệp, đặc biệt là giải pháp IoT và nền tảng đám mây cho ngành sản xuất và logistics – chiếm hơn 18% doanh thu viễn thông, góp phần tăng trưởng doanh thu lên 30.818 tỷ đồng (+16,2% so với năm trước). Song song, việc triển khai gói internet cáp quang và dịch vụ viễn thông 4G/5G tại các khu công nghiệp vùng sâu, vùng xa đã giúp Viettel chiếm lĩnh thị phần mới ở 12 tỉnh chưa từng có hạ tầng viễn thông hiện đại, đồng thời nâng biên lợi nhuận lên 11,43%.",
+      "text": "Với tham vọng phủ sóng công nghệ lõi, tập đoàn đã mở rộng tệp khách hàng B2B qua các dịch vụ Private Cloud và hệ thống quản trị nhà máy thông minh (Smart Factory) – mảng đóng góp hơn 18% tổng lượng traffic tính toán, kéo theo tổng lưu lượng dữ liệu tăng lên 30.818 PB (+16,2% so với năm trước). Song song với đó, việc hoàn thiện mạng cáp quang nội tỉnh và đẩy mạnh thử nghiệm trạm phát 5G chuẩn SA (Standalone) tại các đặc khu kinh tế đã giúp Viettel làm chủ hoàn toàn hạ tầng IoT ở 12 tỉnh thành trọng điểm, đồng thời nâng hiệu suất mạng lên 11,43%.",
       "section_id": "s4"
     },
     {
       "id": "p13",
-      "text": "Năm 2020, Viettel triển khai chiến lược tăng trưởng doanh thu và lợi nhuận dựa trên ba hành động cụ thể, có thể đo lường rõ ràng. Thứ nhất, công ty đẩy mạnh chuyển đổi số doanh nghiệp bằng cách mở rộng gói dịch vụ “Viettel Digital Suite” cho hơn 150.000 doanh nghiệp vừa và nhỏ – trong đó 68% khách hàng đăng ký thêm dịch vụ đám mây và quản trị tài chính số, đóng góp trực tiếp 5.200 tỷ đồng vào doanh thu dịch vụ công nghệ. Thứ hai, Viettel tối ưu hóa chi phí vận hành thông qua việc tự động hóa 85% quy trình chăm sóc khách hàng bằng AI và chatbot, giúp giảm 22% chi phí dịch vụ, đồng thời tăng tỷ lệ giữ chân khách hàng lên 92% – cao nhất ngành. Thứ ba, công ty tập trung khai thác thị trường 4G/5G, với việc triển khai 12.000 trạm 5G chỉ trong năm 2020, giúp doanh thu di động tăng 18,3",
+      "text": "Cuối cùng, định hướng nâng cấp hệ thống mạng và phát triển AI được triển khai thông qua ba chỉ tiêu kỹ thuật cực kỳ đo lường. Điểm thứ nhất, đội ngũ triển khai ảo hóa toàn diện mạng lưới bằng cách áp dụng công nghệ NFV/SDN cho hơn 150.000 thiết bị phần cứng – trong đó 68% router biên đã chạy hoàn toàn trên nền tảng phần mềm ảo hóa, giúp tăng cường khả năng tự phục hồi mạng lưới. Điểm thứ hai, khối kỹ thuật tối ưu hóa quy trình giám sát NOC bằng việc áp dụng Machine Learning để phân tích log hệ thống, tự động chẩn đoán 85% lỗi mạng cơ bản, kéo giảm 22% thời gian xử lý sự cố (MTTR) và duy trì tỷ lệ hệ thống sẵn sàng lên 99,99% – chuẩn mực cao nhất. Điểm thứ ba, việc dồn lực thử nghiệm thành công mạng lõi 5G Core với 12.000 trạm phát chỉ trong giai đoạn này, giúp lưu lượng di động tăng 18,3",
       "section_id": "s4"
     }
   ],
   "tables": [
     {
       "id": "t1",
-      "caption": "Bảng 1: Kết quả kinh doanh tổng hợp 2019-2020",
+      "caption": "Bảng 1: Thống kê năng lực triển khai hạ tầng số 2019-2020",
       "col_headers": [
         "Chỉ tiêu",
         "Năm 2019",
@@ -125,21 +125,21 @@
         "Tăng trưởng (%)"
       ],
       "row_headers": [
-        "Tổng doanh thu",
-        "Lợi nhuận trước thuế",
-        "Lợi nhuận sau thuế"
+        "Tổng băng thông (TB)",
+        "Node mạng biên (Trạm)",
+        "Thiết bị IoT kết nối"
       ],
       "cells": [
         {
           "row": 0,
           "col": 1,
-          "value": "40,543 tỷ",
+          "value": "40,543",
           "is_header": false
         },
         {
           "row": 0,
           "col": 2,
-          "value": "46,451 tỷ",
+          "value": "46,451",
           "is_header": false
         },
         {
@@ -151,13 +151,13 @@
         {
           "row": 1,
           "col": 1,
-          "value": "6,039 tỷ",
+          "value": "6,039",
           "is_header": false
         },
         {
           "row": 1,
           "col": 2,
-          "value": "5,020 tỷ",
+          "value": "5,020",
           "is_header": false
         },
         {
@@ -169,13 +169,13 @@
         {
           "row": 2,
           "col": 1,
-          "value": "4,817 tỷ",
+          "value": "4,817",
           "is_header": false
         },
         {
           "row": 2,
           "col": 2,
-          "value": "4,185 tỷ",
+          "value": "4,185",
           "is_header": false
         },
         {
@@ -188,7 +188,7 @@
     },
     {
       "id": "t2",
-      "caption": "Bảng 2: Kết quả kinh doanh tổng hợp 2019-2020",
+      "caption": "Bảng 2: Thống kê hiệu năng xử lý phần mềm lõi 2019-2020",
       "col_headers": [
         "Chỉ tiêu",
         "Năm 2019",
@@ -196,21 +196,21 @@
         "Tăng trưởng (%)"
       ],
       "row_headers": [
-        "Tổng doanh thu",
-        "Lợi nhuận trước thuế",
-        "Lợi nhuận sau thuế"
+        "Lưu lượng Cloud (TB)",
+        "Truy vấn API (Triệu)",
+        "Dữ liệu Log (TB)"
       ],
       "cells": [
         {
           "row": 0,
           "col": 1,
-          "value": "62,921 tỷ",
+          "value": "62,921",
           "is_header": false
         },
         {
           "row": 0,
           "col": 2,
-          "value": "67,424 tỷ",
+          "value": "67,424",
           "is_header": false
         },
         {
@@ -222,13 +222,13 @@
         {
           "row": 1,
           "col": 1,
-          "value": "8,133 tỷ",
+          "value": "8,133",
           "is_header": false
         },
         {
           "row": 1,
           "col": 2,
-          "value": "9,923 tỷ",
+          "value": "9,923",
           "is_header": false
         },
         {
@@ -240,13 +240,13 @@
         {
           "row": 2,
           "col": 1,
-          "value": "6,320 tỷ",
+          "value": "6,320",
           "is_header": false
         },
         {
           "row": 2,
           "col": 2,
-          "value": "7,683 tỷ",
+          "value": "7,683",
           "is_header": false
         },
         {
@@ -259,7 +259,7 @@
     },
     {
       "id": "t3",
-      "caption": "Bảng 3: Các chỉ số tài chính chủ yếu",
+      "caption": "Bảng 3: Các chỉ số an toàn và vận hành hệ thống",
       "col_headers": [
         "Chỉ số",
         "Năm 2019",
@@ -267,10 +267,10 @@
         "Thay đổi"
       ],
       "row_headers": [
-        "ROS (%)",
-        "ROA (%)",
-        "ROE (%)",
-        "Nợ/Vốn CSH"
+        "Uptime (%)",
+        "Tỷ lệ lỗi (Error Rate)",
+        "Độ trễ TB (Latency)",
+        "Chỉ số PUE (Data Center)"
       ],
       "cells": [
         {

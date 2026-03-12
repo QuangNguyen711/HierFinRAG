@@ -1,595 +1,215 @@
 {
   "id": "doc_mobifone_2021_019",
-  "title": "Báo Cáo Tài Chính MobiFone 2021",
+  "title": "Báo Cáo Hoạt Động & Chiến Lược MobiFone 2021 — Phiên Bản Cải Thiện",
   "sections": [
-    {
-      "id": "s1",
-      "title": "Tổng Quan Hoạt Động Kinh Doanh",
-      "level": 1,
-      "content_ids": [
-        "p1",
-        "p2"
-      ]
-    },
-    {
-      "id": "s2",
-      "title": "Kết Quả Hoạt Động Tài Chính",
-      "level": 1,
-      "content_ids": [
-        "p3",
-        "p4",
-        "t1",
-        "p5"
-      ]
-    },
-    {
-      "id": "s3",
-      "title": "Tình Hình Tài Sản và Nguồn Vốn",
-      "level": 1,
-      "content_ids": [
-        "p6",
-        "p7",
-        "t2"
-      ]
-    },
-    {
-      "id": "s4",
-      "title": "Phân Tích Hiệu Quả Kinh Doanh",
-      "level": 1,
-      "content_ids": [
-        "p8",
-        "p9",
-        "t3",
-        "p10",
-        "p11"
-      ]
-    },
-    {
-      "id": "s5",
-      "title": "Dòng Tiền và Khả Năng Thanh Toán",
-      "level": 1,
-      "content_ids": [
-        "p12",
-        "p13",
-        "t4",
-        "p14",
-        "p15"
-      ]
-    },
-    {
-      "id": "s6",
-      "title": "Rủi Ro và Biện Pháp Quản Lý",
-      "level": 1,
-      "content_ids": [
-        "p16",
-        "p17",
-        "t5",
-        "p18",
-        "p19"
-      ]
-    },
-    {
-      "id": "s7",
-      "title": "Chiến Lược Phát Triển Năm 2022",
-      "level": 1,
-      "content_ids": [
-        "p20",
-        "p21"
-      ]
-    }
+    { "id": "s1", "title": "Tổng Quan Hoạt Động Kinh Doanh", "level": 1, "content_ids": ["p1","p2"] },
+    { "id": "s2", "title": "Kết Quả Hoạt Động Tài Chính", "level": 1, "content_ids": ["p3","p4","t1","p5"] },
+    { "id": "s3", "title": "Tình Hình Tài Sản và Nguồn Vốn", "level": 1, "content_ids": ["p6","p7","t2"] },
+    { "id": "s4", "title": "Phân Tích Hiệu Quả Kinh Doanh", "level": 1, "content_ids": ["p8","p9","t3","p10","p11"] },
+    { "id": "s5", "title": "Dòng Tiền và Khả Năng Thanh Toán", "level": 1, "content_ids": ["p12","p13","t4","p14","p15"] },
+    { "id": "s6", "title": "Rủi Ro và Biện Pháp Quản Lý", "level": 1, "content_ids": ["p16","p17","t5","p18","p19"] },
+    { "id": "s7", "title": "Chiến Lược Phát Triển Năm 2022", "level": 1, "content_ids": ["p20","p21"] }
   ],
   "paragraphs": [
     {
       "id": "p1",
-      "text": "Năm 2021, MobiFone đẩy mạnh chuyển đổi số thông qua việc triển khai nền tảng AI trong chăm sóc khách hàng, tự động hóa quy trình xử lý khiếu nại và cá nhân hóa trải nghiệm qua ứng dụng MyMobiFone. Đồng thời, công ty tích hợp công nghệ 5G vào hạ tầng mạng, mở đường cho các dịch vụ IoT và kết nối thông minh trong gia đình, từ đó biến các sản phẩm truyền thống thành giải pháp số toàn diện, không chỉ kết nối người dùng mà còn tạo ra hệ sinh thái số tích hợp.",
+      "text": "MobiFone đã đẩy nhanh lộ trình chuyển đổi số, chuyển từ vai trò nhà mạng thuần túy sang nhà cung cấp hệ sinh thái số. Nền tảng AI được tích hợp vào chăm sóc khách hàng, tự động hóa xử lý khiếu nại và cá nhân hóa trải nghiệm qua ứng dụng MyMobiFone; đồng thời đầu tư hạ tầng 5G để mở cánh cửa cho dịch vụ IoT và các giải pháp kết nối thông minh cho doanh nghiệp và hộ gia đình.",
       "section_id": "s1"
     },
     {
       "id": "p2",
-      "text": "Năm 2021, MobiFone định hướng chiến lược kinh doanh tổng thể theo hướng chuyển đổi số sâu rộng, không chỉ dừng lại ở việc cung cấp dịch vụ viễn thông truyền thống mà còn mở rộng sang hệ sinh thái số tích hợp – từ dịch vụ OTT, nền tảng giáo dục trực tuyến đến giải pháp Smart City và IoT doanh nghiệp. Với doanh thu đạt 71.307 tỷ đồng, tăng 7,1% so với năm trước và biên lợi nhuận ổn định ở mức 7,51%, MobiFone đã chứng minh khả năng khai thác hiệu quả nguồn lực cốt lõi trong bối cảnh thị trường di động bão hòa và cạnh tranh khốc liệt từ Viettel và VinaPhone. Tuy nhiên, thách thức lớn nhất không nằm ở việc giành thêm khách hàng mà ở việc giữ chân họ trong môi trường người dùng ngày càng đòi hỏi trải nghiệm cá nhân hóa và tốc độ kết nối siêu nhanh – một yêu cầu mà hạ tầng 5G chưa phủ sóng rộng khắp, đặc biệt tại vùng sâu vùng xa. Song song đó, áp lực giảm giá cước",
+      "text": "Chiến lược kinh doanh năm 2021 tập trung tăng độ sâu sản phẩm và mở rộng hệ sinh thái: từ dịch vụ OTT, giáo dục trực tuyến đến giải pháp Smart City và MobiFone Cloud. Kết quả hoạt động phản ánh qua doanh thu hợp nhất 71.307 tỷ đồng (tăng 7,1%) và biên lợi nhuận duy trì ở mức 7,51% — minh chứng cho khả năng tận dụng tài sản mạng lưới để tạo doanh thu dịch vụ giá trị cao hơn.",
       "section_id": "s1"
     },
     {
       "id": "p3",
-      "text": "Năm 2021, MobiFone đẩy mạnh chiến lược mở rộng thị trường và khách hàng không chỉ bằng việc gia tăng phủ sóng, mà còn thông qua tái định vị thương hiệu trong bối cảnh người dùng chuyển dịch mạnh mẽ sang các dịch vụ số hóa — một cơ hội vàng để chiếm lĩnh phân khúc khách hàng trẻ, thành thị và có nhu cầu kết nối đa nền tảng. Tuy nhiên, thách thức lớn nhất không nằm ở hạ tầng mà ở sự cạnh tranh khốc liệt từ Viettel và VNPT, vốn đã xây dựng được hệ sinh thái “all-in-one” tích hợp viễn thông, thanh toán điện tử và dịch vụ chính phủ số, khiến MobiFone phải đối mặt với nguy cơ bị “hạn chế vai trò” chỉ như một nhà cung cấp dịch vụ cơ bản. Để vượt qua, MobiFone đã chủ động hợp tác với các đối tác công nghệ như Zalo, MoMo và các nền tảng OTT để tạo ra các gói dịch vụ “đi kèm giá trị” — từ bảo hiểm số, học trực tuyến đến tài chính vi mô — qua đó biến khách hàng từ “người dùng” thành",
+      "text": "Trước sức ép cạnh tranh mạnh từ Viettel và VNPT, MobiFone chủ động tái định vị thương hiệu bằng các gói dịch vụ tích hợp cùng đối tác nền tảng (Zalo, MoMo, các nhà cung cấp nội dung) để gia tăng tính khác biệt. Chiến lược này hướng tới nhóm khách hàng trẻ, đô thị và doanh nghiệp SME có nhu cầu cao về dịch vụ số hoá.",
       "section_id": "s2"
     },
     {
       "id": "p4",
-      "text": "Năm 2021, MobiFone duy trì vị thế dẫn đầu trong nhóm ba nhà mạng lớn tại Việt Nam với doanh thu đạt 71.307 tỷ đồng, tăng 7,1% so với năm trước, và biên lợi nhuận ổn định ở mức 7,51%, phản ánh khả năng tối ưu chi phí trong bối cảnh cạnh tranh khốc liệt. Tuy nhiên, vị thế này đang bị đe dọa nghiêm trọng bởi Viettel – đối thủ có lợi thế về hạ tầng 5G, mạng lưới phủ sóng rộng và chiến lược chuyển đổi số tích hợp toàn diện, khiến MobiFone phải chạy đua để bù đắp khoảng cách về công nghệ và trải nghiệm khách hàng. Trong khi đó, Vinaphone (VNPT) với lợi thế từ hệ sinh thái viễn thông - truyền hình - dịch vụ công số, lại khai thác tốt phân khúc khách hàng doanh nghiệp và chính phủ, tạo áp lực lên thị phần doanh thu B2B của MobiFone. Thách thức lớn nhất không nằm ở giá cước mà ở sự chuyển dịch hành vi người dùng: họ không còn chỉ m",
+      "text": "Tăng trưởng doanh thu và biên lợi nhuận năm 2021 phản ánh hiệu quả vận hành cùng với mở rộng dịch vụ số. MobiFone giữ vững vị thế trong Top 3 nhà mạng nhờ cân bằng đầu tư hạ tầng và phát triển sản phẩm dịch vụ mới, mặc dù áp lực cạnh tranh vẫn đòi hỏi tăng tốc phủ sóng 5G và nâng cấp trải nghiệm khách hàng tại vùng sâu vùng xa.",
       "section_id": "s2"
     },
     {
       "id": "p5",
-      "text": "Năm 2021, MobiFone đẩy mạnh chuyển đổi số thông qua triển khai nền tảng AI và big data để cá nhân hóa dịch vụ viễn thông, nâng cao trải nghiệm người dùng trên các sản phẩm như MobiFone 5G và dịch vụ Internet FPT TV. Nhờ ứng dụng công nghệ mới, doanh thu tăng 7,1% lên 71.307 tỷ đồng và biên lợi nhuận đạt 7,51%, phản ánh hiệu quả trong tối ưu vận hành và mở rộng mô hình kinh doanh dựa trên dữ liệu thay vì truyền thống.",
+      "text": "Ứng dụng AI và Big Data giúp MobiFone cá nhân hóa sản phẩm, tối ưu hoá chiến dịch tiếp thị và cải thiện chỉ số giữ chân khách hàng. Việc chuyển hướng doanh thu sang dịch vụ số hóa đã góp phần tăng tỷ trọng doanh thu không thuần thoại trong cơ cấu tổng doanh thu.",
       "section_id": "s2"
     },
     {
       "id": "p6",
-      "text": "Năm 2021, MobiFone duy trì chiến lược quản lý nợ vay thận trọng khi tổng nợ ngắn hạn và dài hạn không tăng đột biến, dù đang đầu tư mạnh vào hạ tầng 4G/5G và dịch vụ chuyển đổi số như MobiFone Cloud và FPT Play Box – những sản phẩm đòi hỏi dòng tiền ổn định. Với lợi nhuận ròng đạt 5.356 tỷ đồng (tăng 7,1% so với năm trước), công ty đã chủ động cân đối nợ trên cơ sở khả năng sinh lời và dòng tiền từ doanh thu viễn thông, đảm bảo tỷ lệ nợ/vốn chủ sở hữu ở mức an toàn, hỗ trợ bền vững cho chiến lược mở rộng thị phần và nâng cao trải nghiệm khách hàng.",
+      "text": "Công tác quản lý nợ và đầu tư được duy trì thận trọng: dù tiếp tục đầu tư vào hạ tầng 4G/5G và trung tâm dữ liệu, công ty không gia tăng đòn bẩy một cách đột biến, ưu tiên cân bằng giữa vốn tự có và nguồn vay dài hạn phù hợp kỳ hạn tài sản.",
       "section_id": "s3"
     },
     {
       "id": "p7",
-      "text": "Năm 2021, MobiFone tiếp tục tăng cường đầu tư dài hạn vào tài sản cố định nhằm củng cố hạ tầng mạng 4G/5G và hệ thống trung tâm dữ liệu, hỗ trợ dịch vụ internet băng rộng và chuyển đổi số cho doanh nghiệp – với tổng chi phí đầu tư vượt 4.200 tỷ đồng, tăng 12% so với năm trước. Những khoản đầu tư này không chỉ nâng cao chất lượng trải nghiệm người dùng mà còn trực tiếp góp phần duy trì mức tăng trưởng doanh thu 7,1% và biên lợi nhuận 7,51%, khẳng định chiến lược đầu tư bền vững làm nền tảng cho lợi nhuận dài hạn trong ngành viễn thông cạnh tranh khốc liệt.",
+      "text": "Chi tiêu đầu tư tập trung vào nâng cấp trạm thu phát, trung tâm dữ liệu và hệ thống lõi để hỗ trợ dịch vụ băng rộng, MobiFone Cloud và các giải pháp doanh nghiệp; tổng mức đầu tư ghi nhận tăng so với cùng kỳ, đóng vai trò quan trọng trong việc duy trì chất lượng mạng và mở rộng sản phẩm số.",
       "section_id": "s3"
     },
     {
       "id": "p8",
-      "text": "Năm 2021, MobiFone triển khai chiến lược kinh doanh tổng thể tập trung vào ba trụ cột hành động cụ thể, có thể đo lường rõ ràng, nhằm thúc đẩy tăng trưởng bền vững trong bối cảnh thị trường viễn thông bão hòa và áp lực chuyển đổi số ngày càng gia tăng.\n\nThứ nhất, MobiFone đẩy mạnh tối ưu hóa doanh thu từ dịch vụ dữ liệu và giải pháp số cho doanh nghiệp bằng cách mở rộng hệ sinh thái “MobiFone Smart Business”, tích hợp các giải pháp như IoT, cloud, và quản trị mạng doanh nghiệp (SD-WAN). Kết quả: doanh thu từ phân khúc doanh nghiệp tăng 18,4% so với năm 2020, đóng góp 22% tổng doanh thu, cao nhất trong lịch sử công ty.\n\nThứ hai, công ty thực hiện chiến dịch “5G – Trải nghiệm mới, giá trị thật” bằng cách nhanh chóng phủ sóng 5G tại 63 tỉnh thành, ưu tiên các khu đô thị lớn và trung tâm công nghiệp. Đến cuối năm, MobiF",
+      "text": "Hoạt động kinh doanh được cấu trúc xung quanh ba trụ cột: (1) mở rộng doanh thu dịch vụ số cho doanh nghiệp, (2) gia tăng giá trị từ thuê bao di động qua gói tích hợp nội dung, và (3) tối ưu hoá chi phí vận hành thông qua tự động hoá và AIOps. Các sáng kiến này đã đem lại kết quả đo lường rõ rệt trên nhiều chỉ số vận hành.",
       "section_id": "s4"
     },
     {
       "id": "p9",
-      "text": "Năm 2021, MobiFone triển khai chiến lược đẩy mạnh chuyển đổi số thông qua việc ra mắt **dịch vụ “MobiFone 5G - Kết nối thông minh”** – là dịch vụ viễn thông di động thế hệ thứ năm đầu tiên tại Việt Nam được thương mại hóa chính thức từ tháng 6/2021. Không chỉ đơn thuần là nâng cấp tốc độ, MobiFone tích hợp sẵn nền tảng **“5G + AI”** để cung cấp các gói dịch vụ định hướng ứng dụng: gói “5G Pro” cho doanh nghiệp với tốc độ download lên đến 1.5 Gbps, hỗ trợ kết nối hàng trăm thiết bị IoT đồng thời; và gói “5G Family” dành cho hộ gia đình, tích hợp sẵn dịch vụ xem phim 4K không gián đoạn, chơi game mượt trên nền tảng cloud gaming, và kết nối thông minh với thiết bị gia đình thông qua ứng dụng MobiFone SmartHome.\n\nKết quả đo lường rõ rệt: Trong vòng 6 tháng đầu tiên sau khi ra mắt, **hơn 1,",
+      "text": "Sản phẩm 5G thương mại hoá và gói dịch vụ gắn kết nội dung đã giúp MobiFone thu hút thuê bao cao cấp; đồng thời, giải pháp dành cho SME (MobiFone Business 360) mở rộng cơ sở khách hàng doanh nghiệp, góp phần tăng tỷ trọng doanh thu B2B.",
       "section_id": "s4"
     },
     {
       "id": "p10",
-      "text": "Năm 2021, MobiFone thực hiện một loạt hành động chiến lược nhằm củng cố vị thế thị trường giữa bối cảnh cạnh tranh khốc liệt từ Viettel và VNPT, đồng thời đối mặt với áp lực từ các nhà cung cấp dịch vụ internet cố định và OTT. Thay vì chỉ chạy theo giá cước, MobiFone tập trung vào **“tái định nghĩa trải nghiệm khách hàng”** thông qua ba sáng kiến cụ thể:\n\n1. **Ra mắt gói cước “MobiFone 5G Premium”** – không chỉ là nâng cấp tốc độ, mà là tích hợp sẵn dịch vụ OTT cao cấp (Netflix, Spotify, FPT Play) trong 12 tháng đầu, kèm ưu đãi giảm 50% cước data cho thuê bao đăng ký 3G/4G cũ. Kết quả: 1,2 triệu thuê bao chuyển đổi trong quý IV, tỷ lệ giữ chân khách hàng tăng 18% so với cùng kỳ 2020 – con số cao nhất trong 5 năm qua.\n\n2. **Xây dựng “Trung tâm điều hành thông",
+      "text": "Bằng cách triển khai chatbot AI và tự động hóa quy trình, MobiFone giảm đáng kể thời gian xử lý yêu cầu và chi phí dịch vụ khách hàng, đồng thời cải thiện chất lượng phục vụ — các chỉ số vận hành chính đều cho thấy xu hướng tích cực.",
       "section_id": "s4"
     },
     {
       "id": "p11",
-      "text": "Năm 2021, MobiFone đẩy mạnh chiến lược mở rộng thị trường và khách hàng bằng cách chuyển hóa từ mô hình cung cấp dịch vụ viễn thông truyền thống sang nền tảng số đa chiều, nhắm tới phân khúc khách hàng chưa khai thác triệt để như người cao tuổi, người dân vùng sâu vùng xa và doanh nghiệp nhỏ và vừa (SMEs). Với doanh thu đạt 71.307 tỷ đồng, tăng 7,1% so với năm trước, MobiFone đã ghi nhận sự tăng trưởng bền vững nhờ triển khai các gói cước số hóa linh hoạt như MobiFone 4G/5G kèm gói ứng dụng giáo dục, y tế từ xa và dịch vụ thanh toán điện tử – những giải pháp thiết thực giúp thu hút khách hàng mới trong bối cảnh đại dịch làm thay đổi hành vi tiêu dùng. Tuy nhiên, thách thức lớn nhất đến từ sự cạnh tranh khốc liệt của Viettel và VNPT, đặc biệt trong phân khúc khách hàng trẻ tuổi ưa chuộng dịch vụ OTT và giá rẻ, cùng với chi phí đầu tư hạ tầng",
+      "text": "Tuy nhiên, chi phí duy trì và mở rộng hạ tầng 5G cùng với áp lực cạnh tranh về giá từ các đối thủ lớn và các dịch vụ OTT tiếp tục là yếu tố rủi ro, đòi hỏi điều chỉnh cân bằng giữa đầu tư cho tương lai và duy trì lợi nhuận ngắn hạn.",
       "section_id": "s4"
     },
     {
       "id": "p12",
-      "text": "Năm 2021, MobiFone đã khẳng định vị thế tiên phong trong chuyển đổi số khi triển khai đồng bộ các nền tảng AI, Big Data và điện toán đám mây để tái cấu trúc toàn bộ chuỗi giá trị, từ dịch vụ khách hàng tự động qua chatbot thông minh đến hệ sinh thái số tích hợp trong MobiFone 4.0 – mang lại doanh thu 71.307 tỷ đồng, tăng 7,1% so với năm trước. Tuy nhiên, hành trình này không thiếu rào cản: áp lực cạnh tranh khốc liệt từ các đối thủ có vốn nước ngoài, chi phí đầu tư hạ tầng 5G và an ninh mạng ngày càng gia tăng, cùng nguy cơ lỗi hệ thống khi tích hợp hàng chục ứng dụng legacy. Song song đó, công nghệ mới mở ra cơ hội vàng: dữ liệu người dùng được khai thác tối ưu giúp tăng tỷ lệ chuyển đổi dịch vụ số lên 32%, trong khi lợi nhuận ròng đạt 5.356 tỷ đồng, biên lợi nhuận tăng 7,51% nhờ giảm chi phí vận hành 15",
+      "text": "Dòng tiền hoạt động được cải thiện nhờ tăng tỷ lệ doanh thu dịch vụ số và kiểm soát chặt chẽ chi phí hoạt động. Song vẫn tồn tại thách thức ở vòng quay công nợ khi MobiFone mở rộng các hợp đồng B2B với kỳ hạn thanh toán dài hơn.",
       "section_id": "s5"
     },
     {
       "id": "p13",
-      "text": "Trong năm 2021, MobiFone đối mặt với áp lực cạnh tranh khốc liệt từ Viettel và Vinaphone, đặc biệt trong thị trường 4G và dịch vụ tích hợp chuyển đổi số như MobiFone Cloud hay gói internet gia đình thông minh. Dù giữ vững vị thế dẫn đầu về chất lượng mạng và dịch vụ khách hàng tại khu vực đô thị lớn, MobiFone vẫn phải điều chỉnh chiến lược sản phẩm để đáp ứng nhu cầu ngày càng cao về tốc độ và trải nghiệm số, trong khi các đối thủ mạnh tay đầu tư vào hạ tầng 5G và nền tảng OTT.",
+      "text": "Công ty đã thực hiện phát hành trái phiếu doanh nghiệp kỳ hạn 5 năm để cơ cấu lại nợ và gia tăng nguồn vốn trung hạn, giảm áp lực trả nợ ngắn hạn và tối ưu chi phí vốn, từ đó bảo đảm khả năng thanh toán và đầu tư liên tục cho hạ tầng.",
       "section_id": "s5"
     },
     {
       "id": "p14",
-      "text": "Năm 2021, MobiFone triển khai chiến lược tăng trưởng doanh thu dựa trên ba trụ cột hành động cụ thể, không chỉ khai thác thị trường truyền thống mà còn tái cấu trúc nguồn thu từ các dịch vụ số. Trước hết, công ty đẩy mạnh **mô hình “Bundled Service”** – gói kết hợp giữa 4G/5G, WiFi doanh nghiệp và nền tảng số như MobiFone Cloud, MobiFone Pay, và dịch vụ OTT nội dung (VTVGo, FPT Play) – với mức giá ưu đãi 20–30% so với mua lẻ. Kết quả: 68% khách hàng mới chọn gói tích hợp, đóng góp 41% doanh thu dịch vụ viễn thông, tăng 18,5% so với 2020.  \n\nThứ hai, MobiFone **chuyển đổi từ bán thiết bị sang bán trải nghiệm** bằng cách hợp tác với Samsung, OPPO và Xiaomi để cung cấp điện thoại giá rẻ (dưới 3 triệu đồng) kèm gói data 12 tháng không giới hạn –",
+      "text": "Kế hoạch quản lý vốn lưu động bao gồm: rút ngắn thời gian thu hồi công nợ qua chính sách tín dụng chặt, tối ưu tồn kho thiết bị và đàm phán gia hạn kỳ hạn nợ với ngân hàng đối tác nhằm bảo đảm dòng tiền cho hoạt động vận hành và đầu tư.",
       "section_id": "s5"
     },
     {
       "id": "p15",
-      "text": "MobiFone đẩy mạnh mở rộng thị trường bằng cách triển khai gói cước 5G tiên phong kết hợp dịch vụ Internet di động tốc độ cao, nhắm đến nhóm khách hàng trẻ và doanh nghiệp vừa và nhỏ cần giải pháp kết nối ổn định. Đồng thời, công ty tích hợp các dịch vụ chuyển đổi số như MobiFone Cloud và MobiFone Pay vào gói cước, tạo ra trải nghiệm toàn diện, thu hút khách hàng không chỉ từ các thành phố lớn mà còn lan tỏa sâu rộng đến vùng nông thôn và miền núi thông qua mạng lưới đại lý thông minh.",
+      "text": "Tổng thể, nền tảng tài chính của MobiFone đủ mạnh để triển khai chiến lược 2022, nhưng công ty cần tiếp tục giám sát rủi ro thanh khoản và chi phí vốn khi mở rộng mạnh mẽ các dự án 5G và dịch vụ số.",
       "section_id": "s5"
     },
     {
       "id": "p16",
-      "text": "Năm 2021, MobiFone triển khai chiến dịch “Tái cấu trúc hạ tầng công nghệ – Nâng cao độ tin cậy vận hành” với các hành động cụ thể, không mang tính hình thức. Trước hết, công ty thay thế toàn bộ hệ thống SMS Gateway cũ (dựa trên nền tảng 2008) bằng giải pháp mới của Ericsson, giảm 92% lỗi gửi tin nhắn (từ 3,1% xuống còn 0,24%) và tăng throughput lên 45.000 tin/giây – đáp ứng đỉnh điểm dịp Tết mà không xảy ra sự cố. Đồng thời, MobiFone triển khai hệ thống giám sát sự cố tự động (AIOps) tích hợp AI phân tích log từ 120+ hệ thống con, phát hiện và tự động khôi phục 73% lỗi dịch vụ trong vòng 90 giây, giảm thời gian ngừng dịch vụ trung bình từ 22 phút xuống còn 5,8 phút. Không dừng lại ở đó, công ty thành lập “Đội phản ứng khẩn cấp công nghệ” (Tech",
+      "text": "Nhóm rủi ro ưu tiên được xác định gồm: rủi ro thị trường (cạnh tranh và biến động giá), rủi ro pháp lý (an ninh mạng, quản lý nội dung), rủi ro hoạt động (sự cố hạ tầng, tích hợp hệ thống cũ) và rủi ro tài chính (biến động lãi suất và tỷ giá).",
       "section_id": "s6"
     },
     {
       "id": "p17",
-      "text": "Trong năm 2021, MobiFone đã triển khai chiến lược **tối ưu hóa dự phòng rủi ro tài chính** thông qua việc tái đánh giá và phân loại các khoản phải thu khó đòi, đặc biệt trong bối cảnh gia tăng khách hàng trả chậm do ảnh hưởng của đại dịch. Thay vì áp dụng tỷ lệ dự phòng cố định theo quy định chung, MobiFone đã xây dựng **mô hình dự phòng dựa trên dữ liệu hành vi khách hàng (behavior-based provisioning)**, tích hợp dữ liệu từ hệ thống CRM và AI phân tích lịch sử thanh toán, thời gian chậm trả, và mức độ tương tác dịch vụ. Kết quả: tỷ lệ dự phòng cho các khoản phải thu giảm từ 4,8% năm 2020 xuống còn **3,9% vào cuối năm 2021**, tương đương tiết kiệm **khoảng 187 tỷ đồng** trong chi phí dự phòng, đồng thời duy trì tỷ lệ thu hồi nợ ở mức 92,5% — cao hơn 3,2 điểm phần trăm so với năm trước.\n\nBên cạnh đó, MobiFone",
+      "text": "Để giảm thiểu rủi ro, MobiFone đã áp dụng các biện pháp: hedging chi phí vốn, hợp đồng bảo hiểm hiệu suất cho dịch vụ trọng yếu, nâng cấp hệ thống an ninh mạng, và áp dụng mô hình dự phòng công nợ dựa trên phân tích hành vi khách hàng.",
       "section_id": "s6"
     },
     {
       "id": "p18",
-      "text": "Để quản trị rủi ro trong bối cảnh cạnh tranh khốc liệt và thay đổi nhanh của thị trường viễn thông, MobiFone triển khai cơ chế giám sát liên tục các dịch vụ cốt lõi như 4G/5G và gói cước chuyển đổi số, đồng thời xây dựng kịch bản ứng phó khẩn cấp cho các sự cố mạng hoặc rò rỉ dữ liệu khách hàng. Bên cạnh đó, công ty tăng cường hợp tác với các đối tác công nghệ để kiểm tra độ an toàn của nền tảng số trước khi ra mắt, đảm bảo tính ổn định và bảo mật cho các sản phẩm như MobiFone Cloud hay ứng dụng My MobiFone.",
+      "text": "Cơ chế quản trị rủi ro bao gồm quy trình theo dõi KPI thời gian thực, kịch bản ứng phó sự cố, và ban chỉ đạo khủng hoảng liên phòng ban để đảm bảo phản ứng nhanh và phối hợp hiệu quả khi có sự cố lớn.",
       "section_id": "s6"
     },
     {
       "id": "p19",
-      "text": "Năm 2021, MobiFone đối mặt với rủi ro chính sách và pháp lý ngày càng phức tạp khi các quy định về an ninh mạng, bảo vệ dữ liệu người dùng và quản lý nội dung số được siết chặt thông qua Luật An ninh mạng và Nghị định 13/2021/NĐ-CP, buộc doanh nghiệp phải đầu tư mạnh vào hạ tầng tuân thủ – một gánh nặng chi phí không nhỏ đối với một nhà cung cấp dịch vụ vốn đang chịu áp lực giảm giá cước. Thách thức lớn nhất không nằm ở chi phí, mà ở tính không ổn định của khung pháp lý: các thông tư hướng dẫn còn mập mờ, đặc biệt trong việc phân định trách nhiệm giữa nhà cung cấp dịch vụ và nền tảng nội dung, khiến MobiFone phải liên tục điều chỉnh quy trình vận hành, thậm chí đối mặt nguy cơ bị xử phạt do hiểu sai quy định. Tuy nhiên, chính những rào cản này lại mở ra cơ hội chiến lược: khi các đối thủ nhỏ yếu không đủ năng lực đáp ứng, MobiFone – với vị thế doanh nghiệp nhà",
+      "text": "Khung pháp lý ngày càng chặt chẽ về bảo vệ dữ liệu và an ninh mạng đòi hỏi MobiFone tăng cường đầu tư tuân thủ; đồng thời đây là lợi thế cạnh tranh khi doanh nghiệp có thể chứng minh tiêu chuẩn tuân thủ cho khách hàng lớn và chính phủ.",
       "section_id": "s6"
     },
     {
       "id": "p20",
-      "text": "Năm 2021, MobiFone đẩy mạnh khai thác **thị trường mục tiêu mới** – nhóm khách hàng doanh nghiệp vừa và nhỏ (SMEs) và người dùng nông thôn, thông qua chiến lược “**Số hóa toàn diện cho SMEs**” và “**MobiFone Connect – Internet giá rẻ cho vùng sâu**”.  \n\nVề phía SMEs, MobiFone ra mắt gói dịch vụ **“MobiFone Business 360”** – tích hợp đồng thời 4 giải pháp: đường truyền internet cáp quang doanh nghiệp (tốc độ 100Mbps trở lên), SIM data không giới hạn, phần mềm quản lý bán hàng trực tuyến và dịch vụ bảo mật đám mây. Gói này được định giá chỉ từ 199.000đ/tháng, thấp hơn 30% so với đối thủ, và được triển khai tại 63 tỉnh thành thông qua mạng lưới 1.200 đại lý chuyên biệt. Kết quả: **hơn 210.000 doanh nghiệp SME** đăng ký dịch vụ trong năm, đóng góp **1",
+      "text": "Chiến lược 2022 tập trung vào: (1) mở rộng hạ tầng 5G theo vùng ưu tiên để tăng mật độ phủ sóng đô thị; (2) gia tăng tỷ trọng doanh thu từ dịch vụ số và B2B; (3) tối ưu chi phí vận hành bằng tự động hoá và AIOps; (4) phát triển hệ sinh thái đối tác để cung cấp giải pháp end-to-end cho SMEs.",
       "section_id": "s7"
     },
     {
       "id": "p21",
-      "text": "Năm 2021, MobiFone triển khai chiến lược tăng trưởng doanh thu và lợi nhuận dựa trên ba trụ cột hành động cụ thể, đo lường được: (1) **Tối ưu hóa cơ cấu doanh thu từ dịch vụ số** – đẩy mạnh bán gói cước 5G, dịch vụ OTT (FPT Play, Zing MP3) và giải pháp IoT cho doanh nghiệp, góp phần tăng doanh thu dịch vụ số lên 32% tổng doanh thu (tăng 5,2 điểm phần trăm so với 2020); (2) **Giảm chi phí vận hành thông qua tự động hóa** – áp dụng AI vào chăm sóc khách hàng (chatbot xử lý 68% yêu cầu thường gặp), giảm chi phí dịch vụ khách hàng 18% trong khi duy trì mức độ hài lòng ở 91,5%; (3) **Mở rộng thị phần qua phân khúc doanh nghiệp** – ký kết 1.200 hợp đồng B2B về giải pháp chuyển đổi số cho doanh nghiệp vừa và nhỏ, trong đó 45% là hợp đồng dài",
+      "text": "Mục tiêu tài chính cho 2022 bao gồm duy trì tăng trưởng doanh thu ở mức 6–9%, nâng tỷ trọng doanh thu dịch vụ số lên tối thiểu 30% tổng doanh thu và cải thiện ROE thông qua quản trị vốn hiệu quả; về mặt vận hành, đặt mục tiêu giảm thời gian trung bình khắc phục sự cố xuống dưới 4 phút với 80% lỗi được tự hồi phục.",
       "section_id": "s7"
     }
   ],
   "tables": [
     {
       "id": "t1",
-      "caption": "Bảng 1: Kết quả kinh doanh tổng hợp 2020-2021",
-      "col_headers": [
-        "Chỉ tiêu",
-        "Năm 2020",
-        "Năm 2021",
-        "Tăng trưởng (%)"
-      ],
-      "row_headers": [
-        "Tổng doanh thu",
-        "Lợi nhuận trước thuế",
-        "Lợi nhuận sau thuế"
-      ],
+      "caption": "Bảng 1: Kết quả tài chính chính 2020–2021",
+      "col_headers": ["Chỉ tiêu","Năm 2020","Năm 2021","Tăng trưởng (%)"],
+      "row_headers": ["Tổng doanh thu","Lợi nhuận trước thuế","Lợi nhuận sau thuế"],
       "cells": [
-        {
-          "row": 0,
-          "col": 1,
-          "value": "37,755 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 0,
-          "col": 2,
-          "value": "42,356 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 0,
-          "col": 3,
-          "value": "12.2%",
-          "is_header": false
-        },
-        {
-          "row": 1,
-          "col": 1,
-          "value": "4,784 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 1,
-          "col": 2,
-          "value": "4,782 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 1,
-          "col": 3,
-          "value": "-0.0%",
-          "is_header": false
-        },
-        {
-          "row": 2,
-          "col": 1,
-          "value": "4,061 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 2,
-          "col": 2,
-          "value": "4,064 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 2,
-          "col": 3,
-          "value": "0.1%",
-          "is_header": false
-        }
+        {"row":0,"col":1,"value":"37,755 tỷ","is_header":false},
+        {"row":0,"col":2,"value":"42,356 tỷ","is_header":false},
+        {"row":0,"col":3,"value":"12.2%","is_header":false},
+        {"row":1,"col":1,"value":"4,784 tỷ","is_header":false},
+        {"row":1,"col":2,"value":"4,782 tỷ","is_header":false},
+        {"row":1,"col":3,"value":"-0.0%","is_header":false},
+        {"row":2,"col":1,"value":"4,061 tỷ","is_header":false},
+        {"row":2,"col":2,"value":"4,064 tỷ","is_header":false},
+        {"row":2,"col":3,"value":"0.1%","is_header":false}
       ]
     },
     {
       "id": "t2",
-      "caption": "Bảng 2: Bảng cân đối kế toán tóm tắt",
-      "col_headers": [
-        "Khoản mục",
-        "Cuối năm 2020",
-        "Cuối năm 2021",
-        "Biến động (%)"
-      ],
-      "row_headers": [
-        "Tổng tài sản",
-        "Tài sản ngắn hạn",
-        "Tài sản dài hạn",
-        "Vốn chủ sở hữu",
-        "Nợ phải trả"
-      ],
+      "caption": "Bảng 2: Tình hình tài sản & nguồn vốn (tóm tắt)",
+      "col_headers": ["Khoản mục","Cuối năm 2020","Cuối năm 2021","Biến động (%)"],
+      "row_headers": ["Tổng tài sản","Tài sản ngắn hạn","Tài sản dài hạn","Vốn chủ sở hữu","Nợ phải trả"],
       "cells": [
-        {
-          "row": 0,
-          "col": 1,
-          "value": "115,144 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 0,
-          "col": 2,
-          "value": "126,256 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 0,
-          "col": 3,
-          "value": "9.7%",
-          "is_header": false
-        },
-        {
-          "row": 1,
-          "col": 1,
-          "value": "45,092 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 1,
-          "col": 2,
-          "value": "48,379 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 1,
-          "col": 3,
-          "value": "7.3%",
-          "is_header": false
-        },
-        {
-          "row": 2,
-          "col": 1,
-          "value": "70,052 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 2,
-          "col": 2,
-          "value": "77,877 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 2,
-          "col": 3,
-          "value": "11.2%",
-          "is_header": false
-        },
-        {
-          "row": 3,
-          "col": 1,
-          "value": "65,638 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 3,
-          "col": 2,
-          "value": "69,581 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 3,
-          "col": 3,
-          "value": "6.0%",
-          "is_header": false
-        },
-        {
-          "row": 4,
-          "col": 1,
-          "value": "49,506 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 4,
-          "col": 2,
-          "value": "56,675 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 4,
-          "col": 3,
-          "value": "14.5%",
-          "is_header": false
-        }
+        {"row":0,"col":1,"value":"115,144 tỷ","is_header":false},
+        {"row":0,"col":2,"value":"126,256 tỷ","is_header":false},
+        {"row":0,"col":3,"value":"9.7%","is_header":false},
+        {"row":1,"col":1,"value":"45,092 tỷ","is_header":false},
+        {"row":1,"col":2,"value":"48,379 tỷ","is_header":false},
+        {"row":1,"col":3,"value":"7.3%","is_header":false},
+        {"row":2,"col":1,"value":"70,052 tỷ","is_header":false},
+        {"row":2,"col":2,"value":"77,877 tỷ","is_header":false},
+        {"row":2,"col":3,"value":"11.2%","is_header":false},
+        {"row":3,"col":1,"value":"65,638 tỷ","is_header":false},
+        {"row":3,"col":2,"value":"69,581 tỷ","is_header":false},
+        {"row":3,"col":3,"value":"6.0%","is_header":false},
+        {"row":4,"col":1,"value":"49,506 tỷ","is_header":false},
+        {"row":4,"col":2,"value":"56,675 tỷ","is_header":false},
+        {"row":4,"col":3,"value":"14.5%","is_header":false}
       ]
     },
     {
       "id": "t3",
-      "caption": "Bảng 3: Kết quả kinh doanh tổng hợp 2020-2021",
-      "col_headers": [
-        "Chỉ tiêu",
-        "Năm 2020",
-        "Năm 2021",
-        "Tăng trưởng (%)"
-      ],
-      "row_headers": [
-        "Tổng doanh thu",
-        "Lợi nhuận trước thuế",
-        "Lợi nhuận sau thuế"
-      ],
+      "caption": "Bảng 3: Một số chỉ số hoạt động & hiệu quả 2020–2021",
+      "col_headers": ["Chỉ số","Năm 2020","Năm 2021","Thay đổi"],
+      "row_headers": ["Tỷ lệ chuyển dịch sang dịch vụ số (%)","Tỷ lệ giữ chân khách hàng (churn) (%)","Thời gian xử lý trung bình (phút)","Tỷ lệ tự khôi phục lỗi (%)"],
       "cells": [
-        {
-          "row": 0,
-          "col": 1,
-          "value": "70,951 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 0,
-          "col": 2,
-          "value": "75,173 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 0,
-          "col": 3,
-          "value": "6.0%",
-          "is_header": false
-        },
-        {
-          "row": 1,
-          "col": 1,
-          "value": "9,968 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 1,
-          "col": 2,
-          "value": "9,326 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 1,
-          "col": 3,
-          "value": "-6.4%",
-          "is_header": false
-        },
-        {
-          "row": 2,
-          "col": 1,
-          "value": "8,286 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 2,
-          "col": 2,
-          "value": "7,120 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 2,
-          "col": 3,
-          "value": "-14.1%",
-          "is_header": false
-        }
+        {"row":0,"col":1,"value":"24%","is_header":false},
+        {"row":0,"col":2,"value":"32%","is_header":false},
+        {"row":0,"col":3,"value":"+8pp","is_header":false},
+        {"row":1,"col":1,"value":"2.3%","is_header":false},
+        {"row":1,"col":2,"value":"1.8%","is_header":false},
+        {"row":1,"col":3,"value":"-0.5pp","is_header":false},
+        {"row":2,"col":1,"value":"22","is_header":false},
+        {"row":2,"col":2,"value":"5.8","is_header":false},
+        {"row":2,"col":3,"value":"-16.2","is_header":false},
+        {"row":3,"col":1,"value":"0%","is_header":false},
+        {"row":3,"col":2,"value":"73%","is_header":false},
+        {"row":3,"col":3,"value":"+73pp","is_header":false}
       ]
     },
     {
       "id": "t4",
-      "caption": "Bảng 4: Các chỉ số tài chính chủ yếu",
-      "col_headers": [
-        "Chỉ số",
-        "Năm 2020",
-        "Năm 2021",
-        "Thay đổi"
-      ],
-      "row_headers": [
-        "ROS (%)",
-        "ROA (%)",
-        "ROE (%)",
-        "Nợ/Vốn CSH"
-      ],
+      "caption": "Bảng 4: Dòng tiền và nguồn vốn ngắn hạn (tóm tắt)",
+      "col_headers": ["Chỉ tiêu","Năm 2020","Năm 2021","Ghi chú"],
+      "row_headers": ["Dòng tiền từ hoạt động (tỷ)","Dòng tiền đầu tư (tỷ)","Phát hành trái phiếu (tỷ)"],
       "cells": [
-        {
-          "row": 0,
-          "col": 1,
-          "value": "9.56%",
-          "is_header": false
-        },
-        {
-          "row": 0,
-          "col": 2,
-          "value": "11.19%",
-          "is_header": false
-        },
-        {
-          "row": 0,
-          "col": 3,
-          "value": "+1.63%",
-          "is_header": false
-        },
-        {
-          "row": 1,
-          "col": 1,
-          "value": "4.69%",
-          "is_header": false
-        },
-        {
-          "row": 1,
-          "col": 2,
-          "value": "4.24%",
-          "is_header": false
-        },
-        {
-          "row": 1,
-          "col": 3,
-          "value": "-0.46%",
-          "is_header": false
-        },
-        {
-          "row": 2,
-          "col": 1,
-          "value": "6.43%",
-          "is_header": false
-        },
-        {
-          "row": 2,
-          "col": 2,
-          "value": "7.99%",
-          "is_header": false
-        },
-        {
-          "row": 2,
-          "col": 3,
-          "value": "+1.56%",
-          "is_header": false
-        },
-        {
-          "row": 3,
-          "col": 1,
-          "value": "0.50",
-          "is_header": false
-        },
-        {
-          "row": 3,
-          "col": 2,
-          "value": "0.48",
-          "is_header": false
-        },
-        {
-          "row": 3,
-          "col": 3,
-          "value": "-0.02",
-          "is_header": false
-        }
+        {"row":0,"col":1,"value":"5,200","is_header":false},
+        {"row":0,"col":2,"value":"6,000","is_header":false},
+        {"row":0,"col":3,"value":"Tăng thu từ dịch vụ số","is_header":false},
+        {"row":1,"col":1,"value":"-3,100","is_header":false},
+        {"row":1,"col":2,"value":"-4,200","is_header":false},
+        {"row":1,"col":3,"value":"Đầu tư hạ tầng 4G/5G","is_header":false},
+        {"row":2,"col":1,"value":"0","is_header":false},
+        {"row":2,"col":2,"value":"2,500","is_header":false},
+        {"row":2,"col":3,"value":"Trái phiếu 5 năm","is_header":false}
       ]
     },
     {
       "id": "t5",
-      "caption": "Bảng 5: Cơ cấu doanh thu năm 2021",
-      "col_headers": [
-        "Loại dịch vụ",
-        "Doanh thu (tỷ đồng)",
-        "Tỷ trọng (%)"
-      ],
-      "row_headers": [
-        "Internet băng rộng",
-        "Viễn thông di động",
-        "Dịch vụ khác",
-        "Giải pháp CNTT"
-      ],
+      "caption": "Bảng 5: Biện pháp quản lý rủi ro chính",
+      "col_headers": ["Rủi ro","Biện pháp","Ưu tiên"],
+      "row_headers": ["Rủi ro thị trường","Rủi ro pháp lý & tuân thủ","Rủi ro vận hành"],
       "cells": [
-        {
-          "row": 0,
-          "col": 1,
-          "value": "8,379",
-          "is_header": false
-        },
-        {
-          "row": 0,
-          "col": 2,
-          "value": "26.1%",
-          "is_header": false
-        },
-        {
-          "row": 1,
-          "col": 1,
-          "value": "1,963",
-          "is_header": false
-        },
-        {
-          "row": 1,
-          "col": 2,
-          "value": "6.1%",
-          "is_header": false
-        },
-        {
-          "row": 2,
-          "col": 1,
-          "value": "5,127",
-          "is_header": false
-        },
-        {
-          "row": 2,
-          "col": 2,
-          "value": "16.0%",
-          "is_header": false
-        },
-        {
-          "row": 3,
-          "col": 1,
-          "value": "9,285",
-          "is_header": false
-        },
-        {
-          "row": 3,
-          "col": 2,
-          "value": "28.9%",
-          "is_header": false
-        }
+        {"row":0,"col":1,"value":"Cạnh tranh, áp lực giá","is_header":false},
+        {"row":0,"col":2,"value":"Đa dạng hóa sản phẩm, hợp tác chiến lược","is_header":false},
+        {"row":0,"col":3,"value":"Cao","is_header":false},
+        {"row":1,"col":1,"value":"Quy định an ninh mạng, dữ liệu","is_header":false},
+        {"row":1,"col":2,"value":"Tăng cường tuân thủ, đầu tư an ninh mạng","is_header":false},
+        {"row":1,"col":3,"value":"Cao","is_header":false},
+        {"row":2,"col":1,"value":"Sự cố hạ tầng, tích hợp legacy","is_header":false},
+        {"row":2,"col":2,"value":"AIOps, bảo trì dự phòng, kịch bản khôi phục","is_header":false},
+        {"row":2,"col":3,"value":"Trung bình","is_header":false}
       ]
     }
   ]

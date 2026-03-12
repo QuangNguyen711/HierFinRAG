@@ -1,395 +1,164 @@
 {
-  "id": "doc_mobifone_2020_012",
-  "title": "Báo Cáo Tài Chính MobiFone 2020",
+  "id": "doc_digital_transformation_2020_012",
+  "title": "Báo Cáo Phân Tích Chuyển Đổi Số Doanh Nghiệp 2020",
   "sections": [
     {
       "id": "s1",
-      "title": "Tổng Quan Hoạt Động Kinh Doanh",
+      "title": "Tổng Quan Về Chuyển Đổi Số Doanh Nghiệp",
       "level": 1,
-      "content_ids": [
-        "p1",
-        "p2",
-        "t1",
-        "p3",
-        "p4"
-      ]
+      "content_ids": ["p1","p2","t1","p3","p4"]
     },
     {
       "id": "s2",
-      "title": "Kết Quả Kinh Doanh Và Lợi Nhuận",
+      "title": "Hiệu Quả Ứng Dụng Công Nghệ Trong Doanh Nghiệp",
       "level": 1,
-      "content_ids": [
-        "p5",
-        "p6",
-        "p7"
-      ]
+      "content_ids": ["p5","p6","p7"]
     },
     {
       "id": "s3",
-      "title": "Tình Hình Tài Sản Và Nợ Phải Trả",
+      "title": "Hạ Tầng Công Nghệ Và Nguồn Lực Dữ Liệu",
       "level": 1,
-      "content_ids": [
-        "p8",
-        "p9",
-        "t2"
-      ]
+      "content_ids": ["p8","p9","t2"]
     },
     {
       "id": "s4",
-      "title": "Phân Tích Hiệu Quả Tài Chính",
+      "title": "Đánh Giá Hiệu Suất Hoạt Động Sau Chuyển Đổi",
       "level": 1,
-      "content_ids": [
-        "p10",
-        "p11",
-        "t3"
-      ]
+      "content_ids": ["p10","p11","t3"]
     },
     {
       "id": "s5",
-      "title": "Chiến Lược Và Định Hướng Phát Triển",
+      "title": "Xu Hướng Và Định Hướng Chuyển Đổi Số Tương Lai",
       "level": 1,
-      "content_ids": [
-        "p12",
-        "p13"
-      ]
+      "content_ids": ["p12","p13"]
     }
   ],
   "paragraphs": [
     {
       "id": "p1",
-      "text": "Năm 2020, trong bối cảnh thị trường viễn thông Việt Nam chứng kiến cuộc cạnh tranh khốc liệt giữa Viettel, Vinaphone và các nhà cung cấp dịch vụ mới nổi, MobiFone đã triển khai một loạt hành động chiến lược nhằm củng cố vị thế thị trường và giành lại phân khúc khách hàng trung lưu – nhóm có tiềm năng chi tiêu cao nhưng dễ bị “rỉ máu” do giá rẻ. Thay vì chạy theo giảm giá toàn diện, MobiFone tập trung vào **“chiến dịch 4T: Tăng tốc – Tinh gọn – Tích hợp – Thấu hiểu”**, với ba sáng kiến đo lường được:\n\n1. **Tích hợp gói cước “MobiFone 5G Ready” kèm ưu đãi data không giới hạn cho khách hàng sử dụng thiết bị 4G trở lên** – không phải là khuyến mãi ngắn hạn, mà là bước chuẩn bị hạ tầng và định hướng hành vi người dùng. Kết quả: 2,1 triệu khách hàng chuyển lên gói data cao cấp (tăng 47% so với 2019), đóng",
+      "text": "Năm 2020 đánh dấu bước ngoặt quan trọng khi nhiều doanh nghiệp bắt đầu đẩy nhanh quá trình chuyển đổi số nhằm thích nghi với môi trường kinh doanh biến động. Thay vì chỉ đầu tư vào phần mềm quản lý cơ bản, các tổ chức bắt đầu xây dựng hệ sinh thái công nghệ bao gồm điện toán đám mây, phân tích dữ liệu lớn và nền tảng tự động hóa quy trình. Những thay đổi này không chỉ giúp tối ưu hóa chi phí vận hành mà còn mở ra cơ hội cải thiện trải nghiệm khách hàng và nâng cao khả năng ra quyết định dựa trên dữ liệu.",
       "section_id": "s1"
     },
     {
       "id": "p2",
-      "text": "Năm 2020, MobiFone triển khai chiến lược mở rộng thị trường và khách hàng bằng các hành động cụ thể, có tính đột phá thay vì chỉ tăng ngân sách quảng cáo. Đầu tiên, công ty chủ động “đi sâu vào thị trường nông thôn và vùng sâu” bằng cách ra mắt gói cước **“MobiFone 4G - Giá 0 đồng”** dành riêng cho người dùng có thu nhập thấp, tích hợp 10GB data + 500 phút gọi trong 30 ngày, chỉ 10.000 đồng/tháng – mức giá thấp nhất thị trường tại thời điểm đó, kèm theo việc triển khai 1.200 điểm bán di động lưu động tại các chợ vùng cao, trạm xe buýt nông thôn và trường học, giúp tiếp cận 3,2 triệu khách hàng mới chỉ trong 6 tháng đầu năm.  \n\nSong song đó, MobiFone không chỉ bán dịch vụ mà còn **biến SIM thành “cánh cửa số”** bằng cách tích hợp sẵn ứng dụng **MobiFone eKYC** và **dịch vụ thanh toán",
+      "text": "Các doanh nghiệp tiên phong đã triển khai chiến lược số hóa toàn diện, từ quản lý chuỗi cung ứng đến dịch vụ khách hàng trực tuyến. Điều này cho phép họ phản ứng nhanh hơn trước biến động thị trường, đồng thời giảm sự phụ thuộc vào các quy trình thủ công truyền thống.",
       "section_id": "s1"
     },
     {
       "id": "p3",
-      "text": "Năm 2020, MobiFone không chỉ đơn thuần triển khai chuyển đổi số như một chiến dịch công nghệ, mà tiến hành một cuộc tái cấu trúc hệ sinh thái toàn diện – nơi mà AI, Big Data và nền tảng điện tử mở trở thành trục xương sống của mọi dịch vụ. Thách thức lớn nhất không nằm ở hạ tầng, mà ở văn hóa tổ chức: hàng ngàn nhân viên truyền thống phải chuyển từ tư duy bán sim, hỗ trợ kỹ thuật sang vai trò “kết nối trải nghiệm” – một quá trình đầy rẫy kháng cự, thiếu kỹ năng và lo ngại về thất nghiệp. Song song đó, áp lực cạnh tranh từ các “gã khổng lồ” công nghệ như Viettel và Vinaphone, vốn đã đầu tư mạnh vào nền tảng số và dịch vụ đa phương tiện, khiến MobiFone buộc phải rút ngắn chu kỳ đổi mới từ 18 tháng xuống còn 6 tháng – một cú nhảy vọt đầy rủi ro. Nhưng chính trong bối cảnh ấy, cơ hội mới nở rộ: thông qua phân tích hành vi khách hàng dựa trên dữ liệu thời g",
+      "text": "Bên cạnh cơ hội, quá trình chuyển đổi số cũng đặt ra nhiều thách thức như chi phí đầu tư ban đầu cao, thiếu nhân lực công nghệ và rủi ro về bảo mật dữ liệu. Tuy nhiên, các tổ chức áp dụng chiến lược triển khai từng bước đã chứng minh rằng lợi ích dài hạn có thể vượt xa chi phí ban đầu.",
       "section_id": "s1"
     },
     {
       "id": "p4",
-      "text": "Năm 2020, MobiFone triển khai chiến lược kinh doanh tổng thể lấy “chuyển đổi số làm trung tâm” và “tối ưu hóa trải nghiệm khách hàng” làm nền tảng, với những hành động cụ thể và đo lường được. Đầu tiên, công ty đẩy mạnh phát triển nền tảng số hóa dịch vụ, triển khai thành công ứng dụng MobiFone App phiên bản 4.0 – tích hợp AI chatbot, thanh toán không tiền mặt và đăng ký dịch vụ chỉ trong 90 giây, giúp giảm 35% thời gian xử lý yêu cầu khách hàng và tăng tỷ lệ giữ chân khách hàng (churn rate) xuống còn 1,8% từ 2,3% năm 2019. Đồng thời, MobiFone mở rộng hệ sinh thái dịch vụ số bằng cách hợp tác với 12 đối tác công nghệ (như Zalo, VNPay, FPT Play) để cung cấp gói “Dữ liệu + Nội dung” với giá trị gia tăng, giúp doanh thu từ dịch vụ số tăng 47% so với năm trước, đóng góp",
+      "text": "Một yếu tố quan trọng khác là thay đổi văn hóa tổ chức. Khi nhân viên được đào tạo để sử dụng công cụ số và làm việc dựa trên dữ liệu, năng suất lao động được cải thiện đáng kể và khả năng hợp tác giữa các phòng ban cũng trở nên hiệu quả hơn.",
       "section_id": "s1"
     },
     {
       "id": "p5",
-      "text": "Năm 2020, trong bối cảnh thị trường viễn thông Việt Nam chứng kiến sự gia tăng cạnh tranh khốc liệt từ Viettel và VNPT – đặc biệt trong phân khúc 4G, dịch vụ Internet cố định và gói cước giá rẻ – MobiFone đã triển khai một loạt hành động chiến lược mang tính đột phá, nhằm củng cố vị thế thị trường và khai thác điểm yếu của đối thủ.\n\nTrước hết, MobiFone triển khai chiến dịch “**MobiFone – Kết nối không giới hạn**” với việc **tăng gấp đôi tốc độ mạng 4G tại 12 thành phố lớn** (bao gồm Hà Nội, TP.HCM, Đà Nẵng, Hải Phòng, Cần Thơ…) và **mở rộng phủ sóng 4G lên 98% dân số** – cao hơn 5% so với Viettel và 7% so với VNPT tại các khu vực đô thị trọng điểm. Kết quả: tỷ lệ người dùng duy trì kết nối 4G trên mạng MobiFone tăng 22% trong quý IV/2020, đồng thời giảm 18",
+      "text": "Việc ứng dụng các nền tảng công nghệ như ERP, CRM và hệ thống quản lý dữ liệu tập trung đã giúp nhiều doanh nghiệp nâng cao hiệu quả vận hành. Các quy trình trước đây mất nhiều ngày xử lý có thể được rút ngắn xuống chỉ còn vài giờ nhờ tự động hóa.",
       "section_id": "s2"
     },
     {
       "id": "p6",
-      "text": "Năm 2020, doanh thu của MobiFone ghi nhận sự tăng trưởng ổn định trong bối cảnh đại dịch Covid-19 làm thay đổi căn bản hành vi tiêu dùng, khi người dùng chuyển mạnh sang các dịch vụ số như streaming, học trực tuyến và thanh toán điện tử – một cơ hội vàng để MobiFone mở rộng nền tảng chuyển đổi số của mình. Tuy nhiên, áp lực cạnh tranh từ Viettel và VNPT không chỉ đến từ giá cước mà còn từ khả năng tích hợp dịch vụ đa nền tảng, khiến thị phần di động của MobiFone gặp khó trong việc duy trì đà tăng trưởng tại phân khúc đại chúng. Đặc biệt, doanh thu từ dịch vụ thoại truyền thống tiếp tục sụt giảm, phản ánh sự chuyển dịch không thể đảo ngược của thị trường. Thách thức lớn nhất không nằm ở hạ tầng mà ở khả năng tái định vị thương hiệu: MobiFone cần thoát khỏi hình ảnh “nhà mạng di động” để trở thành “đối tác chuyển đổi số” cho doanh nghiệp và hộ gia đình. Giải pháp then chốt nằm ở việc đẩy mạnh các",
+      "text": "Ngoài ra, việc tích hợp phân tích dữ liệu vào hoạt động kinh doanh cho phép doanh nghiệp hiểu rõ hơn hành vi khách hàng. Thông tin này được sử dụng để tối ưu chiến lược marketing, cải thiện sản phẩm và cá nhân hóa dịch vụ.",
       "section_id": "s2"
     },
     {
       "id": "p7",
-      "text": "Năm 2020, MobiFone ra mắt dịch vụ MobiFone 5G – nền tảng viễn thông tiên phong tại Việt Nam, tích hợp tốc độ cao, độ trễ thấp và khả năng kết nối thiết bị IoT quy mô lớn, góp phần thúc đẩy chuyển đổi số doanh nghiệp. Dịch vụ này không chỉ giúp tăng trưởng doanh thu lên 33,349 tỷ đồng (+14%) mà còn nâng biên lợi nhuận lên 13,31%, khẳng định vị thế dẫn đầu trong cung cấp giải pháp hạ tầng viễn thông thông minh.",
+      "text": "Một số doanh nghiệp còn triển khai trí tuệ nhân tạo nhằm dự báo nhu cầu thị trường, từ đó điều chỉnh sản xuất và tồn kho phù hợp. Điều này góp phần giảm lãng phí tài nguyên và nâng cao khả năng cạnh tranh.",
       "section_id": "s2"
     },
     {
       "id": "p8",
-      "text": "Năm 2020, MobiFone ghi nhận sự tăng trưởng ấn tượng về doanh thu (14% lên 33.349 tỷ đồng) và lợi nhuận (13.9% lên 4.439 tỷ đồng), phản ánh hiệu quả trong chuyển đổi số và mở rộng dịch vụ viễn thông; tuy nhiên, đằng sau con số lạc quan này là áp lực đáng kể lên cơ cấu vốn và khả năng thanh toán ngắn hạn. Tỷ lệ nợ trên vốn chủ sở hữu (D/E) của MobiFone năm 2020 ước tính ở mức khoảng 1.2 – cao hơn ngưỡng an toàn trung bình ngành (dưới 1.0), cho thấy sự phụ thuộc gia tăng vào nguồn vốn vay để đầu tư hạ tầng 4G/5G và nền tảng số. Điều này đặt ra thách thức lớn về dòng tiền hoạt động, khi chi phí lãi vay tăng đồng thời thu nhập từ dịch vụ truyền thống bị chững lại do cạnh tranh khốc liệt từ Viettel và VNPT. Song song đó, tỷ lệ thanh toán hiện hành (",
+      "text": "Hạ tầng công nghệ đóng vai trò then chốt trong quá trình chuyển đổi số. Nhiều tổ chức đã chuyển dịch hệ thống dữ liệu sang nền tảng điện toán đám mây nhằm tăng tính linh hoạt và khả năng mở rộng.",
       "section_id": "s3"
     },
     {
       "id": "p9",
-      "text": "Năm 2020, cơ cấu tài sản của MobiFone thể hiện sự chuyển dịch rõ rệt từ tài sản cố định truyền thống (như trạm gốc, hạ tầng viễn thông) sang tài sản ngắn hạn và tài sản có tính thanh khoản cao, phản ánh chiến lược tối ưu hóa dòng tiền trong bối cảnh chuyển đổi số gia tăng. Tỷ trọng tài sản lưu động chiếm hơn 58% tổng tài sản, tăng 5,2 điểm phần trăm so với năm 2019, chủ yếu nhờ vào sự gia tăng nhanh chóng của các khoản phải thu từ dịch vụ số và tiền mặt từ các sản phẩm mới như MobiFone Pay, FPT Play Box và giải pháp IoT doanh nghiệp – minh chứng cho sự thành công trong đa dạng hóa nguồn thu. Tuy nhiên, thách thức lớn nhất nằm ở việc gia tăng rủi ro thanh khoản ngắn hạn do sự phụ thuộc vào các khoản phải thu từ đối tác B2B, đặc biệt khi thời gian thu hồi trung bình tăng lên 78 ngày (từ 65 ngày năm 2019), gây áp lực lên",
+      "text": "Song song với đó, doanh nghiệp cũng phải xây dựng chiến lược quản trị dữ liệu hiệu quả để đảm bảo thông tin được lưu trữ, phân tích và khai thác một cách an toàn và có hệ thống.",
       "section_id": "s3"
     },
     {
       "id": "p10",
-      "text": "Năm 2020, MobiFone ghi nhận doanh thu đạt 33.349 tỷ đồng, tăng 14% so với năm trước, vượt xa mức trung bình ngành viễn thông di động khoảng 8–10%, cho thấy khả năng khai thác thị phần và tối ưu hóa dịch vụ chuyển đổi số vượt trội. Biên lợi nhuận 13,31% cũng cao hơn mức trung bình ngành (khoảng 10–11%), phản ánh hiệu quả chi phí và chiến lược tập trung vào các sản phẩm giá trị cao như 4G/5G, IoT và giải pháp số doanh nghiệp. Tuy nhiên, thách thức không nhỏ đến từ áp lực cạnh tranh khốc liệt từ Viettel và VinaPhone – đặc biệt khi Viettel đầu tư mạnh vào hạ tầng 5G và dịch vụ tích hợp, khiến biên lợi nhuận của MobiFone có nguy cơ bị thu hẹp nếu không đẩy nhanh chuyển đổi số trong bán hàng và chăm sóc khách hàng. Đồng thời, chi phí duy trì mạng lưới và chi phí phổ cập dịch vụ tại vùng sâu",
+      "text": "Sau khi triển khai các giải pháp chuyển đổi số, nhiều doanh nghiệp ghi nhận sự cải thiện rõ rệt về hiệu suất hoạt động. Thời gian xử lý đơn hàng, tốc độ phản hồi khách hàng và khả năng quản lý tồn kho đều được nâng cao.",
       "section_id": "s4"
     },
     {
       "id": "p11",
-      "text": "Năm 2020, MobiFone thực hiện chiến lược tối ưu hóa cấu trúc vốn và đòn bẩy tài chính thông qua ba hành động cụ thể, có đo lường rõ ràng. Thứ nhất, công ty phát hành thành công trái phiếu doanh nghiệp trị giá 2.500 tỷ đồng với kỳ hạn 5 năm, lãi suất cố định 6,8%/năm – thấp hơn mức trung bình thị trường 7,5%, giúp giảm chi phí vốn trung bình (WACC) từ 7,2% xuống còn 6,5%. Thứ hai, MobiFone chủ động tái cơ cấu nợ ngắn hạn bằng cách chuyển 1.800 tỷ đồng nợ ngắn hạn sang trung hạn, giảm tỷ lệ nợ ngắn hạn trên tổng nợ từ 42% xuống còn 28%, qua đó cải thiện khả năng thanh toán và giảm rủi ro thanh khoản. Thứ ba, công ty tăng cường sử dụng vốn tự có để đầu tư vào hạ tầng 4G/5G và nền tảng chuyển đổi số (như MobiFone Cloud và dịch vụ số hóa doanh nghiệp), thay vì",
+      "text": "Ngoài hiệu quả vận hành, chuyển đổi số còn giúp doanh nghiệp xây dựng mô hình kinh doanh mới dựa trên dữ liệu và dịch vụ trực tuyến, từ đó mở rộng nguồn doanh thu và tăng khả năng thích nghi với biến động kinh tế.",
       "section_id": "s4"
     },
     {
       "id": "p12",
-      "text": "MobiFone năm 2020 đẩy mạnh tái cấu trúc danh mục dịch vụ bằng cách mở rộng các gói cước thông minh tích hợp 4G/5G, internet gia đình và nền tảng chuyển đổi số như MobiFone Cloud và MobiFone TV, nhằm đáp ứng nhu cầu đa dạng của người dùng cá nhân lẫn doanh nghiệp. Song song, công ty triển khai các dịch vụ giá trị gia tăng mang tính cá nhân hóa cao – như gói nội dung giải trí theo sở thích hoặc gói cước tối ưu cho học trực tuyến – nhằm nâng cao trải nghiệm và gắn kết khách hàng trong bối cảnh cạnh tranh khốc liệt từ các đối thủ truyền thống và OTT.",
+      "text": "Trong những năm tiếp theo, xu hướng chuyển đổi số dự kiến sẽ tiếp tục tăng tốc khi các công nghệ như AI, blockchain và Internet of Things ngày càng phổ biến trong môi trường doanh nghiệp.",
       "section_id": "s5"
     },
     {
       "id": "p13",
-      "text": "Năm 2020, MobiFone triển khai kế hoạch đầu tư và mở rộng mạnh mẽ nhằm củng cố vị thế dẫn đầu trong thị trường viễn thông và thúc đẩy chuyển đổi số, với tổng chi tiêu đầu tư tập trung vào hạ tầng 4G/5G, nền tảng kỹ thuật số và mở rộng dịch vụ cho doanh nghiệp. Dù doanh thu tăng 14% lên 33,349 tỷ đồng và lợi nhuận đạt 4,439 tỷ đồng (tăng 14% so với năm trước), biên lợi nhuận 13,31% cho thấy áp lực cạnh tranh ngày càng gia tăng từ Viettel và VinaPhone, đặc biệt trong phân khúc giá rẻ và dịch vụ OTT. Thách thức lớn nhất nằm ở chi phí triển khai mạng 5G – dự kiến chiếm hơn 30% ngân sách đầu tư – trong bối cảnh lợi nhuận tăng chậm và quy định về chia sẻ hạ tầng đang siết chặt. Tuy nhiên, cơ hội to lớn xuất hiện từ nhu cầu số hóa của 16 triệu doanh nghiệp nhỏ và vừa tại Việt Nam, cùng với",
+      "text": "Các doanh nghiệp cần xây dựng chiến lược dài hạn kết hợp đầu tư công nghệ với đào tạo nhân lực, nhằm đảm bảo quá trình chuyển đổi diễn ra bền vững và mang lại giá trị thực sự cho tổ chức.",
       "section_id": "s5"
     }
   ],
   "tables": [
     {
       "id": "t1",
-      "caption": "Bảng 1: Kết quả kinh doanh tổng hợp 2019-2020",
-      "col_headers": [
-        "Chỉ tiêu",
-        "Năm 2019",
-        "Năm 2020",
-        "Tăng trưởng (%)"
-      ],
-      "row_headers": [
-        "Tổng doanh thu",
-        "Lợi nhuận trước thuế",
-        "Lợi nhuận sau thuế"
-      ],
+      "caption": "Bảng 1: Mức độ áp dụng công nghệ số trong doanh nghiệp",
+      "col_headers": ["Công nghệ","2019","2020","Tăng trưởng (%)"],
+      "row_headers": ["Điện toán đám mây","Phân tích dữ liệu","Tự động hóa quy trình"],
       "cells": [
-        {
-          "row": 0,
-          "col": 1,
-          "value": "44,887 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 0,
-          "col": 2,
-          "value": "47,997 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 0,
-          "col": 3,
-          "value": "6.9%",
-          "is_header": false
-        },
-        {
-          "row": 1,
-          "col": 1,
-          "value": "6,724 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 1,
-          "col": 2,
-          "value": "6,079 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 1,
-          "col": 3,
-          "value": "-9.6%",
-          "is_header": false
-        },
-        {
-          "row": 2,
-          "col": 1,
-          "value": "5,512 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 2,
-          "col": 2,
-          "value": "4,724 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 2,
-          "col": 3,
-          "value": "-14.3%",
-          "is_header": false
-        }
+        {"row":0,"col":1,"value":"38%","is_header":false},
+        {"row":0,"col":2,"value":"52%","is_header":false},
+        {"row":0,"col":3,"value":"14%","is_header":false},
+        {"row":1,"col":1,"value":"25%","is_header":false},
+        {"row":1,"col":2,"value":"37%","is_header":false},
+        {"row":1,"col":3,"value":"12%","is_header":false},
+        {"row":2,"col":1,"value":"41%","is_header":false},
+        {"row":2,"col":2,"value":"58%","is_header":false},
+        {"row":2,"col":3,"value":"17%","is_header":false}
       ]
     },
     {
       "id": "t2",
-      "caption": "Bảng 2: Bảng cân đối kế toán tóm tắt",
-      "col_headers": [
-        "Khoản mục",
-        "Cuối năm 2019",
-        "Cuối năm 2020",
-        "Biến động (%)"
-      ],
-      "row_headers": [
-        "Tổng tài sản",
-        "Tài sản ngắn hạn",
-        "Tài sản dài hạn",
-        "Vốn chủ sở hữu",
-        "Nợ phải trả"
-      ],
+      "caption": "Bảng 2: Cơ cấu hạ tầng công nghệ thông tin",
+      "col_headers": ["Hạng mục","2019","2020","Biến động (%)"],
+      "row_headers": ["Hệ thống máy chủ","Lưu trữ dữ liệu","Nền tảng đám mây","Hạ tầng mạng","Bảo mật"],
       "cells": [
-        {
-          "row": 0,
-          "col": 1,
-          "value": "74,461 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 0,
-          "col": 2,
-          "value": "79,434 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 0,
-          "col": 3,
-          "value": "6.7%",
-          "is_header": false
-        },
-        {
-          "row": 1,
-          "col": 1,
-          "value": "29,396 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 1,
-          "col": 2,
-          "value": "25,083 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 1,
-          "col": 3,
-          "value": "-14.7%",
-          "is_header": false
-        },
-        {
-          "row": 2,
-          "col": 1,
-          "value": "45,065 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 2,
-          "col": 2,
-          "value": "54,351 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 2,
-          "col": 3,
-          "value": "20.6%",
-          "is_header": false
-        },
-        {
-          "row": 3,
-          "col": 1,
-          "value": "47,002 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 3,
-          "col": 2,
-          "value": "45,260 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 3,
-          "col": 3,
-          "value": "-3.7%",
-          "is_header": false
-        },
-        {
-          "row": 4,
-          "col": 1,
-          "value": "27,459 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 4,
-          "col": 2,
-          "value": "34,174 tỷ",
-          "is_header": false
-        },
-        {
-          "row": 4,
-          "col": 3,
-          "value": "24.5%",
-          "is_header": false
-        }
+        {"row":0,"col":1,"value":"22%","is_header":false},
+        {"row":0,"col":2,"value":"19%","is_header":false},
+        {"row":0,"col":3,"value":"-3%","is_header":false},
+        {"row":1,"col":1,"value":"18%","is_header":false},
+        {"row":1,"col":2,"value":"21%","is_header":false},
+        {"row":1,"col":3,"value":"3%","is_header":false},
+        {"row":2,"col":1,"value":"16%","is_header":false},
+        {"row":2,"col":2,"value":"24%","is_header":false},
+        {"row":2,"col":3,"value":"8%","is_header":false},
+        {"row":3,"col":1,"value":"27%","is_header":false},
+        {"row":3,"col":2,"value":"25%","is_header":false},
+        {"row":3,"col":3,"value":"-2%","is_header":false},
+        {"row":4,"col":1,"value":"17%","is_header":false},
+        {"row":4,"col":2,"value":"19%","is_header":false},
+        {"row":4,"col":3,"value":"2%","is_header":false}
       ]
     },
     {
       "id": "t3",
-      "caption": "Bảng 3: Các chỉ số tài chính chủ yếu",
-      "col_headers": [
-        "Chỉ số",
-        "Năm 2019",
-        "Năm 2020",
-        "Thay đổi"
-      ],
-      "row_headers": [
-        "ROS (%)",
-        "ROA (%)",
-        "ROE (%)",
-        "Nợ/Vốn CSH"
-      ],
+      "caption": "Bảng 3: Chỉ số hiệu quả sau chuyển đổi số",
+      "col_headers": ["Chỉ số","2019","2020","Thay đổi"],
+      "row_headers": ["Năng suất lao động","Tốc độ xử lý đơn hàng","Tỷ lệ hài lòng khách hàng","Hiệu quả vận hành"],
       "cells": [
-        {
-          "row": 0,
-          "col": 1,
-          "value": "7.52%",
-          "is_header": false
-        },
-        {
-          "row": 0,
-          "col": 2,
-          "value": "6.81%",
-          "is_header": false
-        },
-        {
-          "row": 0,
-          "col": 3,
-          "value": "-0.72%",
-          "is_header": false
-        },
-        {
-          "row": 1,
-          "col": 1,
-          "value": "3.57%",
-          "is_header": false
-        },
-        {
-          "row": 1,
-          "col": 2,
-          "value": "3.89%",
-          "is_header": false
-        },
-        {
-          "row": 1,
-          "col": 3,
-          "value": "+0.32%",
-          "is_header": false
-        },
-        {
-          "row": 2,
-          "col": 1,
-          "value": "6.73%",
-          "is_header": false
-        },
-        {
-          "row": 2,
-          "col": 2,
-          "value": "7.83%",
-          "is_header": false
-        },
-        {
-          "row": 2,
-          "col": 3,
-          "value": "+1.10%",
-          "is_header": false
-        },
-        {
-          "row": 3,
-          "col": 1,
-          "value": "0.67",
-          "is_header": false
-        },
-        {
-          "row": 3,
-          "col": 2,
-          "value": "0.71",
-          "is_header": false
-        },
-        {
-          "row": 3,
-          "col": 3,
-          "value": "+0.03",
-          "is_header": false
-        }
+        {"row":0,"col":1,"value":"72","is_header":false},
+        {"row":0,"col":2,"value":"81","is_header":false},
+        {"row":0,"col":3,"value":"+9","is_header":false},
+        {"row":1,"col":1,"value":"65","is_header":false},
+        {"row":1,"col":2,"value":"79","is_header":false},
+        {"row":1,"col":3,"value":"+14","is_header":false},
+        {"row":2,"col":1,"value":"74","is_header":false},
+        {"row":2,"col":2,"value":"83","is_header":false},
+        {"row":2,"col":3,"value":"+9","is_header":false},
+        {"row":3,"col":1,"value":"68","is_header":false},
+        {"row":3,"col":2,"value":"80","is_header":false},
+        {"row":3,"col":3,"value":"+12","is_header":false}
       ]
     }
   ]

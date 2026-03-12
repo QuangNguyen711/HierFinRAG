@@ -66,21 +66,21 @@ class QueryPattern:
     # Query types and their characteristics
     PATTERNS = {
         'specific_value': {
-            'description': 'Query about specific values requiring multiple cells',
+            'description': 'Query about specific values requiring 1 or multiple cells',
             'node_types': ['Cell'],
-            'num_nodes': (3, 5),  # Need multiple cells to calculate/compare
+            'num_nodes': (1, 3),  # Need 1 or multiple cells to calculate/compare
             'weight': 0.25
         },
         'descriptive': {
-            'description': 'Query about content requiring multiple paragraphs',
+            'description': 'Query about content requiring 1 or multiple paragraphs',
             'node_types': ['Paragraph'],
-            'num_nodes': (3, 5),  # Need multiple paragraphs for comprehensive answer
+            'num_nodes': (1, 3),  # Need multiple paragraphs for comprehensive answer
             'weight': 0.20
         },
         'comparison': {
             'description': 'Compare multiple values across many cells',
             'node_types': ['Cell'],
-            'num_nodes': (4, 7),  # Compare across multiple metrics/years
+            'num_nodes': (2, 4),  # Compare across multiple metrics/years
             'weight': 0.20
         },
         'mixed': {
@@ -92,7 +92,7 @@ class QueryPattern:
         'summary': {
             'description': 'Synthesize multiple paragraphs',
             'node_types': ['Paragraph'],
-            'num_nodes': (3, 5),  # Need multiple paragraphs to summarize comprehensively
+            'num_nodes': (2, 4),  # Need multiple paragraphs to summarize comprehensively
             'weight': 0.15
         }
     }
@@ -357,11 +357,11 @@ class TrainingDataGenerator:
         """
         # Build pattern-specific instruction
         pattern_instructions = {
-            'specific_value': "Tạo câu hỏi cần tính toán/tổng hợp NHIỀU giá trị số. VD: 'Tổng X và Y là bao nhiêu?', 'Tính tỷ lệ giữa A, B và C?', 'So sánh các chỉ số X, Y, Z?'",
-            'descriptive': "Tạo câu hỏi cần TỔNG HỢP nhiều đoạn văn. VD: 'Phân tích toàn bộ hoạt động X?', 'Mô tả các khía cạnh của Y?', 'Công ty thực hiện những gì về Z?'",
-            'comparison': "Tạo câu hỏi so sánh NHIỀU giá trị/chỉ số. VD: 'So sánh tất cả các chỉ số X, Y, Z qua các năm?', 'Phân tích xu hướng của A, B, C, D?'",
-            'mixed': "Tạo câu hỏi cần KẾT HỢP nhiều thông tin văn bản và số liệu. VD: 'Phân tích nguyên nhân X dựa trên các chỉ số?', 'Giải thích Y kết hợp dữ liệu và bối cảnh?'",
-            'summary': "Tạo câu hỏi tổng hợp/phân tích NHIỀU khía cạnh. VD: 'Tổng quan toàn diện về X?', 'Phân tích đa chiều về Y?', 'Đánh giá tổng thể Z?'"
+            'specific_value': "Tạo một câu hỏi NGẮN GỌN, TRỰC DIỆN (dưới 20 chữ) để truy vấn các số liệu này. VD: 'Tổng doanh thu và lợi nhuận năm 2022 là bao nhiêu?', 'Chỉ số X và Y năm 2023 đạt mức nào?'. BẮT BUỘC có mốc thời gian.",
+            'comparison': "Tạo một câu hỏi TÍNH TOÁN/SO SÁNH NGẮN GỌN (dưới 25 chữ). VD: 'Tỷ lệ tăng trưởng doanh thu từ 2021 đến 2022 là bao nhiêu?', 'Chi phí X cao hơn chi phí Y bao nhiêu tỷ trong năm 2023?'. BẮT BUỘC có mốc thời gian.",
+            'descriptive': "Tạo một câu hỏi HỎI ĐÁP THÔNG TIN (dưới 30 chữ) yêu cầu tóm tắt các đoạn văn này. VD: 'Công ty đã làm gì để mở rộng thị trường năm 2022?', 'Chiến lược cốt lõi trong năm 2023 là gì?'.",
+            'mixed': "Tạo một câu hỏi SUY LUẬN NHÂN-QUẢ CHUYÊN SÂU (từ 30-50 chữ). Yêu cầu dùng thông tin văn bản để giải thích cho con số. VD: 'Dựa vào chiến lược X năm 2022, hãy giải thích nguyên nhân khiến lợi nhuận đạt mức Y?'.",
+            'summary': "Tạo một câu hỏi ĐÁNH GIÁ TỔNG QUAN (từ 20-40 chữ). Đòi hỏi người trả lời tổng hợp bức tranh toàn cảnh."
         }
         
         instruction = pattern_instructions.get(pattern, "Tạo câu hỏi tự nhiên về nội dung")
@@ -386,21 +386,19 @@ class TrainingDataGenerator:
         
         content = "\n".join(content_parts)
         
-        prompt = f"""Bạn là chuyên gia tài chính. Từ báo cáo "{doc_title}", hãy tạo câu hỏi dựa trên nội dung sau.
+        prompt = f"""Từ báo cáo "{doc_title}", hãy đóng vai một người dùng thực tế đang tìm kiếm thông tin và tạo 01 câu hỏi dựa trên các nội dung sau.
 
-NỘI DUNG:
+NỘI DUNG TỪ BÁO CÁO:
 {content}
 
-HƯỚNG DẪN:
+PHONG CÁCH CÂU HỎI YÊU CẦU:
 {instruction}
 
-⚠️ YÊU CẦU QUAN TRỌNG:
-- Câu hỏi PHẢI cần TẤT CẢ các thông tin trên để trả lời đầy đủ
-- Không thể trả lời chỉ bằng 1 thông tin, phải kết hợp nhiều thông tin
-- Câu hỏi tự nhiên, phức tạp, như người dùng thực sự sẽ hỏi
-- Ngắn gọn nhưng đòi hỏi phân tích/tổng hợp/so sánh nhiều dữ liệu
-- Chỉ trả về câu hỏi, không giải thích
-- Tiếng Việt
+⚠️ LƯU Ý BẮT BUỘC:
+1. Độ dài câu hỏi phải tuân thủ nghiêm ngặt theo HƯỚNG DẪN trên (Rất quan trọng).
+2. BẮT BUỘC chứa mốc thời gian (năm) nếu nội dung có đề cập.
+3. Không dùng các từ ngữ rườm rà như 'Trong bối cảnh...', 'Dựa trên sự...', 'Liệu rằng...'. Hãy hỏi thẳng vào vấn đề.
+4. Chỉ trả về duy nhất 1 câu hỏi tiếng Việt.
 
 CÂU HỎI:"""
 
@@ -587,7 +585,7 @@ CÂU HỎI:"""
                 if i < 5:
                     print(f"\n[Sample {i+1}] Pattern: {pattern}")
                     print(f"  Query: {sample.query}")
-                    print(f"  Positive: {len(sample.positive_nodes)} nodes - {sample.positive_nodes[:3]}")
+                    print(f"  Positive: {len(sample.positive_nodes)} nodes - {sample.positive_nodes}")
                     print(f"  Negative: {len(sample.negative_nodes)} nodes")
                 
             except Exception as e:
