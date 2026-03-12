@@ -84,7 +84,20 @@ class GraphBuilder:
             for cell in table.cells:
                 # Cell ID convention: tableId_rX_cY
                 cell_id = f"{table.id}_r{cell.row_idx}_c{cell.col_idx}"
-                cell_text = str(cell.value)
+                
+                # Trích xuất header an toàn (giống hệt logic ở phần tạo metadata)
+                row_header = table.row_headers[cell.row_idx] if cell.row_idx < len(table.row_headers) else ""
+                col_header = table.col_headers[cell.col_idx] if cell.col_idx < len(table.col_headers) else ""
+                
+                # Nối ngữ cảnh đầy đủ: [Caption] - [Row] - [Col] - [Value]
+                context_parts = [table.caption]
+                if row_header: context_parts.append(row_header)
+                if col_header: context_parts.append(col_header)
+                context_parts.append(str(cell.value))
+                
+                cell_text = " - ".join(context_parts)
+                
+                # Đưa toàn bộ ngữ cảnh vào model embedding
                 node_features.append(self._encode(cell_text))
                 node_types.append(3) # Cell
                 node_ids_map[cell_id] = current_idx
