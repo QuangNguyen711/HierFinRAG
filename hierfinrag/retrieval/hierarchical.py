@@ -174,7 +174,7 @@ class HierarchicalRetriever:
         # Encode query
         query_emb = self.encode_query(query)
         
-        # Both query and GNN embeddings are now 768-dim (no projection needed)
+        # Both query and GNN embeddings are now 1024-dim (no projection needed)
         
         # Filter to only leaf nodes (Paragraphs and Cells)
         leaf_indices = []

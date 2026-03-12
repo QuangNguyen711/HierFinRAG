@@ -8,13 +8,13 @@ class TTGNN(nn.Module):
     Table-Text Graph Neural Network (TTGNN).
     
     Architecture:
-    - Maintains input embedding dimension (768) throughout
+    - Maintains input embedding dimension (1024) throughout
     - Node Type Embeddings: Distinct embeddings for P, S, T, C
     - Edge Type Embeddings: Incorporating edge relations (sem, struct, ref)
     - Graph Attention Layers: Relational attention mechanism
     - Output: Same dimension as input for direct similarity computation
     """
-    def __init__(self, input_dim=768, hidden_dim=768, num_layers=2, num_heads=8):
+    def __init__(self, input_dim=1024, hidden_dim=1024, num_layers=2, num_heads=8):
         super().__init__()
         self.input_dim = input_dim
         self.hidden_dim = hidden_dim
@@ -52,13 +52,13 @@ class TTGNN(nn.Module):
     def forward(self, x, edge_index, edge_attr, node_types):
         """
         Args:
-            x: Node features [N, 768] - Vietnamese embeddings
+            x: Node features [N, 1024] - Vietnamese embeddings
             edge_index: Graph connectivity [2, E]
             edge_attr: Edge type indices [E]
             node_types: Node type indices [N]
             
         Returns:
-            Enhanced node embeddings [N, 768] in same semantic space
+            Enhanced node embeddings [N, 1024] in same semantic space
         """
         # A. Initial Embedding Fusion (additive to preserve semantics)
         h = x + self.node_type_emb(node_types)
@@ -80,7 +80,7 @@ class TTGNN(nn.Module):
             # Residual (maintains dimension)
             h = h + h_in
             
-        # D. Final Refinement (stays at 768-dim)
+        # D. Final Refinement (stays at 1024-dim)
         h = self.output_proj(h)
         
         return h

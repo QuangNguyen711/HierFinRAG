@@ -451,8 +451,8 @@ def main():
     parser.add_argument(
         '--hidden_dim',
         type=int,
-        default=768,
-        help='Hidden dimension for TTGNN (must equal input_dim=768 for semantic alignment)'
+        default=1024,
+        help='Hidden dimension for TTGNN (must equal input_dim=1024 for semantic alignment)'
     )
     
     parser.add_argument(

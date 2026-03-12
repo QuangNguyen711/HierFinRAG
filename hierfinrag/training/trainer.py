@@ -233,7 +233,7 @@ class TTGNNTrainer:
             
             for i in range(len(document_ids)):
                 doc_id = document_ids[i]
-                query_emb = query_embeddings[i:i+1]  # [1, 768]
+                query_emb = query_embeddings[i:i+1]  # [1, 1024]
                 pos_idx = positive_indices[i]
                 neg_idx = negative_indices[i]
                 node_embs = doc_node_embeddings[doc_id]
@@ -440,7 +440,7 @@ class TTGNNTrainer:
             
             for i in range(len(document_ids)):
                 doc_id = document_ids[i]
-                query_emb = query_embeddings[i:i+1] # [1, 768]
+                query_emb = query_embeddings[i:i+1] # [1, 1024]
                 pos_idx = positive_indices[i]
                 neg_idx = negative_indices[i]
                 

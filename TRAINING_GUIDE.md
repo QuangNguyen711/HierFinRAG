@@ -223,7 +223,7 @@ from hierfinrag.graph.ttgnn import TTGNN
 from hierfinrag.training.trainer import load_model
 
 # Initialize model
-model = TTGNN(input_dim=768, hidden_dim=256, num_layers=2, num_heads=8)
+model = TTGNN(input_dim=1024, hidden_dim=1024, num_layers=2, num_heads=8)
 
 # Load trained weights
 model = load_model(model, "models/ttgnn/best_model.pt")
@@ -331,8 +331,8 @@ STEP 2: TRAINING TTGNN
 
 Initializing TTGNN...
 ✓ Model initialized:
-  - Input dim: 768
-  - Hidden dim: 256
+  - Input dim: 1024
+  - Hidden dim: 1024
   - Layers: 2
   - Attention heads: 8
 
