@@ -214,7 +214,7 @@ class HierarchicalRetriever:
         
         return results, leaf_types  # Return type distribution for debugging
     
-    def retrieve(
+    def     retrieve(
         self,
         query: str,
         graph: Data,

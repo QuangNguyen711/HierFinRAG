@@ -102,15 +102,12 @@
       "col_headers": ["Chỉ tiêu", "Năm 2022", "Năm 2023", "Tăng trưởng (%)"],
       "row_headers": ["Tổng doanh thu", "Lợi nhuận trước thuế", "Lợi nhuận sau thuế"],
       "cells": [
-        {"row": 0, "col": 0, "value": "Tổng doanh thu", "is_header": true},
         {"row": 0, "col": 1, "value": "37.800 tỷ", "is_header": false},
         {"row": 0, "col": 2, "value": "42.500 tỷ", "is_header": false},
         {"row": 0, "col": 3, "value": "12,5%", "is_header": false},
-        {"row": 1, "col": 0, "value": "Lợi nhuận trước thuế", "is_header": true},
         {"row": 1, "col": 1, "value": "4.200 tỷ", "is_header": false},
         {"row": 1, "col": 2, "value": "4.850 tỷ", "is_header": false},
         {"row": 1, "col": 3, "value": "15,5%", "is_header": false},
-        {"row": 2, "col": 0, "value": "Lợi nhuận sau thuế", "is_header": true},
         {"row": 2, "col": 1, "value": "3.300 tỷ", "is_header": false},
         {"row": 2, "col": 2, "value": "3.800 tỷ", "is_header": false},
         {"row": 2, "col": 3, "value": "15,2%", "is_header": false}
@@ -122,9 +119,6 @@
       "col_headers": ["Loại dịch vụ", "Doanh thu (tỷ đồng)", "Tỷ trọng (%)"],
       "row_headers": [],
       "cells": [
-        {"row": 0, "col": 0, "value": "Loại dịch vụ", "is_header": true},
-        {"row": 0, "col": 1, "value": "Doanh thu (tỷ đồng)", "is_header": true},
-        {"row": 0, "col": 2, "value": "Tỷ trọng (%)", "is_header": true},
         {"row": 1, "col": 0, "value": "Viễn thông di động", "is_header": false},
         {"row": 1, "col": 1, "value": "18.200", "is_header": false},
         {"row": 1, "col": 2, "value": "42,8%", "is_header": false},
@@ -145,10 +139,6 @@
       "col_headers": ["Kстатьей", "Cuối năm 2022", "Cuối năm 2023", "Biến động (%)"],
       "row_headers": [],
       "cells": [
-        {"row": 0, "col": 0, "value": "Khoản mục", "is_header": true},
-        {"row": 0, "col": 1, "value": "Cuối năm 2022", "is_header": true},
-        {"row": 0, "col": 2, "value": "Cuối năm 2023", "is_header": true},
-        {"row": 0, "col": 3, "value": "Biến động (%)", "is_header": true},
         {"row": 1, "col": 0, "value": "Tổng tài sản", "is_header": false},
         {"row": 1, "col": 1, "value": "77.950 tỷ", "is_header": false},
         {"row": 1, "col": 2, "value": "85.600 tỷ", "is_header": false},
@@ -177,10 +167,6 @@
       "col_headers": ["Chỉ số", "Năm 2022", "Năm 2023", "Thay đổi"],
       "row_headers": [],
       "cells": [
-        {"row": 0, "col": 0, "value": "Chỉ số", "is_header": true},
-        {"row": 0, "col": 1, "value": "Năm 2022", "is_header": true},
-        {"row": 0, "col": 2, "value": "Năm 2023", "is_header": true},
-        {"row": 0, "col": 3, "value": "Thay đổi", "is_header": true},
         {"row": 1, "col": 0, "value": "ROS (%)", "is_header": false},
         {"row": 1, "col": 1, "value": "8,73%", "is_header": false},
         {"row": 1, "col": 2, "value": "8,94%", "is_header": false},

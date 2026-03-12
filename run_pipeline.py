@@ -13,7 +13,7 @@ def main():
     print("=" * 80)
     
     # Use the Vietnamese financial document
-    input_file = "data/mock_vietnamese_financial.json"
+    input_file = "data/synthetic_documents/doc_vietinbank_2020_018.json"
     
     if not os.path.exists(input_file):
         print(f"Error: {input_file} not found!")
@@ -66,21 +66,18 @@ def main():
     
     # Add tables
     for table in doc.tables:
-        node_metadata.append({
-            'id': table.id,
-            'type': 'Table',
-            'text': table.caption
-        })
-        
-        # Add cells
-        for cell in table.cells:
-            cell_id = f"{table.id}_r{cell.row_idx}_c{cell.col_idx}"
-            node_metadata.append({
-                'id': cell_id,
-                'type': 'Cell',
-                'text': str(cell.value),
-                'table_id': table.id
-            })
+            node_metadata.append({'id': table.id, 'type': 'Table', 'text': table.caption})
+            for cell in table.cells:
+                cell_id = f"{table.id}_r{cell.row_idx}_c{cell.col_idx}"
+                
+                # Trích xuất header an toàn (tránh lỗi out of index nếu bảng thiếu header)
+                row_header = table.row_headers[cell.row_idx] if cell.row_idx < len(table.row_headers) else f"Row {cell.row_idx}"
+                col_header = table.col_headers[cell.col_idx] if cell.col_idx < len(table.col_headers) else f"Col {cell.col_idx}"
+                
+                # Format chuỗi hiển thị theo đúng chuẩn bạn muốn
+                display_text = f"[{table.caption}][{row_header}][{col_header}][{cell.value}]"
+                
+                node_metadata.append({'id': cell_id, 'type': 'Cell', 'text': display_text})
     
     print(f"✓ Created metadata for {len(node_metadata)} nodes")
     
@@ -126,10 +123,8 @@ def main():
     print("=" * 80)
     
     test_queries = [
-        "Lợi nhuận sau thuế năm 2023",
-        "Doanh thu từ dịch vụ viễn thông di động",
-        "Tỷ suất sinh lời ROE",
-        "Mục tiêu phát triển năm 2024"
+        "Doanh thu tăng năm 2020 tăng bao nhiêu phần trăm",
+        "Lợi nhuận sau thuế tăng bao nhiêu phần trăm",
     ]
     
     for i, query in enumerate(test_queries, 1):
@@ -142,7 +137,7 @@ def main():
             query=query,
             graph=graph,
             node_metadata=node_metadata,
-            top_k_sections=2,
+            top_k_sections=4,
             top_k_leafs=10  # Increased to show more results including paragraphs
         )
         
@@ -159,7 +154,7 @@ def main():
         # Show all results
         for rank, (idx, score, meta) in enumerate(results['leafs'], 1):
             node_type = meta['type']
-            text = meta['text'][:70] if len(meta['text']) > 70 else meta['text']
+            text = meta['text'][:120] if len(meta['text']) > 120 else meta['text']
             marker = "📄" if node_type == "Paragraph" else "🔢"
             print(f"    {rank}. Score={score:.4f} | {marker} [{node_type}] {text}")
     

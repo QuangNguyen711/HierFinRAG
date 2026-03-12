@@ -298,6 +298,12 @@ def train_ttgnn(
         num_layers=num_layers,
         num_heads=num_heads
     )
+    model_path = "models/ttgnn/best_model.pt"
+
+    checkpoint = torch.load(model_path, map_location="cpu")
+
+    model.load_state_dict(checkpoint["model_state_dict"])
+
     print(f"✓ Model initialized:")
     print(f"  - Input dim: {first_graph.x.shape[1]}")
     print(f"  - Hidden dim: {hidden_dim}")
