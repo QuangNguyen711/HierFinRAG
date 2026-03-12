@@ -354,12 +354,9 @@ class TTGNNTrainer:
                 val_loss_val = val_metrics['val_loss']
                 history['val_loss'].append(val_loss_val)
                 
-                print(f"Epoch {epoch:03d}/{num_epochs} | "
-                      f"Train Loss: {train_metrics['loss']:.4f} | "
-                      f"Val Loss: {val_loss_val:.4f} | "
-                      f"MRR: {val_metrics['mrr']:.4f} | "
-                      f"Recall@5: {val_metrics['recall@5']:.4f} | "
-                      f"Recall@10: {val_metrics['recall@10']:.4f}")
+                print(f"Epoch {epoch:03d}/{num_epochs} | Train Loss: {train_metrics['loss']:.4f} | Val Loss: {val_loss_val:.4f}")
+                print(f"  → TTGNN    | MRR: {val_metrics['mrr']:.4f} | R@5: {val_metrics['recall@5']:.4f} | R@10: {val_metrics['recall@10']:.4f}")
+                print(f"  → Baseline | MRR: {val_metrics['base_mrr']:.4f} | R@5: {val_metrics['base_recall@5']:.4f} | R@10: {val_metrics['base_recall@10']:.4f}")
             else:
                 print(f"Epoch {epoch}/{num_epochs} - Train Loss: {train_metrics['loss']:.4f} - LR: {scheduler.get_last_lr()[0]:.6f}")
             
@@ -406,14 +403,20 @@ class TTGNNTrainer:
         dataloader: DataLoader,
         loss_fn: nn.Module
     ) -> Dict[str, float]:
-        """Evaluate the model on validation set using IR metrics."""
+        """Evaluate the model on validation set using IR metrics (TTGNN vs Baseline RAG)."""
         self.model.eval()
         total_loss = 0.0
         
-        # Tracking IR Metrics
+        # Tracking IR Metrics cho TTGNN
         total_mrr = 0.0
         total_recall_at_5 = 0.0
         total_recall_at_10 = 0.0
+        
+        # Tracking IR Metrics cho Baseline (Thuần Embedding)
+        base_mrr = 0.0
+        base_recall_at_5 = 0.0
+        base_recall_at_10 = 0.0
+        
         num_samples = 0
         
         for batch in dataloader:
@@ -440,9 +443,13 @@ class TTGNNTrainer:
                 query_emb = query_embeddings[i:i+1] # [1, 768]
                 pos_idx = positive_indices[i]
                 neg_idx = negative_indices[i]
-                node_embs = doc_node_embeddings[doc_id]
                 
-                # 1. Tính Loss
+                # Embeddings từ TTGNN
+                node_embs = doc_node_embeddings[doc_id]
+                # Embeddings gốc chưa qua GNN (Baseline RAG)
+                base_embs = self.document_graphs[doc_id].x
+                
+                # 1. Tính Loss cho TTGNN
                 sample_loss = loss_fn(
                     anchor_embeddings=query_emb,
                     positive_indices=[pos_idx],
@@ -451,18 +458,17 @@ class TTGNNTrainer:
                 )
                 batch_losses.append(sample_loss)
                 
-                # 2. Tính IR Metrics (MRR & Recall@K)
-                # Normalize để tính Cosine Similarity
+                # 2. Chuẩn hóa Vectors
                 q_norm = torch.nn.functional.normalize(query_emb, p=2, dim=1)
                 n_norm = torch.nn.functional.normalize(node_embs, p=2, dim=1)
+                b_norm = torch.nn.functional.normalize(base_embs, p=2, dim=1)
                 
-                # Tính điểm similarity từ query tới TẤT CẢ các nodes trong document
-                sims = torch.matmul(q_norm, n_norm.T).squeeze(0) # [num_nodes]
-                
-                # Xếp hạng các nodes (từ cao xuống thấp)
+                # ==========================================
+                # LUỒNG 1: TÍNH METRICS CHO TTGNN
+                # ==========================================
+                sims = torch.matmul(q_norm, n_norm.T).squeeze(0)
                 sorted_indices = torch.argsort(sims, descending=True).cpu().tolist()
                 
-                # Tính MRR (Tìm rank của positive node đầu tiên)
                 first_hit_rank = 0
                 for rank, node_idx in enumerate(sorted_indices, 1):
                     if node_idx in pos_idx:
@@ -472,27 +478,47 @@ class TTGNNTrainer:
                 if first_hit_rank > 0:
                     total_mrr += 1.0 / first_hit_rank
                 
-                # Tính Recall@K (Tìm được bao nhiêu positive nodes trong Top K)
                 top_5 = set(sorted_indices[:5])
                 top_10 = set(sorted_indices[:10])
                 pos_set = set(pos_idx)
                 
-                hits_in_5 = len(pos_set.intersection(top_5))
-                hits_in_10 = len(pos_set.intersection(top_10))
+                total_recall_at_5 += len(pos_set.intersection(top_5)) / len(pos_set)
+                total_recall_at_10 += len(pos_set.intersection(top_10)) / len(pos_set)
                 
-                total_recall_at_5 += hits_in_5 / len(pos_set)
-                total_recall_at_10 += hits_in_10 / len(pos_set)
+                # ==========================================
+                # LUỒNG 2: TÍNH METRICS CHO BASELINE RAG
+                # ==========================================
+                base_sims = torch.matmul(q_norm, b_norm.T).squeeze(0)
+                base_sorted_indices = torch.argsort(base_sims, descending=True).cpu().tolist()
+                
+                base_first_hit_rank = 0
+                for rank, node_idx in enumerate(base_sorted_indices, 1):
+                    if node_idx in pos_idx:
+                        base_first_hit_rank = rank
+                        break
+                        
+                if base_first_hit_rank > 0:
+                    base_mrr += 1.0 / base_first_hit_rank
+                    
+                base_top_5 = set(base_sorted_indices[:5])
+                base_top_10 = set(base_sorted_indices[:10])
+                
+                base_recall_at_5 += len(pos_set.intersection(base_top_5)) / len(pos_set)
+                base_recall_at_10 += len(pos_set.intersection(base_top_10)) / len(pos_set)
                 
                 num_samples += 1
             
             loss = torch.stack(batch_losses).mean()
-            total_loss += loss.item() * len(document_ids) # Đưa về sum để chia trung bình chuẩn xác hơn
+            total_loss += loss.item() * len(document_ids) 
             
         return {
             'val_loss': total_loss / num_samples if num_samples > 0 else 0.0,
             'mrr': total_mrr / num_samples if num_samples > 0 else 0.0,
             'recall@5': total_recall_at_5 / num_samples if num_samples > 0 else 0.0,
-            'recall@10': total_recall_at_10 / num_samples if num_samples > 0 else 0.0
+            'recall@10': total_recall_at_10 / num_samples if num_samples > 0 else 0.0,
+            'base_mrr': base_mrr / num_samples if num_samples > 0 else 0.0,
+            'base_recall@5': base_recall_at_5 / num_samples if num_samples > 0 else 0.0,
+            'base_recall@10': base_recall_at_10 / num_samples if num_samples > 0 else 0.0
         }
 
 

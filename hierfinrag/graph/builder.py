@@ -28,9 +28,9 @@ class GraphBuilder:
         if self.use_real_embeddings:
             try:
                 from sentence_transformers import SentenceTransformer
-                print("Loading Vietnamese embedding model: dangvantuan/vietnamese-embedding...")
-                self.encoder_model = SentenceTransformer('dangvantuan/vietnamese-embedding')
-                self.encoder_model.max_seq_length = 256
+                print("Loading Vietnamese embedding model: AITeamVN/Vietnamese_Embedding...")
+                self.encoder_model = SentenceTransformer('AITeamVN/Vietnamese_Embedding')
+                self.encoder_model.max_seq_length = 2048
                 
                 # Update embedding_dim to match model output
                 self.embedding_dim = self.encoder_model.get_sentence_embedding_dimension()
