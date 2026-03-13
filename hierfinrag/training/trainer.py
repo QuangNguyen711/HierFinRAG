@@ -90,6 +90,17 @@ class TTGNNTrainingDataset(Dataset):
                 invalid_count += 1
         
         self.samples = valid_samples
+
+        print(f"Pre-computing embeddings for {len(self.samples)} queries...")
+        all_queries = [s.query for s in self.samples]
+        
+        # Encode batch lớn (ví dụ 128) để tận dụng tối đa sức mạnh GPU H100
+        self.query_embeddings = query_encoder.encode(
+            all_queries, 
+            batch_size=128, 
+            show_progress_bar=True, 
+            convert_to_tensor=True
+        ).cpu() # Lưu vào CPU RAM để tránh tràn VRAM nếu data cực lớn
         
         if missing_docs:
             print(f"  ⚠ Missing documents: {sorted(missing_docs)}")
@@ -105,10 +116,7 @@ class TTGNNTrainingDataset(Dataset):
         doc_id = sample.document_id
         
         # Encode query
-        query_embedding = self.query_encoder.encode(
-            sample.query, 
-            convert_to_tensor=True
-        )
+        query_embedding = self.query_embeddings[idx]
         
         # Get node mapping for this document
         node_id_to_idx = self.doc_node_id_to_idx[doc_id]
