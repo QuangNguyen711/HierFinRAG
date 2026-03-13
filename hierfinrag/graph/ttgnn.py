@@ -27,8 +27,8 @@ class TTGNN(nn.Module):
         self.node_type_emb = nn.Embedding(5, hidden_dim)
         
         # 2. Edge Type Embeddings
-        # 3 types: Semantic, Structural, Reference
-        self.edge_type_emb = nn.Embedding(3, hidden_dim)
+        # Paper hỗ trợ 5 loại cạnh: Semantic, Struct-Down, Struct-Up, Temporal, Accounting
+        self.edge_type_emb = nn.Embedding(5, hidden_dim)
         
         # 3. GNN Layers (GATv2 with edge features)
         # Each layer outputs hidden_dim to maintain dimension
@@ -60,27 +60,18 @@ class TTGNN(nn.Module):
         Returns:
             Enhanced node embeddings [N, 1024] in same semantic space
         """
-        # A. Initial Embedding Fusion (additive to preserve semantics)
+        # A. Fusion ban đầu: Text Embedding + Node Type Info
         h = x + self.node_type_emb(node_types)
         
-        # B. Edge Embedding Lookup
+        # B. Edge Embedding
         edge_embeddings = self.edge_type_emb(edge_attr)
         
-        # C. Message Passing with Residual Connections
+        # C. Message Passing (Sử dụng ELU và Residual như Paper)
         for layer in self.layers:
-            h_in = h
-            
-            # GATv2 Layer
+            h_residual = h
             h = layer(h, edge_index, edge_attr=edge_embeddings)
-            
-            # Activation & Dropout
-            h = F.relu(h)
+            h = F.elu(h) # Paper dùng ELU thay vì ReLU
             h = self.dropout(h)
+            h = h + h_residual # Chặt chẽ về Residual Connection
             
-            # Residual (maintains dimension)
-            h = h + h_in
-            
-        # D. Final Refinement (stays at 1024-dim)
-        h = self.output_proj(h)
-        
-        return h
+        return self.output_proj(h)
