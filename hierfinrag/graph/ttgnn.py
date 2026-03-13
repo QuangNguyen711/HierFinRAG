@@ -24,7 +24,7 @@ class TTGNN(nn.Module):
         
         # 1. Node Type Embeddings (additive, not replacement)
         # 5 types: Paragraph, Section, Table, Cell, Global(optional)
-        self.node_type_emb = nn.Embedding(5, hidden_dim)
+        self.node_type_emb = nn.Embedding(6, hidden_dim)
         
         # 2. Edge Type Embeddings
         # Paper hỗ trợ 5 loại cạnh: Semantic, Struct-Down, Struct-Up, Temporal, Accounting
