@@ -70,7 +70,7 @@ class TTGNN(nn.Module):
         for layer in self.layers:
             h_residual = h
             h = layer(h, edge_index, edge_attr=edge_embeddings)
-            h = F.elu(h) # Paper dùng ELU thay vì ReLU
+            h = F.relu(h) # Paper dùng ELU thay vì ReLU
             h = self.dropout(h)
             h = h + h_residual # Chặt chẽ về Residual Connection
             
