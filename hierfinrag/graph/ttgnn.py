@@ -53,7 +53,7 @@ class TTGNN(nn.Module):
         
         # [SỬA ĐỔI 2]: Khởi tạo Gate = 0.0. Ở Epoch 1, GNN sẽ bị khóa hoàn toàn
         # giúp MRR bắt đầu chính xác bằng với MRR của Baseline BGE-M3.
-        self.gate = nn.Parameter(torch.tensor([0.0])) 
+        self.gate = nn.Parameter(torch.tensor([0.1]))
         
     def forward(self, x, edge_index, edge_attr, node_types):
         """
