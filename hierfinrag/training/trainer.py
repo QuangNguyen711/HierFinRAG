@@ -245,13 +245,37 @@ class TTGNNTrainer:
                 pos_idx = positive_indices[i]
                 neg_idx = negative_indices[i]
                 node_embs = doc_node_embeddings[doc_id]
+
+                # Chuẩn hóa vector
+                q_norm = torch.nn.functional.normalize(query_emb, p=2, dim=1)
+                n_norm = torch.nn.functional.normalize(node_embs, p=2, dim=1)
                 
-                # Compute loss for this sample
+                # Tính Similarity ban đầu giữa Query và TOÀN BỘ Node
+                sims = torch.matmul(q_norm, n_norm.T).squeeze(0)
+                
+                # Lấy Node Types và tạo Mask (0: Paragraph, 3: Cell)
+                doc_node_types = self.document_graphs[doc_id].node_types
+                leaf_mask = (doc_node_types == 0) | (doc_node_types == 3)
+                
+                # Ép điểm số của các Node KHÔNG phải lá xuống cực thấp (-1e9)
+                # để Contrastive Loss không nhìn thấy chúng.
+                sims[~leaf_mask] = -1e9 
+                
+                # Cập nhật lại list Negative Indices chỉ chứa các node lá
+                # (Đề phòng trường hợp trong tương lai data bị lỗi vẫn lọt vào node cấu trúc)
+                valid_neg_idx = [idx for idx in neg_idx if leaf_mask[idx]]
+                
+                if not valid_neg_idx:
+                    # Nếu vì lý do nào đó sample này không có valid negative, bỏ qua
+                    continue
+                
+                # Compute loss for this sample (Truyền valid_neg_idx thay vì neg_idx)
                 sample_loss = loss_fn(
                     anchor_embeddings=query_emb,
                     positive_indices=[pos_idx],
-                    negative_indices=[neg_idx],
-                    all_embeddings=node_embs
+                    negative_indices=[valid_neg_idx], # Đã sửa
+                    all_embeddings=node_embs,
+                    sim_scores_override=sims.unsqueeze(0) # Bổ sung tham số này nếu hàm Loss hỗ trợ truyền thẳng Similarity đã mask.
                 )
                 batch_losses.append(sample_loss)
             
@@ -471,10 +495,10 @@ class TTGNNTrainer:
                 n_norm = torch.nn.functional.normalize(node_embs, p=2, dim=1)
                 b_norm = torch.nn.functional.normalize(base_embs, p=2, dim=1)
                 
-                # ==========================================
-                # LUỒNG 1: TÍNH METRICS CHO TTGNN
-                # ==========================================
+                doc_node_types = self.document_graphs[doc_id].node_types
+                leaf_mask = (doc_node_types == 0) | (doc_node_types == 3)
                 sims = torch.matmul(q_norm, n_norm.T).squeeze(0)
+                sims[~leaf_mask] = -1.0 
                 sorted_indices = torch.argsort(sims, descending=True).cpu().tolist()
                 
                 first_hit_rank = 0
@@ -497,6 +521,7 @@ class TTGNNTrainer:
                 # LUỒNG 2: TÍNH METRICS CHO BASELINE RAG
                 # ==========================================
                 base_sims = torch.matmul(q_norm, b_norm.T).squeeze(0)
+                base_sims[~leaf_mask] = -1.0
                 base_sorted_indices = torch.argsort(base_sims, descending=True).cpu().tolist()
                 
                 base_first_hit_rank = 0
