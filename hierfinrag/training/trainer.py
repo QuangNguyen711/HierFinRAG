@@ -115,27 +115,15 @@ class TTGNNTrainingDataset(Dataset):
         sample = self.samples[idx]
         doc_id = sample.document_id
         
-        # Encode query
         query_embedding = self.query_embeddings[idx]
-        
-        # Get node mapping for this document
         node_id_to_idx = self.doc_node_id_to_idx[doc_id]
         
-        # Map node IDs to indices (no prefixing needed - each graph is isolated)
-        positive_indices = [
-            node_id_to_idx[nid]
-            for nid in sample.positive_nodes
-            if nid in node_id_to_idx
-        ]
-        
-        negative_indices = [
-            node_id_to_idx[nid]
-            for nid in sample.negative_nodes
-            if nid in node_id_to_idx
-        ]
+        positive_indices = [node_id_to_idx[nid] for nid in sample.positive_nodes if nid in node_id_to_idx]
+        negative_indices = [node_id_to_idx[nid] for nid in sample.negative_nodes if nid in node_id_to_idx]
         
         return {
             'query_embedding': query_embedding,
+            'query_text': sample.query,
             'positive_indices': positive_indices,
             'negative_indices': negative_indices,
             'sample_id': sample.id,
@@ -144,9 +132,9 @@ class TTGNNTrainingDataset(Dataset):
 
 
 def collate_fn(batch):
-    """Custom collate function for batching."""
     return {
         'query_embeddings': torch.stack([item['query_embedding'] for item in batch]),
+        'query_texts': [item['query_text'] for item in batch], # THÊM DÒNG NÀY
         'positive_indices': [item['positive_indices'] for item in batch],
         'negative_indices': [item['negative_indices'] for item in batch],
         'sample_ids': [item['sample_id'] for item in batch],
@@ -443,9 +431,11 @@ class TTGNNTrainer:
         base_recall_at_10 = 0.0
         
         num_samples = 0
+        samples_printed = 0
         
         for batch in dataloader:
             query_embeddings = batch['query_embeddings'].to(self.device)
+            query_texts = batch['query_texts']
             positive_indices = batch['positive_indices']
             negative_indices = batch['negative_indices']
             document_ids = batch['document_ids']
@@ -466,6 +456,7 @@ class TTGNNTrainer:
             for i in range(len(document_ids)):
                 doc_id = document_ids[i]
                 query_emb = query_embeddings[i:i+1] # [1, 1024]
+                query_text = query_texts[i]
                 pos_idx = positive_indices[i]
                 neg_idx = negative_indices[i]
                 
@@ -494,6 +485,40 @@ class TTGNNTrainer:
                 sims[~leaf_mask] = -1.0 
                 sorted_indices = torch.argsort(sims, descending=True).cpu().tolist()
                 
+                # ====================================================
+                # THÊM ĐOẠN PRINT DEBUG NGAY SAU KHI TÍNH XONG ARGSORT
+                # ====================================================
+                if samples_printed < 2: # In 2 sample đầu tiên của mỗi lượt Eval
+                    print(f"\n[{samples_printed+1}] QUERY: {query_text}")
+                    print(f"Document ID: {doc_id}")
+                    
+                    def get_node_text(idx):
+                        meta = self.document_metadata[doc_id][idx]
+                        n_type = meta.get('type', 'Unknown')
+                        # Tùy cấu trúc meta, text có thể ở trường 'text', 'value' hoặc 'content'
+                        text = meta.get('text', meta.get('value', meta.get('content', str(meta))))
+                        # Xóa newline và cắt ngắn để dễ nhìn
+                        text_str = str(text).replace('\n', ' ')[:100]
+                        return f"[Type {n_type}] {text_str}..."
+
+                    print("✅ POSITIVE NODE(S):")
+                    for p_id in pos_idx:
+                        print(f"   -> {get_node_text(p_id)}")
+                        
+                    print("🎯 TTGNN PREDICTIONS (Top 3):")
+                    for rank, n_idx in enumerate(sorted_indices[:3], 1):
+                        mark = "✓" if n_idx in pos_idx else "✗"
+                        print(f"   {rank}. {mark} {get_node_text(n_idx)}")
+                        
+                    print("🤖 BASELINE PREDICTIONS (Top 3):")
+                    for rank, n_idx in enumerate(base_sorted_indices[:3], 1):
+                        mark = "✓" if n_idx in pos_idx else "✗"
+                        print(f"   {rank}. {mark} {get_node_text(n_idx)}")
+                        
+                    print("-" * 50)
+                    samples_printed += 1
+                # ====================================================
+
                 first_hit_rank = 0
                 for rank, node_idx in enumerate(sorted_indices, 1):
                     if node_idx in pos_idx:
